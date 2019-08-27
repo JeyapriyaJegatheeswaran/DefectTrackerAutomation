@@ -46,3 +46,45 @@
 2019-08-27 14:55:08 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=SUCCESS method=Tests.testLogin()[pri:0, instance:tests.Tests@3b69e7d1] output={null}]
 2019-08-27 14:55:08 INFO  TestBase:70 - Closing Browser
 2019-08-27 14:55:08 INFO  TestBase:72 - Browser Closed
+2019-08-27 15:17:12 INFO  TestBase:32 - Initiate Browser
+2019-08-27 15:17:19 INFO  TestBase:41 - Browser Initiated
+2019-08-27 15:17:19 INFO  TestBase:53 - Test name: testLogin
+2019-08-27 15:17:24 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=FAILURE method=Tests.testLogin()[pri:0, instance:tests.Tests@3b69e7d1] output={null}]
+2019-08-27 15:17:24 INFO  TestBase:70 - Closing Browser
+2019-08-27 15:17:26 INFO  TestBase:72 - Browser Closed
+2019-08-27 15:17:57 INFO  TestBase:32 - Initiate Browser
+2019-08-27 15:18:03 INFO  TestBase:41 - Browser Initiated
+2019-08-27 15:18:03 INFO  TestBase:53 - Test name: testLogin
+2019-08-27 15:18:03 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=SUCCESS method=Tests.testLogin()[pri:0, instance:tests.Tests@3b69e7d1] output={null}]
+2019-08-27 15:18:03 INFO  TestBase:70 - Closing Browser
+2019-08-27 15:18:04 INFO  TestBase:72 - Browser Closed
+2019-08-27 15:18:09 INFO  TestBase:32 - Initiate Browser
+2019-08-27 15:18:15 INFO  TestBase:41 - Browser Initiated
+2019-08-27 15:18:15 INFO  TestBase:53 - Test name: testLogin
+2019-08-27 15:18:16 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=SUCCESS method=Tests.testLogin()[pri:0, instance:tests.Tests@3b69e7d1] output={null}]
+2019-08-27 15:18:16 INFO  TestBase:70 - Closing Browser
+2019-08-27 15:18:17 INFO  TestBase:72 - Browser Closed
+2019-08-27 15:18:23 INFO  TestBase:32 - Initiate Browser
+2019-08-27 15:18:29 INFO  TestBase:41 - Browser Initiated
+2019-08-27 15:18:29 INFO  TestBase:53 - Test name: testLogin
+2019-08-27 15:18:34 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=FAILURE method=Tests.testLogin()[pri:0, instance:tests.Tests@3b69e7d1] output={null}]
+2019-08-27 15:18:35 INFO  TestBase:70 - Closing Browser
+2019-08-27 15:18:36 INFO  TestBase:72 - Browser Closed
+2019-08-27 15:18:41 INFO  TestBase:32 - Initiate Browser
+2019-08-27 15:18:47 INFO  TestBase:41 - Browser Initiated
+2019-08-27 15:18:47 INFO  TestBase:53 - Test name: testLogin
+2019-08-27 15:18:48 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=SUCCESS method=Tests.testLogin()[pri:0, instance:tests.Tests@3b69e7d1] output={null}]
+2019-08-27 15:18:48 INFO  TestBase:70 - Closing Browser
+2019-08-27 15:18:48 INFO  TestBase:72 - Browser Closed
+2019-08-27 15:19:03 INFO  TestBase:32 - Initiate Browser
+2019-08-27 15:19:09 INFO  TestBase:41 - Browser Initiated
+2019-08-27 15:19:09 INFO  TestBase:53 - Test name: testLogin
+2019-08-27 15:19:10 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=SUCCESS method=Tests.testLogin()[pri:0, instance:tests.Tests@3b69e7d1] output={null}]
+2019-08-27 15:19:10 INFO  TestBase:70 - Closing Browser
+2019-08-27 15:19:10 INFO  TestBase:72 - Browser Closed
+2019-08-27 15:21:21 INFO  TestBase:32 - Initiate Browser
+2019-08-27 15:21:28 INFO  TestBase:41 - Browser Initiated
+2019-08-27 15:21:28 INFO  TestBase:53 - Test name: testLogin
+2019-08-27 15:21:42 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=SUCCESS method=Tests.testLogin()[pri:0, instance:tests.Tests@3b69e7d1] output={null}]
+2019-08-27 15:21:42 INFO  TestBase:70 - Closing Browser
+2019-08-27 15:21:43 INFO  TestBase:72 - Browser Closed

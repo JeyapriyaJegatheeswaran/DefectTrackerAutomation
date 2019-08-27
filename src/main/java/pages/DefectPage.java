@@ -25,14 +25,11 @@ public class DefectPage extends PageBase {
     private static String txtSeverity = "//*[@id=\"gender2\"]/div/div/div";
     private static String txtPriority = "//*[@id=\"gender3\"]/div/div/div";
 
-    public static void clickDefectMenu() {
-        MethodBase.click_ByXpath(defectMenu);
+    public static void clickAddDefect() {
+        MethodBase.clickButton_ByXpath(btnaddDefect);
 
     }
-    public static void clickDefectSubMenu() {
-        MethodBase.click_ByXpath(defectSubMenu);
 
-    }
 
 
 //    public static void Login(String username, String password) {
