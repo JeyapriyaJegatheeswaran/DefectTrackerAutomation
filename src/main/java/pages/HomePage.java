@@ -31,7 +31,7 @@ public class HomePage extends PageBase {
 
     public static boolean isHomePageDisplayed() {
         return MethodBase.isDisplayed_ByXpath(hdrHome);
-
+    }
         public static void clickModule(){
             MethodBase.click_ByXpath(moduleMenu);
 
@@ -44,4 +44,4 @@ public class HomePage extends PageBase {
 //        MethodBase.clickButton_ById(btnLogin);
 //    }
     }
-}
+
