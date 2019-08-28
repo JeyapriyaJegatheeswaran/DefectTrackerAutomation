@@ -23,18 +23,19 @@ public class HomePage extends PageBase {
         MethodBase.click_ByXpath(defectMenu);
 
     }
+
     public static void clickDefectSubMenu() {
         MethodBase.click_ByXpath(defectSubMenu);
 
     }
 
-    public static boolean isHomePageDisplayed(){
+    public static boolean isHomePageDisplayed() {
         return MethodBase.isDisplayed_ByXpath(hdrHome);
 
-    public static void clickModule(){
-        MethodBase.click_ByXpath(moduleMenu);
+        public static void clickModule(){
+            MethodBase.click_ByXpath(moduleMenu);
 
-    }
+        }
 
 
 //    public static void Login(String username, String password) {
@@ -42,4 +43,5 @@ public class HomePage extends PageBase {
 //        MethodBase.setText_ByID(txtPassword,password);
 //        MethodBase.clickButton_ById(btnLogin);
 //    }
+    }
 }
