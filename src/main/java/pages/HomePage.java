@@ -14,7 +14,7 @@ public class HomePage extends PageBase {
 
     private static String defectMenu = "//*[@id=\"root\"]/div/section/aside/div/ul/li[8]/div[1]";
     private static String defectSubMenu = "//*[@id='sub3$Menu']";
-
+    private static String hdrHome = "//span[text()=\"Dashboard Component\"]";
     public static void clickDefectMenu() {
         MethodBase.click_ByXpath(defectMenu);
 
@@ -22,6 +22,9 @@ public class HomePage extends PageBase {
     public static void clickDefectSubMenu() {
         MethodBase.click_ByXpath(defectSubMenu);
 
+    }
+    public static boolean isHomePageDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(hdrHome);
     }
 
 
