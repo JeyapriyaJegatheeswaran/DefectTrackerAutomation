@@ -41,8 +41,4 @@ public class ModulePage {
         MethodBase.clickButton_ByXpath(btnAdd);
     }
 
-
-
-
-
 }

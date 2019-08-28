@@ -124,3 +124,15 @@
 2019-08-28 13:23:16 INFO  TestBase:81 - Executed test case name:addModule Execution Results : [TestResult name=addModule status=SUCCESS method=ModuleTest.addModule()[pri:0, instance:tests.ModuleTest@4df828d7] output={null}]
 2019-08-28 13:23:16 INFO  TestBase:70 - Closing Browser
 2019-08-28 13:23:17 INFO  TestBase:72 - Browser Closed
+2019-08-28 13:56:59 INFO  TestBase:32 - Initiate Browser
+2019-08-28 13:57:18 INFO  TestBase:41 - Browser Initiated
+2019-08-28 13:57:18 INFO  TestBase:53 - Test name: testLogin
+2019-08-28 13:57:19 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=SUCCESS method=Tests.testLogin()[pri:0, instance:tests.Tests@62fdb4a6] output={null}]
+2019-08-28 13:57:19 INFO  TestBase:70 - Closing Browser
+2019-08-28 13:57:21 INFO  TestBase:72 - Browser Closed
+2019-08-28 16:07:42 INFO  TestBase:32 - Initiate Browser
+2019-08-28 16:07:52 INFO  TestBase:41 - Browser Initiated
+2019-08-28 16:07:52 INFO  TestBase:53 - Test name: addPriority
+2019-08-28 16:07:57 INFO  TestBase:81 - Executed test case name:addPriority Execution Results : [TestResult name=addPriority status=SUCCESS method=PriorityTest.addPriority()[pri:0, instance:tests.PriorityTest@70beb599] output={null}]
+2019-08-28 16:07:57 INFO  TestBase:70 - Closing Browser
+2019-08-28 16:07:58 INFO  TestBase:72 - Browser Closed
