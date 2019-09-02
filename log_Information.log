@@ -245,3 +245,117 @@
 2019-08-28 15:06:37 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=FAILURE method=AddDefect.addDefect()[pri:0, instance:tests.Defect.AddDefect@290dbf45] output={null}]
 2019-08-28 15:06:38 INFO  TestBase:70 - Closing Browser
 2019-08-28 15:06:39 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:15:16 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:15:32 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:15:32 INFO  TestBase:53 - Test name: addDefect
+2019-08-28 15:15:45 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=FAILURE method=AddDefect.addDefect()[pri:0, instance:tests.Defect.AddDefect@290dbf45] output={null}]
+2019-08-28 15:15:45 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:15:46 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:18:10 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:18:35 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:18:35 INFO  TestBase:53 - Test name: addDefect
+2019-08-28 15:18:40 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=FAILURE method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
+2019-08-28 15:18:40 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:18:41 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:21:44 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:21:56 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:21:56 INFO  TestBase:53 - Test name: addDefect
+2019-08-28 15:21:58 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=SUCCESS method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
+2019-08-28 15:21:58 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:21:59 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:23:07 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:23:25 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:23:25 INFO  TestBase:53 - Test name: addDefect
+2019-08-28 15:23:27 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=SUCCESS method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
+2019-08-28 15:23:27 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:23:28 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:27:25 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:27:43 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:27:43 INFO  TestBase:53 - Test name: addDefect
+2019-08-28 15:27:45 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=SUCCESS method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
+2019-08-28 15:27:45 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:27:46 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:28:03 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:28:21 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:28:21 INFO  TestBase:53 - Test name: addDefect
+2019-08-28 15:28:24 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=SUCCESS method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@4e4aea35] output={null}]
+2019-08-28 15:28:24 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:28:24 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:30:33 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:30:50 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:30:50 INFO  TestBase:53 - Test name: addDefect
+2019-08-28 15:30:53 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=SUCCESS method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
+2019-08-28 15:30:53 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:30:54 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:34:03 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:34:21 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:34:21 INFO  TestBase:53 - Test name: addDefect
+2019-08-28 15:34:28 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=FAILURE method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
+2019-08-28 15:34:28 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:34:29 INFO  TestBase:72 - Browser Closed
+2019-08-28 16:19:38 INFO  TestBase:32 - Initiate Browser
+2019-08-28 16:19:44 INFO  TestBase:41 - Browser Initiated
+2019-08-28 16:19:44 INFO  TestBase:53 - Test name: addDefect
+2019-08-28 16:19:51 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=FAILURE method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
+2019-08-28 16:19:52 INFO  TestBase:70 - Closing Browser
+2019-08-28 16:19:52 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:01:32 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:01:46 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:01:46 INFO  TestBase:53 - Test name: addDefect
+2019-09-02 10:01:53 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=FAILURE method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@32464a14] output={null}]
+2019-09-02 10:01:54 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:01:55 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:03:06 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:03:24 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:03:24 INFO  TestBase:53 - Test name: addDefect
+2019-09-02 10:03:32 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=FAILURE method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
+2019-09-02 10:03:32 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:03:33 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:05:11 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:05:18 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:05:18 INFO  TestBase:53 - Test name: addDefect
+2019-09-02 10:05:21 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=SUCCESS method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
+2019-09-02 10:05:21 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:05:22 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:05:33 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:05:51 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:05:51 INFO  TestBase:53 - Test name: addDefect
+2019-09-02 10:05:58 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=FAILURE method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
+2019-09-02 10:05:59 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:06:00 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:06:16 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:06:34 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:06:34 INFO  TestBase:53 - Test name: addDefect
+2019-09-02 10:06:44 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=FAILURE method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
+2019-09-02 10:06:44 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:06:45 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:07:32 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:07:50 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:07:50 INFO  TestBase:53 - Test name: addDefect
+2019-09-02 10:08:00 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=FAILURE method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
+2019-09-02 10:08:01 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:08:02 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:08:57 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:09:04 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:09:04 INFO  TestBase:53 - Test name: addDefect
+2019-09-02 10:09:14 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=FAILURE method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
+2019-09-02 10:09:15 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:09:15 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:10:01 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:10:19 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:10:19 INFO  TestBase:53 - Test name: addDefect
+2019-09-02 10:10:30 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=FAILURE method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
+2019-09-02 10:10:30 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:10:30 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:13:30 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:13:48 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:13:48 INFO  TestBase:53 - Test name: addDefect
+2019-09-02 10:13:54 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=SUCCESS method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
+2019-09-02 10:13:54 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:13:54 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:14:44 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:15:02 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:15:02 INFO  TestBase:53 - Test name: addDefect
+2019-09-02 10:15:09 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=SUCCESS method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
+2019-09-02 10:15:09 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:15:10 INFO  TestBase:72 - Browser Closed
