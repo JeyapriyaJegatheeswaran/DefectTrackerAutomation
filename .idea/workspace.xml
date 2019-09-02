@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe7ca19e-59c7-434b-ab59-d07874665b70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DefectStatusPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DefectTypePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ModulePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PriorityPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SeverityPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Defect/AddDefect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Defect/AddDefectType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DefectStatus/DefectStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DefectStatus/EditDefectStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ModuleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PriorityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SeverityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/automation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_Information.log" beforeDir="false" afterPath="$PROJECT_DIR$/log_Information.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DefectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DefectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/ExtentReportResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/reports/ExtentReportResults.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-09-27_11-09-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-11-27_11-11-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-17-27_03-17-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-18-27_03-18-34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-18-27_11-18-18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-19-27_11-19-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-44-27_02-44-58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-45-27_02-45-35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-50-27_02-50-23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DefectPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/JiraPolicy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/MethodBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/MethodBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/PageBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/driver/IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/driver/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/driver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/driver/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/driver/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/paralleltest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/ExtentReportResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reports/ExtentReportResults.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-09-27_11-09-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-11-27_11-11-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-17-27_03-17-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-18-27_03-18-34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-18-27_11-18-18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-19-27_11-19-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-44-27_02-44-58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-45-27_02-45-35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-50-27_02-50-23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ExcelDataConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ExtentReportFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/JiraServiceProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/MyScreenRecorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/SendEmail$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/SendEmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/TestJiraListener.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" column="65" lean-forward="true" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/DefectPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="774">
+              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/ProjectPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="35" column="95" selection-start-line="35" selection-start-column="95" selection-end-line="35" selection-end-column="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/AddProject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utils/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/EmployeePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/EditEmployee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="14" column="22" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/DeleteEmployee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/AddEmployee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/PageBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/pages/DefectPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/Tests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/MethodBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/ProjectPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/AddProject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/EditEmployee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/AddEmployee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/DeleteEmployee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/EmployeePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/PageBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pages" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.EditEmployee.editEmployee">
+    <configuration name="AddEmployee.addEmployee (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AddEmployee" />
+      <option name="METHOD_NAME" value="addEmployee" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddEmployee.addEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AddEmployee" />
+      <option name="METHOD_NAME" value="addEmployee" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteEmployee.deleteEmployee (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.DeleteEmployee" />
+      <option name="METHOD_NAME" value="deleteEmployee" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteEmployee.deleteEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.DeleteEmployee" />
+      <option name="METHOD_NAME" value="deleteEmployee" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditEmployee.editEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.EditEmployee" />
+      <option name="METHOD_NAME" value="editEmployee" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.EditEmployee.editEmployee" />
+        <item itemvalue="TestNG.AddEmployee.addEmployee" />
+        <item itemvalue="TestNG.DeleteEmployee.deleteEmployee" />
+        <item itemvalue="TestNG.DeleteEmployee.deleteEmployee (1)" />
+        <item itemvalue="TestNG.AddEmployee.addEmployee (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe7ca19e-59c7-434b-ab59-d07874665b70" name="Default Changelist" comment="" />
+      <created>1566896789690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566896789690</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AddEmployee_addEmployee_(2) - 2019.09.02 at 11h 25m 10s.xml">
+      <configuration name="AddEmployee.addEmployee (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteEmployee_deleteEmployee - 2019.09.02 at 11h 27m 21s.xml">
+      <configuration name="DeleteEmployee.deleteEmployee" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddEmployee_addEmployee - 2019.09.02 at 11h 30m 38s.xml">
+      <configuration name="AddEmployee.addEmployee" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddEmployee_addEmployee - 2019.09.02 at 11h 32m 01s.xml">
+      <configuration name="AddEmployee.addEmployee" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddEmployee_addEmployee - 2019.09.02 at 11h 38m 42s.xml">
+      <configuration name="AddEmployee.addEmployee" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteEmployee_deleteEmployee_(1) - 2019.09.02 at 11h 41m 14s.xml">
+      <configuration name="DeleteEmployee.deleteEmployee (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddEmployee_addEmployee - 2019.09.02 at 11h 41m 32s.xml">
+      <configuration name="AddEmployee.addEmployee" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteEmployee_deleteEmployee - 2019.09.02 at 11h 41m 52s.xml">
+      <configuration name="DeleteEmployee.deleteEmployee" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddEmployee_addEmployee - 2019.09.02 at 11h 42m 22s.xml">
+      <configuration name="AddEmployee.addEmployee" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EditEmployee_editEmployee - 2019.09.02 at 11h 43m 02s.xml">
+      <configuration name="EditEmployee.editEmployee" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39116204" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/JiraServiceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/MyScreenRecorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="111" column="63" selection-start-line="111" selection-start-column="63" selection-end-line="111" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/ExcelDataConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/ExtentReportFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/MethodBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DefectPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ProjectPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="35" column="95" selection-start-line="35" selection-start-column="95" selection-end-line="35" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/AddProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/EmployeePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/DeleteEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/AddEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/EditEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="14" column="22" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/PageBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="65" lean-forward="true" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
