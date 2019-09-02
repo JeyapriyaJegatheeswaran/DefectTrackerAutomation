@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2019-08-27 14:44:50 INFO  TestBase:32 - Initiate Browser
 2019-08-27 14:44:58 INFO  TestBase:41 - Browser Initiated
 2019-08-27 14:44:58 INFO  TestBase:53 - Test name: testLogin
@@ -359,3 +360,47 @@
 2019-09-02 10:15:09 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=SUCCESS method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@1efee8e7] output={null}]
 2019-09-02 10:15:09 INFO  TestBase:70 - Closing Browser
 2019-09-02 10:15:10 INFO  TestBase:72 - Browser Closed
+=======
+2019-09-02 10:16:16 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:16:36 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:16:36 INFO  TestBase:53 - Test name: addPriority
+2019-09-02 10:16:41 INFO  TestBase:81 - Executed test case name:addPriority Execution Results : [TestResult name=addPriority status=SUCCESS method=PriorityTest.addPriority()[pri:0, instance:tests.PriorityTest@4df828d7] output={null}]
+2019-09-02 10:16:41 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:16:42 INFO  TestBase:72 - Browser Closed
+>>>>>>> b2836ab41632cb96231b9e96edf30e66e3c37dd2
+2019-09-02 10:46:21 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:46:30 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:46:30 INFO  TestBase:53 - Test name: addPriority
+2019-09-02 10:46:35 INFO  TestBase:81 - Executed test case name:addPriority Execution Results : [TestResult name=addPriority status=FAILURE method=PriorityTest.addPriority()[pri:0, instance:tests.PriorityTest@290dbf45] output={null}]
+2019-09-02 10:46:36 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:46:36 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:47:16 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:47:28 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:47:28 INFO  TestBase:53 - Test name: addPriority
+2019-09-02 10:47:33 INFO  TestBase:81 - Executed test case name:addPriority Execution Results : [TestResult name=addPriority status=FAILURE method=PriorityTest.addPriority()[pri:0, instance:tests.PriorityTest@290dbf45] output={null}]
+2019-09-02 10:47:33 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:47:34 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:48:33 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:48:40 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:48:40 INFO  TestBase:53 - Test name: addDefect
+2019-09-02 10:48:47 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=SUCCESS method=AddDefectType.addDefect()[pri:0, instance:tests.Defect.AddDefectType@290dbf45] output={null}]
+2019-09-02 10:48:47 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:48:48 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:49:20 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:49:27 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:49:27 INFO  TestBase:53 - Test name: addDefect
+2019-09-02 10:49:37 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=FAILURE method=AddDefect.addDefect()[pri:0, instance:tests.Defect.AddDefect@290dbf45] output={null}]
+2019-09-02 10:49:38 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:49:39 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:50:05 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:50:14 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:50:14 INFO  TestBase:53 - Test name: addDefect
+2019-09-02 10:50:24 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=FAILURE method=AddDefect.addDefect()[pri:0, instance:tests.Defect.AddDefect@290dbf45] output={null}]
+2019-09-02 10:50:25 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:50:26 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:50:52 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:51:01 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:51:01 INFO  TestBase:53 - Test name: addDefect
+2019-09-02 10:51:11 INFO  TestBase:81 - Executed test case name:addDefect Execution Results : [TestResult name=addDefect status=FAILURE method=AddDefect.addDefect()[pri:0, instance:tests.Defect.AddDefect@290dbf45] output={null}]
+2019-09-02 10:51:12 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:51:13 INFO  TestBase:72 - Browser Closed
