@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.Keys;
 import org.testng.asserts.SoftAssert;
 import utils.MethodBase;
 import utils.PageBase;
@@ -25,6 +26,8 @@ public class DefectTypePage extends PageBase {
     }
     public static void setDefectType(String defectType){
         MethodBase.setText_ByXpath(txtDefectType,defectType);
+
+
     }
     public static void setDescription(String description){
         MethodBase.setText_ByXpath(txtDescription,description);
