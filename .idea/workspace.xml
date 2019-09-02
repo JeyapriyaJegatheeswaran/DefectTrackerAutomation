@@ -1,7 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9aa40b4-34db-4fb6-b560-006e0a7a25b0" name="Default Changelist" comment="" />
+    <list default="true" id="e9aa40b4-34db-4fb6-b560-006e0a7a25b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Defect/DeleteDefect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_Information.log" beforeDir="false" afterPath="$PROJECT_DIR$/log_Information.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DefectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DefectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/ExtentReportResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/reports/ExtentReportResults.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-00-02_11-00-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-04-02_11-04-07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-05-28_12-05-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-07-28_04-07-51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-08-28_04-08-59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-08-28_12-08-46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-09-28_04-09-49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-12-02_10-12-43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-12-02_11-12-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-12-28_12-12-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-13-02_11-13-27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-13-28_12-13-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-13-28_12-13-56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-14-02_11-14-41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-14-28_04-14-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-15-28_12-15-36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-16-02_10-16-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-17-02_10-17-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-17-28_03-17-55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-18-28_12-18-47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-19-02_10-19-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-19-28_03-19-31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-19-28_04-19-55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-20-02_10-20-51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-21-28_03-21-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-23-02_10-23-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-23-28_04-23-54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-25-28_04-25-07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-26-02_10-26-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-26-02_10-26-45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-26-28_04-26-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-27-28_01-27-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-29-28_03-29-27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-30-02_11-30-36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-30-28_04-30-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-33-28_03-33-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-35-28_04-35-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-36-28_03-36-06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-36-28_03-36-39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-37-28_03-37-39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-37-28_04-37-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-38-28_04-38-38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-39-28_03-39-29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-45-02_10-45-46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-46-02_10-46-39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-47-28_02-47-53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-49-02_10-49-08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-49-28_02-49-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-50-28_02-50-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-52-02_10-52-55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-52-28_02-52-26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-53-02_10-53-49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-54-28_02-54-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-56-28_02-56-45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-58-02_10-58-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DefectPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DefectPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/ExtentReportResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reports/ExtentReportResults.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-00-02_11-00-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-04-02_11-04-07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-05-28_12-05-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-07-28_04-07-51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-08-28_04-08-59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-08-28_12-08-46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-09-28_04-09-49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-12-02_10-12-43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-12-02_11-12-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-12-28_12-12-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-13-02_11-13-27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-13-28_12-13-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-13-28_12-13-56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-14-02_11-14-41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-14-28_04-14-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-15-28_12-15-36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-16-02_10-16-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-17-02_10-17-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-17-28_03-17-55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-18-28_12-18-47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-19-02_10-19-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-19-28_03-19-31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-19-28_04-19-55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-20-02_10-20-51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-21-28_03-21-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-23-02_10-23-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-23-28_04-23-54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-25-28_04-25-07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-26-02_10-26-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-26-02_10-26-45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-26-28_04-26-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-27-28_01-27-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-29-28_03-29-27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-30-02_11-30-36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-30-28_04-30-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-33-28_03-33-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-35-28_04-35-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-36-28_03-36-06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-36-28_03-36-39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-37-28_03-37-39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-37-28_04-37-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-38-28_04-38-38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-39-28_03-39-29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-45-02_10-45-46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-46-02_10-46-39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-47-28_02-47-53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-49-02_10-49-08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-49-28_02-49-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-50-28_02-50-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-52-02_10-52-55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-52-28_02-52-26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-53-02_10-53-49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-54-28_02-54-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-56-28_02-56-45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-58-02_10-58-14.png" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +136,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
+            <state relative-caret-position="1518">
               <caret line="83" selection-start-line="83" selection-end-line="83" />
             </state>
           </provider>
@@ -27,7 +145,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/PageBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="396">
               <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
               <folding>
                 <element signature="e#2131#2147#0" expanded="true" />
@@ -40,7 +158,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="1254">
               <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
             </state>
           </provider>
@@ -58,12 +176,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/DefectPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+            <state relative-caret-position="123">
+              <caret line="40" column="101" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3685#3686#0" expanded="true" />
-                <element signature="e#3755#3756#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,8 +197,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/Defect/AddDefect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="198">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Defect/DeleteDefect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -90,8 +215,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/MethodBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+            <state relative-caret-position="59">
+              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,7 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pages/DefectPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/Tests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/utils/MethodBase.java" />
@@ -136,6 +260,9 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/EmployeePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/PageBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/log_Information.log" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/Defect/DeleteDefect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/DefectPage.java" />
       </list>
     </option>
   </component>
@@ -152,7 +279,73 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DefectTrackerAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefectTrackerAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefectTrackerAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefectTrackerAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefectTrackerAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefectTrackerAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefectTrackerAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefectTrackerAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefectTrackerAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DefectTrackerAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Defect" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,6 +355,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.Defect" />
       <recent name="pages" />
     </key>
   </component>
@@ -177,7 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AddDefect">
+  <component name="RunManager" selected="TestNG.DeleteDefect.addDefect">
     <configuration name="AddDefect" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation" />
       <extension name="coverage">
@@ -195,17 +389,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddEmployee.addEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddDefect.addDefect" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.Defect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AddEmployee" />
-      <option name="METHOD_NAME" value="addEmployee" />
+      <option name="PACKAGE_NAME" value="tests.Defect" />
+      <option name="MAIN_CLASS_NAME" value="tests.Defect.AddDefect" />
+      <option name="METHOD_NAME" value="addDefect" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -213,17 +407,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteEmployee.deleteEmployee (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddDefect.addDefectWithoutData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.Defect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.DeleteEmployee" />
-      <option name="METHOD_NAME" value="deleteEmployee" />
+      <option name="PACKAGE_NAME" value="tests.Defect" />
+      <option name="MAIN_CLASS_NAME" value="tests.Defect.AddDefect" />
+      <option name="METHOD_NAME" value="addDefectWithoutData" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -231,17 +425,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteEmployee.deleteEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteDefect.addDefect" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.Defect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.DeleteEmployee" />
-      <option name="METHOD_NAME" value="deleteEmployee" />
+      <option name="PACKAGE_NAME" value="tests.Defect" />
+      <option name="MAIN_CLASS_NAME" value="tests.Defect.DeleteDefect" />
+      <option name="METHOD_NAME" value="addDefect" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -269,11 +463,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DeleteDefect.addDefect" />
+        <item itemvalue="TestNG.AddDefect.addDefectWithoutData" />
+        <item itemvalue="TestNG.AddDefect.addDefect" />
         <item itemvalue="TestNG.AddDefect" />
         <item itemvalue="TestNG.EditEmployee.editEmployee" />
-        <item itemvalue="TestNG.AddEmployee.addEmployee" />
-        <item itemvalue="TestNG.DeleteEmployee.deleteEmployee" />
-        <item itemvalue="TestNG.DeleteEmployee.deleteEmployee (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +476,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fe7ca19e-59c7-434b-ab59-d07874665b70" name="Default Changelist" comment="" />
+      <changelist id="e9aa40b4-34db-4fb6-b560-006e0a7a25b0" name="Default Changelist" comment="" />
       <created>1566896789690</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -291,41 +485,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddEmployee_addEmployee_(2) - 2019.09.02 at 11h 25m 10s.xml">
-      <configuration name="AddEmployee.addEmployee (2)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DeleteEmployee_deleteEmployee - 2019.09.02 at 11h 27m 21s.xml">
-      <configuration name="DeleteEmployee.deleteEmployee" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddEmployee_addEmployee - 2019.09.02 at 11h 30m 38s.xml">
-      <configuration name="AddEmployee.addEmployee" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddEmployee_addEmployee - 2019.09.02 at 11h 32m 01s.xml">
-      <configuration name="AddEmployee.addEmployee" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddEmployee_addEmployee - 2019.09.02 at 11h 38m 42s.xml">
-      <configuration name="AddEmployee.addEmployee" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DeleteEmployee_deleteEmployee_(1) - 2019.09.02 at 11h 41m 14s.xml">
-      <configuration name="DeleteEmployee.deleteEmployee (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddEmployee_addEmployee - 2019.09.02 at 11h 41m 32s.xml">
-      <configuration name="AddEmployee.addEmployee" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DeleteEmployee_deleteEmployee - 2019.09.02 at 11h 41m 52s.xml">
-      <configuration name="DeleteEmployee.deleteEmployee" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddEmployee_addEmployee - 2019.09.02 at 11h 42m 22s.xml">
-      <configuration name="AddEmployee.addEmployee" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="EditEmployee_editEmployee - 2019.09.02 at 11h 43m 02s.xml">
       <configuration name="EditEmployee.editEmployee" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EditEmployee_editEmployee - 2019.09.02 at 15h 58m 37s.xml">
+      <configuration name="EditEmployee.editEmployee" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddDefect - 2019.09.02 at 15h 59m 15s.xml">
+      <configuration name="AddDefect" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddDefect_addDefect - 2019.09.02 at 16h 01m 18s.xml">
+      <configuration name="AddDefect.addDefect" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddDefect_addDefect - 2019.09.02 at 16h 13m 40s.xml">
+      <configuration name="AddDefect.addDefect" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddDefect_addDefectWithoutData - 2019.09.02 at 16h 14m 18s.xml">
+      <configuration name="AddDefect.addDefectWithoutData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteDefect_addDefect - 2019.09.02 at 16h 28m 17s.xml">
+      <configuration name="DeleteDefect.addDefect" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteDefect_addDefect - 2019.09.02 at 16h 29m 27s.xml">
+      <configuration name="DeleteDefect.addDefect" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteDefect_addDefect - 2019.09.02 at 16h 30m 45s.xml">
+      <configuration name="DeleteDefect.addDefect" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteDefect_addDefect - 2019.09.02 at 16h 43m 46s.xml">
+      <configuration name="DeleteDefect.addDefect" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3751891" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22919819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -334,7 +529,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2487725" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31096563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -368,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/ExcelDataConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -396,39 +584,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/MethodBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DefectPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3685#3686#0" expanded="true" />
-            <element signature="e#3755#3756#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -492,9 +651,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/PageBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="396">
           <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
           <folding>
             <element signature="e#2131#2147#0" expanded="true" />
@@ -503,10 +669,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="1254">
+          <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Defect/AddDefectType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DefectTypePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_Information.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="56" lean-forward="true" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/MethodBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Defect/AddDefect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Defect/DeleteDefect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DefectPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="40" column="101" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

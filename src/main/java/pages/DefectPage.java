@@ -37,8 +37,8 @@ public class DefectPage extends PageBase {
 
     private static String commonValidMsgStatus = "//div[text()='LINK!']";
 
-
-
+    private static String btnDelete="    //*[@id=\"root\"]/div/section/section/main/div[2]/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[td[1][. = 'jp1234']]/td[7]/span/a/i";
+    private static String btnDeleteOk="/html/body/div[10]/div/div/div/div[2]/div/div/div[2]/button[2]";
     public static boolean isDefectPageDisplayed(){
          return MethodBase.isDisplayed_ByXpath(btnaddDefect);
     }
@@ -76,5 +76,11 @@ public class DefectPage extends PageBase {
     public static String CheckValidMsg(String link){
 
         return MethodBase.get_Text(commonValidMsgStatus.replace("LINK", link));
+    }
+
+    public static void deleteDefect(){
+        MethodBase.clickButton_ByXpath(btnDelete);
+        staticWait(3);
+        MethodBase.clickButton_ByXpath(btnDeleteOk);
     }
 }
