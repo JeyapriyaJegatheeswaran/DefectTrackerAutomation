@@ -1,6 +1,7 @@
 package utils;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
@@ -21,6 +22,7 @@ public class MethodBase extends PageBase{
     }
     public static void setText_ByXpath(String locator,String inputText) {
         getDriver().findElement(By.xpath(locator)).sendKeys(inputText);
+
     }
     public static void clickButton_ById(String locator) {
         getDriver().findElement(By.id(locator)).click();

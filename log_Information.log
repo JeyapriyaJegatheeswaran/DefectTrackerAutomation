@@ -88,3 +88,436 @@
 2019-08-27 15:21:42 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=SUCCESS method=Tests.testLogin()[pri:0, instance:tests.Tests@3b69e7d1] output={null}]
 2019-08-27 15:21:42 INFO  TestBase:70 - Closing Browser
 2019-08-27 15:21:43 INFO  TestBase:72 - Browser Closed
+2019-08-28 12:05:36 INFO  TestBase:32 - Initiate Browser
+2019-08-28 12:05:44 INFO  TestBase:41 - Browser Initiated
+2019-08-28 12:05:44 INFO  TestBase:53 - Test name: addProject
+2019-08-28 12:05:44 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@45afc369] output={null}]
+2019-08-28 12:05:46 INFO  TestBase:70 - Closing Browser
+2019-08-28 12:05:47 INFO  TestBase:72 - Browser Closed
+2019-08-28 12:08:39 INFO  TestBase:32 - Initiate Browser
+2019-08-28 12:08:46 INFO  TestBase:41 - Browser Initiated
+2019-08-28 12:08:46 INFO  TestBase:53 - Test name: addProject
+2019-08-28 12:08:46 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@45afc369] output={null}]
+2019-08-28 12:08:46 INFO  TestBase:70 - Closing Browser
+2019-08-28 12:08:47 INFO  TestBase:72 - Browser Closed
+2019-08-28 12:12:04 INFO  TestBase:32 - Initiate Browser
+2019-08-28 12:12:12 INFO  TestBase:41 - Browser Initiated
+2019-08-28 12:12:12 INFO  TestBase:53 - Test name: addProject
+2019-08-28 12:12:12 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@45afc369] output={null}]
+2019-08-28 12:12:12 INFO  TestBase:70 - Closing Browser
+2019-08-28 12:12:13 INFO  TestBase:72 - Browser Closed
+2019-08-28 12:12:50 INFO  TestBase:32 - Initiate Browser
+2019-08-28 12:13:05 INFO  TestBase:41 - Browser Initiated
+2019-08-28 12:13:05 INFO  TestBase:53 - Test name: addProject
+2019-08-28 12:13:05 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@45afc369] output={null}]
+2019-08-28 12:13:06 INFO  TestBase:70 - Closing Browser
+2019-08-28 12:13:06 INFO  TestBase:72 - Browser Closed
+2019-08-28 12:13:42 INFO  TestBase:32 - Initiate Browser
+2019-08-28 12:13:56 INFO  TestBase:41 - Browser Initiated
+2019-08-28 12:13:56 INFO  TestBase:53 - Test name: addProject
+2019-08-28 12:13:56 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@45afc369] output={null}]
+2019-08-28 12:13:56 INFO  TestBase:70 - Closing Browser
+2019-08-28 12:13:58 INFO  TestBase:72 - Browser Closed
+2019-08-28 12:15:19 INFO  TestBase:32 - Initiate Browser
+2019-08-28 12:15:31 INFO  TestBase:41 - Browser Initiated
+2019-08-28 12:15:31 INFO  TestBase:53 - Test name: addProject
+2019-08-28 12:15:36 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@45afc369] output={null}]
+2019-08-28 12:15:36 INFO  TestBase:70 - Closing Browser
+2019-08-28 12:15:37 INFO  TestBase:72 - Browser Closed
+2019-08-28 12:17:47 INFO  TestBase:32 - Initiate Browser
+2019-08-28 12:17:54 INFO  TestBase:41 - Browser Initiated
+2019-08-28 12:17:54 INFO  TestBase:53 - Test name: addProject
+2019-08-28 12:18:00 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=SUCCESS method=AddProject.addProject()[pri:0, instance:tests.AddProject@45afc369] output={null}]
+2019-08-28 12:18:00 INFO  TestBase:70 - Closing Browser
+2019-08-28 12:18:01 INFO  TestBase:72 - Browser Closed
+2019-08-28 12:18:34 INFO  TestBase:32 - Initiate Browser
+2019-08-28 12:18:40 INFO  TestBase:41 - Browser Initiated
+2019-08-28 12:18:40 INFO  TestBase:53 - Test name: addProject
+2019-08-28 12:18:47 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@45afc369] output={null}]
+2019-08-28 12:18:47 INFO  TestBase:70 - Closing Browser
+2019-08-28 12:18:48 INFO  TestBase:72 - Browser Closed
+2019-08-28 13:27:00 INFO  TestBase:32 - Initiate Browser
+2019-08-28 13:27:08 INFO  TestBase:41 - Browser Initiated
+2019-08-28 13:27:08 INFO  TestBase:53 - Test name: addProject
+2019-08-28 13:27:19 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@45afc369] output={null}]
+2019-08-28 13:27:19 INFO  TestBase:70 - Closing Browser
+2019-08-28 13:27:20 INFO  TestBase:72 - Browser Closed
+2019-08-28 14:47:35 INFO  TestBase:32 - Initiate Browser
+2019-08-28 14:47:42 INFO  TestBase:41 - Browser Initiated
+2019-08-28 14:47:42 INFO  TestBase:53 - Test name: addEmployee
+2019-08-28 14:47:53 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=FAILURE method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-08-28 14:47:53 INFO  TestBase:70 - Closing Browser
+2019-08-28 14:47:54 INFO  TestBase:72 - Browser Closed
+2019-08-28 14:48:56 INFO  TestBase:32 - Initiate Browser
+2019-08-28 14:49:03 INFO  TestBase:41 - Browser Initiated
+2019-08-28 14:49:03 INFO  TestBase:53 - Test name: addEmployee
+2019-08-28 14:49:14 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=FAILURE method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-08-28 14:49:14 INFO  TestBase:70 - Closing Browser
+2019-08-28 14:49:15 INFO  TestBase:72 - Browser Closed
+2019-08-28 14:50:26 INFO  TestBase:32 - Initiate Browser
+2019-08-28 14:50:33 INFO  TestBase:41 - Browser Initiated
+2019-08-28 14:50:33 INFO  TestBase:53 - Test name: addEmployee
+2019-08-28 14:50:44 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=FAILURE method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-08-28 14:50:45 INFO  TestBase:70 - Closing Browser
+2019-08-28 14:50:45 INFO  TestBase:72 - Browser Closed
+2019-08-28 14:52:08 INFO  TestBase:32 - Initiate Browser
+2019-08-28 14:52:15 INFO  TestBase:41 - Browser Initiated
+2019-08-28 14:52:15 INFO  TestBase:53 - Test name: addEmployee
+2019-08-28 14:52:26 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=FAILURE method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-08-28 14:52:26 INFO  TestBase:70 - Closing Browser
+2019-08-28 14:52:27 INFO  TestBase:72 - Browser Closed
+2019-08-28 14:53:52 INFO  TestBase:32 - Initiate Browser
+2019-08-28 14:53:58 INFO  TestBase:41 - Browser Initiated
+2019-08-28 14:53:58 INFO  TestBase:53 - Test name: addEmployee
+2019-08-28 14:54:10 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=FAILURE method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-08-28 14:54:10 INFO  TestBase:70 - Closing Browser
+2019-08-28 14:54:11 INFO  TestBase:72 - Browser Closed
+2019-08-28 14:56:27 INFO  TestBase:32 - Initiate Browser
+2019-08-28 14:56:33 INFO  TestBase:41 - Browser Initiated
+2019-08-28 14:56:33 INFO  TestBase:53 - Test name: addEmployee
+2019-08-28 14:56:45 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=FAILURE method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-08-28 14:56:45 INFO  TestBase:70 - Closing Browser
+2019-08-28 14:56:46 INFO  TestBase:72 - Browser Closed
+2019-08-28 14:57:24 INFO  TestBase:32 - Initiate Browser
+2019-08-28 14:57:30 INFO  TestBase:41 - Browser Initiated
+2019-08-28 14:57:30 INFO  TestBase:53 - Test name: addEmployee
+2019-08-28 14:57:37 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=SUCCESS method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-08-28 14:57:37 INFO  TestBase:70 - Closing Browser
+2019-08-28 14:57:38 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:06:36 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:06:43 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:06:43 INFO  TestBase:53 - Test name: addEmployee
+2019-08-28 15:06:50 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=SUCCESS method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-08-28 15:06:50 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:06:51 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:17:38 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:17:44 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:17:44 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 15:17:55 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 15:17:55 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:17:56 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:18:05 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:18:37 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:18:37 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 15:18:56 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:19:21 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:19:21 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 15:19:31 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 15:19:31 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:19:32 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:21:27 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:21:33 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:21:33 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 15:21:44 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 15:21:44 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:21:45 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:29:10 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:29:17 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:29:17 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 15:29:27 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 15:29:28 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:29:29 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:32:48 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:32:54 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:32:54 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 15:33:05 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 15:33:05 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:33:07 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:35:50 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:35:56 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:35:56 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 15:36:06 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 15:36:07 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:36:08 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:36:22 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:36:28 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:36:28 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 15:36:39 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 15:36:39 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:36:40 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:37:21 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:37:28 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:37:28 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 15:37:39 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 15:37:39 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:37:40 INFO  TestBase:72 - Browser Closed
+2019-08-28 15:39:11 INFO  TestBase:32 - Initiate Browser
+2019-08-28 15:39:18 INFO  TestBase:41 - Browser Initiated
+2019-08-28 15:39:18 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 15:39:29 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 15:39:29 INFO  TestBase:70 - Closing Browser
+2019-08-28 15:39:30 INFO  TestBase:72 - Browser Closed
+2019-08-28 16:07:27 INFO  TestBase:32 - Initiate Browser
+2019-08-28 16:07:40 INFO  TestBase:41 - Browser Initiated
+2019-08-28 16:07:40 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 16:07:51 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 16:07:51 INFO  TestBase:70 - Closing Browser
+2019-08-28 16:07:52 INFO  TestBase:72 - Browser Closed
+2019-08-28 16:08:42 INFO  TestBase:32 - Initiate Browser
+2019-08-28 16:08:48 INFO  TestBase:41 - Browser Initiated
+2019-08-28 16:08:48 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 16:08:59 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 16:08:59 INFO  TestBase:70 - Closing Browser
+2019-08-28 16:09:00 INFO  TestBase:72 - Browser Closed
+2019-08-28 16:09:24 INFO  TestBase:32 - Initiate Browser
+2019-08-28 16:09:36 INFO  TestBase:41 - Browser Initiated
+2019-08-28 16:09:36 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 16:09:49 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 16:09:50 INFO  TestBase:70 - Closing Browser
+2019-08-28 16:09:51 INFO  TestBase:72 - Browser Closed
+2019-08-28 16:13:52 INFO  TestBase:32 - Initiate Browser
+2019-08-28 16:14:04 INFO  TestBase:41 - Browser Initiated
+2019-08-28 16:14:04 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 16:14:17 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 16:14:17 INFO  TestBase:70 - Closing Browser
+2019-08-28 16:14:18 INFO  TestBase:72 - Browser Closed
+2019-08-28 16:19:25 INFO  TestBase:32 - Initiate Browser
+2019-08-28 16:19:43 INFO  TestBase:41 - Browser Initiated
+2019-08-28 16:19:43 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 16:19:55 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 16:19:56 INFO  TestBase:70 - Closing Browser
+2019-08-28 16:19:57 INFO  TestBase:72 - Browser Closed
+2019-08-28 16:23:24 INFO  TestBase:32 - Initiate Browser
+2019-08-28 16:23:42 INFO  TestBase:41 - Browser Initiated
+2019-08-28 16:23:42 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 16:23:54 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 16:23:54 INFO  TestBase:70 - Closing Browser
+2019-08-28 16:23:55 INFO  TestBase:72 - Browser Closed
+2019-08-28 16:24:49 INFO  TestBase:32 - Initiate Browser
+2019-08-28 16:24:56 INFO  TestBase:41 - Browser Initiated
+2019-08-28 16:24:56 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 16:25:07 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 16:25:08 INFO  TestBase:70 - Closing Browser
+2019-08-28 16:25:09 INFO  TestBase:72 - Browser Closed
+2019-08-28 16:26:06 INFO  TestBase:32 - Initiate Browser
+2019-08-28 16:26:12 INFO  TestBase:41 - Browser Initiated
+2019-08-28 16:26:12 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 16:26:24 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 16:26:25 INFO  TestBase:70 - Closing Browser
+2019-08-28 16:26:26 INFO  TestBase:72 - Browser Closed
+2019-08-28 16:30:18 INFO  TestBase:32 - Initiate Browser
+2019-08-28 16:30:36 INFO  TestBase:41 - Browser Initiated
+2019-08-28 16:30:36 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 16:30:48 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 16:30:48 INFO  TestBase:70 - Closing Browser
+2019-08-28 16:30:49 INFO  TestBase:72 - Browser Closed
+2019-08-28 16:35:30 INFO  TestBase:32 - Initiate Browser
+2019-08-28 16:35:36 INFO  TestBase:41 - Browser Initiated
+2019-08-28 16:35:36 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 16:35:48 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 16:35:48 INFO  TestBase:70 - Closing Browser
+2019-08-28 16:35:49 INFO  TestBase:72 - Browser Closed
+2019-08-28 16:36:45 INFO  TestBase:32 - Initiate Browser
+2019-08-28 16:36:51 INFO  TestBase:41 - Browser Initiated
+2019-08-28 16:36:51 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 16:37:03 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 16:37:04 INFO  TestBase:70 - Closing Browser
+2019-08-28 16:37:05 INFO  TestBase:72 - Browser Closed
+2019-08-28 16:38:13 INFO  TestBase:32 - Initiate Browser
+2019-08-28 16:38:26 INFO  TestBase:41 - Browser Initiated
+2019-08-28 16:38:26 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 16:38:38 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 16:38:38 INFO  TestBase:70 - Closing Browser
+2019-08-28 16:38:39 INFO  TestBase:72 - Browser Closed
+2019-08-28 16:39:19 INFO  TestBase:32 - Initiate Browser
+2019-08-28 16:39:25 INFO  TestBase:41 - Browser Initiated
+2019-08-28 16:39:25 INFO  TestBase:53 - Test name: editEmployee
+2019-08-28 16:39:32 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=SUCCESS method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-08-28 16:39:32 INFO  TestBase:70 - Closing Browser
+2019-08-28 16:39:33 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:12:15 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:12:32 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:12:32 INFO  TestBase:53 - Test name: addProject
+2019-09-02 10:12:43 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@32cf48b7] output={null}]
+2019-09-02 10:12:43 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:12:45 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:16:07 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:16:14 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:16:14 INFO  TestBase:53 - Test name: addProject
+2019-09-02 10:16:25 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@32cf48b7] output={null}]
+2019-09-02 10:16:26 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:16:27 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:16:59 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:17:06 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:17:06 INFO  TestBase:53 - Test name: addProject
+2019-09-02 10:17:19 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@32cf48b7] output={null}]
+2019-09-02 10:17:20 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:17:21 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:19:11 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:19:25 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:19:25 INFO  TestBase:53 - Test name: addProject
+2019-09-02 10:19:32 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@32cf48b7] output={null}]
+2019-09-02 10:19:32 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:19:34 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:20:36 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:20:44 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:20:44 INFO  TestBase:53 - Test name: addProject
+2019-09-02 10:20:51 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@32cf48b7] output={null}]
+2019-09-02 10:20:51 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:20:52 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:22:51 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:22:59 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:22:59 INFO  TestBase:53 - Test name: addProject
+2019-09-02 10:23:05 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@32cf48b7] output={null}]
+2019-09-02 10:23:05 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:23:05 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:26:03 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:26:10 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:26:10 INFO  TestBase:53 - Test name: addProject
+2019-09-02 10:26:17 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@32cf48b7] output={null}]
+2019-09-02 10:26:17 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:26:17 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:26:30 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:26:39 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:26:39 INFO  TestBase:53 - Test name: addProject
+2019-09-02 10:26:45 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@32cf48b7] output={null}]
+2019-09-02 10:26:46 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:26:46 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:29:30 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:29:38 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:29:38 INFO  TestBase:53 - Test name: addProject
+2019-09-02 10:29:45 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=SUCCESS method=AddProject.addProject()[pri:0, instance:tests.AddProject@32cf48b7] output={null}]
+2019-09-02 10:29:45 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:29:45 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:45:32 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:45:39 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:45:39 INFO  TestBase:53 - Test name: addProject
+2019-09-02 10:45:46 INFO  TestBase:81 - Executed test case name:addProject Execution Results : [TestResult name=addProject status=FAILURE method=AddProject.addProject()[pri:0, instance:tests.AddProject@32cf48b7] output={null}]
+2019-09-02 10:45:46 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:45:47 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:46:21 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:46:28 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:46:28 INFO  TestBase:53 - Test name: addEmployee
+2019-09-02 10:46:39 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=FAILURE method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-09-02 10:46:40 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:46:41 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:48:49 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:48:56 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:48:56 INFO  TestBase:53 - Test name: addEmployee
+2019-09-02 10:49:08 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=FAILURE method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-09-02 10:49:08 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:49:09 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:52:36 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:52:43 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:52:43 INFO  TestBase:53 - Test name: addEmployee
+2019-09-02 10:52:55 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=FAILURE method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@290dbf45] output={null}]
+2019-09-02 10:52:55 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:52:56 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:53:31 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:53:37 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:53:37 INFO  TestBase:53 - Test name: addEmployee
+2019-09-02 10:53:49 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=FAILURE method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-09-02 10:53:49 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:53:50 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:56:08 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:56:15 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:56:15 INFO  TestBase:53 - Test name: addEmployee
+2019-09-02 10:56:22 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=SUCCESS method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-09-02 10:56:22 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:56:23 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:57:56 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:58:03 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:58:03 INFO  TestBase:53 - Test name: editEmployee
+2019-09-02 10:58:14 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-09-02 10:58:14 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:58:15 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:59:41 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:59:48 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:59:48 INFO  TestBase:53 - Test name: editEmployee
+2019-09-02 11:00:02 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-09-02 11:00:02 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:00:03 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:03:48 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:03:55 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:03:55 INFO  TestBase:53 - Test name: editEmployee
+2019-09-02 11:04:07 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-09-02 11:04:08 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:04:08 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:08:54 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:09:00 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:09:00 INFO  TestBase:53 - Test name: editEmployee
+2019-09-02 11:09:11 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=SUCCESS method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-09-02 11:09:11 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:09:12 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:11:44 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:11:51 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:11:51 INFO  TestBase:53 - Test name: editEmployee
+2019-09-02 11:12:03 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-09-02 11:12:03 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:12:04 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:13:07 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:13:14 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:13:14 INFO  TestBase:53 - Test name: editEmployee
+2019-09-02 11:13:27 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@290dbf45] output={null}]
+2019-09-02 11:13:27 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:13:28 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:14:21 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:14:28 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:14:28 INFO  TestBase:53 - Test name: editEmployee
+2019-09-02 11:14:40 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=FAILURE method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@290dbf45] output={null}]
+2019-09-02 11:14:41 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:14:42 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:15:16 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:15:22 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:15:22 INFO  TestBase:53 - Test name: editEmployee
+2019-09-02 11:15:33 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=SUCCESS method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@45afc369] output={null}]
+2019-09-02 11:15:33 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:15:34 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:24:55 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:25:02 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:25:02 INFO  TestBase:53 - Test name: addEmployee
+2019-09-02 11:25:08 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=SUCCESS method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-09-02 11:25:08 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:25:09 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:27:07 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:27:14 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:27:14 INFO  TestBase:53 - Test name: deleteEmployee
+2019-09-02 11:27:19 INFO  TestBase:81 - Executed test case name:deleteEmployee Execution Results : [TestResult name=deleteEmployee status=SUCCESS method=DeleteEmployee.deleteEmployee()[pri:0, instance:tests.DeleteEmployee@45afc369] output={null}]
+2019-09-02 11:27:19 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:27:20 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:30:18 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:30:24 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:30:24 INFO  TestBase:53 - Test name: addEmployee
+2019-09-02 11:30:36 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=FAILURE method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-09-02 11:30:37 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:30:38 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:31:44 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:31:51 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:31:51 INFO  TestBase:53 - Test name: addEmployee
+2019-09-02 11:31:59 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=SUCCESS method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-09-02 11:31:59 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:32:00 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:38:25 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:38:32 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:38:32 INFO  TestBase:53 - Test name: addEmployee
+2019-09-02 11:38:40 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=SUCCESS method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-09-02 11:38:40 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:38:41 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:41:03 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:41:09 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:41:09 INFO  TestBase:53 - Test name: deleteEmployee
+2019-09-02 11:41:14 INFO  TestBase:81 - Executed test case name:deleteEmployee Execution Results : [TestResult name=deleteEmployee status=FAILURE method=DeleteEmployee.deleteEmployee()[pri:0, instance:tests.DeleteEmployee@45afc369] output={null}]
+2019-09-02 11:41:16 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:41:23 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:41:23 INFO  TestBase:53 - Test name: addEmployee
+2019-09-02 11:41:31 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=SUCCESS method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-09-02 11:41:31 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:41:32 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:41:38 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:41:45 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:41:45 INFO  TestBase:53 - Test name: deleteEmployee
+2019-09-02 11:41:51 INFO  TestBase:81 - Executed test case name:deleteEmployee Execution Results : [TestResult name=deleteEmployee status=SUCCESS method=DeleteEmployee.deleteEmployee()[pri:0, instance:tests.DeleteEmployee@45afc369] output={null}]
+2019-09-02 11:41:51 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:41:52 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:42:06 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:42:13 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:42:13 INFO  TestBase:53 - Test name: addEmployee
+2019-09-02 11:42:21 INFO  TestBase:81 - Executed test case name:addEmployee Execution Results : [TestResult name=addEmployee status=SUCCESS method=AddEmployee.addEmployee()[pri:0, instance:tests.AddEmployee@45afc369] output={null}]
+2019-09-02 11:42:21 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:42:22 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:42:43 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:42:50 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:42:50 INFO  TestBase:53 - Test name: editEmployee
+2019-09-02 11:43:00 INFO  TestBase:81 - Executed test case name:editEmployee Execution Results : [TestResult name=editEmployee status=SUCCESS method=EditEmployee.editEmployee()[pri:0, instance:tests.EditEmployee@290dbf45] output={null}]
+2019-09-02 11:43:00 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:43:01 INFO  TestBase:72 - Browser Closed
