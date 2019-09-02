@@ -61,7 +61,11 @@ public class MethodBase extends PageBase{
         type.click(getDriver().findElement(By.xpath(locator2))).build().perform();
     }
 
+    public static String get_Text(String locator) {
 
+        return getDriver().findElement(By.xpath(locator)).getText();
+
+    }
 
     public static void assertEqual_Text_ById(String locator, String expectedText) {
 
@@ -72,8 +76,8 @@ public class MethodBase extends PageBase{
     public static void assertEqual_Text_ByXpath(String locator, String expectedText) {
         SoftAssert softAssert = new SoftAssert();
         String actualText = getDriver().findElement(By.xpath(locator)).getText();
-
-        softAssert.assertEquals(actualText, expectedText);
+        softAssert.assertEquals(actualText,expectedText);
+        //softAssert.assertAll();
     }
 //    public static void assertTrue( boolean condition) {
 //        Assert.assertTrue(condition,"condition failed");
