@@ -1,125 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9aa40b4-34db-4fb6-b560-006e0a7a25b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Defect/DeleteDefect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log_Information.log" beforeDir="false" afterPath="$PROJECT_DIR$/log_Information.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DefectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DefectPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/ExtentReportResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/reports/ExtentReportResults.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-00-02_11-00-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-04-02_11-04-07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-05-28_12-05-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-07-28_04-07-51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-08-28_04-08-59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-08-28_12-08-46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-09-28_04-09-49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-12-02_10-12-43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-12-02_11-12-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-12-28_12-12-12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-13-02_11-13-27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-13-28_12-13-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-13-28_12-13-56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-14-02_11-14-41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-14-28_04-14-17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-15-28_12-15-36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-16-02_10-16-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-17-02_10-17-19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-17-28_03-17-55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-18-28_12-18-47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-19-02_10-19-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-19-28_03-19-31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-19-28_04-19-55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-20-02_10-20-51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-21-28_03-21-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-23-02_10-23-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-23-28_04-23-54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-25-28_04-25-07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-26-02_10-26-17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-26-02_10-26-45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-26-28_04-26-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-27-28_01-27-19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-29-28_03-29-27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-30-02_11-30-36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-30-28_04-30-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-33-28_03-33-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-35-28_04-35-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-36-28_03-36-06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-36-28_03-36-39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-37-28_03-37-39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-37-28_04-37-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-38-28_04-38-38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-39-28_03-39-29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-45-02_10-45-46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-46-02_10-46-39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-47-28_02-47-53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-49-02_10-49-08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-49-28_02-49-14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-50-28_02-50-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-52-02_10-52-55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-52-28_02-52-26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-53-02_10-53-49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-54-28_02-54-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-56-28_02-56-45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-58-02_10-58-14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/DefectPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DefectPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/ExtentReportResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reports/ExtentReportResults.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-00-02_11-00-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-04-02_11-04-07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-05-28_12-05-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-07-28_04-07-51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-08-28_04-08-59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-08-28_12-08-46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-09-28_04-09-49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-12-02_10-12-43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-12-02_11-12-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-12-28_12-12-12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-13-02_11-13-27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-13-28_12-13-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-13-28_12-13-56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-14-02_11-14-41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-14-28_04-14-17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-15-28_12-15-36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-16-02_10-16-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-17-02_10-17-19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-17-28_03-17-55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-18-28_12-18-47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-19-02_10-19-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-19-28_03-19-31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-19-28_04-19-55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-20-02_10-20-51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-21-28_03-21-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-23-02_10-23-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-23-28_04-23-54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-25-28_04-25-07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-26-02_10-26-17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-26-02_10-26-45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-26-28_04-26-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-27-28_01-27-19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-29-28_03-29-27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-30-02_11-30-36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-30-28_04-30-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-33-28_03-33-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-35-28_04-35-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-36-28_03-36-06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-36-28_03-36-39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-37-28_03-37-39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-37-28_04-37-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-38-28_04-38-38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-39-28_03-39-29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-45-02_10-45-46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-46-02_10-46-39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-47-28_02-47-53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-49-02_10-49-08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-49-28_02-49-14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-50-28_02-50-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-52-02_10-52-55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-52-28_02-52-26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-53-02_10-53-49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-54-28_02-54-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-56-28_02-56-45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-58-02_10-58-14.png" beforeDir="false" />
-    </list>
+    <list default="true" id="e9aa40b4-34db-4fb6-b560-006e0a7a25b0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -518,7 +400,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22919819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -529,7 +410,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31096563" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31096563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
