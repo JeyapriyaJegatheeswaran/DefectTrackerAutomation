@@ -1,4 +1,4 @@
-package tests;
+package tests.Module;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -8,7 +8,7 @@ import utils.TestBase;
 
 import static utils.PageBase.implicitWait;
 
-public class ModuleTest extends TestBase {
+public class AddModuleTest extends TestBase {
     @Test
     public void addModule() {
         SoftAssert softAssert = new SoftAssert();

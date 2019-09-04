@@ -1,6 +1,594 @@
 2019-09-02 10:16:16 INFO  TestBase:32 - Initiate Browser
 2019-09-02 10:16:36 INFO  TestBase:41 - Browser Initiated
 2019-09-02 10:16:36 INFO  TestBase:53 - Test name: addPriority
-2019-09-02 10:16:41 INFO  TestBase:81 - Executed test case name:addPriority Execution Results : [TestResult name=addPriority status=SUCCESS method=PriorityTest.addPriority()[pri:0, instance:tests.PriorityTest@4df828d7] output={null}]
+2019-09-02 10:16:41 INFO  TestBase:81 - Executed test case name:addPriority Execution Results : [TestResult name=addPriority status=SUCCESS method=PriorityTest.addPriority()[pri:0, instance:tests.Priority.AddPriorityTest@4df828d7] output={null}]
 2019-09-02 10:16:41 INFO  TestBase:70 - Closing Browser
 2019-09-02 10:16:42 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:39:27 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:39:47 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:39:47 INFO  TestBase:53 - Test name: addPriority
+2019-09-02 10:39:47 INFO  PriorityTest:19 - Recruitment Button worked 
+2019-09-02 10:39:52 INFO  TestBase:81 - Executed test case name:addPriority Execution Results : [TestResult name=addPriority status=SUCCESS method=PriorityTest.addPriority()[pri:0, instance:tests.Priority.AddPriorityTest@4df828d7] output={null}]
+2019-09-02 10:39:52 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:39:53 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:42:12 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:42:28 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:42:28 INFO  TestBase:53 - Test name: addPriority
+2019-09-02 10:42:30 INFO  PriorityPage:21 - Recruitment Button worked 
+2019-09-02 10:42:33 INFO  TestBase:81 - Executed test case name:addPriority Execution Results : [TestResult name=addPriority status=SUCCESS method=PriorityTest.addPriority()[pri:0, instance:tests.Priority.AddPriorityTest@4df828d7] output={null}]
+2019-09-02 10:42:33 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:42:35 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:52:31 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:53:19 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:53:39 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:53:39 INFO  TestBase:53 - Test name: addSeverity
+2019-09-02 10:53:40 INFO  TestBase:81 - Executed test case name:addSeverity Execution Results : [TestResult name=addSeverity status=FAILURE method=SeverityTest.addSeverity()[pri:0, instance:tests.Severity.AddSeverityTest@4df828d7] output={null}]
+2019-09-02 10:53:40 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:53:42 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:54:43 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:54:52 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:54:52 INFO  TestBase:53 - Test name: addSeverity
+2019-09-02 10:54:59 INFO  TestBase:81 - Executed test case name:addSeverity Execution Results : [TestResult name=addSeverity status=FAILURE method=SeverityTest.addSeverity()[pri:0, instance:tests.Severity.AddSeverityTest@4df828d7] output={null}]
+2019-09-02 10:54:59 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:55:00 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:55:49 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:56:09 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:56:09 INFO  TestBase:53 - Test name: addSeverity
+2019-09-02 10:56:16 INFO  TestBase:81 - Executed test case name:addSeverity Execution Results : [TestResult name=addSeverity status=FAILURE method=SeverityTest.addSeverity()[pri:0, instance:tests.Severity.AddSeverityTest@4df828d7] output={null}]
+2019-09-02 10:56:16 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:56:18 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:58:20 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:58:34 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:58:34 INFO  TestBase:53 - Test name: addSeverity
+2019-09-02 10:58:41 INFO  TestBase:81 - Executed test case name:addSeverity Execution Results : [TestResult name=addSeverity status=FAILURE method=SeverityTest.addSeverity()[pri:0, instance:tests.Severity.AddSeverityTest@4df828d7] output={null}]
+2019-09-02 10:58:41 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:58:42 INFO  TestBase:72 - Browser Closed
+2019-09-02 10:58:56 INFO  TestBase:32 - Initiate Browser
+2019-09-02 10:59:16 INFO  TestBase:41 - Browser Initiated
+2019-09-02 10:59:16 INFO  TestBase:53 - Test name: addSeverity
+2019-09-02 10:59:22 INFO  TestBase:81 - Executed test case name:addSeverity Execution Results : [TestResult name=addSeverity status=FAILURE method=SeverityTest.addSeverity()[pri:0, instance:tests.Severity.AddSeverityTest@4df828d7] output={null}]
+2019-09-02 10:59:23 INFO  TestBase:70 - Closing Browser
+2019-09-02 10:59:25 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:00:54 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:01:13 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:01:13 INFO  TestBase:53 - Test name: addSeverity
+2019-09-02 11:01:17 INFO  TestBase:81 - Executed test case name:addSeverity Execution Results : [TestResult name=addSeverity status=SUCCESS method=SeverityTest.addSeverity()[pri:0, instance:tests.Severity.AddSeverityTest@4df828d7] output={null}]
+2019-09-02 11:01:17 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:01:18 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:01:48 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:02:08 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:02:08 INFO  TestBase:53 - Test name: addSeverity
+2019-09-02 11:02:11 INFO  TestBase:81 - Executed test case name:addSeverity Execution Results : [TestResult name=addSeverity status=SUCCESS method=SeverityTest.addSeverity()[pri:0, instance:tests.Severity.AddSeverityTest@4df828d7] output={null}]
+2019-09-02 11:02:11 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:02:12 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:23:16 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:23:35 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:23:35 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 11:23:43 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=FAILURE method=EditSeverityTest.editSeverity()[pri:0, instance:tests.Severity.EditSeverityTest@4df828d7] output={null}]
+2019-09-02 11:23:43 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:23:44 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:24:05 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:24:14 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:24:14 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 11:24:22 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=FAILURE method=EditSeverityTest.editSeverity()[pri:0, instance:tests.Severity.EditSeverityTest@4df828d7] output={null}]
+2019-09-02 11:24:23 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:24:24 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:26:10 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:26:19 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:26:19 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 11:26:27 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=FAILURE method=EditSeverityTest.editSeverity()[pri:0, instance:tests.Severity.EditSeverityTest@4df828d7] output={null}]
+2019-09-02 11:26:28 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:26:29 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:44:42 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:44:57 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:44:57 INFO  TestBase:53 - Test name: addSeverity
+2019-09-02 11:45:01 INFO  TestBase:81 - Executed test case name:addSeverity Execution Results : [TestResult name=addSeverity status=SUCCESS method=AddSeverityTest.addSeverity()[pri:0, instance:tests.Severity.AddSeverityTest@4df828d7] output={null}]
+2019-09-02 11:45:01 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:45:02 INFO  TestBase:72 - Browser Closed
+2019-09-02 11:45:18 INFO  TestBase:32 - Initiate Browser
+2019-09-02 11:45:33 INFO  TestBase:41 - Browser Initiated
+2019-09-02 11:45:33 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 11:45:41 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=FAILURE method=EditSeverityTest.editSeverity()[pri:0, instance:tests.Severity.EditSeverityTest@4df828d7] output={null}]
+2019-09-02 11:45:41 INFO  TestBase:70 - Closing Browser
+2019-09-02 11:45:42 INFO  TestBase:72 - Browser Closed
+2019-09-02 13:18:56 INFO  TestBase:32 - Initiate Browser
+2019-09-02 13:19:06 INFO  TestBase:41 - Browser Initiated
+2019-09-02 13:19:06 INFO  TestBase:53 - Test name: addSeverity
+2019-09-02 13:19:10 INFO  TestBase:81 - Executed test case name:addSeverity Execution Results : [TestResult name=addSeverity status=FAILURE method=AddSeverityTest.addSeverity()[pri:0, instance:tests.Severity.AddSeverityTest@4df828d7] output={null}]
+2019-09-02 13:19:11 INFO  TestBase:70 - Closing Browser
+2019-09-02 13:19:12 INFO  TestBase:72 - Browser Closed
+2019-09-02 13:23:53 INFO  TestBase:32 - Initiate Browser
+2019-09-02 13:24:03 INFO  TestBase:41 - Browser Initiated
+2019-09-02 13:24:03 INFO  TestBase:53 - Test name: addPriority
+2019-09-02 13:24:05 INFO  PriorityPage:22 - Recruitment Button worked 
+2019-09-02 13:24:09 INFO  TestBase:81 - Executed test case name:addPriority Execution Results : [TestResult name=addPriority status=FAILURE method=AddPriorityTest.addPriority()[pri:0, instance:tests.Priority.AddPriorityTest@4df828d7] output={null}]
+2019-09-02 13:24:09 INFO  TestBase:70 - Closing Browser
+2019-09-02 13:24:11 INFO  TestBase:72 - Browser Closed
+2019-09-02 13:28:30 INFO  TestBase:32 - Initiate Browser
+2019-09-02 13:28:51 INFO  TestBase:41 - Browser Initiated
+2019-09-02 13:28:51 INFO  TestBase:53 - Test name: addSeverity
+2019-09-02 13:28:55 INFO  TestBase:81 - Executed test case name:addSeverity Execution Results : [TestResult name=addSeverity status=FAILURE method=AddSeverityTest.addSeverity()[pri:0, instance:tests.Severity.AddSeverityTest@4df828d7] output={null}]
+2019-09-02 13:28:56 INFO  TestBase:70 - Closing Browser
+2019-09-02 13:28:57 INFO  TestBase:72 - Browser Closed
+2019-09-02 13:29:24 INFO  TestBase:32 - Initiate Browser
+2019-09-02 13:29:39 INFO  TestBase:41 - Browser Initiated
+2019-09-02 13:29:39 INFO  TestBase:53 - Test name: addPriority
+2019-09-02 13:29:40 INFO  PriorityPage:22 - Recruitment Button worked 
+2019-09-02 13:29:45 INFO  TestBase:81 - Executed test case name:addPriority Execution Results : [TestResult name=addPriority status=SUCCESS method=AddPriorityTest.addPriority()[pri:0, instance:tests.Priority.AddPriorityTest@4df828d7] output={null}]
+2019-09-02 13:29:45 INFO  TestBase:70 - Closing Browser
+2019-09-02 13:29:46 INFO  TestBase:72 - Browser Closed
+2019-09-02 13:37:48 INFO  TestBase:32 - Initiate Browser
+2019-09-02 13:38:08 INFO  TestBase:41 - Browser Initiated
+2019-09-02 13:38:08 INFO  TestBase:53 - Test name: addSeverity
+2019-09-02 13:38:12 INFO  TestBase:81 - Executed test case name:addSeverity Execution Results : [TestResult name=addSeverity status=SUCCESS method=AddSeverityTest.addSeverity()[pri:0, instance:tests.Severity.AddSeverityTest@4df828d7] output={null}]
+2019-09-02 13:38:12 INFO  TestBase:70 - Closing Browser
+2019-09-02 13:38:13 INFO  TestBase:72 - Browser Closed
+2019-09-02 13:39:36 INFO  TestBase:32 - Initiate Browser
+2019-09-02 13:39:56 INFO  TestBase:41 - Browser Initiated
+2019-09-02 13:39:56 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 13:40:05 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=FAILURE method=EditSeverityTest.editSeverity()[pri:0, instance:tests.Severity.EditSeverityTest@4df828d7] output={null}]
+2019-09-02 13:40:05 INFO  TestBase:70 - Closing Browser
+2019-09-02 13:40:07 INFO  TestBase:72 - Browser Closed
+2019-09-02 13:41:58 INFO  TestBase:32 - Initiate Browser
+2019-09-02 13:42:14 INFO  TestBase:41 - Browser Initiated
+2019-09-02 13:42:14 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 13:42:23 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=FAILURE method=EditSeverityTest.editSeverity()[pri:0, instance:tests.Severity.EditSeverityTest@4df828d7] output={null}]
+2019-09-02 13:42:23 INFO  TestBase:70 - Closing Browser
+2019-09-02 13:42:24 INFO  TestBase:72 - Browser Closed
+2019-09-02 13:44:48 INFO  TestBase:32 - Initiate Browser
+2019-09-02 13:45:07 INFO  TestBase:41 - Browser Initiated
+2019-09-02 13:45:07 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 13:45:14 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=FAILURE method=EditSeverityTest.editSeverity()[pri:0, instance:tests.Severity.EditSeverityTest@4df828d7] output={null}]
+2019-09-02 13:45:14 INFO  TestBase:70 - Closing Browser
+2019-09-02 13:45:15 INFO  TestBase:72 - Browser Closed
+2019-09-02 13:47:28 INFO  TestBase:32 - Initiate Browser
+2019-09-02 13:47:46 INFO  TestBase:41 - Browser Initiated
+2019-09-02 13:47:46 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 13:47:52 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=FAILURE method=EditSeverityTest.editSeverity()[pri:0, instance:tests.Severity.EditSeverityTest@11e21d0e] output={null}]
+2019-09-02 13:47:53 INFO  TestBase:70 - Closing Browser
+2019-09-02 13:47:54 INFO  TestBase:72 - Browser Closed
+2019-09-02 13:50:43 INFO  TestBase:32 - Initiate Browser
+2019-09-02 13:50:56 INFO  TestBase:41 - Browser Initiated
+2019-09-02 13:50:56 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 13:51:03 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=FAILURE method=EditSeverityTest.editSeverity()[pri:0, instance:tests.Severity.EditSeverityTest@11e21d0e] output={null}]
+2019-09-02 13:51:03 INFO  TestBase:70 - Closing Browser
+2019-09-02 13:51:04 INFO  TestBase:72 - Browser Closed
+2019-09-02 13:51:22 INFO  TestBase:32 - Initiate Browser
+2019-09-02 13:51:40 INFO  TestBase:41 - Browser Initiated
+2019-09-02 13:51:40 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 13:51:46 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=FAILURE method=EditSeverityTest.editSeverity()[pri:0, instance:tests.Severity.EditSeverityTest@11e21d0e] output={null}]
+2019-09-02 13:51:46 INFO  TestBase:70 - Closing Browser
+2019-09-02 13:51:47 INFO  TestBase:72 - Browser Closed
+2019-09-02 13:52:02 INFO  TestBase:32 - Initiate Browser
+2019-09-02 13:52:28 INFO  TestBase:41 - Browser Initiated
+2019-09-02 13:52:28 INFO  TestBase:53 - Test name: addSeverity
+2019-09-02 13:52:33 INFO  TestBase:81 - Executed test case name:addSeverity Execution Results : [TestResult name=addSeverity status=FAILURE method=AddSeverityTest.addSeverity()[pri:0, instance:tests.Severity.AddSeverityTest@11e21d0e] output={null}]
+2019-09-02 13:52:33 INFO  TestBase:70 - Closing Browser
+2019-09-02 13:52:34 INFO  TestBase:72 - Browser Closed
+2019-09-02 13:52:43 INFO  TestBase:32 - Initiate Browser
+2019-09-02 13:53:08 INFO  TestBase:41 - Browser Initiated
+2019-09-02 13:53:08 INFO  TestBase:53 - Test name: addSeverity
+2019-09-02 13:53:13 INFO  TestBase:81 - Executed test case name:addSeverity Execution Results : [TestResult name=addSeverity status=FAILURE method=AddSeverityTest.addSeverity()[pri:0, instance:tests.Severity.AddSeverityTest@11e21d0e] output={null}]
+2019-09-02 13:53:13 INFO  TestBase:70 - Closing Browser
+2019-09-02 13:53:14 INFO  TestBase:72 - Browser Closed
+2019-09-02 13:57:31 INFO  TestBase:32 - Initiate Browser
+2019-09-02 13:57:48 INFO  TestBase:41 - Browser Initiated
+2019-09-02 13:57:48 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 13:57:55 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=FAILURE method=EditSeverityTest.editSeverity()[pri:0, instance:tests.Severity.EditSeverityTest@11e21d0e] output={null}]
+2019-09-02 13:57:55 INFO  TestBase:70 - Closing Browser
+2019-09-02 13:57:56 INFO  TestBase:72 - Browser Closed
+2019-09-02 13:59:16 INFO  TestBase:32 - Initiate Browser
+2019-09-02 13:59:28 INFO  TestBase:41 - Browser Initiated
+2019-09-02 13:59:28 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 13:59:35 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=FAILURE method=EditSeverityTest.editSeverity()[pri:0, instance:tests.Severity.EditSeverityTest@11e21d0e] output={null}]
+2019-09-02 13:59:35 INFO  TestBase:70 - Closing Browser
+2019-09-02 13:59:36 INFO  TestBase:72 - Browser Closed
+2019-09-02 14:01:55 INFO  TestBase:32 - Initiate Browser
+2019-09-02 14:02:12 INFO  TestBase:41 - Browser Initiated
+2019-09-02 14:02:12 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 14:02:14 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=SUCCESS method=EditSeverityTest.editSeverity()[pri:0, instance:tests.Severity.EditSeverityTest@11e21d0e] output={null}]
+2019-09-02 14:02:14 INFO  TestBase:70 - Closing Browser
+2019-09-02 14:02:15 INFO  TestBase:72 - Browser Closed
+2019-09-02 14:40:05 INFO  TestBase:32 - Initiate Browser
+2019-09-02 14:40:17 INFO  TestBase:41 - Browser Initiated
+2019-09-02 14:40:17 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 14:40:23 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=FAILURE method=DeleteSeverity.editSeverity()[pri:0, instance:tests.Severity.DeleteSeverity@11e21d0e] output={null}]
+2019-09-02 14:40:23 INFO  TestBase:70 - Closing Browser
+2019-09-02 14:40:24 INFO  TestBase:72 - Browser Closed
+2019-09-02 14:42:26 INFO  TestBase:32 - Initiate Browser
+2019-09-02 14:42:39 INFO  TestBase:41 - Browser Initiated
+2019-09-02 14:42:39 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 14:42:39 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=SUCCESS method=DeleteSeverity.editSeverity()[pri:0, instance:tests.Severity.DeleteSeverity@11e21d0e] output={null}]
+2019-09-02 14:42:39 INFO  TestBase:70 - Closing Browser
+2019-09-02 14:42:40 INFO  TestBase:72 - Browser Closed
+2019-09-02 14:45:55 INFO  TestBase:32 - Initiate Browser
+2019-09-02 14:46:12 INFO  TestBase:41 - Browser Initiated
+2019-09-02 14:46:12 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 14:46:13 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=SUCCESS method=DeleteSeverity.editSeverity()[pri:0, instance:tests.Severity.DeleteSeverity@11e21d0e] output={null}]
+2019-09-02 14:46:13 INFO  TestBase:70 - Closing Browser
+2019-09-02 14:46:13 INFO  TestBase:72 - Browser Closed
+2019-09-02 14:47:23 INFO  TestBase:32 - Initiate Browser
+2019-09-02 14:47:40 INFO  TestBase:41 - Browser Initiated
+2019-09-02 14:47:40 INFO  TestBase:53 - Test name: addSeverity
+2019-09-02 14:47:42 INFO  TestBase:81 - Executed test case name:addSeverity Execution Results : [TestResult name=addSeverity status=SUCCESS method=AddSeverityTest.addSeverity()[pri:0, instance:tests.Severity.AddSeverityTest@11e21d0e] output={null}]
+2019-09-02 14:47:42 INFO  TestBase:70 - Closing Browser
+2019-09-02 14:47:43 INFO  TestBase:72 - Browser Closed
+2019-09-02 15:12:47 INFO  TestBase:32 - Initiate Browser
+2019-09-02 15:13:04 INFO  TestBase:41 - Browser Initiated
+2019-09-02 15:13:04 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 15:13:05 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=SUCCESS method=DeleteSeverity.editSeverity()[pri:0, instance:tests.Severity.DeleteSeverity@11e21d0e] output={null}]
+2019-09-02 15:13:05 INFO  TestBase:70 - Closing Browser
+2019-09-02 15:13:05 INFO  TestBase:72 - Browser Closed
+2019-09-02 15:14:29 INFO  TestBase:32 - Initiate Browser
+2019-09-02 15:14:41 INFO  TestBase:41 - Browser Initiated
+2019-09-02 15:14:41 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 15:14:42 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=SUCCESS method=DeleteSeverity.editSeverity()[pri:0, instance:tests.Severity.DeleteSeverity@11e21d0e] output={null}]
+2019-09-02 15:14:42 INFO  TestBase:70 - Closing Browser
+2019-09-02 15:14:43 INFO  TestBase:72 - Browser Closed
+2019-09-02 15:14:49 INFO  TestBase:32 - Initiate Browser
+2019-09-02 15:15:06 INFO  TestBase:41 - Browser Initiated
+2019-09-02 15:15:06 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 15:15:07 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=SUCCESS method=DeleteSeverity.editSeverity()[pri:0, instance:tests.Severity.DeleteSeverity@11e21d0e] output={null}]
+2019-09-02 15:15:07 INFO  TestBase:70 - Closing Browser
+2019-09-02 15:15:08 INFO  TestBase:72 - Browser Closed
+2019-09-02 15:15:31 INFO  TestBase:32 - Initiate Browser
+2019-09-02 15:15:48 INFO  TestBase:41 - Browser Initiated
+2019-09-02 15:15:48 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 15:15:49 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=SUCCESS method=DeleteSeverity.editSeverity()[pri:0, instance:tests.Severity.DeleteSeverity@11e21d0e] output={null}]
+2019-09-02 15:15:49 INFO  TestBase:70 - Closing Browser
+2019-09-02 15:15:50 INFO  TestBase:72 - Browser Closed
+2019-09-02 15:16:43 INFO  TestBase:32 - Initiate Browser
+2019-09-02 15:16:59 INFO  TestBase:41 - Browser Initiated
+2019-09-02 15:16:59 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 15:17:00 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=SUCCESS method=DeleteSeverity.editSeverity()[pri:0, instance:tests.Severity.DeleteSeverity@11e21d0e] output={null}]
+2019-09-02 15:17:00 INFO  TestBase:70 - Closing Browser
+2019-09-02 15:17:01 INFO  TestBase:72 - Browser Closed
+2019-09-02 15:28:40 INFO  TestBase:32 - Initiate Browser
+2019-09-02 15:28:58 INFO  TestBase:41 - Browser Initiated
+2019-09-02 15:28:58 INFO  TestBase:53 - Test name: editSeverity
+2019-09-02 15:29:00 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=SUCCESS method=EditSeverityTest.editSeverity()[pri:0, instance:tests.Severity.EditSeverityTest@11e21d0e] output={null}]
+2019-09-02 15:29:00 INFO  TestBase:70 - Closing Browser
+2019-09-02 15:29:01 INFO  TestBase:72 - Browser Closed
+2019-09-02 15:36:12 INFO  TestBase:32 - Initiate Browser
+2019-09-02 15:36:19 INFO  TestBase:41 - Browser Initiated
+2019-09-02 15:36:19 INFO  TestBase:53 - Test name: addSeverity
+2019-09-02 15:36:21 INFO  TestBase:81 - Executed test case name:addSeverity Execution Results : [TestResult name=addSeverity status=SUCCESS method=AddSeverityTest.addSeverity()[pri:0, instance:tests.Severity.AddSeverityTest@5e25a92e] output={null}]
+2019-09-02 15:36:21 INFO  TestBase:70 - Closing Browser
+2019-09-02 15:36:22 INFO  TestBase:72 - Browser Closed
+2019-09-02 15:36:22 INFO  TestBase:32 - Initiate Browser
+2019-09-02 15:36:27 INFO  TestBase:41 - Browser Initiated
+2019-09-02 15:36:27 INFO  TestBase:53 - Test name: addSeverity2
+2019-09-02 15:36:29 INFO  TestBase:81 - Executed test case name:addSeverity2 Execution Results : [TestResult name=addSeverity2 status=SUCCESS method=AddSeverityTest.addSeverity2()[pri:0, instance:tests.Severity.AddSeverityTest@5e25a92e] output={null}]
+2019-09-02 15:36:29 INFO  TestBase:70 - Closing Browser
+2019-09-02 15:36:30 INFO  TestBase:72 - Browser Closed
+2019-09-02 15:36:30 INFO  TestBase:32 - Initiate Browser
+2019-09-02 15:36:38 INFO  TestBase:41 - Browser Initiated
+2019-09-02 15:36:38 INFO  TestBase:53 - Test name: addSeverity3
+2019-09-02 15:36:40 INFO  TestBase:81 - Executed test case name:addSeverity3 Execution Results : [TestResult name=addSeverity3 status=SUCCESS method=AddSeverityTest.addSeverity3()[pri:0, instance:tests.Severity.AddSeverityTest@5e25a92e] output={null}]
+2019-09-02 15:36:40 INFO  TestBase:70 - Closing Browser
+2019-09-02 15:36:41 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:20:06 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:20:23 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:20:23 INFO  TestBase:53 - Test name: addPriority1
+2019-09-02 16:20:23 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:20:25 INFO  TestBase:81 - Executed test case name:addPriority1 Execution Results : [TestResult name=addPriority1 status=SUCCESS method=AddPriorityTest.addPriority1()[pri:0, instance:tests.Priority.AddPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:20:25 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:20:26 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:20:40 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:20:52 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:20:52 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:20:53 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:20:53 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:20:53 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:20:54 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:21:57 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:22:09 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:22:09 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:22:10 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:22:10 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:22:11 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:22:12 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:24:31 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:24:37 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:24:37 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:24:38 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:24:38 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:24:38 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:24:39 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:26:20 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:26:37 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:26:37 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:26:38 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:26:38 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:26:38 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:26:39 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:27:13 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:27:26 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:27:26 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:27:26 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:27:26 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:27:27 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:27:28 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:27:45 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:27:51 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:27:51 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:27:52 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:27:52 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:27:52 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:27:53 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:29:07 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:29:24 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:29:24 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:29:24 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:29:25 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:29:25 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:29:26 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:30:58 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:31:15 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:31:15 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:31:16 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:31:16 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:31:16 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:31:17 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:31:44 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:32:01 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:32:01 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:32:02 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:32:02 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:32:02 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:32:03 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:32:24 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:32:41 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:32:41 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:32:42 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:32:42 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:32:42 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:32:43 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:34:07 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:34:24 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:34:24 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:34:25 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:34:25 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:34:25 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:34:26 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:36:16 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:36:23 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:36:23 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:36:23 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:36:23 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:36:24 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:36:25 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:37:22 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:37:39 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:37:39 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:37:39 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:37:39 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:37:40 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:37:40 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:41:00 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:41:17 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:41:17 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:41:18 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:41:18 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:41:18 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:41:18 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:41:37 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:41:39 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:41:56 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:41:56 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:41:57 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:41:57 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:41:58 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:41:58 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:47:23 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:47:29 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:47:29 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:47:30 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:47:35 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:47:35 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:47:35 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:48:35 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:48:52 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:48:52 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:48:53 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:48:53 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=SUCCESS method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:48:53 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:48:53 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:49:16 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:49:33 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:49:33 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:49:33 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:49:33 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:49:34 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:49:34 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:50:30 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:50:36 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:50:36 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:50:37 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:50:37 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:50:37 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:50:37 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:51:27 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:51:38 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:51:38 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:51:38 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:51:50 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:52:07 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:52:07 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:52:08 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:52:08 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:52:08 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:52:08 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:55:00 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:55:07 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:55:24 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:55:24 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:55:25 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:55:30 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:55:30 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:55:30 INFO  TestBase:72 - Browser Closed
+2019-09-02 16:55:36 INFO  TestBase:32 - Initiate Browser
+2019-09-02 16:55:43 INFO  TestBase:41 - Browser Initiated
+2019-09-02 16:55:43 INFO  TestBase:53 - Test name: editPriority
+2019-09-02 16:55:43 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-02 16:55:48 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@11e21d0e] output={null}]
+2019-09-02 16:55:49 INFO  TestBase:70 - Closing Browser
+2019-09-02 16:55:49 INFO  TestBase:72 - Browser Closed
+2019-09-03 10:19:48 INFO  TestBase:32 - Initiate Browser
+2019-09-03 10:20:17 INFO  TestBase:41 - Browser Initiated
+2019-09-03 10:20:17 INFO  TestBase:53 - Test name: addPriority1
+2019-09-03 10:20:22 INFO  TestBase:81 - Executed test case name:addPriority1 Execution Results : [TestResult name=addPriority1 status=FAILURE method=AddPriorityTest.addPriority1()[pri:0, instance:tests.Priority.AddPriorityTest@4df828d7] output={null}]
+2019-09-03 10:20:22 INFO  TestBase:70 - Closing Browser
+2019-09-03 10:20:24 INFO  TestBase:72 - Browser Closed
+2019-09-03 10:20:35 INFO  TestBase:32 - Initiate Browser
+2019-09-03 10:21:02 INFO  TestBase:41 - Browser Initiated
+2019-09-03 10:21:02 INFO  TestBase:53 - Test name: addPriority1
+2019-09-03 10:21:07 INFO  TestBase:81 - Executed test case name:addPriority1 Execution Results : [TestResult name=addPriority1 status=FAILURE method=AddPriorityTest.addPriority1()[pri:0, instance:tests.Priority.AddPriorityTest@4df828d7] output={null}]
+2019-09-03 10:21:07 INFO  TestBase:70 - Closing Browser
+2019-09-03 10:21:08 INFO  TestBase:72 - Browser Closed
+2019-09-03 10:27:46 INFO  TestBase:32 - Initiate Browser
+2019-09-03 10:28:01 INFO  TestBase:41 - Browser Initiated
+2019-09-03 10:28:01 INFO  TestBase:53 - Test name: editPriority
+2019-09-03 10:28:03 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-03 10:28:08 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@4df828d7] output={null}]
+2019-09-03 10:28:09 INFO  TestBase:70 - Closing Browser
+2019-09-03 10:28:10 INFO  TestBase:72 - Browser Closed
+2019-09-03 10:28:28 INFO  TestBase:32 - Initiate Browser
+2019-09-03 10:28:44 INFO  TestBase:41 - Browser Initiated
+2019-09-03 10:28:44 INFO  TestBase:53 - Test name: addPriority1
+2019-09-03 10:28:45 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-03 10:28:49 INFO  TestBase:81 - Executed test case name:addPriority1 Execution Results : [TestResult name=addPriority1 status=SUCCESS method=AddPriorityTest.addPriority1()[pri:0, instance:tests.Priority.AddPriorityTest@4df828d7] output={null}]
+2019-09-03 10:28:49 INFO  TestBase:70 - Closing Browser
+2019-09-03 10:28:50 INFO  TestBase:72 - Browser Closed
+2019-09-03 10:33:30 INFO  TestBase:32 - Initiate Browser
+2019-09-03 10:33:45 INFO  TestBase:41 - Browser Initiated
+2019-09-03 10:33:45 INFO  TestBase:53 - Test name: editPriority
+2019-09-03 10:33:46 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-03 10:33:51 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@4df828d7] output={null}]
+2019-09-03 10:33:52 INFO  TestBase:70 - Closing Browser
+2019-09-03 10:33:53 INFO  TestBase:72 - Browser Closed
+2019-09-03 10:34:07 INFO  TestBase:32 - Initiate Browser
+2019-09-03 10:34:26 INFO  TestBase:41 - Browser Initiated
+2019-09-03 10:34:26 INFO  TestBase:53 - Test name: editPriority
+2019-09-03 10:34:28 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-03 10:34:28 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=SUCCESS method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@4df828d7] output={null}]
+2019-09-03 10:34:28 INFO  TestBase:70 - Closing Browser
+2019-09-03 10:34:29 INFO  TestBase:72 - Browser Closed
+2019-09-03 10:34:52 INFO  TestBase:32 - Initiate Browser
+2019-09-03 10:35:12 INFO  TestBase:41 - Browser Initiated
+2019-09-03 10:35:12 INFO  TestBase:53 - Test name: editPriority
+2019-09-03 10:35:13 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-03 10:35:19 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@4df828d7] output={null}]
+2019-09-03 10:35:19 INFO  TestBase:70 - Closing Browser
+2019-09-03 10:35:20 INFO  TestBase:72 - Browser Closed
+2019-09-03 10:35:53 INFO  TestBase:32 - Initiate Browser
+2019-09-03 10:36:08 INFO  TestBase:41 - Browser Initiated
+2019-09-03 10:36:08 INFO  TestBase:53 - Test name: editPriority
+2019-09-03 10:36:09 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-03 10:36:15 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@4df828d7] output={null}]
+2019-09-03 10:36:15 INFO  TestBase:70 - Closing Browser
+2019-09-03 10:36:16 INFO  TestBase:72 - Browser Closed
+2019-09-03 10:36:24 INFO  TestBase:32 - Initiate Browser
+2019-09-03 10:36:40 INFO  TestBase:41 - Browser Initiated
+2019-09-03 10:36:40 INFO  TestBase:53 - Test name: editPriority
+2019-09-03 10:36:41 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-03 10:36:47 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@4df828d7] output={null}]
+2019-09-03 10:36:47 INFO  TestBase:70 - Closing Browser
+2019-09-03 10:36:48 INFO  TestBase:72 - Browser Closed
+2019-09-03 10:37:11 INFO  TestBase:32 - Initiate Browser
+2019-09-03 10:37:31 INFO  TestBase:41 - Browser Initiated
+2019-09-03 10:37:31 INFO  TestBase:53 - Test name: editPriority
+2019-09-03 10:37:32 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-03 10:37:38 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@4df828d7] output={null}]
+2019-09-03 10:37:38 INFO  TestBase:70 - Closing Browser
+2019-09-03 10:37:39 INFO  TestBase:72 - Browser Closed
+2019-09-03 10:38:12 INFO  TestBase:32 - Initiate Browser
+2019-09-03 10:38:27 INFO  TestBase:41 - Browser Initiated
+2019-09-03 10:38:27 INFO  TestBase:53 - Test name: editPriority
+2019-09-03 10:38:28 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-03 10:38:33 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@4df828d7] output={null}]
+2019-09-03 10:38:34 INFO  TestBase:70 - Closing Browser
+2019-09-03 10:38:35 INFO  TestBase:72 - Browser Closed
+2019-09-03 10:39:55 INFO  TestBase:32 - Initiate Browser
+2019-09-03 10:40:15 INFO  TestBase:41 - Browser Initiated
+2019-09-03 10:40:15 INFO  TestBase:53 - Test name: editPriority
+2019-09-03 10:40:21 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@4df828d7] output={null}]
+2019-09-03 10:40:21 INFO  TestBase:70 - Closing Browser
+2019-09-03 10:40:23 INFO  TestBase:72 - Browser Closed
+2019-09-03 10:40:29 INFO  TestBase:32 - Initiate Browser
+2019-09-03 10:40:49 INFO  TestBase:41 - Browser Initiated
+2019-09-03 10:40:49 INFO  TestBase:53 - Test name: editPriority
+2019-09-03 10:40:50 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-03 10:40:51 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=SUCCESS method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@4df828d7] output={null}]
+2019-09-03 10:40:51 INFO  TestBase:70 - Closing Browser
+2019-09-03 10:40:52 INFO  TestBase:72 - Browser Closed
+2019-09-03 10:41:17 INFO  TestBase:32 - Initiate Browser
+2019-09-03 10:41:37 INFO  TestBase:41 - Browser Initiated
+2019-09-03 10:41:37 INFO  TestBase:53 - Test name: editPriority
+2019-09-03 10:41:38 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-03 10:41:46 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=FAILURE method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@4df828d7] output={null}]
+2019-09-03 10:41:46 INFO  TestBase:70 - Closing Browser
+2019-09-03 10:41:48 INFO  TestBase:72 - Browser Closed
+2019-09-03 10:44:07 INFO  TestBase:32 - Initiate Browser
+2019-09-03 10:44:27 INFO  TestBase:41 - Browser Initiated
+2019-09-03 10:44:27 INFO  TestBase:53 - Test name: editPriority
+2019-09-03 10:44:28 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-03 10:44:32 INFO  TestBase:81 - Executed test case name:editPriority Execution Results : [TestResult name=editPriority status=SUCCESS method=EditPriorityTest.editPriority()[pri:0, instance:tests.Priority.EditPriorityTest@4df828d7] output={null}]
+2019-09-03 10:44:32 INFO  TestBase:70 - Closing Browser
+2019-09-03 10:44:33 INFO  TestBase:72 - Browser Closed
+2019-09-03 10:49:51 INFO  TestBase:32 - Initiate Browser
+2019-09-03 10:50:10 INFO  TestBase:41 - Browser Initiated
+2019-09-03 10:50:10 INFO  TestBase:53 - Test name: addPriority4
+2019-09-03 10:50:12 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-03 10:50:15 INFO  TestBase:81 - Executed test case name:addPriority4 Execution Results : [TestResult name=addPriority4 status=SUCCESS method=AddPriorityTest.addPriority4()[pri:0, instance:tests.Priority.AddPriorityTest@4df828d7] output={null}]
+2019-09-03 10:50:15 INFO  TestBase:70 - Closing Browser
+2019-09-03 10:50:16 INFO  TestBase:72 - Browser Closed
+2019-09-03 11:10:21 INFO  TestBase:32 - Initiate Browser
+2019-09-03 11:10:30 INFO  TestBase:41 - Browser Initiated
+2019-09-03 11:10:30 INFO  TestBase:53 - Test name: deletePriority
+2019-09-03 11:10:31 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-03 11:10:37 INFO  TestBase:81 - Executed test case name:deletePriority Execution Results : [TestResult name=deletePriority status=FAILURE method=DeletePriorityTest.deletePriority()[pri:0, instance:tests.Priority.DeletePriorityTest@4df828d7] output={null}]
+2019-09-03 11:10:37 INFO  TestBase:70 - Closing Browser
+2019-09-03 11:10:38 INFO  TestBase:72 - Browser Closed
+2019-09-03 11:12:17 INFO  TestBase:32 - Initiate Browser
+2019-09-03 11:12:37 INFO  TestBase:41 - Browser Initiated
+2019-09-03 11:12:37 INFO  TestBase:53 - Test name: deletePriority
+2019-09-03 11:12:39 INFO  PriorityPage:33 - Priority Page is Displayed 
+2019-09-03 11:12:44 INFO  TestBase:81 - Executed test case name:deletePriority Execution Results : [TestResult name=deletePriority status=FAILURE method=DeletePriorityTest.deletePriority()[pri:0, instance:tests.Priority.DeletePriorityTest@4df828d7] output={null}]
+2019-09-03 11:12:44 INFO  TestBase:70 - Closing Browser
+2019-09-03 11:12:45 INFO  TestBase:72 - Browser Closed
+2019-09-03 11:14:06 INFO  TestBase:32 - Initiate Browser
+2019-09-03 11:14:15 INFO  TestBase:41 - Browser Initiated
+2019-09-03 11:14:15 INFO  TestBase:53 - Test name: deletePriority
+2019-09-03 11:14:17 INFO  PriorityPage:34 - Priority Page is Displayed 
+2019-09-03 11:14:17 INFO  TestBase:81 - Executed test case name:deletePriority Execution Results : [TestResult name=deletePriority status=SUCCESS method=DeletePriorityTest.deletePriority()[pri:0, instance:tests.Priority.DeletePriorityTest@4df828d7] output={null}]
+2019-09-03 11:14:17 INFO  TestBase:70 - Closing Browser
+2019-09-03 11:14:18 INFO  TestBase:72 - Browser Closed
+2019-09-03 12:22:38 INFO  TestBase:32 - Initiate Browser
+2019-09-03 12:22:59 INFO  TestBase:41 - Browser Initiated
+2019-09-03 12:22:59 INFO  TestBase:53 - Test name: addPriority1
+2019-09-03 12:23:01 INFO  PriorityPage:42 - Priority Page is Displayed 
+2019-09-03 12:23:05 INFO  TestBase:81 - Executed test case name:addPriority1 Execution Results : [TestResult name=addPriority1 status=SUCCESS method=AddPriorityTest.addPriority1()[pri:0, instance:tests.Priority.AddPriorityTest@7fad8c79] output={null}]
+2019-09-03 12:23:05 INFO  TestBase:70 - Closing Browser
+2019-09-03 12:23:06 INFO  TestBase:72 - Browser Closed
+2019-09-03 12:23:06 INFO  TestBase:32 - Initiate Browser
+2019-09-03 12:23:19 INFO  TestBase:41 - Browser Initiated
+2019-09-03 12:23:19 INFO  TestBase:53 - Test name: addPriority2
+2019-09-03 12:23:25 INFO  AddPriorityTest:50 - Priority Added
+2019-09-03 12:23:25 INFO  TestBase:81 - Executed test case name:addPriority2 Execution Results : [TestResult name=addPriority2 status=SUCCESS method=AddPriorityTest.addPriority2()[pri:0, instance:tests.Priority.AddPriorityTest@7fad8c79] output={null}]
+2019-09-03 12:23:25 INFO  TestBase:70 - Closing Browser
+2019-09-03 12:23:27 INFO  TestBase:72 - Browser Closed
+2019-09-03 12:23:27 INFO  TestBase:32 - Initiate Browser
+2019-09-03 12:23:41 INFO  TestBase:41 - Browser Initiated
+2019-09-03 12:23:41 INFO  TestBase:53 - Test name: addPriority3
+2019-09-03 12:23:42 INFO  PriorityPage:42 - Priority Page is Displayed 
+2019-09-03 12:23:46 INFO  TestBase:81 - Executed test case name:addPriority3 Execution Results : [TestResult name=addPriority3 status=SUCCESS method=AddPriorityTest.addPriority3()[pri:0, instance:tests.Priority.AddPriorityTest@7fad8c79] output={null}]
+2019-09-03 12:23:46 INFO  TestBase:70 - Closing Browser
+2019-09-03 12:23:47 INFO  TestBase:72 - Browser Closed
+2019-09-03 12:23:47 INFO  TestBase:32 - Initiate Browser
+2019-09-03 12:24:01 INFO  TestBase:41 - Browser Initiated
+2019-09-03 12:24:01 INFO  TestBase:53 - Test name: addPriority4
+2019-09-03 12:24:02 INFO  PriorityPage:42 - Priority Page is Displayed 
+2019-09-03 12:24:06 INFO  TestBase:81 - Executed test case name:addPriority4 Execution Results : [TestResult name=addPriority4 status=SUCCESS method=AddPriorityTest.addPriority4()[pri:0, instance:tests.Priority.AddPriorityTest@7fad8c79] output={null}]
+2019-09-03 12:24:06 INFO  TestBase:70 - Closing Browser
+2019-09-03 12:24:07 INFO  TestBase:72 - Browser Closed
