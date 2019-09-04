@@ -1,6 +1,7 @@
 package utils;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
@@ -21,6 +22,7 @@ public class MethodBase extends PageBase{
     }
     public static void setText_ByXpath(String locator,String inputText) {
         getDriver().findElement(By.xpath(locator)).sendKeys(inputText);
+
     }
     public static void clickButton_ById(String locator) {
         getDriver().findElement(By.id(locator)).click();
@@ -61,7 +63,11 @@ public class MethodBase extends PageBase{
         type.click(getDriver().findElement(By.xpath(locator2))).build().perform();
     }
 
+    public static String get_Text(String locator) {
 
+        return getDriver().findElement(By.xpath(locator)).getText();
+
+    }
 
     public static void assertEqual_Text_ById(String locator, String expectedText) {
 
@@ -72,8 +78,8 @@ public class MethodBase extends PageBase{
     public static void assertEqual_Text_ByXpath(String locator, String expectedText) {
         SoftAssert softAssert = new SoftAssert();
         String actualText = getDriver().findElement(By.xpath(locator)).getText();
-
-        softAssert.assertEquals(actualText, expectedText);
+        softAssert.assertEquals(actualText,expectedText);
+        //softAssert.assertAll();
     }
 //    public static void assertTrue( boolean condition) {
 //        Assert.assertTrue(condition,"condition failed");

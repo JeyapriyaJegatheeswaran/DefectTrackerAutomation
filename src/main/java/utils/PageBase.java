@@ -20,7 +20,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class PageBase {
     private static WebDriver driver;
 
-    private static String baseUrl = "http://192.168.1.189:3000/";
+    private static String baseUrl = "http://192.168.1.189:3000";
+
     private static String webDriverLocation = "src"+File.separator+"test"+File.separator+"resources"+File.separator+"driver"+File.separator;
     protected static String downloadFilepath = System.getProperty("user.dir")+File.separator+"src"+File.separator+"test"+File.separator+"resources"+File.separator+"fileDownload";
     protected static String uploadFilepath = System.getProperty("user.dir")+File.separator+"src"+File.separator+"test"+File.separator+"resources"+File.separator+"fileUpload";

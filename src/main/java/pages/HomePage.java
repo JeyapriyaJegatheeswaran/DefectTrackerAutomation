@@ -17,11 +17,20 @@ public class HomePage extends PageBase {
     private static String hdrHome = "//span[text()=\"Dashboard Component\"]";
 
     private static String moduleMenu = "//a[@href=\"#/module\"]";
-    private static String settingMenu = "//*[@id=\"root\"]/div/section/aside/div/ul/li[9]/div";
+    private static String settingMenu = "//span[text()=\"Setting\"]";
     private static String generalConfigSubMenu = "//*[@id=\"sub4$Menu\"]/li[4]/div";
     private static String prioritySubmenu = "//*[@id=\"sub5$Menu\"]/li[1]/a";
     private static String severitySubment = "//*[@id=\"sub5$Menu\"]/li[2]/a";
 
+
+
+    private static String configurationSubMenu = "//*[@id=\"sub4$Menu\"]/li[4]/div[1]/span/span";
+    private static String defectTypeSubMenu = "//*[@href=\"#/config/defecttype\"]";
+
+
+    private static String projectMenu = "//a[@href=\"#/project\"]";
+    private static String companyMenu = "//*[@id=\"root\"]/div/section/aside/div/ul/li[4]/div/span/span";
+    private static String employeeSubMenu = "//*[@id=\"sub2$Menu\"]/li[3]";
 
 
     public static void clickDefectMenu() {
@@ -32,9 +41,25 @@ public class HomePage extends PageBase {
         MethodBase.click_ByXpath(defectSubMenu);
 
     }
+
+    public static void clickProjectMenu() {
+        MethodBase.click_ByXpath(projectMenu);
+
+    }
+    public static void clickCompanyMenu() {
+        MethodBase.click_ByXpath(companyMenu);
+
+    }
+    public static void clickEmployeeSubMenu() {
+        MethodBase.click_ByXpath(employeeSubMenu);
+
+    }
+
     public static boolean isHomePageDisplayed() {
         return MethodBase.isDisplayed_ByXpath(hdrHome);
     }
+    public static void clickModule(){
+            MethodBase.click_ByXpath(moduleMenu);}
     public static void clickSetting(){
         MethodBase.click_ByXpath(settingMenu);
     }
@@ -47,10 +72,8 @@ public class HomePage extends PageBase {
     public static void clickSeverity(){
         MethodBase.click_ByXpath(severitySubment);
     }
-    public static void clickModule(){
-            MethodBase.click_ByXpath(moduleMenu);
 
-    }
+
 
 
 //    public static void Login(String username, String password) {
@@ -58,5 +81,16 @@ public class HomePage extends PageBase {
 //        MethodBase.setText_ByID(txtPassword,password);
 //        MethodBase.clickButton_ById(btnLogin);
 //    }
+
+    public static void clickSettingMenu(){
+        MethodBase.click_ByXpath(settingMenu);
     }
+    public static void clickConficurationSubMenu(){
+        MethodBase.click_ByXpath(configurationSubMenu);
+    }
+    public static void clickDefectTypeSubMenu(){
+        MethodBase.click_ByXpath(defectTypeSubMenu);
+    }
+
+}
 
