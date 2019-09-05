@@ -17,5 +17,18 @@ public class AddEmployee  extends TestBase {
         HomePage.clickEmployeeSubMenu();
         EmployeePage.isEmployeePageDisplayed();
         EmployeePage.AddEmployee("Emp03","Jana","Thass","jana2@gmail.com");
+        EmployeePage.PageRefresh();
+        EmployeePage.ScessfullyAddedValidation();
+    }
+    @Test(priority = 2)
+    public void addEmployeeWithBlankEmpID() {
+        SoftAssert softAssert = new SoftAssert();
+        implicitWait(5);
+        staticWait(5);
+        HomePage.clickCompanyMenu();
+        HomePage.clickEmployeeSubMenu();
+        EmployeePage.isEmployeePageDisplayed();
+        EmployeePage.AddEmployee("","Jana","Thass","jana2@gmail.com");
+        EmployeePage.BlankEmpIdValidation();
     }
 }
