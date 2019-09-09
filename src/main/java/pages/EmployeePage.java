@@ -18,7 +18,7 @@ public class EmployeePage extends PageBase {
     private static String txtEmployeeName = "employeeName";
     private static String txtEmployeeFirstName = "employeeFirstName";
     private static String drpDesignation = "//*[@id=\"gender\"]";
-    private static String designationValue = "//li[text()=\"QA\"]";
+    private static String designationValue = "//li[text()=\"employee\"]";
     private static String txtEmail = "employeeEmail";
     private static String btnOK = "/html/body/div[6]/div/div[2]/div/div[2]/div[3]/div/button[2]";
     private static String btnAddValue = "//td[text()=\"EMP03\"]";
