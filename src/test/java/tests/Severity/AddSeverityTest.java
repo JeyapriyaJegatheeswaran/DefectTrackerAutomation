@@ -13,7 +13,7 @@ public class AddSeverityTest extends TestBase {
 
     @Test
     public void addSeverity() {
-        SoftAssert softAssert = new SoftAssert();
+
         implicitWait(5);
         HomePage.clickSetting();
         HomePage.clickGeneralconfig();
@@ -32,7 +32,6 @@ public class AddSeverityTest extends TestBase {
     }
     @Test
     public void addSeverity2() {
-        SoftAssert softAssert = new SoftAssert();
         implicitWait(5);
         HomePage.clickSetting();
         HomePage.clickGeneralconfig();
@@ -51,7 +50,6 @@ public class AddSeverityTest extends TestBase {
     }
     @Test
     public void addSeverity3() {
-        SoftAssert softAssert = new SoftAssert();
         implicitWait(5);
         HomePage.clickSetting();
         HomePage.clickGeneralconfig();
@@ -66,6 +64,7 @@ public class AddSeverityTest extends TestBase {
         SeverityPage.clickColor();
         SeverityPage.selectColor();
         SeverityPage.clickAddOKbtn();
+
 
     }
 
