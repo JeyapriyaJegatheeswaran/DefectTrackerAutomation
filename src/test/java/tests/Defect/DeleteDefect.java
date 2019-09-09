@@ -9,8 +9,7 @@ import utils.TestBase;
 
 public class DeleteDefect extends TestBase {
     @Test(priority=1)
-    public void addDefect() {
-        SoftAssert softAssert=new SoftAssert();
+    public void deleteDefect() {
         implicitWait(5);
         softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
         staticWait(2);

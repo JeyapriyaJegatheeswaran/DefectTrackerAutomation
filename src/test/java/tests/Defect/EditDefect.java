@@ -5,13 +5,12 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.DefectPage;
 import pages.HomePage;
-import utils.JiraPolicy;
-import utils.MethodBase;
 import utils.TestBase;
 
-public class AddDefect extends TestBase {
+public class EditDefect extends TestBase {
     @Test(priority=1)
-    public void addDefect() {
+    public void editDefect() {
+        SoftAssert softAssert=new SoftAssert();
         implicitWait(5);
         softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
         staticWait(2);
@@ -26,7 +25,7 @@ public class AddDefect extends TestBase {
     }
     @Test(priority=2)
     public void addDefectWithoutData() {
-
+        SoftAssert softAssert=new SoftAssert();
         implicitWait(5);
         softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
         staticWait(2);

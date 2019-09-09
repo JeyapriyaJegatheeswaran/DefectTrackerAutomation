@@ -10,8 +10,8 @@ import utils.TestBase;
 
 public class AddDefectType extends TestBase {
     @Test(priority=1)
-    public void addDefect() {
-        SoftAssert softAssert=new SoftAssert();
+    public void addDefectType() {
+
         implicitWait(5);
         softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
         staticWait(2);
