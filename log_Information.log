@@ -127,6 +127,7 @@
 2019-09-09 16:02:43 INFO  TestBase:81 - Executed test case name:getMeassage Execution Results : [TestResult name=getMeassage status=FAILURE method=DefectStatus.getMeassage()[pri:0, instance:tests.DefectStatus.DefectStatus@62fdb4a6] output={null}]
 2019-09-09 16:02:44 INFO  TestBase:70 - Closing Browser
 2019-09-09 16:02:45 INFO  TestBase:72 - Browser Closed
+<<<<<<< HEAD
 2019-09-09 16:57:17 INFO  TestBase:32 - Initiate Browser
 2019-09-09 16:57:43 INFO  TestBase:41 - Browser Initiated
 2019-09-09 16:57:43 INFO  TestBase:53 - Test name: testLogin
@@ -424,3 +425,11 @@
 2019-09-10 14:28:25 INFO  TestBase:81 - Executed test case name:getMeassage Execution Results : [TestResult name=getMeassage status=FAILURE method=DefectStatus.getMeassage()[pri:0, instance:tests.DefectStatus.DefectStatus@4659191b] output={null}]
 2019-09-10 14:28:26 INFO  TestBase:70 - Closing Browser
 2019-09-10 14:28:27 INFO  TestBase:72 - Browser Closed
+=======
+2019-09-10 10:31:13 INFO  TestBase:32 - Initiate Browser
+2019-09-10 10:31:29 INFO  TestBase:41 - Browser Initiated
+2019-09-10 10:31:29 INFO  TestBase:53 - Test name: addDefectType
+2019-09-10 10:31:37 INFO  TestBase:81 - Executed test case name:addDefectType Execution Results : [TestResult name=addDefectType status=SUCCESS method=AddDefectType.addDefectType()[pri:0, instance:tests.Defect.AddDefectType@45afc369] output={null}]
+2019-09-10 10:31:37 INFO  TestBase:70 - Closing Browser
+2019-09-10 10:31:38 INFO  TestBase:72 - Browser Closed
+>>>>>>> 3e73f077321866f414abb990900dd70589339416

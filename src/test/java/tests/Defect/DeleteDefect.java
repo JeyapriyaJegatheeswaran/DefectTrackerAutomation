@@ -2,8 +2,7 @@ package tests.Defect;
 
 
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
-import pages.DefectPage;
+import pages.Defect.DefectPage;
 import pages.HomePage;
 import utils.TestBase;
 
@@ -16,7 +15,7 @@ public class DeleteDefect extends TestBase {
         HomePage.clickDefectMenu();
         staticWait(2);
         HomePage.clickDefectSubMenu();
-        softAssert.assertTrue(DefectPage.isDefectPageDisplayed(),"Defect Page is not Displayed");
+        softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
         DefectPage.deleteDefect();
         //softAssert.assertEquals(DefectPage.getResult(),"jp1234","not match");
         softAssert.assertAll();

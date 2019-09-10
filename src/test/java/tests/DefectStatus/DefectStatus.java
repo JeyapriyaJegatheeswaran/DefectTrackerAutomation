@@ -3,7 +3,6 @@ package tests.DefectStatus;
 import com.relevantcodes.extentreports.LogStatus;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import pages.DefectPage;
 import pages.DefectStatusPage;
 import pages.HomePage;
 import pages.ModulePage;
