@@ -3,6 +3,7 @@ package tests.DefectStatus;
 import com.relevantcodes.extentreports.LogStatus;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+import pages.Defect.AddDefectPage;
 import pages.DefectStatusPage;
 import pages.HomePage;
 import pages.ModulePage;
@@ -210,8 +211,17 @@ public class DefectStatus  extends TestBase {
         DefectStatusPage.clickClickDefectStatus();
         extentTest.log(LogStatus.PASS, "Click Defect Status");
         softAssert.assertTrue(DefectStatusPage.isDefectAddStatusDisplayed(), "AddStatus Button not Displayed");
+        extentTest.log(LogStatus.PASS, "Log AddStatus Button Show");
+        DefectStatusPage.clickAddStatus();
+        staticWait(3);
+        extentTest.log(LogStatus.PASS, "Click Add Status");
+        softAssert.assertTrue(DefectStatusPage.isDefectStatusAddfromDisplayed(), "AddStatus Form not Displayed");
+        extentTest.log(LogStatus.PASS, "Successfull Show Add form");
+        DefectStatusPage.setDefectType("df");
+        DefectStatusPage.setDefectDescription("kkk");
+        softAssert.assertEquals(DefectStatusPage.CheckValidMsg("Required more than 3 charecters"),"Required more than 3 charecters","fail");
+        softAssert.assertEquals(DefectStatusPage.CheckValidMsg("Required more than 5 charecters"),"Required more than 5 charecters","fail");
         softAssert.assertAll();
-
     }
 
 }
