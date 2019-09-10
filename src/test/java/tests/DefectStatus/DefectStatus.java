@@ -136,7 +136,7 @@ public class DefectStatus  extends TestBase {
         softAssert.assertEquals(DefectStatusPage.getResult(),"TESTTEST"," This Data not matching");
         softAssert.assertAll();
     }
-    @Test(groups = "tests",priority=5)
+    @Test(groups = "tests",priority=7)
     public void getMeassage() {
         softAssert = new SoftAssert();
         PageBase.implicitWait(2);
@@ -162,6 +162,57 @@ public class DefectStatus  extends TestBase {
         softAssert.assertEquals(DefectStatusPage.CheckValidMsg("Invalid Data"),"Invalid Data","fail");
         softAssert.assertAll();
     }
+    @Test(groups = "tests",priority=5)
+     public void  SidebarTest() {
+//        softAssert = new SoftAssert();
+//        softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
+//        extentTest.log(LogStatus.PASS, "Dashboard Page Show");
+//        DefectStatusPage.clickSetting();
+//        staticWait(3);
+//        extentTest.log(LogStatus.PASS, "Click Setting Tab");
+//        softAssert.assertTrue(DefectStatusPage.isDisplayedGeneralConfiguration(), "GeneralConfiguration not Displayed");
+//        extentTest.log(LogStatus.PASS, "GeneralConfiguration Show");
+//       // DefectStatusPage.clickGeneralConfiguration();
+//        softAssert.assertAll();
+    }
+    @Test(groups = "tests",priority=6)
+    public void  addstatustest() {
+//        softAssert = new SoftAssert();
+//        softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
+//        extentTest.log(LogStatus.PASS, "Dashboard Page Show");
+//        DefectStatusPage.clickSetting();
+//        staticWait(3);
+//        extentTest.log(LogStatus.PASS, "Click Setting Tab");
+//        softAssert.assertTrue(DefectStatusPage.isDisplayedGeneralConfiguration(), "GeneralConfiguration not Displayed");
+//        extentTest.log(LogStatus.PASS, "GeneralConfiguration Show");
+//        DefectStatusPage.clickGeneralConfiguration();
+//        staticWait(3);
+//        extentTest.log(LogStatus.PASS, "Click Configuration");
+//        softAssert.assertTrue(DefectStatusPage.isDefectStatusDisplayed(), "DefectStatus Tab not Displayed");
+//        extentTest.log(LogStatus.PASS, "Status Tab Show");
+//        softAssert.assertAll();
 
+    }
+    @Test(groups = "tests",priority=6)
+    public void  addstatus() {
+        softAssert = new SoftAssert();
+        softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
+        extentTest.log(LogStatus.PASS, "Dashboard Page Show");
+        DefectStatusPage.clickSetting();
+        staticWait(3);
+        extentTest.log(LogStatus.PASS, "Click Setting Tab");
+        softAssert.assertTrue(DefectStatusPage.isDisplayedGeneralConfiguration(), "GeneralConfiguration not Displayed");
+        extentTest.log(LogStatus.PASS, "GeneralConfiguration Show");
+        DefectStatusPage.clickGeneralConfiguration();
+        staticWait(3);
+        extentTest.log(LogStatus.PASS, "Click Configuration");
+        softAssert.assertTrue(DefectStatusPage.isDefectStatusDisplayed(), "DefectStatus Tab not Displayed");
+        extentTest.log(LogStatus.PASS, "Status Tab Show");
+        DefectStatusPage.clickClickDefectStatus();
+        extentTest.log(LogStatus.PASS, "Click Defect Status");
+        softAssert.assertTrue(DefectStatusPage.isDefectAddStatusDisplayed(), "AddStatus Button not Displayed");
+        softAssert.assertAll();
+
+    }
 
 }
