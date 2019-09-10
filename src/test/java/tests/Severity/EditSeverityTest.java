@@ -9,10 +9,35 @@ import utils.TestBase;
 import static utils.PageBase.implicitWait;
 
 public class EditSeverityTest extends TestBase {
+    @Test
+    public void severityEditBtnVerify() {
+
+        implicitWait(5);
+        HomePage.clickSetting();
+        HomePage.clickGeneralconfig();
+        HomePage.clickSeverity();
+        SeverityPage.isSeverityPageDisplay();
+        softAssert.assertTrue(SeverityPage.isDisplayEditBtn(),"Edit Button not Display");
+
+    }
+
+    @Test
+    public void editSeverityFormVerify() {
+
+        implicitWait(5);
+        HomePage.clickSetting();
+        HomePage.clickGeneralconfig();
+        HomePage.clickSeverity();
+        SeverityPage.isSeverityPageDisplay();
+        SeverityPage.clickEditbtn();
+        softAssert.assertEquals(SeverityPage.isSeverityEditFormDisplay(),"Edit Severity");
+
+    }
+
 
     @Test
     public void editSeverity() {
-        SoftAssert softAssert = new SoftAssert();
+
         implicitWait(5);
         HomePage.clickSetting();
         HomePage.clickGeneralconfig();

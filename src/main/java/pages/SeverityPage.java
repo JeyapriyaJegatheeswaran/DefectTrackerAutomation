@@ -1,11 +1,24 @@
 package pages;
 
+import org.openqa.selenium.By;
 import utils.MethodBase;
+
+import static utils.PageBase.getDriver;
 
 public class SeverityPage {
 
     private static String btnAddSeverityVerify = "//span[text()=\"Add severity\"]";
     private static String btnAddSeverity = "//*[@id=\"root\"]/div/section/section/main/div/div[2]/button";
+    //Add Severity
+    private static String formAddSeverityVerify = "//div[text()=\" Add severity\"]";
+    private static By severityAddFormVerifyText = By.xpath("//div[text()=\" Add severity\"]");
+
+    private static By nameVerify = By.xpath("//label[@title=\"Name\"]");
+    private static By descriptionVerify = By.xpath("//label[@title=\"Description\"]");
+    private static By IconVerify = By.xpath("//label[@title=\"Icon\"]");
+    private static By ColorVerify = By.xpath("//label[@title=\"Colour\"]");
+    private static By OKBtnVerify = By.xpath("//span[text()=\"OK\"]");
+    private static By CancleBtnVerify = By.xpath("//span[text()=\"Cancel\"]");
 
     private static String severityName = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[1]/div[2]/div/span/input";
     private static String severityDescription = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[2]/div[2]/div/span/input";
@@ -15,7 +28,9 @@ public class SeverityPage {
     private static String selectColor = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div[2]/div[2]/div[4]/div[8]/span";
     private static String okBtn = "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[2]";
 
-    private static String editBtn = "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[td[2][.='Hight']]/td[6]/span/i[1]";
+    //Edit Severity
+    private static By editBtnVerify = By.xpath("//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[td[2][.='Medium']]/td[6]/span/i[1]");
+    private static String editBtn = "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[td[2][.='High']]/td[6]/span/i[1]";
     private static String severityNameEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[1]/div[2]/div/span/input";
     private static String severityDescriptionEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[2]/div[2]/div/span/input";
     private static String icon1Edited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[3]/div[2]/div/span/div/div[1]/div[1]";
@@ -24,16 +39,47 @@ public class SeverityPage {
     private static String selectColorEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div[2]/div[2]/div[4]/div[8]/span";
     private static String okBtnEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[2]";
 
+    private static String formEditSeverityVerify = "//div[text()=\"Edit Severity\"]";
+
     private static String deleteBtn = "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[td[2][.='gjh']]/td[6]/span/i[2]";
     private static String deleteOKbtn = "/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/button[2]";
 
-    //Add Severity
+    //Add_Severity
+
     public static void isSeverityPageDisplay() {
         MethodBase.isDisplayed_ByXpath(btnAddSeverityVerify);
     }
     public static void clickAddSeveritybtn(){
         MethodBase.clickButton_ByXpath(btnAddSeverity);
     }
+    public static void isSeverityAddFormDisplay() {
+        MethodBase.isDisplayed_ByXpath(formAddSeverityVerify);
+    }
+    public static String severityFormVerifyText() {
+        return  getDriver().findElement(severityAddFormVerifyText).getText();
+    }
+    //Add Severity Item Verify
+
+    public static String isDisplayName() {
+        return  getDriver().findElement(nameVerify).getText();
+    }
+    public static String isDisplayDescription() {
+        return  getDriver().findElement(descriptionVerify).getText();
+    }
+    public static String isDisplayIcon() {
+        return  getDriver().findElement(IconVerify).getText();
+    }
+    public static String isDisplayColor() {
+        return  getDriver().findElement(ColorVerify).getText();
+    }
+    public static String isDisplayOKBtn() {
+        return  getDriver().findElement(OKBtnVerify).getText();
+    }
+    public static String isDisplayCancleBtn() {
+        return  getDriver().findElement(CancleBtnVerify).getText();
+    }
+    //Add Severity Item
+
     public static void clearSeverityName(){
         MethodBase.clear_ByXpath(severityName);
     }
@@ -55,8 +101,15 @@ public class SeverityPage {
     }
 
     //Edit Severity
+
+    public static boolean isDisplayEditBtn() {
+        return  getDriver().findElement(editBtnVerify).isDisplayed();
+    }
     public static void clickEditbtn(){
         MethodBase.clickButton_ByXpath(editBtn);
+    }
+    public static String isSeverityEditFormDisplay() {
+        return MethodBase.get_Text(formEditSeverityVerify);
     }
     public static void clearSeverityNameEdited(){
         MethodBase.clear_ByXpath(severityNameEdited);
@@ -68,13 +121,10 @@ public class SeverityPage {
     }
     public static void setSeverityDescriptionEdited(String severitydescription){
         MethodBase.setText_ByXpath(severityDescriptionEdited,severitydescription); }
-    public static void setIconEdited(){
-        MethodBase.selectAction(icon1Edited,icon2Edited); }
+    public static void setIconEdited(){ MethodBase.selectAction(icon1Edited,icon2Edited); }
     public static void clickColorEdited(){MethodBase.click_ByXpath(clickColorEdited);}
     public static void selectColorEdited(){MethodBase.click_ByXpath(selectColorEdited);}
-    public static void clickEditOKbtn(){
-        MethodBase.clickButton_ByXpath(okBtnEdited);
-    }
+    public static void clickEditOKbtn(){ MethodBase.clickButton_ByXpath(okBtnEdited); }
 
     //Delete Severity
     public static void clickDeletebtn(){

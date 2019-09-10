@@ -433,6 +433,7 @@
 2019-09-10 10:31:37 INFO  TestBase:70 - Closing Browser
 2019-09-10 10:31:38 INFO  TestBase:72 - Browser Closed
 >>>>>>> 3e73f077321866f414abb990900dd70589339416
+<<<<<<< HEAD
 2019-09-10 14:56:38 INFO  TestBase:32 - Initiate Browser
 2019-09-10 14:56:51 INFO  TestBase:41 - Browser Initiated
 2019-09-10 14:56:51 INFO  TestBase:53 - Test name: addstatus
@@ -481,3 +482,11 @@
 2019-09-10 15:46:01 INFO  TestBase:81 - Executed test case name:addstatus Execution Results : [TestResult name=addstatus status=SUCCESS method=DefectStatus.addstatus()[pri:0, instance:tests.DefectStatus.DefectStatus@3e77a1ed] output={null}]
 2019-09-10 15:46:01 INFO  TestBase:70 - Closing Browser
 2019-09-10 15:46:02 INFO  TestBase:72 - Browser Closed
+=======
+2019-09-10 14:55:09 INFO  TestBase:32 - Initiate Browser
+2019-09-10 14:55:24 INFO  TestBase:41 - Browser Initiated
+2019-09-10 14:55:24 INFO  TestBase:53 - Test name: editSeverityFormVerify
+2019-09-10 14:55:26 INFO  TestBase:81 - Executed test case name:editSeverityFormVerify Execution Results : [TestResult name=editSeverityFormVerify status=SUCCESS method=EditSeverityTest.editSeverityFormVerify()[pri:0, instance:tests.Severity.EditSeverityTest@4df828d7] output={null}]
+2019-09-10 14:55:26 INFO  TestBase:70 - Closing Browser
+2019-09-10 14:55:27 INFO  TestBase:72 - Browser Closed
+>>>>>>> 4af9e998e95c34984c5af43ae0fa036173ba45e8
