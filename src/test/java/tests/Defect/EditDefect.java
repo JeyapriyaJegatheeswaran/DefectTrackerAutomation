@@ -3,13 +3,14 @@ package tests.Defect;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import pages.DefectPage;
+import pages.Defect.DefectPage;
+import pages.Defect.EditDefectPage;
 import pages.HomePage;
 import utils.TestBase;
 
 public class EditDefect extends TestBase {
     @Test(priority=1)
-    public void editDefect() {
+    public void checkEditButton() {
         SoftAssert softAssert=new SoftAssert();
         implicitWait(5);
         softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -17,14 +18,14 @@ public class EditDefect extends TestBase {
         HomePage.clickDefectMenu();
         staticWait(2);
         HomePage.clickDefectSubMenu();
-        softAssert.assertTrue(DefectPage.isDefectPageDisplayed(),"Defect Page is not Displayed");
-        DefectPage.clickAddDefect();
-        DefectPage.createDefect("jp1234","testing defect service","testing defect service");
-        softAssert.assertEquals(DefectPage.getResult(),"jp1234","not match");
+        softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
+        DefectPage.clickEditButton();
+        softAssert.assertTrue(EditDefectPage.isEditDefectFormDisplayed(),"Edit Defect Form is not Displayed");
         softAssert.assertAll();
     }
+
     @Test(priority=2)
-    public void addDefectWithoutData() {
+    public void editEnteredByOption() {
         SoftAssert softAssert=new SoftAssert();
         implicitWait(5);
         softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -32,21 +33,14 @@ public class EditDefect extends TestBase {
         HomePage.clickDefectMenu();
         staticWait(2);
         HomePage.clickDefectSubMenu();
-        softAssert.assertTrue(DefectPage.isDefectPageDisplayed(),"Defect Page is not Displayed");
-        DefectPage.clickAddDefect();
-
+        staticWait(2);
+        softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
+        DefectPage.clickEditButton();
+        staticWait(2);
+        softAssert.assertTrue(EditDefectPage.isEditDefectFormDisplayed(),"Edit Defect Form is not Displayed");
         staticWait(3);
-        DefectPage.createDefectWithoutData();
-        softAssert.assertEquals(DefectPage.CheckValidMsg("Please input employeeId"),"Please input employeeId!","fail");
-        softAssert.assertEquals(DefectPage.CheckValidMsg("Please select Project"),"Please select Project!","fail");
-        softAssert.assertEquals(DefectPage.CheckValidMsg("Please select Module"),"Please select Module!","fail");
-        softAssert.assertEquals(DefectPage.CheckValidMsg("Please input Description"),"Please input Description!","fail");
-        softAssert.assertEquals(DefectPage.CheckValidMsg("Please input Details"),"Please input Details!","fail");
-        softAssert.assertEquals(DefectPage.CheckValidMsg("Please select Type"),"Please select Type!","fail");
-        softAssert.assertEquals(DefectPage.CheckValidMsg("Please select Severity"),"Please select Severity!","fail");
-        softAssert.assertEquals(DefectPage.CheckValidMsg("Please select Priority"),"Please select Priority!","fail");
-        softAssert.assertEquals(DefectPage.CheckValidMsg("Please select status"),"Please select status!","fail");
-
+        EditDefectPage.editEnteredBy("User 3");
         softAssert.assertAll();
     }
+
 }

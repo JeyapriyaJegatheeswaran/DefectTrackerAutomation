@@ -2,8 +2,6 @@ package tests.Defect;
 
 
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
-import pages.DefectPage;
 import pages.DefectTypePage;
 import pages.HomePage;
 import utils.TestBase;
