@@ -1,0 +1,135 @@
+2019-09-09 13:58:49 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:10:24 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:20:47 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:21:07 INFO  TestBase:41 - Browser Initiated
+2019-09-09 14:21:07 INFO  TestBase:53 - Test name: NumbervalueAddStatus
+2019-09-09 14:21:08 INFO  TestBase:81 - Executed test case name:NumbervalueAddStatus Execution Results : [TestResult name=NumbervalueAddStatus status=FAILURE method=DefectStatus.NumbervalueAddStatus()[pri:0, instance:tests.DefectStatus.DefectStatus@62fdb4a6] output={null}]
+2019-09-09 14:21:08 INFO  TestBase:70 - Closing Browser
+2019-09-09 14:21:11 INFO  TestBase:72 - Browser Closed
+2019-09-09 14:21:58 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:22:18 INFO  TestBase:41 - Browser Initiated
+2019-09-09 14:22:18 INFO  TestBase:53 - Test name: NumbervalueAddStatus
+2019-09-09 14:22:19 INFO  TestBase:81 - Executed test case name:NumbervalueAddStatus Execution Results : [TestResult name=NumbervalueAddStatus status=FAILURE method=DefectStatus.NumbervalueAddStatus()[pri:0, instance:tests.DefectStatus.DefectStatus@62fdb4a6] output={null}]
+2019-09-09 14:22:19 INFO  TestBase:70 - Closing Browser
+2019-09-09 14:22:20 INFO  TestBase:72 - Browser Closed
+2019-09-09 14:24:00 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:24:21 INFO  TestBase:41 - Browser Initiated
+2019-09-09 14:24:21 INFO  TestBase:53 - Test name: NumbervalueAddStatus
+2019-09-09 14:24:21 INFO  TestBase:81 - Executed test case name:NumbervalueAddStatus Execution Results : [TestResult name=NumbervalueAddStatus status=FAILURE method=DefectStatus.NumbervalueAddStatus()[pri:0, instance:tests.DefectStatus.DefectStatus@11e21d0e] output={null}]
+2019-09-09 14:24:22 INFO  TestBase:70 - Closing Browser
+2019-09-09 14:24:24 INFO  TestBase:72 - Browser Closed
+2019-09-09 14:27:08 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:27:27 INFO  TestBase:41 - Browser Initiated
+2019-09-09 14:27:27 INFO  TestBase:53 - Test name: NumbervalueAddStatus
+2019-09-09 14:27:27 INFO  TestBase:81 - Executed test case name:NumbervalueAddStatus Execution Results : [TestResult name=NumbervalueAddStatus status=FAILURE method=DefectStatus.NumbervalueAddStatus()[pri:0, instance:tests.DefectStatus.DefectStatus@4df828d7] output={null}]
+2019-09-09 14:27:27 INFO  TestBase:70 - Closing Browser
+2019-09-09 14:27:29 INFO  TestBase:72 - Browser Closed
+2019-09-09 14:32:16 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:32:35 INFO  TestBase:41 - Browser Initiated
+2019-09-09 14:32:35 INFO  TestBase:53 - Test name: NumbervalueAddStatus
+2019-09-09 14:32:35 INFO  TestBase:81 - Executed test case name:NumbervalueAddStatus Execution Results : [TestResult name=NumbervalueAddStatus status=FAILURE method=DefectStatus.NumbervalueAddStatus()[pri:0, instance:tests.DefectStatus.DefectStatus@62fdb4a6] output={null}]
+2019-09-09 14:32:36 INFO  TestBase:70 - Closing Browser
+2019-09-09 14:32:37 INFO  TestBase:72 - Browser Closed
+2019-09-09 14:33:44 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:34:03 INFO  TestBase:41 - Browser Initiated
+2019-09-09 14:34:03 INFO  TestBase:53 - Test name: NumbervalueAddStatus
+2019-09-09 14:34:03 INFO  TestBase:81 - Executed test case name:NumbervalueAddStatus Execution Results : [TestResult name=NumbervalueAddStatus status=FAILURE method=DefectStatus.NumbervalueAddStatus()[pri:0, instance:tests.DefectStatus.DefectStatus@4df828d7] output={null}]
+2019-09-09 14:34:04 INFO  TestBase:70 - Closing Browser
+2019-09-09 14:34:05 INFO  TestBase:72 - Browser Closed
+2019-09-09 14:34:20 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:34:39 INFO  TestBase:41 - Browser Initiated
+2019-09-09 14:34:39 INFO  TestBase:53 - Test name: onlyAddStatus
+2019-09-09 14:34:43 INFO  TestBase:81 - Executed test case name:onlyAddStatus Execution Results : [TestResult name=onlyAddStatus status=FAILURE method=DefectStatus.onlyAddStatus()[pri:0, instance:tests.DefectStatus.DefectStatus@62fdb4a6] output={null}]
+2019-09-09 14:34:43 INFO  TestBase:70 - Closing Browser
+2019-09-09 14:34:45 INFO  TestBase:72 - Browser Closed
+2019-09-09 14:36:48 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:37:08 INFO  TestBase:41 - Browser Initiated
+2019-09-09 14:37:08 INFO  TestBase:53 - Test name: NumbervalueAddStatus
+2019-09-09 14:37:12 INFO  TestBase:81 - Executed test case name:NumbervalueAddStatus Execution Results : [TestResult name=NumbervalueAddStatus status=FAILURE method=DefectStatus.NumbervalueAddStatus()[pri:0, instance:tests.DefectStatus.DefectStatus@62fdb4a6] output={null}]
+2019-09-09 14:37:12 INFO  TestBase:70 - Closing Browser
+2019-09-09 14:37:13 INFO  TestBase:72 - Browser Closed
+2019-09-09 14:37:57 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:38:16 INFO  TestBase:41 - Browser Initiated
+2019-09-09 14:38:16 INFO  TestBase:53 - Test name: NumbervalueAddStatus
+2019-09-09 14:38:20 INFO  TestBase:81 - Executed test case name:NumbervalueAddStatus Execution Results : [TestResult name=NumbervalueAddStatus status=FAILURE method=DefectStatus.NumbervalueAddStatus()[pri:0, instance:tests.DefectStatus.DefectStatus@31206beb] output={null}]
+2019-09-09 14:38:20 INFO  TestBase:70 - Closing Browser
+2019-09-09 14:38:22 INFO  TestBase:72 - Browser Closed
+2019-09-09 14:38:56 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:39:15 INFO  TestBase:41 - Browser Initiated
+2019-09-09 14:39:15 INFO  TestBase:53 - Test name: NumbervalueAddStatus
+2019-09-09 14:39:19 INFO  TestBase:81 - Executed test case name:NumbervalueAddStatus Execution Results : [TestResult name=NumbervalueAddStatus status=FAILURE method=DefectStatus.NumbervalueAddStatus()[pri:0, instance:tests.DefectStatus.DefectStatus@62fdb4a6] output={null}]
+2019-09-09 14:39:20 INFO  TestBase:70 - Closing Browser
+2019-09-09 14:39:21 INFO  TestBase:72 - Browser Closed
+2019-09-09 14:43:27 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:43:48 INFO  TestBase:41 - Browser Initiated
+2019-09-09 14:43:48 INFO  TestBase:53 - Test name: NumbervalueAddStatus
+2019-09-09 14:43:52 INFO  TestBase:81 - Executed test case name:NumbervalueAddStatus Execution Results : [TestResult name=NumbervalueAddStatus status=FAILURE method=DefectStatus.NumbervalueAddStatus()[pri:0, instance:tests.DefectStatus.DefectStatus@62fdb4a6] output={null}]
+2019-09-09 14:43:53 INFO  TestBase:70 - Closing Browser
+2019-09-09 14:43:54 INFO  TestBase:72 - Browser Closed
+2019-09-09 14:47:33 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:47:53 INFO  TestBase:41 - Browser Initiated
+2019-09-09 14:47:53 INFO  TestBase:53 - Test name: onlyAddStatus
+2019-09-09 14:47:54 INFO  TestBase:81 - Executed test case name:onlyAddStatus Execution Results : [TestResult name=onlyAddStatus status=SUCCESS method=DefectStatus.onlyAddStatus()[pri:0, instance:tests.DefectStatus.DefectStatus@11e21d0e] output={null}]
+2019-09-09 14:47:54 INFO  TestBase:70 - Closing Browser
+2019-09-09 14:47:56 INFO  TestBase:72 - Browser Closed
+2019-09-09 14:48:25 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:48:44 INFO  TestBase:41 - Browser Initiated
+2019-09-09 14:48:44 INFO  TestBase:53 - Test name: NumbervalueAddStatus
+2019-09-09 14:48:47 INFO  TestBase:81 - Executed test case name:NumbervalueAddStatus Execution Results : [TestResult name=NumbervalueAddStatus status=SUCCESS method=DefectStatus.NumbervalueAddStatus()[pri:0, instance:tests.DefectStatus.DefectStatus@11e21d0e] output={null}]
+2019-09-09 14:48:47 INFO  TestBase:70 - Closing Browser
+2019-09-09 14:48:48 INFO  TestBase:72 - Browser Closed
+2019-09-09 14:50:21 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:50:40 INFO  TestBase:41 - Browser Initiated
+2019-09-09 14:50:40 INFO  TestBase:53 - Test name: NumbervalueAddStatus
+2019-09-09 14:50:45 INFO  TestBase:81 - Executed test case name:NumbervalueAddStatus Execution Results : [TestResult name=NumbervalueAddStatus status=FAILURE method=DefectStatus.NumbervalueAddStatus()[pri:0, instance:tests.DefectStatus.DefectStatus@1dd02175] output={null}]
+2019-09-09 14:50:45 INFO  TestBase:70 - Closing Browser
+2019-09-09 14:50:46 INFO  TestBase:72 - Browser Closed
+2019-09-09 14:54:05 INFO  TestBase:32 - Initiate Browser
+2019-09-09 14:54:25 INFO  TestBase:41 - Browser Initiated
+2019-09-09 14:54:25 INFO  TestBase:53 - Test name: addDefectWithoutData
+2019-09-09 14:54:34 INFO  TestBase:81 - Executed test case name:addDefectWithoutData Execution Results : [TestResult name=addDefectWithoutData status=FAILURE method=EditDefect.addDefectWithoutData()[pri:0, instance:tests.Defect.EditDefect@11e21d0e] output={null}]
+2019-09-09 14:54:34 INFO  TestBase:70 - Closing Browser
+2019-09-09 14:54:36 INFO  TestBase:72 - Browser Closed
+2019-09-09 15:07:55 INFO  TestBase:32 - Initiate Browser
+2019-09-09 15:08:15 INFO  TestBase:41 - Browser Initiated
+2019-09-09 15:08:15 INFO  TestBase:53 - Test name: NumbervalueAddStatus
+2019-09-09 15:08:19 INFO  TestBase:81 - Executed test case name:NumbervalueAddStatus Execution Results : [TestResult name=NumbervalueAddStatus status=FAILURE method=DefectStatus.NumbervalueAddStatus()[pri:0, instance:tests.DefectStatus.DefectStatus@62fdb4a6] output={null}]
+2019-09-09 15:08:19 INFO  TestBase:70 - Closing Browser
+2019-09-09 15:08:21 INFO  TestBase:72 - Browser Closed
+2019-09-09 15:21:22 INFO  TestBase:32 - Initiate Browser
+2019-09-09 15:21:41 INFO  TestBase:41 - Browser Initiated
+2019-09-09 15:21:41 INFO  TestBase:53 - Test name: getMeassage
+2019-09-09 15:21:43 INFO  TestBase:81 - Executed test case name:getMeassage Execution Results : [TestResult name=getMeassage status=SUCCESS method=DefectStatus.getMeassage()[pri:0, instance:tests.DefectStatus.DefectStatus@11e21d0e] output={null}]
+2019-09-09 15:21:43 INFO  TestBase:70 - Closing Browser
+2019-09-09 15:21:44 INFO  TestBase:72 - Browser Closed
+2019-09-09 15:22:27 INFO  TestBase:32 - Initiate Browser
+2019-09-09 15:22:46 INFO  TestBase:41 - Browser Initiated
+2019-09-09 15:22:46 INFO  TestBase:53 - Test name: getMeassage
+2019-09-09 15:22:48 INFO  TestBase:81 - Executed test case name:getMeassage Execution Results : [TestResult name=getMeassage status=SUCCESS method=DefectStatus.getMeassage()[pri:0, instance:tests.DefectStatus.DefectStatus@b59d31] output={null}]
+2019-09-09 15:22:48 INFO  TestBase:70 - Closing Browser
+2019-09-09 15:22:49 INFO  TestBase:72 - Browser Closed
+2019-09-09 15:36:27 INFO  TestBase:32 - Initiate Browser
+2019-09-09 15:36:46 INFO  TestBase:41 - Browser Initiated
+2019-09-09 15:36:46 INFO  TestBase:53 - Test name: getMeassage
+2019-09-09 15:36:50 INFO  TestBase:81 - Executed test case name:getMeassage Execution Results : [TestResult name=getMeassage status=FAILURE method=DefectStatus.getMeassage()[pri:0, instance:tests.DefectStatus.DefectStatus@62fdb4a6] output={null}]
+2019-09-09 15:36:51 INFO  TestBase:70 - Closing Browser
+2019-09-09 15:36:52 INFO  TestBase:72 - Browser Closed
+2019-09-09 15:37:44 INFO  TestBase:32 - Initiate Browser
+2019-09-09 15:38:03 INFO  TestBase:41 - Browser Initiated
+2019-09-09 15:38:03 INFO  TestBase:53 - Test name: getMeassage
+2019-09-09 15:38:07 INFO  TestBase:81 - Executed test case name:getMeassage Execution Results : [TestResult name=getMeassage status=FAILURE method=DefectStatus.getMeassage()[pri:0, instance:tests.DefectStatus.DefectStatus@62fdb4a6] output={null}]
+2019-09-09 15:38:08 INFO  TestBase:70 - Closing Browser
+2019-09-09 15:38:09 INFO  TestBase:72 - Browser Closed
+2019-09-09 16:01:37 INFO  TestBase:32 - Initiate Browser
+2019-09-09 16:02:21 INFO  TestBase:32 - Initiate Browser
+2019-09-09 16:02:40 INFO  TestBase:41 - Browser Initiated
+2019-09-09 16:02:40 INFO  TestBase:53 - Test name: getMeassage
+2019-09-09 16:02:43 INFO  TestBase:81 - Executed test case name:getMeassage Execution Results : [TestResult name=getMeassage status=FAILURE method=DefectStatus.getMeassage()[pri:0, instance:tests.DefectStatus.DefectStatus@62fdb4a6] output={null}]
+2019-09-09 16:02:44 INFO  TestBase:70 - Closing Browser
+2019-09-09 16:02:45 INFO  TestBase:72 - Browser Closed
+2019-09-10 10:31:13 INFO  TestBase:32 - Initiate Browser
+2019-09-10 10:31:29 INFO  TestBase:41 - Browser Initiated
+2019-09-10 10:31:29 INFO  TestBase:53 - Test name: addDefectType
+2019-09-10 10:31:37 INFO  TestBase:81 - Executed test case name:addDefectType Execution Results : [TestResult name=addDefectType status=SUCCESS method=AddDefectType.addDefectType()[pri:0, instance:tests.Defect.AddDefectType@45afc369] output={null}]
+2019-09-10 10:31:37 INFO  TestBase:70 - Closing Browser
+2019-09-10 10:31:38 INFO  TestBase:72 - Browser Closed

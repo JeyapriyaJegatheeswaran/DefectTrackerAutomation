@@ -3,6 +3,7 @@ package pages.Defect;
 import org.testng.asserts.SoftAssert;
 import utils.MethodBase;
 import utils.PageBase;
+
 import java.util.logging.Logger;
 
 public class DefectPage extends PageBase {
