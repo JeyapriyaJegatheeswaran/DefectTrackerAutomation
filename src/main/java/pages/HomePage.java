@@ -88,5 +88,9 @@ public class HomePage extends PageBase {
         MethodBase.click_ByXpath(defectTypeSubMenu);
     }
 
+    public static String isDefectMenuDisplayed(){
+        return MethodBase.get_Text(defectMenu);
+    }
+
 }
 
