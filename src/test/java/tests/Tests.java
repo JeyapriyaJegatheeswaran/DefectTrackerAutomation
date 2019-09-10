@@ -3,7 +3,7 @@ package tests;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import pages.DefectPage;
+import pages.Defect.DefectPage;
 import pages.HomePage;
 import utils.JiraPolicy;
 import utils.TestBase;
