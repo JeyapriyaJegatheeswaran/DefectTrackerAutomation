@@ -2,180 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b662341d-fd21-4c5d-9e96-1c70e55a98bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DefectTrackerAutomation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_4_0_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_high_scale_lib_high_scale_lib_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jamm_0_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_monte_monte_screen_recorder_0_7_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_05.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_javax_mail_api_1_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_5_0_b01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_12_b140109_1041.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_rcarz_jira_client_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cassandra_cassandra_all_0_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cassandra_cassandra_thrift_0_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cassandra_deps_avro_1_4_0_cassandra_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_3_v20170317.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_3_v20170317.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_1_v20170120.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_1_v20170120.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_3_v20170317.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_3_v20170317.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_3_v20170317.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_0_CR1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20081211.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Defect/AddDefectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Defect/AddDefectPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Defect/EditDefectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Defect/EditDefectPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Defect/AddDefect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Defect/AddDefect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Defect/DeleteDefect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Defect/DeleteDefect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Defect/EditDefect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Defect/EditDefect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log_Information.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/screenshots/2019-14-11_02-14-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/screenshots/2019-29-11_01-29-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/screenshots/2019-37-11_01-37-51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/screenshots/2019-40-11_01-40-44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/screenshots/2019-47-11_01-47-06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/DefectStatus/Delete_Status.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/DefectStatus/EditDefectStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/Employee/AddEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/Employee/DeleteEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/Employee/EditEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/Module/AddModuleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/Priority/AddPriorityTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/Priority/DeletePriorityTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/Priority/EditPriorityTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/Project/AddProject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/Project/DeleteProject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/Project/EditProject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/Severity/AddSeverityTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/Severity/DeleteSeverity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/Severity/EditSeverityTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/utils/ExcelDataConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/utils/ExtentReportFunctions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/utils/JiraServiceProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/utils/MyScreenRecorder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/utils/SendEmail$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/utils/SendEmail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/utils/TestJiraListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/Defect/AddDefectPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/DefectTypePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/EmployeePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/ModulePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/PriorityPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/ProjectPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/SeverityPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/JiraPolicy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/MethodBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/PageBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DefectStatusPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DefectStatusPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DefectStatus/DefectStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DefectStatus/DefectStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DefectStatus/Delete_Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DefectStatus/Delete_Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DefectStatus/EditDefectStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DefectStatus/EditDefectStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/reports/ExtentReportResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/reports/ExtentReportResults.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/DefectTrackerAutomation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-00-11_10-00-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-01-11_10-01-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-17-11_11-17-38.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/screenshots/2019-17-11_11-17-38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/2019-35-11_02-35-24.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/screenshots/2019-35-11_02-35-24.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/Defect/DefectPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Defect/DefectPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/Defect/EditDefectPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Defect/EditDefectPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DefectStatusPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DefectStatusPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/reports/ExtentReportResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reports/ExtentReportResults.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-04-10_11-04-22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-04-10_11-04-58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-06-09_02-06-59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-08-10_10-08-28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-08-10_11-08-16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-14-09_02-14-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-14-10_10-14-29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-15-10_10-15-42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-17-10_10-17-04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-18-10_10-18-38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-21-09_02-21-29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-22-10_10-22-54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-23-09_02-23-47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-25-09_02-25-29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-25-10_03-25-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-26-10_02-26-37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-28-09_02-28-14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-28-10_02-28-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-28-10_10-28-07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-32-10_10-32-04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-32-10_10-32-55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-34-09_10-34-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-35-10_10-35-29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-36-10_10-36-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-42-10_11-42-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-43-10_10-43-59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-46-09_10-46-31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-46-10_10-46-51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-48-10_10-48-11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-48-10_10-48-49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-49-10_10-49-28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-57-09_04-57-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-57-10_10-57-04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/2019-59-10_10-59-23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Defect/AddDefect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Defect/AddDefect.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Defect/DeleteDefect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Defect/DeleteDefect.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Defect/EditDefect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Defect/EditDefect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/DefectStatus/DefectStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/DefectStatus/DefectStatus.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -231,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/Defect/AddDefect.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="119" column="27" lean-forward="true" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
+              <caret line="119" column="27" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -239,11 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/Defect/AddDefectPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+            <state relative-caret-position="69">
+              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2973#2974#0" expanded="true" />
@@ -257,6 +139,24 @@
                 <element signature="e#5746#5747#0" expanded="true" />
                 <element signature="e#5799#5800#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/DefectStatusPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/log_Information.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -288,32 +188,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/Defect/EditDefectPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="13" column="80" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2301#2302#0" expanded="true" />
-                <element signature="e#2378#2379#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/ExcelDataConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -335,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="34" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
@@ -573,9 +447,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddDefect_addDefect - 2019.09.11 at 14h 30m 46s.xml">
-      <configuration name="AddDefect.addDefect" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AddDefect_addDefect - 2019.09.11 at 14h 31m 33s.xml">
       <configuration name="AddDefect.addDefect" configurationId="TestNG" />
     </history-entry>
@@ -603,12 +474,15 @@
     <history-entry file="AddDefect_addDefect - 2019.09.11 at 14h 45m 56s.xml">
       <configuration name="AddDefect.addDefect" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="AddDefect_addDefect - 2019.09.11 at 14h 49m 04s.xml">
+      <configuration name="AddDefect.addDefect" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -617,7 +491,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.101472996" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24386252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -689,7 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log_Information.log" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/paralleltest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -781,7 +654,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/Defect/AddDefect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="119" column="27" lean-forward="true" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
+          <caret line="119" column="27" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -790,8 +663,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/Defect/AddDefectPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+        <state relative-caret-position="69">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2973#2974#0" expanded="true" />
@@ -805,6 +678,20 @@
             <element signature="e#5746#5747#0" expanded="true" />
             <element signature="e#5799#5800#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DefectStatusPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_Information.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
         </state>
       </provider>
     </entry>

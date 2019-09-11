@@ -23,15 +23,23 @@ public class DefectStatusPage extends PageBase {
     private static String Clickok= "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[2]";
     private static String ClickEditDefect= "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[1]/td[3]/span/i[1]";
     private static String DeleteDefect= "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[1]/td[3]/span/i[2]";
-    private static String txtResult = "//td[text()='TESTTEST']";
+    private static String txtResult = "//td[text()='TestLow']";
     private static String meassagebox = "/html/body/div[3]/div/span/div/div/div";
     private static String commonValidMsgStatus = "//div[text()='LINK!']";
     private static String SideGentralConfigration_show="//span[text()=\"General Configuration\"]";
     private static String lowcharecters="//span[text()='LINK']";// Required more than 3 charecters
+    private static String ConformDelete="/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/button[2]";
+    private static String ConformDeleteform="/html/body/div[2]/div/div/div/div[2]/div/div/div[1]/div";
+    private static String tablevalidate="//span[text()='DefectStatus']";
+    private static String tablevalidatedc="//span[text()='Description']";
 
-//    public static boolean isDefectPageDisplayed(){
-//        return MethodBase.isDisplayed_ByXpath(ClickAddStatus);
-//    }
+
+    public static boolean istablevalidateDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(tablevalidate);
+    }
+    public static boolean isttablevalidatedcDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(tablevalidatedc);
+    }
     public static String CheckValidMsg(String link){
 
         return MethodBase.get_Text(lowcharecters.replace("LINK", link));
@@ -55,6 +63,9 @@ public class DefectStatusPage extends PageBase {
     public static boolean isDefectStatusDisplayed(){
         return MethodBase.isDisplayed_ByXpath(ClickDefectStatus);
     }
+    public static boolean isDefectStatusConformDeleteDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(ConformDeleteform);
+    }
     public static boolean isDefectAddStatusDisplayed(){
         return MethodBase.isDisplayed_ByXpath(ClickAddStatus);
     }
@@ -68,6 +79,9 @@ public class DefectStatusPage extends PageBase {
     }
     public static void clickok() {
         MethodBase.clickButton_ByXpath(Clickok);
+
+    }public static void clickConformDelete() {
+        MethodBase.clickButton_ByXpath(ConformDelete);
 
     }
     public static void clickGeneralConfiguration() {
@@ -94,54 +108,7 @@ public class DefectStatusPage extends PageBase {
 
 
 
-    public static void AddStatusFunction(String Status,String Description ){
-        softAssert = new SoftAssert();
-        MethodBase.clickButton_ByXpath(ClickSetting);
-        LOGGER.info("Click Setting");
-        MethodBase.isDisplayed_ByXpath(HrDashboard);
-        LOGGER.info("Hearder Show");
-        MethodBase.clickButton_ByXpath(ClickGeneralConfiguration);
-        LOGGER.info("Click GeneralConfiguration");
-        MethodBase.clickButton_ByXpath(ClickDefectStatus);
-        LOGGER.info("Click DefectStatus");
-        MethodBase.clickButton_ByXpath(ClickAddStatus);
-        LOGGER.info("Click AddStatus");
-        MethodBase.setText_ByXpath(txtDefectStatus,Status);
-        LOGGER.info("Enter Defect status");
-        MethodBase.setText_ByXpath(txtDefectDescription,Description);
-        LOGGER.info("Enter Defect Description");
-        MethodBase.clickButton_ByXpath(Clickok);
-        LOGGER.info("Click Ok ");
 
-
-    }
-    public static void EditStatusFunction(String Status,String Description ){
-        MethodBase.clickButton_ByXpath(ClickSetting);
-        LOGGER.info("Click Setting");
-        MethodBase.clickButton_ByXpath(ClickGeneralConfiguration);
-        LOGGER.info("Click GeneralConfiguration");
-        MethodBase.clickButton_ByXpath(ClickDefectStatus);
-        LOGGER.info("Click DefectStatus");
-        MethodBase.click_ByXpath(ClickEditDefect);
-        MethodBase.setText_ByXpath(txtDefectStatus,Status);
-        LOGGER.info("Enter Defect status");
-        MethodBase.setText_ByXpath(txtDefectDescription,Description);
-        LOGGER.info("Enter Defect Description");
-        MethodBase.clickButton_ByXpath(Clickok);
-        LOGGER.info("Click Ok ");
-
-    }
-    public static void DeleteStatusFunction(){
-        MethodBase.clickButton_ByXpath(ClickSetting);
-        LOGGER.info("Click Setting");
-        MethodBase.clickButton_ByXpath(ClickGeneralConfiguration);
-        LOGGER.info("Click GeneralConfiguration");
-        MethodBase.clickButton_ByXpath(ClickDefectStatus);
-        LOGGER.info("Click DefectStatus");
-        MethodBase.clickButton_ByXpath(DeleteDefect);
-        LOGGER.info("Click Delete Data");
-
-    }
 
 
     }

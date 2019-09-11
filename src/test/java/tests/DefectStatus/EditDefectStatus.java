@@ -8,8 +8,8 @@ import utils.TestBase;
 public class EditDefectStatus  extends TestBase {
     @Test(priority=1)
     public void EditStatus() {
-        PageBase.implicitWait(2);
-        DefectStatusPage.EditStatusFunction("Normaltest","vjkdjnv");
+
+//        DefectStatusPage.EditStatusFunction("Normaltest","vjkdjnv");
 
 
     }
