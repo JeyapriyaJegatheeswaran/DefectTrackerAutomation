@@ -70,3 +70,104 @@
 2019-09-11 14:39:17 INFO  TestBase:81 - Executed test case name:conformaddstatustest Execution Results : [TestResult name=conformaddstatustest status=SUCCESS method=DefectStatus.conformaddstatustest()[pri:0, instance:tests.DefectStatus.DefectStatus@11e21d0e] output={null}]
 2019-09-11 14:39:17 INFO  TestBase:70 - Closing Browser
 2019-09-11 14:39:17 INFO  TestBase:72 - Browser Closed
+2019-09-11 14:58:37 INFO  TestBase:32 - Initiate Browser
+2019-09-11 14:58:51 INFO  TestBase:41 - Browser Initiated
+2019-09-11 14:58:51 INFO  TestBase:53 - Test name: sabbartest
+2019-09-11 14:59:02 INFO  TestBase:81 - Executed test case name:sabbartest Execution Results : [TestResult name=sabbartest status=SUCCESS method=DefectStatus.sabbartest()[pri:0, instance:tests.DefectStatus.DefectStatus@11e21d0e] output={null}]
+2019-09-11 14:59:02 INFO  TestBase:70 - Closing Browser
+2019-09-11 14:59:02 INFO  TestBase:72 - Browser Closed
+2019-09-11 15:03:38 INFO  TestBase:32 - Initiate Browser
+2019-09-11 15:04:09 INFO  TestBase:32 - Initiate Browser
+2019-09-11 15:04:28 INFO  TestBase:41 - Browser Initiated
+2019-09-11 15:04:28 INFO  TestBase:53 - Test name: invalidateData
+2019-09-11 15:04:38 INFO  TestBase:81 - Executed test case name:invalidateData Execution Results : [TestResult name=invalidateData status=FAILURE method=DefectStatus.invalidateData()[pri:0, instance:tests.DefectStatus.DefectStatus@11e21d0e] output={null}]
+2019-09-11 15:04:39 INFO  TestBase:70 - Closing Browser
+2019-09-11 15:04:39 INFO  TestBase:72 - Browser Closed
+2019-09-11 15:05:34 INFO  TestBase:32 - Initiate Browser
+2019-09-11 15:05:52 INFO  TestBase:41 - Browser Initiated
+2019-09-11 15:05:52 INFO  TestBase:53 - Test name: invalidateData
+2019-09-11 15:06:03 INFO  TestBase:81 - Executed test case name:invalidateData Execution Results : [TestResult name=invalidateData status=SUCCESS method=DefectStatus.invalidateData()[pri:0, instance:tests.DefectStatus.DefectStatus@11e21d0e] output={null}]
+2019-09-11 15:06:03 INFO  TestBase:70 - Closing Browser
+2019-09-11 15:06:03 INFO  TestBase:72 - Browser Closed
+2019-09-11 15:12:33 INFO  TestBase:32 - Initiate Browser
+2019-09-11 15:12:41 INFO  TestBase:41 - Browser Initiated
+2019-09-11 15:12:41 INFO  TestBase:53 - Test name: numbervalue
+2019-09-11 15:12:52 INFO  TestBase:81 - Executed test case name:numbervalue Execution Results : [TestResult name=numbervalue status=SUCCESS method=DefectStatus.numbervalue()[pri:0, instance:tests.DefectStatus.DefectStatus@11e21d0e] output={null}]
+2019-09-11 15:12:52 INFO  TestBase:70 - Closing Browser
+2019-09-11 15:12:52 INFO  TestBase:72 - Browser Closed
+2019-09-11 15:14:32 INFO  TestBase:32 - Initiate Browser
+2019-09-11 15:14:50 INFO  TestBase:41 - Browser Initiated
+2019-09-11 15:14:50 INFO  TestBase:53 - Test name: spicalvalue
+2019-09-11 15:15:02 INFO  TestBase:81 - Executed test case name:spicalvalue Execution Results : [TestResult name=spicalvalue status=SUCCESS method=DefectStatus.spicalvalue()[pri:0, instance:tests.DefectStatus.DefectStatus@11e21d0e] output={null}]
+2019-09-11 15:15:02 INFO  TestBase:70 - Closing Browser
+2019-09-11 15:15:02 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:23:37 INFO  TestBase:32 - Initiate Browser
+2019-09-11 16:23:47 INFO  TestBase:41 - Browser Initiated
+2019-09-11 16:23:47 INFO  TestBase:53 - Test name: testLogin
+2019-09-11 16:23:49 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=SUCCESS method=Tests.testLogin()[pri:0, instance:tests.Tests@b59d31] output={null}]
+2019-09-11 16:23:49 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:23:49 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:25:56 INFO  TestBase:32 - Initiate Browser
+2019-09-11 16:26:04 INFO  TestBase:41 - Browser Initiated
+2019-09-11 16:26:04 INFO  TestBase:53 - Test name: testLogin
+2019-09-11 16:26:06 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=SUCCESS method=Tests.testLogin()[pri:0, instance:tests.Tests@11e21d0e] output={null}]
+2019-09-11 16:26:06 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:26:06 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:28:34 INFO  TestBase:32 - Initiate Browser
+2019-09-11 16:28:48 INFO  TestBase:41 - Browser Initiated
+2019-09-11 16:28:48 INFO  TestBase:53 - Test name: testLogin
+2019-09-11 16:28:50 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=SUCCESS method=Tests.testLogin()[pri:0, instance:tests.Tests@11e21d0e] output={null}]
+2019-09-11 16:28:50 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:28:50 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:30:32 INFO  TestBase:32 - Initiate Browser
+2019-09-11 16:30:51 INFO  TestBase:41 - Browser Initiated
+2019-09-11 16:30:51 INFO  TestBase:53 - Test name: testLogin
+2019-09-11 16:30:56 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=FAILURE method=Tests.testLogin()[pri:0, instance:tests.Tests@11e21d0e] output={null}]
+2019-09-11 16:30:57 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:30:57 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:30:59 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:30:59 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:31:02 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:31:02 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:32:03 INFO  TestBase:32 - Initiate Browser
+2019-09-11 16:32:22 INFO  TestBase:41 - Browser Initiated
+2019-09-11 16:32:22 INFO  TestBase:53 - Test name: testLogin
+2019-09-11 16:32:23 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=SUCCESS method=Tests.testLogin()[pri:0, instance:tests.Tests@11e21d0e] output={null}]
+2019-09-11 16:32:23 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:32:23 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:32:26 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:32:26 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:32:28 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:32:28 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:34:44 INFO  TestBase:32 - Initiate Browser
+2019-09-11 16:35:03 INFO  TestBase:41 - Browser Initiated
+2019-09-11 16:35:03 INFO  TestBase:53 - Test name: testLogin
+2019-09-11 16:35:04 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=SUCCESS method=Tests.testLogin()[pri:0, instance:tests.Tests@11e21d0e] output={null}]
+2019-09-11 16:35:04 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:35:04 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:35:07 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:35:07 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:35:09 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:35:09 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:35:12 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:35:12 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:35:14 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:35:14 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:35:17 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:35:17 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:35:19 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:35:19 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:36:28 INFO  TestBase:32 - Initiate Browser
+2019-09-11 16:36:37 INFO  TestBase:41 - Browser Initiated
+2019-09-11 16:36:37 INFO  TestBase:53 - Test name: testLogin
+2019-09-11 16:36:37 INFO  TestBase:81 - Executed test case name:testLogin Execution Results : [TestResult name=testLogin status=FAILURE method=Tests.testLogin()[pri:0, instance:tests.Tests@11e21d0e] output={null}]
+2019-09-11 16:36:37 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:36:37 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:36:37 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:36:37 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:36:37 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:36:37 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:36:37 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:36:37 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:36:37 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:36:37 INFO  TestBase:72 - Browser Closed
