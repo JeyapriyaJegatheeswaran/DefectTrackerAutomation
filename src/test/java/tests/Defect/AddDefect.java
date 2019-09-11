@@ -77,21 +77,21 @@ public class AddDefect extends TestBase {
         softAssert.assertAll();
 
     }
-//    @Test(priority=6)
-//    public void checkAddDefectFormFields() {
-//        implicitWait(5);
-//        softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
-//        staticWait(2);
-//        HomePage.clickDefectMenu();
-//        staticWait(2);
-//        HomePage.clickDefectSubMenu();
-//        softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
-//        DefectPage.clickAddDefect();
-//        softAssert.assertTrue(AddDefectPage.isAddDefectFormDisplayed(),"AddDefect Form is not Displayed");
-//
-//        softAssert.assertAll();
-//
-//    }
+    @Test(priority=6)
+    public void checkAddDefectFormFields() {
+        implicitWait(5);
+        softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
+        staticWait(2);
+        HomePage.clickDefectMenu();
+        staticWait(2);
+        HomePage.clickDefectSubMenu();
+        softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
+        DefectPage.clickAddDefect();
+        softAssert.assertTrue(AddDefectPage.isAddDefectFormDisplayed(),"AddDefect Form is not Displayed");
+
+        softAssert.assertAll();
+
+    }
 //    @Test(priority=7)
 //    public void checkDefectDetailsTable() {
 //        implicitWait(5);
@@ -117,8 +117,10 @@ public class AddDefect extends TestBase {
         HomePage.clickDefectSubMenu();
         softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
         DefectPage.clickAddDefect();
-        AddDefectPage.createDefect("jp1234","testing defect service","testing defect service");
-        softAssert.assertEquals(AddDefectPage.getResult(),"jp1234","not match");
+        AddDefectPage.createDefect("jp1234","defect","defect","User 1",
+                "Release1","jp","UI","High","High","NEW",
+                "testing defect service","testing defect service");
+        //softAssert.assertEquals(AddDefectPage.getResult(),"jp1234","not match");
         softAssert.assertAll();
     }
     @Test(priority=9)
