@@ -14,7 +14,7 @@ public class DefectStatusPage extends PageBase {
     private static final Logger LOGGER = (Logger) Logger.getLogger(String.valueOf(DefectStatusPage.class));
     private static String ClickSetting = "//*[@id=\"root\"]/div/section/aside/div/ul/li[9]/div[1]";
     private static String HrDefectStatus = "//h3";
-    private static String ClickGeneralConfiguration = "//*[@id=\"sub4$Menu\"]/li[4]/div/span/span";
+    private static String ClickGeneralConfiguration = "//span[text()=\"General Configuration\"]";
     private static String ClickDefectStatus = "//*[@id=\"sub5$Menu\"]/li[4]";
     private static String HrDashboard = "//*[@id=\"root\"]/div/section/section/main/div[2]/div/div[1]/div/div/div/h1";
     private static String ClickAddStatus = "//*[@id=\"root\"]/div/section/section/main/div/div[2]/button";
@@ -26,14 +26,15 @@ public class DefectStatusPage extends PageBase {
     private static String txtResult = "//td[text()='TESTTEST']";
     private static String meassagebox = "/html/body/div[3]/div/span/div/div/div";
     private static String commonValidMsgStatus = "//div[text()='LINK!']";
-
+    private static String SideGentralConfigration_show="//span[text()=\"General Configuration\"]";
+    private static String lowcharecters="//span[text()='LINK']";// Required more than 3 charecters
 
 //    public static boolean isDefectPageDisplayed(){
 //        return MethodBase.isDisplayed_ByXpath(ClickAddStatus);
 //    }
     public static String CheckValidMsg(String link){
 
-        return MethodBase.get_Text(commonValidMsgStatus.replace("LINK", link));
+        return MethodBase.get_Text(lowcharecters.replace("LINK", link));
     }
     public static String getMeassagebox(){
         return MethodBase.get_Text(meassagebox);
@@ -48,10 +49,19 @@ public class DefectStatusPage extends PageBase {
         return MethodBase.isDisplayed_ByXpath(HrDefectStatus);
     }
 
-//    public static void clickSetting() {
-//        MethodBase.clickButton_ByXpath(ClickSetting);
-//
-//    }
+    public static boolean isDisplayedGeneralConfiguration(){
+        return MethodBase.isDisplayed_ByXpath(SideGentralConfigration_show);
+    }
+    public static boolean isDefectStatusDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(ClickDefectStatus);
+    }
+    public static boolean isDefectAddStatusDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(ClickAddStatus);
+    }
+    public static boolean isDefectStatusAddfromDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(Clickok);
+    }
+
     public static void clickSetting() {
       MethodBase.clickButton_ByXpath(ClickSetting);
 
