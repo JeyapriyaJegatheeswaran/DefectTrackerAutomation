@@ -17,10 +17,11 @@ public class DeleteDefect extends TestBase {
         HomePage.clickDefectSubMenu();
         softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
         DefectPage.clickDeleteDefect("DEF001");
+        staticWait(3);
         softAssert.assertTrue(DefectPage.isDefectDeletePopupDisplayed(),"Delete popup is not Displayed");
         softAssert.assertAll();
     }
-    @Test(priority=1)
+    @Test(priority=2)
     public void CheckDeleteDefectConformationMsg() {
         implicitWait(5);
         softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -28,12 +29,15 @@ public class DeleteDefect extends TestBase {
         HomePage.clickDefectMenu();
         staticWait(2);
         HomePage.clickDefectSubMenu();
+        staticWait(2);
         softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
         DefectPage.clickDeleteDefect("DEF001");
+        staticWait(2);
+        softAssert.assertEquals(DefectPage.verifyConformationMsg(),"Are you sure want to delete this Entry ?","msg not match");
 
         softAssert.assertAll();
     }
-    @Test(priority=1)
+    @Test(priority=3)
     public void deleteDefect() {
         implicitWait(5);
         softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
