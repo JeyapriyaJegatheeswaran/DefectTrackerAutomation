@@ -15,8 +15,8 @@ public class AddDefectPage extends PageBase {
 
 
     private static String txtDefectID = "defectId";
-    private static String txtProject = "//*[@id=\"gender1\"]/div/div/div";
-    private static String txtModule = "//*[@id=\"gender4\"]/div/span";
+    private static String txtProject = "//div[@id='gender1']";
+    private static String txtModule = "//div[@id='gender4']";
     private static String txtDescription = "defectDescription";
     private static String txtSteps = "stepsToRecreate";
     private static String txtEnteredBy = "/html/body/div[7]/div/div[2]/div/div[2]/div[2]/form/div[1]/div[6]/div/div[2]/div/span/div/div/div/div";
@@ -27,7 +27,7 @@ public class AddDefectPage extends PageBase {
     private static String txtPriority = "//*[@id=\"gender3\"]/div/div/div";
     private static String txtStatus = "//*[@id=\"gender7\"]/div/div/div";
     private static String txtCommonOption = "//li[text()=\"Option\"]";
-    private static String btnAdd = "/html/body/div[7]/div/div[2]/div/div[2]/div[3]/div/button[2]";
+    private static String btnAdd = "/html/body/div[7]/div/div[2]/div/div[2]/button";
     private static String btnCancel = "/html/body/div[7]/div/div[2]/div/div[2]/div[3]/div/button[1]";
     private static String txtResult = "//td[text()='jp1234']";
     private static String commonValidMsgStatus = "//div[text()='LINK!']";
@@ -56,9 +56,11 @@ public class AddDefectPage extends PageBase {
     public static void setProject( String option){
         MethodBase.selectAction(txtProject,txtCommonOption.replace("Option", option));
     }
-    public static void setModule(String option){
+    public static void setModule( String option){
+
         MethodBase.selectAction(txtModule,txtCommonOption.replace("Option", option));
     }
+
     public static void setEnteredBy(String option){
         MethodBase.selectAction(txtEnteredBy,txtCommonOption.replace("Option", option));
     }
@@ -79,23 +81,31 @@ public class AddDefectPage extends PageBase {
     }public static void setStatus(String option){
         MethodBase.selectAction(txtStatus,txtCommonOption.replace("Option", option));
     }
-    public static void createDefect(String defectId,String project,String module,String enteredBy,String foundIn,
-                                    String assignTo,String type,String severity,String priority,String status,String description,String steps){
-        AddDefectPage.setDefectId(defectId);
-        AddDefectPage.setProject(project);
-        implicitWait(10);
-        AddDefectPage.setModule(module);
-        staticWait(1);
-        //AddDefectPage.setDescription(description);
-        AddDefectPage.setSteps(steps);
-        AddDefectPage.setEnteredBy(enteredBy);
-        AddDefectPage.setFoundIn(foundIn);
-        AddDefectPage.setAssignTo(assignTo);
-        AddDefectPage.setDefectType(type);
-        AddDefectPage.setSeverity(severity);
-        AddDefectPage.setPriority(priority);
-        AddDefectPage.setStatus(status);
+    public static void clickAddButton(){
         MethodBase.clickButton_ByXpath(btnAdd);
+    }
+    public static void createDefect(String defectId,String project,String module,String description,
+                                    String steps,String enteredBy,String foundIn,String assignTo,
+                                    String type,String severity,String priority,String status){
+          AddDefectPage.setDefectId(defectId);
+          AddDefectPage.setProject(project);
+//        AddDefectPage.setDescription(description);
+//        AddDefectPage.setSteps(steps);
+//        AddDefectPage.setEnteredBy(enteredBy);
+//        AddDefectPage.setFoundIn(foundIn);
+//        AddDefectPage.setAssignTo(assignTo);
+//        AddDefectPage.setDefectType(type);
+//        AddDefectPage.setSeverity(severity);
+//        AddDefectPage.setPriority(priority);
+//        staticWait(3);
+//        AddDefectPage.setStatus(status);
+//        staticWait(3);
+        MethodBase.clickButton_ByXpath(btnAdd);
+//        //AddDefectPage.setModule(module);
+//        staticWait(3);
+//        AddDefectPage.setPriority(priority);
+        MethodBase.clickButton_ByXpath(btnAdd);
+        staticWait(3);
     }
     public static void createDefectWithoutData(){
 
