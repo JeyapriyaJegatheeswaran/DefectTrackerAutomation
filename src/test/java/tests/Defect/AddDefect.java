@@ -1,17 +1,19 @@
 package tests.Defect;
 
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 import pages.Defect.AddDefectPage;
 import pages.Defect.DefectPage;
 import pages.HomePage;
+import utils.PageBase;
 import utils.TestBase;
 
 public class AddDefect extends TestBase {
-    @Test(priority=1)
+    @Test(priority=1,groups = "test")
     public void checkDefectMenu() {
-
-        implicitWait(5);
+        PageBase.implicitWait(5);
         softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
         staticWait(2);
         HomePage.clickDefectMenu();
@@ -92,21 +94,21 @@ public class AddDefect extends TestBase {
         softAssert.assertAll();
 
     }
-//    @Test(priority=7)
-//    public void checkDefectDetailsTable() {
-//        implicitWait(5);
-//        softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
-//        staticWait(2);
-//        HomePage.clickDefectMenu();
-//        staticWait(2);
-//        HomePage.clickDefectSubMenu();
-//        softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
-//        DefectPage.clickAddDefect();
-//        softAssert.assertTrue(DefectPage.isAddDefectFormDisplayed(),"AddDefect Form is not Displayed");
-//
-//        softAssert.assertAll();
-//
-//    }
+    @Test(priority=7)
+    public void checkDefectDetailsTable() {
+        implicitWait(5);
+        softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
+        staticWait(2);
+        HomePage.clickDefectMenu();
+        staticWait(2);
+        HomePage.clickDefectSubMenu();
+        softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
+        DefectPage.clickAddDefect();
+        softAssert.assertTrue(AddDefectPage.isAddDefectFormDisplayed(),"AddDefect Form is not Displayed");
+
+        softAssert.assertAll();
+
+    }
     @Test(priority=8)
     public void addDefect() {
         implicitWait(5);
@@ -117,9 +119,12 @@ public class AddDefect extends TestBase {
         HomePage.clickDefectSubMenu();
         softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
         DefectPage.clickAddDefect();
-        AddDefectPage.createDefect("jp1234","defect","defect","User 1",
-                "Release1","jp","UI","High","High","NEW",
-                "testing defect service","testing defect service");
+        //getDriver().findElement(By.xpath("//*[@id=\"defectId\"]")).sendKeys("wdnwdn");
+
+        AddDefectPage.createDefect("jp1234","defect","defect","test for add defect","test for add defect",
+                "User 1","Release1","jp","UI","High","Low","NEW"
+
+                );
         //softAssert.assertEquals(AddDefectPage.getResult(),"jp1234","not match");
         softAssert.assertAll();
     }
