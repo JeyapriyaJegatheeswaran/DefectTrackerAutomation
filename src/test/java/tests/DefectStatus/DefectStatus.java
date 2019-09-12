@@ -359,6 +359,41 @@ public class DefectStatus  extends TestBase {
         softAssert.assertAll();
 
     }
+    @Test(groups = "tests",priority=14)
+    public void  canceldata() {
+        softAssert = new SoftAssert();
+        sabbartest();
+        DefectStatusPage.clickAddStatus();
+        extentTest.log(LogStatus.PASS, "Click Ok");
+        DefectStatusPage.setDefectType("test");
+        extentTest.log(LogStatus.PASS, "Enter the Type");
+        DefectStatusPage.setDefectDescription("testtest");
+        extentTest.log(LogStatus.PASS, "Enter the decription");
+        implicitWait(3);
+        DefectStatusPage.clickCancelButton();
+        extentTest.log(LogStatus.PASS, "Cancel Button");
+        DefectStatusPage.implicitWait(2);
+        DefectStatusPage.clickAddStatus();
+        extentTest.log(LogStatus.PASS, "Click AddStatus");
+        DefectStatusPage.clickok();
+        extentTest.log(LogStatus.PASS, "Click Ok Button");
+        softAssert.assertAll();
+    }
+    @Test(groups = "tests",priority=15)
+    public void  checkaddstatusforms() {
+        softAssert = new SoftAssert();
+        sabbartest();
+        DefectStatusPage.clickAddStatus();
+        extentTest.log(LogStatus.PASS, "Click Ok");
+        softAssert.assertTrue(DefectStatusPage.ischeckstatusDisplayed(), "AddStatusField not Displayed");
+        softAssert.assertTrue(DefectStatusPage.ischeckdcDisplayed(), "AddStatus Dcription Field not Displayed");
+        softAssert.assertTrue(DefectStatusPage.ischeckOkbuttonDisplayed(), "AddStatus Ok Button not Displayed");
+        softAssert.assertTrue(DefectStatusPage.ischeckcancelbuttonDisplayed(), "AddStatus Cancel Button not Displayed");
+        DefectStatusPage.clickok();
+        extentTest.log(LogStatus.PASS, "Click Ok Button");
+        softAssert.assertAll();
+    }
+
 
 
 

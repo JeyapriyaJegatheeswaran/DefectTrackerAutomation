@@ -21,6 +21,7 @@ public class DefectStatusPage extends PageBase {
     private static String txtDefectStatus = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[1]/div[2]/div/span/input";
     private static String txtDefectDescription= "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[2]/div[2]/div/span/input";
     private static String Clickok= "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[2]";
+    private static String ClickEditok= "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[2]";
     private static String ClickEditDefect= "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[1]/td[3]/span/i[1]";
     private static String DeleteDefect= "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[1]/td[3]/span/i[2]";
     private static String txtResult = "//td[text()='TestLow']";
@@ -32,8 +33,21 @@ public class DefectStatusPage extends PageBase {
     private static String ConformDeleteform="/html/body/div[2]/div/div/div/div[2]/div/div/div[1]/div";
     private static String tablevalidate="//span[text()='DefectStatus']";
     private static String tablevalidatedc="//span[text()='Description']";
+    private static String cancelbtn="/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[1]";
 
 
+    public static boolean ischeckstatusDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(txtDefectStatus);
+    }
+    public static boolean ischeckdcDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(txtDefectStatus);
+    }
+    public static boolean ischeckOkbuttonDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(Clickok);
+    }
+    public static boolean ischeckcancelbuttonDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(cancelbtn);
+    }
     public static boolean istablevalidateDisplayed(){
         return MethodBase.isDisplayed_ByXpath(tablevalidate);
     }
@@ -44,6 +58,10 @@ public class DefectStatusPage extends PageBase {
 
         return MethodBase.get_Text(lowcharecters.replace("LINK", link));
     }
+    public static void clickCancelButton() {
+        MethodBase.clickButton_ByXpath(cancelbtn);
+
+    }
     public static String getMeassagebox(){
         return MethodBase.get_Text(meassagebox);
     }
@@ -53,6 +71,16 @@ public class DefectStatusPage extends PageBase {
     public static boolean isDefectDashboardPageDisplayed(){
         return MethodBase.isDisplayed_ByXpath(HrDashboard);
     }
+    public static boolean isEditDefectPageDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(txtDefectStatus);
+    }
+    public static boolean isEditDefectPagedcDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(txtDefectDescription);
+    }
+    public static boolean isEditDefectokPagedcDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(ClickEditok);
+    }
+
     public static boolean isDefectStatusPageDisplayed(){
         return MethodBase.isDisplayed_ByXpath(HrDefectStatus);
     }
