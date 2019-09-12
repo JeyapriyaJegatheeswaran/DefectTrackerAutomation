@@ -19,17 +19,16 @@ public class AddDefectPage extends PageBase {
     private static String txtModule = "//div[@id='gender4']";
     private static String txtDescription = "defectDescription";
     private static String txtSteps = "stepsToRecreate";
-    private static String txtEnteredBy = "/html/body/div[7]/div/div[2]/div/div[2]/div[2]/form/div[1]/div[6]/div/div[2]/div/span/div/div/div/div";
-    private static String txtFoundIn = "/html/body/div[7]/div/div[2]/div/div[2]/div[2]/form/div[1]/div[7]/div/div[2]/div/span/div/div/div/div";
-    private static String txtAssignTo = "/html/body/div[7]/div/div[2]/div/div[2]/div[2]/form/div[1]/div[8]/div/div[2]/div/span/div/div/div/div";
-    private static String txtType = "//*[@id=\"gender6\"]/div/div/div";
-    private static String txtSeverity = "//*[@id=\"gender2\"]/div/div/div";
-    private static String txtPriority = "//*[@id=\"gender3\"]/div/div/div";
-    private static String txtStatus = "//*[@id=\"gender7\"]/div/div/div";
+    private static String txtEnteredBy = "//div[@id='enteredBy']";
+    private static String txtFoundIn = "//div[@id='foundIn']";
+    private static String txtAssignTo = "//div[@id='assignTo']";
+    private static String txtType = "//div[@id='gender6']";
+    private static String txtSeverity = "//div[@id='gender2']";
+    private static String txtPriority = "//div[@id='gender3']";
+    private static String txtStatus = "//div[@id='gender7']";
     private static String txtCommonOption = "//li[text()=\"Option\"]";
-    private static String btnAdd = "/html/body/div[7]/div/div[2]/div/div[2]/button";
+    private static String btnAdd = "/html/body/div[7]/div/div[2]/div/div[2]/div[3]/div/button[2]";
     private static String btnCancel = "/html/body/div[7]/div/div[2]/div/div[2]/div[3]/div/button[1]";
-    private static String txtResult = "//td[text()='jp1234']";
     private static String commonValidMsgStatus = "//div[text()='LINK!']";
     private static String btnDelete="//*[@id=\"root\"]/div/section/section/main/div[2]/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[td[1][. = 'jp1234']]/td[7]/span/a/i";
     private static String btnDeleteOk="/html/body/div/div/div/div/div[2]/div/div/div[2]/button[2]";
@@ -39,6 +38,51 @@ public class AddDefectPage extends PageBase {
     public static boolean isAddDefectFormDisplayed(){
         return MethodBase.isDisplayed_ByXpath(txtAddDefectFormTitle);
     }
+    public static boolean isDefectIdFieldDisplayed(){
+        return MethodBase.isDisplayed_ById(txtDefectID);
+    }
+    public static boolean isProjectFieldDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(txtProject);
+    }
+    public static boolean isModuleFieldDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(txtModule);
+    }
+    public static boolean isDescriptionFieldDisplayed(){
+        return MethodBase.isDisplayed_ById(txtDescription);
+    }
+    public static boolean isStepsFieldDisplayed(){
+        return MethodBase.isDisplayed_ById(txtSteps);
+    }
+    public static boolean isEnteredByFieldDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(txtEnteredBy);
+    }
+    public static boolean isFoundInFieldDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(txtFoundIn);
+    }
+    public static boolean isAssigneeToFieldDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(txtAssignTo);
+    }
+    public static boolean isTypeFieldDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(txtType);
+    }
+    public static boolean isSeverityFieldDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(txtSeverity);
+    }
+    public static boolean isPriorityFieldDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(txtPriority);
+    }
+    public static boolean isStatusFieldDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(txtStatus);
+    }
+    public static boolean isOkButtonDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(btnAdd);
+    }
+    public static boolean isCancelDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(btnCancel);
+    }
+
+
+
     public static void clickEditButton(){
 
         MethodBase.clickButton_ByXpath(btnEdit);
@@ -89,31 +133,26 @@ public class AddDefectPage extends PageBase {
                                     String type,String severity,String priority,String status){
           AddDefectPage.setDefectId(defectId);
           AddDefectPage.setProject(project);
-//        AddDefectPage.setDescription(description);
-//        AddDefectPage.setSteps(steps);
-//        AddDefectPage.setEnteredBy(enteredBy);
-//        AddDefectPage.setFoundIn(foundIn);
-//        AddDefectPage.setAssignTo(assignTo);
-//        AddDefectPage.setDefectType(type);
-//        AddDefectPage.setSeverity(severity);
-//        AddDefectPage.setPriority(priority);
-//        staticWait(3);
-//        AddDefectPage.setStatus(status);
-//        staticWait(3);
-        MethodBase.clickButton_ByXpath(btnAdd);
-//        //AddDefectPage.setModule(module);
-//        staticWait(3);
-//        AddDefectPage.setPriority(priority);
-        MethodBase.clickButton_ByXpath(btnAdd);
-        staticWait(3);
+          AddDefectPage.setModule(module);
+          AddDefectPage.setDescription(description);
+          AddDefectPage.setSteps(steps);
+          AddDefectPage.setEnteredBy(enteredBy);
+          AddDefectPage.setFoundIn(foundIn);
+          AddDefectPage.setAssignTo(assignTo);
+          staticWait(3);
+          AddDefectPage.setDefectType(type);
+          AddDefectPage.setSeverity(severity);
+          staticWait(2);
+          AddDefectPage.setPriority(priority);
+
+          AddDefectPage.setStatus(status);
+          MethodBase.clickButton_ByXpath(btnAdd);
     }
     public static void createDefectWithoutData(){
 
         MethodBase.clickButton_ByXpath(btnAdd);
     }
-    public static String getResult(){
-        return MethodBase.get_Text(txtResult);
-    }
+
 
     public static String CheckValidMsg(String link){
 
@@ -129,4 +168,5 @@ public class AddDefectPage extends PageBase {
 
         MethodBase.clickButton_ByXpath(btnCancel);
     }
+
 }

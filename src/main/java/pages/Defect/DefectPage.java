@@ -13,13 +13,15 @@ public class DefectPage extends PageBase {
     private static String btnaddDefect = "//*[@id=\"root\"]/div/section/section/main/div[2]/div/div[1]/div/button";
     private static String txtTitle = "//span[@class='ant-page-header-title-view-title']";
     private static String defectTable = "//thead[@class='ant-table-thead']";
-    private static String txtResult = "//td[text()='jp1234']";
+    private static String txtResult = "//td[text()='defectId']";
     private static String btnDelete="//*[@id=\"root\"]/div/section/section/main/div[2]/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[td[1][. = 'defectId']]/td[7]/span/a/i";
     private static String deletePopup = "//div[@class=\"ant-popover-inner-content\"]";
     private static String txtDeleteConformationMsg="//div[@class=\"ant-popover-message-title\"]";
     private static String btnDeleteOk="/html/body/div/div/div/div/div[2]/div/div/div[2]/button[2]";
     private static String btnEdit="//*[@id=\"root\"]/div/section/section/main/div[2]/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[td[1][. = 'defectId']]/td[7]/span/i";
     private static String txtDefectTableData="//*[@id=\"root\"]/div/section/section/main/div[2]/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[td[1][. = 'defectId']]/td[index]";
+
+    private static String txtDefectTableHeading="//thead/tr/th[. = 'Heading']";
 
     public static boolean isAddDefectButtonDisplayed(){
          return MethodBase.isDisplayed_ByXpath(btnaddDefect);
@@ -30,6 +32,9 @@ public class DefectPage extends PageBase {
     public static boolean isDefectTableDisplayed(){
         return MethodBase.isDisplayed_ByXpath(defectTable);
     }
+    public static boolean isDefectTableHeadingDisplayed(String heading){
+        return MethodBase.isDisplayed_ByXpath(txtDefectTableHeading.replace("Heading",heading));
+    }
 
     public static void clickAddDefect() {
         MethodBase.clickButton_ByXpath(btnaddDefect);
@@ -39,8 +44,8 @@ public class DefectPage extends PageBase {
 
         MethodBase.clickButton_ByXpath(btnEdit.replace("defectId",defectId));
     }
-    public static String getResult(){
-        return MethodBase.get_Text(txtResult);
+    public static String getResult(String defectId){
+        return MethodBase.get_Text(txtResult.replace("defectId", defectId));
     }
 
     public static void clickDeleteDefect(String defectId){

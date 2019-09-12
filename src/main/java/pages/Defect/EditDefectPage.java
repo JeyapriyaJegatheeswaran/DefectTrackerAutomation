@@ -28,6 +28,8 @@ public class EditDefectPage extends PageBase {
     private static String txtEditStatus = "/html/body/div[7]/div/div[2]/div/div[2]/div[2]/form/div[3]/div/div/div[2]/div/span/div/div/span";
     private static String txtResult = "//td[text()='jp1234']";
     private static String btnAdd = "/html/body/div[7]/div/div[2]/div/div[2]/div[3]/div/button[2]";
+    private static String btnCancel = "/html/body/div[7]/div/div[2]/div/div[2]/div[3]/div/button[1]";
+
 
 
     public static String getResult(){
@@ -43,38 +45,43 @@ public class EditDefectPage extends PageBase {
 
         MethodBase.clickButton_ByXpath(btnAdd);
     }
+    public static void clickCancelButton(){
+
+        MethodBase.clickButton_ByXpath(btnCancel);
+    }
 
 
     public static void editEnteredBy(String enteredBy){
         MethodBase.selectAction(txtEditEnteredBy,txtCommonEnteredByOption.replace("Option", enteredBy));
-        EditDefectPage.clickOKButton();
+
     }
     public static void editFoundIn(String foundIn){
         MethodBase.selectAction(txtEditFoundIn,txtCommonEnteredByOption.replace("Option", foundIn));
-        EditDefectPage.clickOKButton();
+
     }
     public static void editAssignTo(String assignTo){
         MethodBase.selectAction(txtEditAssignTo,txtCommonEnteredByOption.replace("Option", assignTo));
-        EditDefectPage.clickOKButton();
+
     }
     public static void editType(String type){
         MethodBase.selectAction(txtEditType,txtCommonEnteredByOption.replace("Option", type));
-        EditDefectPage.clickOKButton();
+
     }
+
     public static void editSeverity(String severity){
         MethodBase.selectAction(txtEditSeverity,txtCommonEnteredByOption.replace("Option", severity));
-        EditDefectPage.clickOKButton();
+
     }
     public static void editPriority(String priority){
         MethodBase.selectAction(txtEditPriority,txtCommonEnteredByOption.replace("Option", priority));
-        EditDefectPage.clickOKButton();
+
     }
     public static void editStatus(String status){
         MethodBase.selectAction(txtEditStatus,txtCommonEnteredByOption.replace("Option", status));
-        EditDefectPage.clickOKButton();
+
     }
     public static void editModule(String module){
         MethodBase.selectAction(txtEditModule,txtCommonEnteredByOption.replace("Option", module));
-        EditDefectPage.clickOKButton();
+
     }
 }

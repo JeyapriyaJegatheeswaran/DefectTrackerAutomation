@@ -5,7 +5,7 @@
         <classes>
             <class name="tests.Defect.AddDefect"/>
             <class name="tests.Defect.EditDefect"/>
-            <class name="tests.Defect.DeleteDefect"/>
+
         </classes>
     </test>
 </suite>
