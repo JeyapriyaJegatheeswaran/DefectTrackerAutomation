@@ -178,9 +178,7 @@ public class DefectStatus  extends TestBase {
     @Test(groups = "tests",priority=6)
     public void  sabbartest() {
         softAssert = new SoftAssert();
-        softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
-        extentTest.log(LogStatus.PASS, "Dashboard Page Show");
-        DefectStatusPage.clickSetting();
+        SidebarTest();
         staticWait(3);
         extentTest.log(LogStatus.PASS, "Click Setting Tab");
         softAssert.assertTrue(DefectStatusPage.isDisplayedGeneralConfiguration(), "GeneralConfiguration not Displayed");
@@ -218,7 +216,7 @@ public class DefectStatus  extends TestBase {
 
     }
     @Test(groups = "tests",priority=8)
-    public void  addstatus() {
+    public void  lowaddstatus() {
         softAssert = new SoftAssert();
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
         extentTest.log(LogStatus.PASS, "Dashboard Page Show");
@@ -312,5 +310,56 @@ public class DefectStatus  extends TestBase {
         extentTest.log(LogStatus.PASS, "Successfull Show getresult");
         softAssert.assertAll();
     }
+    @Test(groups = "tests",priority=11)
+    public void  invalidateData() {
+        softAssert = new SoftAssert();
+        sabbartest();
+        DefectStatusPage.clickAddStatus();
+        extentTest.log(LogStatus.PASS, "Click Ok");
+        DefectStatusPage.setDefectType("gjt766h");
+        extentTest.log(LogStatus.PASS, "Enter the Type");
+        DefectStatusPage.setDefectDescription("hsdhfgywd23");
+        extentTest.log(LogStatus.PASS, "Enter the decription");
+        DefectStatusPage.clickok();
+        extentTest.log(LogStatus.PASS, "Click ok");
+        softAssert.assertAll();
+
+    }
+    @Test(groups = "tests",priority=12)
+    public void  numbervalue() {
+        softAssert = new SoftAssert();
+        sabbartest();
+        DefectStatusPage.clickAddStatus();
+        extentTest.log(LogStatus.PASS, "Click Ok");
+        DefectStatusPage.setDefectType("45669");
+        extentTest.log(LogStatus.PASS, "Enter the Type");
+        DefectStatusPage.setDefectDescription("456456");
+        extentTest.log(LogStatus.PASS, "Enter the decription");
+        softAssert.assertEquals(DefectStatusPage.CheckValidMsg("Invalid Defect Status"),"Invalid Defect Status","fail");
+        softAssert.assertEquals(DefectStatusPage.CheckValidMsg("Invalid Description"),"Invalid Description","fail");
+        DefectStatusPage.clickok();
+        extentTest.log(LogStatus.PASS, "Click ok");
+        softAssert.assertAll();
+
+    }
+    @Test(groups = "tests",priority=13)
+    public void  spicalvalue() {
+        softAssert = new SoftAssert();
+        sabbartest();
+        DefectStatusPage.clickAddStatus();
+        extentTest.log(LogStatus.PASS, "Click Ok");
+        DefectStatusPage.setDefectType("/*-@#$");
+        extentTest.log(LogStatus.PASS, "Enter the Type");
+        DefectStatusPage.setDefectDescription("4/*-1234");
+        extentTest.log(LogStatus.PASS, "Enter the decription");
+        softAssert.assertEquals(DefectStatusPage.CheckValidMsg("Invalid Defect Status"),"Invalid Defect Status","fail");
+        softAssert.assertEquals(DefectStatusPage.CheckValidMsg("Invalid Description"),"Invalid Description","fail");
+        DefectStatusPage.clickok();
+        extentTest.log(LogStatus.PASS, "Click ok");
+        softAssert.assertAll();
+
+    }
+
+
 
 }
