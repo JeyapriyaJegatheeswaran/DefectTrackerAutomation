@@ -439,3 +439,356 @@
 2019-09-10 14:55:26 INFO  TestBase:81 - Executed test case name:editSeverityFormVerify Execution Results : [TestResult name=editSeverityFormVerify status=SUCCESS method=EditSeverityTest.editSeverityFormVerify()[pri:0, instance:tests.Severity.EditSeverityTest@4df828d7] output={null}]
 2019-09-10 14:55:26 INFO  TestBase:70 - Closing Browser
 2019-09-10 14:55:27 INFO  TestBase:72 - Browser Closed
+2019-09-10 15:25:36 INFO  TestBase:32 - Initiate Browser
+2019-09-11 09:39:16 INFO  TestBase:32 - Initiate Browser
+2019-09-11 09:39:38 INFO  TestBase:41 - Browser Initiated
+2019-09-11 09:39:38 INFO  TestBase:53 - Test name: severityEditBtnVerify
+2019-09-11 09:39:40 INFO  TestBase:81 - Executed test case name:severityEditBtnVerify Execution Results : [TestResult name=severityEditBtnVerify status=SUCCESS method=EditSeverityTest.severityEditBtnVerify()[pri:0, instance:tests.Severity.EditSeverityTest@70beb599] output={null}]
+2019-09-11 09:39:40 INFO  TestBase:70 - Closing Browser
+2019-09-11 09:39:41 INFO  TestBase:72 - Browser Closed
+2019-09-11 10:34:33 INFO  TestBase:32 - Initiate Browser
+2019-09-11 10:34:39 INFO  TestBase:41 - Browser Initiated
+2019-09-11 10:34:39 INFO  TestBase:53 - Test name: editSeverityItemVerify
+2019-09-11 10:34:40 INFO  TestBase:81 - Executed test case name:editSeverityItemVerify Execution Results : [TestResult name=editSeverityItemVerify status=SUCCESS method=EditSeverityTest.editSeverityItemVerify()[pri:0, instance:tests.Severity.EditSeverityTest@4df828d7] output={null}]
+2019-09-11 10:34:40 INFO  TestBase:70 - Closing Browser
+2019-09-11 10:34:41 INFO  TestBase:72 - Browser Closed
+2019-09-11 10:35:17 INFO  TestBase:32 - Initiate Browser
+2019-09-11 10:35:34 INFO  TestBase:41 - Browser Initiated
+2019-09-11 10:35:34 INFO  TestBase:53 - Test name: editSeverity
+2019-09-11 10:35:37 INFO  TestBase:81 - Executed test case name:editSeverity Execution Results : [TestResult name=editSeverity status=SUCCESS method=EditSeverityTest.editSeverity()[pri:0, instance:tests.Severity.EditSeverityTest@11e21d0e] output={null}]
+2019-09-11 10:35:37 INFO  TestBase:70 - Closing Browser
+2019-09-11 10:35:38 INFO  TestBase:72 - Browser Closed
+2019-09-11 11:08:43 INFO  TestBase:32 - Initiate Browser
+2019-09-11 11:08:49 INFO  TestBase:41 - Browser Initiated
+2019-09-11 11:08:49 INFO  TestBase:53 - Test name: editedItemCheck
+2019-09-11 11:08:50 INFO  TestBase:81 - Executed test case name:editedItemCheck Execution Results : [TestResult name=editedItemCheck status=SUCCESS method=EditSeverityTest.editedItemCheck()[pri:0, instance:tests.Severity.EditSeverityTest@4df828d7] output={null}]
+2019-09-11 11:08:50 INFO  TestBase:70 - Closing Browser
+2019-09-11 11:08:51 INFO  TestBase:72 - Browser Closed
+2019-09-11 11:17:46 INFO  TestBase:32 - Initiate Browser
+2019-09-11 11:18:03 INFO  TestBase:41 - Browser Initiated
+2019-09-11 11:18:03 INFO  TestBase:53 - Test name: SeverityAddedItemCheck
+2019-09-11 11:18:03 INFO  TestBase:81 - Executed test case name:SeverityAddedItemCheck Execution Results : [TestResult name=SeverityAddedItemCheck status=SUCCESS method=AddSeverityTest.SeverityAddedItemCheck()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-11 11:18:03 INFO  TestBase:70 - Closing Browser
+2019-09-11 11:18:04 INFO  TestBase:72 - Browser Closed
+2019-09-11 11:26:32 INFO  TestBase:32 - Initiate Browser
+2019-09-11 11:26:49 INFO  TestBase:41 - Browser Initiated
+2019-09-11 11:26:49 INFO  TestBase:53 - Test name: editSeverityItemVerify
+2019-09-11 11:26:50 INFO  TestBase:81 - Executed test case name:editSeverityItemVerify Execution Results : [TestResult name=editSeverityItemVerify status=SUCCESS method=EditSeverityTest.editSeverityItemVerify()[pri:0, instance:tests.Severity.EditSeverityTest@11e21d0e] output={null}]
+2019-09-11 11:26:50 INFO  TestBase:70 - Closing Browser
+2019-09-11 11:26:51 INFO  TestBase:72 - Browser Closed
+2019-09-11 11:31:20 INFO  TestBase:32 - Initiate Browser
+2019-09-11 11:31:26 INFO  TestBase:41 - Browser Initiated
+2019-09-11 11:31:26 INFO  TestBase:53 - Test name: editSeverityItemVerify
+2019-09-11 11:31:27 INFO  TestBase:81 - Executed test case name:editSeverityItemVerify Execution Results : [TestResult name=editSeverityItemVerify status=SUCCESS method=EditSeverityTest.editSeverityItemVerify()[pri:0, instance:tests.Severity.EditSeverityTest@76329302] output={null}]
+2019-09-11 11:31:27 INFO  TestBase:70 - Closing Browser
+2019-09-11 11:31:28 INFO  TestBase:72 - Browser Closed
+2019-09-11 11:56:14 INFO  TestBase:32 - Initiate Browser
+2019-09-11 11:56:31 INFO  TestBase:41 - Browser Initiated
+2019-09-11 11:56:31 INFO  TestBase:53 - Test name: clickGeneranConfiSettingVerify
+2019-09-11 11:56:31 INFO  TestBase:81 - Executed test case name:clickGeneranConfiSettingVerify Execution Results : [TestResult name=clickGeneranConfiSettingVerify status=SUCCESS method=AddPriorityTest.clickGeneranConfiSettingVerify()[pri:0, instance:tests.Priority.AddPriorityTest@11e21d0e] output={null}]
+2019-09-11 11:56:31 INFO  TestBase:70 - Closing Browser
+2019-09-11 11:56:32 INFO  TestBase:72 - Browser Closed
+2019-09-11 11:56:38 INFO  TestBase:32 - Initiate Browser
+2019-09-11 11:56:55 INFO  TestBase:41 - Browser Initiated
+2019-09-11 11:56:55 INFO  TestBase:53 - Test name: clickSettingVerify
+2019-09-11 11:56:55 INFO  TestBase:81 - Executed test case name:clickSettingVerify Execution Results : [TestResult name=clickSettingVerify status=SUCCESS method=AddPriorityTest.clickSettingVerify()[pri:0, instance:tests.Priority.AddPriorityTest@11e21d0e] output={null}]
+2019-09-11 11:56:55 INFO  TestBase:70 - Closing Browser
+2019-09-11 11:56:56 INFO  TestBase:72 - Browser Closed
+2019-09-11 12:03:58 INFO  TestBase:32 - Initiate Browser
+2019-09-11 12:04:14 INFO  TestBase:41 - Browser Initiated
+2019-09-11 12:04:14 INFO  TestBase:53 - Test name: clickSettingVerify
+2019-09-11 12:04:15 INFO  TestBase:81 - Executed test case name:clickSettingVerify Execution Results : [TestResult name=clickSettingVerify status=SUCCESS method=AddPriorityTest.clickSettingVerify()[pri:0, instance:tests.Priority.AddPriorityTest@11e21d0e] output={null}]
+2019-09-11 12:04:15 INFO  TestBase:70 - Closing Browser
+2019-09-11 12:04:16 INFO  TestBase:72 - Browser Closed
+2019-09-11 14:12:57 INFO  TestBase:32 - Initiate Browser
+2019-09-11 14:13:14 INFO  TestBase:41 - Browser Initiated
+2019-09-11 14:13:14 INFO  TestBase:53 - Test name: Priority1PageVerify
+2019-09-11 14:13:14 INFO  PriorityPage:42 - Priority Page is Displayed 
+2019-09-11 14:13:14 INFO  TestBase:81 - Executed test case name:Priority1PageVerify Execution Results : [TestResult name=Priority1PageVerify status=SUCCESS method=AddPriorityTest.Priority1PageVerify()[pri:0, instance:tests.Priority.AddPriorityTest@11e21d0e] output={null}]
+2019-09-11 14:13:14 INFO  TestBase:70 - Closing Browser
+2019-09-11 14:13:15 INFO  TestBase:72 - Browser Closed
+2019-09-11 14:28:49 INFO  TestBase:32 - Initiate Browser
+2019-09-11 14:28:55 INFO  TestBase:41 - Browser Initiated
+2019-09-11 14:28:55 INFO  TestBase:53 - Test name: SeverityAddBtnVerify
+2019-09-11 14:28:56 INFO  TestBase:81 - Executed test case name:SeverityAddBtnVerify Execution Results : [TestResult name=SeverityAddBtnVerify status=FAILURE method=AddSeverityTest.SeverityAddBtnVerify()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-11 14:28:57 INFO  TestBase:70 - Closing Browser
+2019-09-11 14:28:57 INFO  TestBase:72 - Browser Closed
+2019-09-11 14:29:48 INFO  TestBase:32 - Initiate Browser
+2019-09-11 14:29:54 INFO  TestBase:41 - Browser Initiated
+2019-09-11 14:29:54 INFO  TestBase:53 - Test name: SeverityAddBtnVerify
+2019-09-11 14:29:55 INFO  TestBase:81 - Executed test case name:SeverityAddBtnVerify Execution Results : [TestResult name=SeverityAddBtnVerify status=SUCCESS method=AddSeverityTest.SeverityAddBtnVerify()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-11 14:29:55 INFO  TestBase:70 - Closing Browser
+2019-09-11 14:29:55 INFO  TestBase:72 - Browser Closed
+2019-09-11 14:30:32 INFO  TestBase:32 - Initiate Browser
+2019-09-11 14:30:44 INFO  TestBase:41 - Browser Initiated
+2019-09-11 14:30:44 INFO  TestBase:53 - Test name: SeverityAddBtnVerify
+2019-09-11 14:30:45 INFO  TestBase:81 - Executed test case name:SeverityAddBtnVerify Execution Results : [TestResult name=SeverityAddBtnVerify status=FAILURE method=AddSeverityTest.SeverityAddBtnVerify()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-11 14:30:45 INFO  TestBase:70 - Closing Browser
+2019-09-11 14:30:46 INFO  TestBase:72 - Browser Closed
+2019-09-11 14:32:28 INFO  TestBase:32 - Initiate Browser
+2019-09-11 14:32:34 INFO  TestBase:41 - Browser Initiated
+2019-09-11 14:32:34 INFO  TestBase:53 - Test name: SeverityAddBtnVerify
+2019-09-11 14:32:35 INFO  TestBase:81 - Executed test case name:SeverityAddBtnVerify Execution Results : [TestResult name=SeverityAddBtnVerify status=SUCCESS method=AddSeverityTest.SeverityAddBtnVerify()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-11 14:32:35 INFO  TestBase:70 - Closing Browser
+2019-09-11 14:32:35 INFO  TestBase:72 - Browser Closed
+2019-09-11 14:45:08 INFO  TestBase:32 - Initiate Browser
+2019-09-11 14:45:24 INFO  TestBase:41 - Browser Initiated
+2019-09-11 14:45:24 INFO  TestBase:53 - Test name: Priority1PageVerify
+2019-09-11 14:45:25 INFO  TestBase:81 - Executed test case name:Priority1PageVerify Execution Results : [TestResult name=Priority1PageVerify status=SUCCESS method=AddPriorityTest.Priority1PageVerify()[pri:0, instance:tests.Priority.AddPriorityTest@11e21d0e] output={null}]
+2019-09-11 14:45:25 INFO  TestBase:70 - Closing Browser
+2019-09-11 14:45:26 INFO  TestBase:72 - Browser Closed
+2019-09-11 16:01:58 INFO  TestBase:32 - Initiate Browser
+2019-09-11 16:02:04 INFO  TestBase:41 - Browser Initiated
+2019-09-11 16:02:04 INFO  TestBase:53 - Test name: cancelSeverity
+2019-09-11 16:02:06 INFO  TestBase:81 - Executed test case name:cancelSeverity Execution Results : [TestResult name=cancelSeverity status=SUCCESS method=AddSeverityTest.cancelSeverity()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-11 16:02:06 INFO  TestBase:70 - Closing Browser
+2019-09-11 16:02:07 INFO  TestBase:72 - Browser Closed
+2019-09-12 10:24:49 INFO  TestBase:32 - Initiate Browser
+2019-09-12 10:25:07 INFO  TestBase:41 - Browser Initiated
+2019-09-12 10:25:07 INFO  TestBase:53 - Test name: clickSettingVerify
+2019-09-12 10:25:07 INFO  TestBase:81 - Executed test case name:clickSettingVerify Execution Results : [TestResult name=clickSettingVerify status=FAILURE method=AddPriorityTest.clickSettingVerify()[pri:0, instance:tests.Priority.AddPriorityTest@1dd02175] output={null}]
+2019-09-12 10:25:08 INFO  TestBase:70 - Closing Browser
+2019-09-12 10:25:09 INFO  TestBase:72 - Browser Closed
+2019-09-12 10:25:16 INFO  TestBase:32 - Initiate Browser
+2019-09-12 10:25:33 INFO  TestBase:41 - Browser Initiated
+2019-09-12 10:25:33 INFO  TestBase:53 - Test name: clickSettingVerify
+2019-09-12 10:25:34 INFO  TestBase:81 - Executed test case name:clickSettingVerify Execution Results : [TestResult name=clickSettingVerify status=FAILURE method=AddPriorityTest.clickSettingVerify()[pri:0, instance:tests.Priority.AddPriorityTest@1dd02175] output={null}]
+2019-09-12 10:25:34 INFO  TestBase:70 - Closing Browser
+2019-09-12 10:25:35 INFO  TestBase:72 - Browser Closed
+2019-09-12 10:26:14 INFO  TestBase:32 - Initiate Browser
+2019-09-12 10:26:20 INFO  TestBase:41 - Browser Initiated
+2019-09-12 10:26:20 INFO  TestBase:53 - Test name: clickSettingVerify
+2019-09-12 10:26:20 INFO  TestBase:81 - Executed test case name:clickSettingVerify Execution Results : [TestResult name=clickSettingVerify status=SUCCESS method=AddPriorityTest.clickSettingVerify()[pri:0, instance:tests.Priority.AddPriorityTest@1dd02175] output={null}]
+2019-09-12 10:26:20 INFO  TestBase:70 - Closing Browser
+2019-09-12 10:26:21 INFO  TestBase:72 - Browser Closed
+2019-09-12 11:43:28 INFO  TestBase:32 - Initiate Browser
+2019-09-12 11:43:40 INFO  TestBase:41 - Browser Initiated
+2019-09-12 11:43:40 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 11:43:42 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=SUCCESS method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 11:43:42 INFO  TestBase:70 - Closing Browser
+2019-09-12 11:43:43 INFO  TestBase:72 - Browser Closed
+2019-09-12 11:44:13 INFO  TestBase:32 - Initiate Browser
+2019-09-12 11:44:31 INFO  TestBase:41 - Browser Initiated
+2019-09-12 11:44:31 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 11:44:38 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=SUCCESS method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 11:44:38 INFO  TestBase:70 - Closing Browser
+2019-09-12 11:44:39 INFO  TestBase:72 - Browser Closed
+2019-09-12 11:44:51 INFO  TestBase:32 - Initiate Browser
+2019-09-12 11:44:57 INFO  TestBase:41 - Browser Initiated
+2019-09-12 11:44:57 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 11:45:04 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=SUCCESS method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 11:45:04 INFO  TestBase:70 - Closing Browser
+2019-09-12 11:45:05 INFO  TestBase:72 - Browser Closed
+2019-09-12 11:45:57 INFO  TestBase:32 - Initiate Browser
+2019-09-12 11:46:04 INFO  TestBase:41 - Browser Initiated
+2019-09-12 11:46:04 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 11:46:11 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=SUCCESS method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 11:46:11 INFO  TestBase:70 - Closing Browser
+2019-09-12 11:46:12 INFO  TestBase:72 - Browser Closed
+2019-09-12 11:56:26 INFO  TestBase:32 - Initiate Browser
+2019-09-12 11:56:38 INFO  TestBase:41 - Browser Initiated
+2019-09-12 11:56:38 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 11:56:46 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=SUCCESS method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 11:56:46 INFO  TestBase:70 - Closing Browser
+2019-09-12 11:56:46 INFO  TestBase:72 - Browser Closed
+2019-09-12 11:58:12 INFO  TestBase:32 - Initiate Browser
+2019-09-12 11:58:29 INFO  TestBase:41 - Browser Initiated
+2019-09-12 11:58:29 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 11:58:36 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=SUCCESS method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 11:58:36 INFO  TestBase:70 - Closing Browser
+2019-09-12 11:58:37 INFO  TestBase:72 - Browser Closed
+2019-09-12 12:48:41 INFO  TestBase:32 - Initiate Browser
+2019-09-12 12:48:48 INFO  TestBase:41 - Browser Initiated
+2019-09-12 12:48:48 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 12:48:55 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=SUCCESS method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 12:48:55 INFO  TestBase:70 - Closing Browser
+2019-09-12 12:48:56 INFO  TestBase:72 - Browser Closed
+2019-09-12 12:49:56 INFO  TestBase:32 - Initiate Browser
+2019-09-12 12:50:13 INFO  TestBase:41 - Browser Initiated
+2019-09-12 12:50:13 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 12:50:21 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=SUCCESS method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 12:50:21 INFO  TestBase:70 - Closing Browser
+2019-09-12 12:50:21 INFO  TestBase:72 - Browser Closed
+2019-09-12 12:51:34 INFO  TestBase:32 - Initiate Browser
+2019-09-12 12:51:51 INFO  TestBase:41 - Browser Initiated
+2019-09-12 12:51:51 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 12:51:53 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=FAILURE method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 12:51:53 INFO  TestBase:70 - Closing Browser
+2019-09-12 12:51:54 INFO  TestBase:72 - Browser Closed
+2019-09-12 12:52:14 INFO  TestBase:32 - Initiate Browser
+2019-09-12 12:52:20 INFO  TestBase:41 - Browser Initiated
+2019-09-12 12:52:20 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 12:52:23 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=FAILURE method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 12:52:23 INFO  TestBase:70 - Closing Browser
+2019-09-12 12:52:24 INFO  TestBase:72 - Browser Closed
+2019-09-12 12:53:45 INFO  TestBase:32 - Initiate Browser
+2019-09-12 12:54:02 INFO  TestBase:41 - Browser Initiated
+2019-09-12 12:54:02 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 12:54:04 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=FAILURE method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 12:54:04 INFO  TestBase:70 - Closing Browser
+2019-09-12 12:54:05 INFO  TestBase:72 - Browser Closed
+2019-09-12 12:56:02 INFO  TestBase:32 - Initiate Browser
+2019-09-12 12:56:19 INFO  TestBase:41 - Browser Initiated
+2019-09-12 12:56:19 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 12:56:21 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=SUCCESS method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 12:56:21 INFO  TestBase:70 - Closing Browser
+2019-09-12 12:56:22 INFO  TestBase:72 - Browser Closed
+2019-09-12 12:56:56 INFO  TestBase:32 - Initiate Browser
+2019-09-12 12:57:13 INFO  TestBase:41 - Browser Initiated
+2019-09-12 12:57:13 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 12:57:16 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=FAILURE method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 12:57:16 INFO  TestBase:70 - Closing Browser
+2019-09-12 12:57:17 INFO  TestBase:72 - Browser Closed
+2019-09-12 12:57:29 INFO  TestBase:32 - Initiate Browser
+2019-09-12 12:57:36 INFO  TestBase:41 - Browser Initiated
+2019-09-12 12:57:36 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 12:57:38 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=SUCCESS method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 12:57:38 INFO  TestBase:70 - Closing Browser
+2019-09-12 12:57:39 INFO  TestBase:72 - Browser Closed
+2019-09-12 12:59:01 INFO  TestBase:32 - Initiate Browser
+2019-09-12 12:59:07 INFO  TestBase:41 - Browser Initiated
+2019-09-12 12:59:07 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 12:59:09 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=FAILURE method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@b59d31] output={null}]
+2019-09-12 12:59:10 INFO  TestBase:70 - Closing Browser
+2019-09-12 12:59:11 INFO  TestBase:72 - Browser Closed
+2019-09-12 13:00:44 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:01:01 INFO  TestBase:41 - Browser Initiated
+2019-09-12 13:01:01 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 13:01:08 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=SUCCESS method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 13:01:08 INFO  TestBase:70 - Closing Browser
+2019-09-12 13:01:09 INFO  TestBase:72 - Browser Closed
+2019-09-12 13:01:37 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:01:43 INFO  TestBase:41 - Browser Initiated
+2019-09-12 13:01:43 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 13:01:50 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=SUCCESS method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 13:01:50 INFO  TestBase:70 - Closing Browser
+2019-09-12 13:01:51 INFO  TestBase:72 - Browser Closed
+2019-09-12 13:03:54 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:04:00 INFO  TestBase:41 - Browser Initiated
+2019-09-12 13:04:00 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 13:04:08 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=SUCCESS method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 13:04:08 INFO  TestBase:70 - Closing Browser
+2019-09-12 13:04:08 INFO  TestBase:72 - Browser Closed
+2019-09-12 13:04:34 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:04:40 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:04:47 INFO  TestBase:41 - Browser Initiated
+2019-09-12 13:04:47 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 13:04:49 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=FAILURE method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 13:04:50 INFO  TestBase:70 - Closing Browser
+2019-09-12 13:04:51 INFO  TestBase:72 - Browser Closed
+2019-09-12 13:07:01 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:07:18 INFO  TestBase:41 - Browser Initiated
+2019-09-12 13:07:18 INFO  TestBase:53 - Test name: afterCancelCheckField
+2019-09-12 13:07:20 INFO  TestBase:81 - Executed test case name:afterCancelCheckField Execution Results : [TestResult name=afterCancelCheckField status=FAILURE method=AddSeverityTest.afterCancelCheckField()[pri:0, instance:tests.Severity.AddSeverityTest@1dd02175] output={null}]
+2019-09-12 13:07:21 INFO  TestBase:70 - Closing Browser
+2019-09-12 13:07:21 INFO  TestBase:72 - Browser Closed
+2019-09-12 13:46:49 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:46:55 INFO  TestBase:41 - Browser Initiated
+2019-09-12 13:46:55 INFO  TestBase:53 - Test name: clickSettingVerify
+2019-09-12 13:46:55 INFO  AddPriorityTest:17 - Side Navigation_Setting button verified
+2019-09-12 13:46:55 INFO  AddPriorityTest:19 - Side Navigation_Setting button clicked
+2019-09-12 13:46:56 INFO  AddPriorityTest:21 - Side Navigation_General Configuration button verified
+2019-09-12 13:46:56 INFO  AddPriorityTest:23 - Side Navigation_General Configuration button clicked
+2019-09-12 13:46:56 INFO  TestBase:81 - Executed test case name:clickSettingVerify Execution Results : [TestResult name=clickSettingVerify status=FAILURE method=AddPriorityTest.clickSettingVerify()[pri:0, instance:tests.Priority.AddPriorityTest@1dd02175] output={null}]
+2019-09-12 13:46:56 INFO  TestBase:70 - Closing Browser
+2019-09-12 13:46:57 INFO  TestBase:72 - Browser Closed
+2019-09-12 13:47:18 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:47:24 INFO  TestBase:41 - Browser Initiated
+2019-09-12 13:47:24 INFO  TestBase:53 - Test name: clickSettingVerify
+2019-09-12 13:47:24 INFO  AddPriorityTest:17 - Side Navigation_Setting button verified
+2019-09-12 13:47:24 INFO  AddPriorityTest:19 - Side Navigation_Setting button clicked
+2019-09-12 13:47:24 INFO  AddPriorityTest:21 - Side Navigation_General Configuration button verified
+2019-09-12 13:47:24 INFO  AddPriorityTest:23 - Side Navigation_General Configuration button clicked
+2019-09-12 13:47:24 INFO  TestBase:81 - Executed test case name:clickSettingVerify Execution Results : [TestResult name=clickSettingVerify status=FAILURE method=AddPriorityTest.clickSettingVerify()[pri:0, instance:tests.Priority.AddPriorityTest@1dd02175] output={null}]
+2019-09-12 13:47:25 INFO  TestBase:70 - Closing Browser
+2019-09-12 13:47:26 INFO  TestBase:72 - Browser Closed
+2019-09-12 13:47:42 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:47:50 INFO  TestBase:41 - Browser Initiated
+2019-09-12 13:47:50 INFO  TestBase:53 - Test name: clickSettingVerify
+2019-09-12 13:47:50 INFO  AddPriorityTest:17 - Side Navigation_Setting button verified
+2019-09-12 13:47:50 INFO  AddPriorityTest:19 - Side Navigation_Setting button clicked
+2019-09-12 13:47:50 INFO  AddPriorityTest:21 - Side Navigation_General Configuration button verified
+2019-09-12 13:47:50 INFO  AddPriorityTest:23 - Side Navigation_General Configuration button clicked
+2019-09-12 13:47:50 INFO  TestBase:81 - Executed test case name:clickSettingVerify Execution Results : [TestResult name=clickSettingVerify status=FAILURE method=AddPriorityTest.clickSettingVerify()[pri:0, instance:tests.Priority.AddPriorityTest@1dd02175] output={null}]
+2019-09-12 13:47:51 INFO  TestBase:70 - Closing Browser
+2019-09-12 13:47:51 INFO  TestBase:72 - Browser Closed
+2019-09-12 13:48:32 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:48:49 INFO  TestBase:41 - Browser Initiated
+2019-09-12 13:48:49 INFO  TestBase:53 - Test name: clickSettingVerify
+2019-09-12 13:48:49 INFO  AddPriorityTest:17 - Side Navigation_Setting button verified
+2019-09-12 13:48:50 INFO  AddPriorityTest:19 - Side Navigation_Setting button clicked
+2019-09-12 13:48:50 INFO  AddPriorityTest:21 - Side Navigation_General Configuration button verified
+2019-09-12 13:48:50 INFO  AddPriorityTest:23 - Side Navigation_General Configuration button clicked
+2019-09-12 13:48:50 INFO  TestBase:81 - Executed test case name:clickSettingVerify Execution Results : [TestResult name=clickSettingVerify status=FAILURE method=AddPriorityTest.clickSettingVerify()[pri:0, instance:tests.Priority.AddPriorityTest@1dd02175] output={null}]
+2019-09-12 13:48:50 INFO  TestBase:70 - Closing Browser
+2019-09-12 13:48:51 INFO  TestBase:72 - Browser Closed
+2019-09-12 13:49:31 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:49:47 INFO  TestBase:41 - Browser Initiated
+2019-09-12 13:49:47 INFO  TestBase:53 - Test name: clickGeneranConfiSettingVerify
+2019-09-12 13:49:48 INFO  AddPriorityTest:30 - Side Navigation_Setting button clicked
+2019-09-12 13:49:48 INFO  AddPriorityTest:32 - Side Navigation_General Configuration button clicked
+2019-09-12 13:49:48 INFO  AddPriorityTest:34 - Side Navigation_Priority button verified
+2019-09-12 13:49:48 INFO  TestBase:81 - Executed test case name:clickGeneranConfiSettingVerify Execution Results : [TestResult name=clickGeneranConfiSettingVerify status=FAILURE method=AddPriorityTest.clickGeneranConfiSettingVerify()[pri:0, instance:tests.Priority.AddPriorityTest@1dd02175] output={null}]
+2019-09-12 13:49:48 INFO  TestBase:70 - Closing Browser
+2019-09-12 13:49:49 INFO  TestBase:72 - Browser Closed
+2019-09-12 13:50:10 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:50:16 INFO  TestBase:41 - Browser Initiated
+2019-09-12 13:50:16 INFO  TestBase:53 - Test name: clickSettingVerify
+2019-09-12 13:50:16 INFO  AddPriorityTest:17 - Side Navigation_Setting button verified
+2019-09-12 13:50:16 INFO  AddPriorityTest:19 - Side Navigation_Setting button clicked
+2019-09-12 13:50:16 INFO  AddPriorityTest:21 - Side Navigation_General Configuration button verified
+2019-09-12 13:50:16 INFO  AddPriorityTest:23 - Side Navigation_General Configuration button clicked
+2019-09-12 13:50:16 INFO  TestBase:81 - Executed test case name:clickSettingVerify Execution Results : [TestResult name=clickSettingVerify status=SUCCESS method=AddPriorityTest.clickSettingVerify()[pri:0, instance:tests.Priority.AddPriorityTest@1dd02175] output={null}]
+2019-09-12 13:50:16 INFO  TestBase:70 - Closing Browser
+2019-09-12 13:50:17 INFO  TestBase:72 - Browser Closed
+2019-09-12 13:50:30 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:50:43 INFO  TestBase:41 - Browser Initiated
+2019-09-12 13:50:43 INFO  TestBase:53 - Test name: clickSettingVerify
+2019-09-12 13:50:43 INFO  AddPriorityTest:17 - Side Navigation_Setting button verified
+2019-09-12 13:50:43 INFO  AddPriorityTest:19 - Side Navigation_Setting button clicked
+2019-09-12 13:50:43 INFO  AddPriorityTest:21 - Side Navigation_General Configuration button verified
+2019-09-12 13:50:43 INFO  AddPriorityTest:23 - Side Navigation_General Configuration button clicked
+2019-09-12 13:50:43 INFO  TestBase:81 - Executed test case name:clickSettingVerify Execution Results : [TestResult name=clickSettingVerify status=FAILURE method=AddPriorityTest.clickSettingVerify()[pri:0, instance:tests.Priority.AddPriorityTest@1dd02175] output={null}]
+2019-09-12 13:50:44 INFO  TestBase:70 - Closing Browser
+2019-09-12 13:50:44 INFO  TestBase:72 - Browser Closed
+2019-09-12 13:51:22 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:51:39 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:51:45 INFO  TestBase:41 - Browser Initiated
+2019-09-12 13:51:45 INFO  TestBase:53 - Test name: clickSettingVerify
+2019-09-12 13:51:45 INFO  AddPriorityTest:17 - Side Navigation_Setting button verified
+2019-09-12 13:51:45 INFO  AddPriorityTest:19 - Side Navigation_Setting button clicked
+2019-09-12 13:51:45 INFO  AddPriorityTest:21 - Side Navigation_General Configuration button verified
+2019-09-12 13:51:45 INFO  AddPriorityTest:23 - Side Navigation_General Configuration button clicked
+2019-09-12 13:51:57 INFO  TestBase:81 - Executed test case name:clickSettingVerify Execution Results : [TestResult name=clickSettingVerify status=SUCCESS method=AddPriorityTest.clickSettingVerify()[pri:0, instance:tests.Priority.AddPriorityTest@1151e434] output={null}]
+2019-09-12 13:51:57 INFO  TestBase:70 - Closing Browser
+2019-09-12 13:51:58 INFO  TestBase:72 - Browser Closed
+2019-09-12 13:52:39 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:52:56 INFO  TestBase:41 - Browser Initiated
+2019-09-12 13:52:56 INFO  TestBase:53 - Test name: clickSettingVerify
+2019-09-12 13:52:56 INFO  AddPriorityTest:17 - Side Navigation_Setting button verified
+2019-09-12 13:52:56 INFO  AddPriorityTest:19 - Side Navigation_Setting button clicked
+2019-09-12 13:52:56 INFO  AddPriorityTest:21 - Side Navigation_General Configuration button verified
+2019-09-12 13:52:57 INFO  AddPriorityTest:23 - Side Navigation_General Configuration button clicked
+2019-09-12 13:52:57 INFO  TestBase:81 - Executed test case name:clickSettingVerify Execution Results : [TestResult name=clickSettingVerify status=FAILURE method=AddPriorityTest.clickSettingVerify()[pri:0, instance:tests.Priority.AddPriorityTest@1dd02175] output={null}]
+2019-09-12 13:52:57 INFO  TestBase:70 - Closing Browser
+2019-09-12 13:52:58 INFO  TestBase:72 - Browser Closed
+2019-09-12 13:53:13 INFO  TestBase:32 - Initiate Browser
+2019-09-12 13:53:20 INFO  TestBase:41 - Browser Initiated
+2019-09-12 13:53:20 INFO  TestBase:53 - Test name: clickGeneranConfiSettingVerify
+2019-09-12 13:53:21 INFO  AddPriorityTest:30 - Side Navigation_Setting button clicked
+2019-09-12 13:53:21 INFO  AddPriorityTest:32 - Side Navigation_General Configuration button clicked
+2019-09-12 13:53:21 INFO  AddPriorityTest:34 - Side Navigation_Priority button verified
+2019-09-12 13:53:21 INFO  TestBase:81 - Executed test case name:clickGeneranConfiSettingVerify Execution Results : [TestResult name=clickGeneranConfiSettingVerify status=FAILURE method=AddPriorityTest.clickGeneranConfiSettingVerify()[pri:0, instance:tests.Priority.AddPriorityTest@1dd02175] output={null}]
+2019-09-12 13:53:21 INFO  TestBase:70 - Closing Browser
+2019-09-12 13:53:22 INFO  TestBase:72 - Browser Closed
+2019-09-12 14:01:01 INFO  TestBase:32 - Initiate Browser
+2019-09-12 14:01:08 INFO  TestBase:41 - Browser Initiated
+2019-09-12 14:01:08 INFO  TestBase:53 - Test name: addPriorityBtbVerify
+2019-09-12 14:01:08 INFO  AddPriorityTest:57 - Side Navigation_Setting button clicked
+2019-09-12 14:01:08 INFO  AddPriorityTest:59 - Side Navigation_General Configuration button clicked
+2019-09-12 14:01:09 INFO  AddPriorityTest:61 - Side Navigation_Priority button clicked
+2019-09-12 14:01:09 INFO  AddPriorityTest:63 - Priority Page Displayed
+2019-09-12 14:01:09 INFO  AddPriorityTest:65 - Priority Page_Add button verified
+2019-09-12 14:01:09 INFO  TestBase:81 - Executed test case name:addPriorityBtbVerify Execution Results : [TestResult name=addPriorityBtbVerify status=SUCCESS method=AddPriorityTest.addPriorityBtbVerify()[pri:0, instance:tests.Priority.AddPriorityTest@1dd02175] output={null}]
+2019-09-12 14:01:09 INFO  TestBase:70 - Closing Browser
+2019-09-12 14:01:10 INFO  TestBase:72 - Browser Closed
