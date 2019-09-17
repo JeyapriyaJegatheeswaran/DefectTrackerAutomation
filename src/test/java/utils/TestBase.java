@@ -37,7 +37,7 @@ public class TestBase extends PageBase {
             e.printStackTrace();
         }
         extentTest=extentReport.startTest("Start Report : "+ method.getName());
-//        driver.manage().deleteAllCookies();
+        getDriver().manage().deleteAllCookies();
         LOGGER.info("Browser Initiated");
 
     }
@@ -68,7 +68,7 @@ public class TestBase extends PageBase {
 
         }
         LOGGER.info("Closing Browser");
-        //PageBase.closeDriver();
+        PageBase.closeDriver();
         LOGGER.info("Browser Closed");
 //        SendEmail.SendEmail();
  //       LOGGER.info("Email successfully Send");

@@ -11,7 +11,7 @@ public class AddDefectPage extends PageBase {
 ////*[@id="root"]/div/section/section/main/div[2]/div/div[2]/div/div/div/div/div/table/tbody/tr[td[3][. = 'Login']]/td[5]
     private static final Logger LOGGER = (Logger) Logger.getLogger(String.valueOf(AddDefectPage.class));
 
-    private static String txtAddDefectFormTitle = "//span[@class=\"ant-page-header-title-view-title\"]";
+    private static String txtAddDefectFormTitle = "//div[@id='rcDialogTitle0']";
 
 
     private static String txtDefectID = "defectId";
