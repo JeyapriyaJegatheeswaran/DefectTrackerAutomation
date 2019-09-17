@@ -249,24 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.EditDefect.checkEditDefectCancelButton">
-    <configuration name="AddDefect" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DefectTrackerAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.Defect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.Defect" />
-      <option name="MAIN_CLASS_NAME" value="tests.Defect.AddDefect" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.AddDefect.checkDefectMenu">
     <configuration name="AddDefect.addDefect" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DefectTrackerAutomation" />
       <extension name="coverage">
@@ -321,6 +304,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AddDefect.checkDefectMenu" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DefectTrackerAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.Defect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.Defect" />
+      <option name="MAIN_CLASS_NAME" value="tests.Defect.AddDefect" />
+      <option name="METHOD_NAME" value="checkDefectMenu" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EditDefect.checkEditDefectCancelButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DefectTrackerAutomation" />
       <extension name="coverage">
@@ -341,11 +342,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddDefect.checkDefectMenu" />
         <item itemvalue="TestNG.EditDefect.checkEditDefectCancelButton" />
         <item itemvalue="TestNG.AddDefect.checkDefectDetailsTable" />
         <item itemvalue="TestNG.AddDefect.checkAddDefectFormFields" />
         <item itemvalue="TestNG.AddDefect.addDefect" />
-        <item itemvalue="TestNG.AddDefect" />
       </list>
     </recent_temporary>
   </component>
