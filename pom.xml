@@ -181,7 +181,6 @@
                     <artifactId>log4j</artifactId>
                 </exclusion>
             </exclusions>
-
         </dependency>
     </dependencies>
 </project>
