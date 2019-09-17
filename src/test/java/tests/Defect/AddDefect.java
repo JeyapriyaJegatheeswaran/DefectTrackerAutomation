@@ -1,6 +1,7 @@
 package tests.Defect;
 
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
@@ -11,15 +12,18 @@ import utils.PageBase;
 import utils.TestBase;
 
 public class AddDefect extends TestBase {
+    private static final Logger LOGGER = Logger.getLogger(AddDefect.class);
     @Test(priority=1,groups = "test")
     public void checkDefectMenu() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
+        LOGGER.info("Home Page is Displayed");
         staticWait(2);
         HomePage.clickDefectMenu();
+        LOGGER.info("Click Defect menu");
         staticWait(2);
-        softAssert.assertAll();
         softAssert.assertEquals(HomePage.isDefectMenuDisplayed(),"Defect","defect menu not available");
+        LOGGER.info("Home Page is Displayed");
         softAssert.assertAll();
     }
     @Test(priority=2)

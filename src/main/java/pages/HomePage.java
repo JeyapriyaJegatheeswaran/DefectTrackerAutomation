@@ -70,8 +70,6 @@ public class HomePage extends PageBase {
     }
 
 
-
-
 //    public static void Login(String username, String password) {
 //        MethodBase.setText_ByID(txtUserName,username);
 //        MethodBase.setText_ByID(txtPassword,password);

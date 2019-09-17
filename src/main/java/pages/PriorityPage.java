@@ -9,7 +9,8 @@ import static utils.PageBase.getDriver;
 public class PriorityPage {
     private static final Logger LOGGER = Logger.getLogger(PriorityPage.class);
 
-    private static String btnAddPriorityVerify = "//span[text()=\"Add priority\"]";
+    private static String PriorityPageVerify = "//h3[text()='Priority Configuration']";
+    private static String priorityBtnVerify = "//span[text()=\"Add priority\"]";
     private static String btnAddPriority = "//*[@id=\"root\"]/div/section/section/main/div/div[2]/button";
     private static String priorityName = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[1]/div[2]/div/span/input";
     private static String priorityDescription = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[2]/div[2]/div/span/input";
@@ -37,43 +38,30 @@ public class PriorityPage {
 
 
     //Add Priority
-    public static void isPriorityPageDisplay() {
-        MethodBase.isDisplayed_ByXpath(btnAddPriorityVerify);
-        LOGGER.info("Priority Page is Displayed ");
-    }
-
+    public static String isPriorityPageDisplay() {
+        return MethodBase.get_Text(PriorityPageVerify);}
+        //LOGGER.info("Priority Page is Displayed "); }
+    public static String priorityAddButtonVerify(){return MethodBase.get_Text(priorityBtnVerify);}
     public static void clickAddPrioritybtn() {
         MethodBase.clickButton_ByXpath(btnAddPriority);
     }
-
     public static void clearPeriorityName() {
         MethodBase.clear_ByXpath(priorityName);
     }
-
     public static void setPeriorityName(String periorityname) {
-        MethodBase.setText_ByXpath(priorityName, periorityname);
-    }
-
+        MethodBase.setText_ByXpath(priorityName, periorityname); }
     public static void clearPeriorityDescription() {
-        MethodBase.clear_ByXpath(priorityDescription);
-    }
-
+        MethodBase.clear_ByXpath(priorityDescription); }
     public static void setPeriorityDescription(String perioritydescription) {
-        MethodBase.setText_ByXpath(priorityDescription, perioritydescription);
-    }
-
+        MethodBase.setText_ByXpath(priorityDescription, perioritydescription); }
     public static void setIcon() {
-        MethodBase.selectAction(icon1, icon2);
-    }
-
+        MethodBase.selectAction(icon1, icon2); }
     public static void clickColor() {
         MethodBase.click_ByXpath(clickColor);
     }
-
     public static void selectColor() {
         MethodBase.click_ByXpath(selectColor);
     }
-
     public static void clickAddbtn() {
         MethodBase.clickButton_ByXpath(okBtn);
     }
@@ -82,35 +70,25 @@ public class PriorityPage {
     public static void clickEditBtn() {
         MethodBase.click_ByXpath(clickEditBtn);
     }
-
     public static void clearPeriorityNameEdited() {
         MethodBase.clear_ByXpath(priorityNameEdited);
     }
-
     public static void setPeriorityNameEdited(String periorityname) {
-        MethodBase.setText_ByXpath(priorityNameEdited, periorityname);
-    }
-
+        MethodBase.setText_ByXpath(priorityNameEdited, periorityname); }
     public static void clearPeriorityDescriptionEdited() {
         MethodBase.clear_ByXpath(priorityDescriptionEdited);
     }
-
     public static void setPeriorityDescriptionEdited(String perioritydescription) {
-        MethodBase.setText_ByXpath(priorityDescriptionEdited, perioritydescription);
-    }
-
+        MethodBase.setText_ByXpath(priorityDescriptionEdited, perioritydescription); }
     public static void setIconEdited() {
         MethodBase.selectAction(icon1Edited, icon2Edited);
     }
-
     public static void clickColorEdited() {
         MethodBase.click_ByXpath(clickColorEdited);
     }
-
     public static void selectColorEdited() {
         MethodBase.click_ByXpath(selectColorEdited);
     }
-
     public static void clickAddbtnEdited() {
         MethodBase.clickButton_ByXpath(okBtnEdited);
     }
@@ -119,7 +97,6 @@ public class PriorityPage {
     public static void clickDeletebtn() {
         MethodBase.clickButton_ByXpath(clickDeleteBtn);
     }
-
     public static void clickDeleteOKbtn() {
         MethodBase.clickButton_ByXpath(clickDeleteOKBtn);
     }

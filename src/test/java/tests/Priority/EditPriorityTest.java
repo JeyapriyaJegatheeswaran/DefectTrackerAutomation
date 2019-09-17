@@ -28,6 +28,7 @@ public class EditPriorityTest extends TestBase {
         PriorityPage.clickAddbtnEdited();
         softAssert.assertEquals(PriorityPage.editPriorityVerify(),"editTest","Edited data not equal");
         LOGGER.info("Priority Edited");
+        softAssert.assertAll();
 
 
     }
