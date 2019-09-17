@@ -3,12 +3,7 @@ package tests.DefectStatus;
 import com.relevantcodes.extentreports.LogStatus;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import pages.Defect.AddDefectPage;
 import pages.DefectStatusPage;
-import pages.HomePage;
-import pages.ModulePage;
-import utils.MethodBase;
-import utils.PageBase;
 import utils.TestBase;
 
 public class DefectStatus  extends TestBase {
@@ -74,21 +69,7 @@ public class DefectStatus  extends TestBase {
 
 
 
-    @Test(groups = "tests",priority=11)
-    public void  invalidateData() {
-        softAssert = new SoftAssert();
-        sabbartest();
-        DefectStatusPage.clickAddStatus();
-        extentTest.log(LogStatus.PASS, "Click Ok");
-        DefectStatusPage.setDefectType("gjt766h");
-        extentTest.log(LogStatus.PASS, "Enter the Type");
-        DefectStatusPage.setDefectDescription("hsdhfgywd23");
-        extentTest.log(LogStatus.PASS, "Enter the decription");
-        DefectStatusPage.clickok();
-        extentTest.log(LogStatus.PASS, "Click ok");
-        softAssert.assertAll();
 
-    }
     @Test(groups = "tests",priority=12)
     public void  numbervalue() {
         softAssert = new SoftAssert();
