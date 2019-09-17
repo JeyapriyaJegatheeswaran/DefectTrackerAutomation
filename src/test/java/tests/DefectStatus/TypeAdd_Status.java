@@ -10,6 +10,7 @@ import utils.TestBase;
 public class TypeAdd_Status  extends TestBase {
 
     @Test(priority=4)
+
     public void onlyAddStatus() {
         softAssert = new SoftAssert();
         PageBase.implicitWait(2);
