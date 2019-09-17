@@ -1,5 +1,6 @@
 package tests.Priority;
 
+import com.relevantcodes.extentreports.LogStatus;
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -12,20 +13,26 @@ public class AddPriorityTest extends TestBase {
 
     @Test(priority = 1)
     public void clickSettingVerify() {
+
         implicitWait(5);
         softAssert.assertEquals(HomePage.settingVerify(),"Setting");
-        LOGGER.info("Side Navigation_Setting button verified");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Setting button verified");
         HomePage.clickSetting();
         LOGGER.info("Side Navigation_Setting button clicked");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Setting button clicked");
         softAssert.assertEquals(HomePage.generalConfigVerify(),"General Configuration");
         LOGGER.info("Side Navigation_General Configuration button verified");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Setting button verified");
         HomePage.clickGeneralconfig();
         LOGGER.info("Side Navigation_General Configuration button clicked");
-       softAssert.assertAll();
+        extentTest.log(LogStatus.PASS,"Side Navigation_General Configuration button clicked");
+
     }
 
     @Test(priority = 2)
     public void clickGeneranConfiSettingVerify() {
+        softAssert = new SoftAssert();
+        extentTest =extentReport.startTest("clickGeneranConfiSettingVerify");
         implicitWait(5);
         HomePage.clickSetting();
         LOGGER.info("Side Navigation_Setting button clicked");

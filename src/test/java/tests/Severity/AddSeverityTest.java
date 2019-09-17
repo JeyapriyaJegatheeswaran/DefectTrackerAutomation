@@ -19,7 +19,7 @@ public class AddSeverityTest extends TestBase {
         HomePage.clickSetting();
         softAssert.assertEquals(HomePage.generalConfigVerify(),"General Configuration");
         HomePage.clickGeneralconfig();
-        softAssert.assertAll();
+
     }
     @Test(priority = 2)
     public void clickGeneranConfiSettingVerify() {
@@ -36,7 +36,7 @@ public class AddSeverityTest extends TestBase {
         HomePage.clickGeneralconfig();
         HomePage.clickSeverity();
         SeverityPage.isSeverityPageDisplay();
-        softAssert.assertAll();
+
     }
     @Test(priority = 4)
     public void SeverityAddBtnVerify() {
@@ -97,7 +97,7 @@ public class AddSeverityTest extends TestBase {
         SeverityPage.clickColor();
         SeverityPage.selectColor();
         SeverityPage.clickAddOKbtn();
-        softAssert.assertAll();
+
 
     }
     @Test(priority = 8)
@@ -171,7 +171,7 @@ public class AddSeverityTest extends TestBase {
         SeverityPage.clickColor();
         SeverityPage.selectColor();
         SeverityPage.clickAddOKbtn();
-        softAssert.assertAll();
+
     }
     @Test()
     public void addSeverity3() {
@@ -189,7 +189,7 @@ public class AddSeverityTest extends TestBase {
         SeverityPage.clickColor();
         SeverityPage.selectColor();
         SeverityPage.clickAddOKbtn();
-        softAssert.assertAll();
+
     }
 
 //    @Test(priority = 10)
