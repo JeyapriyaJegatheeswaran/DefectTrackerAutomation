@@ -89,7 +89,7 @@ public class PriorityPage {
     public static void selectColorEdited() {
         MethodBase.click_ByXpath(selectColorEdited);
     }
-    public static void clickAddbtnEdited() {
+    public static void clickOKbtnEdited() {
         MethodBase.clickButton_ByXpath(okBtnEdited);
     }
 
