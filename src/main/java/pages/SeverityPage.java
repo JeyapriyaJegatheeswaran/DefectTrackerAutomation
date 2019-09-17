@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import utils.MethodBase;
 
+import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
 import static utils.PageBase.getDriver;
 
 public class SeverityPage {
@@ -66,21 +67,22 @@ public class SeverityPage {
 
     public static void isSeverityPageDisplay() {
         MethodBase.isDisplayed_ByXpath(severityPageDisplayVerify);
+        LOGGER.info("Severity Page verified");
     }
-    public static String severityAddBtnVerify(){return MethodBase.get_Text(addBtnVerify);}
+    public static String severityAddBtnVerify(){return MethodBase.get_Text(addBtnVerify); }
     public static void clickAddSeveritybtn(){
         MethodBase.clickButton_ByXpath(btnAddSeverity);
+        LOGGER.info("Clicked severity Add button");
     }
     public static void isSeverityAddFormDisplay() {
         MethodBase.isDisplayed_ByXpath(formAddSeverityVerify);
+        LOGGER.info("Severity Add Form Displayed");
     }
     public static String severityFormVerifyText() {
         return  getDriver().findElement(severityAddFormVerifyText).getText(); }
     //Add Severity Item Verify
 
-    public static String isDisplayName() {
-        return  getDriver().findElement(nameVerify).getText();
-    }
+    public static String isDisplayName() { return  getDriver().findElement(nameVerify).getText(); }
     public static String isDisplayDescription() {
         return  getDriver().findElement(descriptionVerify).getText();
     }
@@ -100,26 +102,38 @@ public class SeverityPage {
 
     public static void clearSeverityName(){
         MethodBase.clear_ByXpath(severityName);
+        LOGGER.info("Severity name cleared");
     }
     public static void setSeverityName(String severityname){
         MethodBase.setText_ByXpath(severityName,severityname);
+        LOGGER.info("Severity name added");
     }
     public static void clearSeverityDescription(){
         MethodBase.clear_ByXpath(severityDescription);
+        LOGGER.info("Severity description cleared");
     }
     public static void setSeverityDescription(String severitydescription){
-        MethodBase.setText_ByXpath(severityDescription,severitydescription); }
+        MethodBase.setText_ByXpath(severityDescription,severitydescription);
+        LOGGER.info("severity description added");
+    }
     public static void setIcon(){
         MethodBase.selectAction(icon1,icon2);
+        LOGGER.info("severity icon added");
     }
-    public static void clickColor(){MethodBase.click_ByXpath(clickColor);}
-    public static void selectColor(){MethodBase.click_ByXpath(selectColor);}
+    public static void clickColor(){MethodBase.click_ByXpath(clickColor);
+        LOGGER.info("colour dropdown clicked");
+    }
+    public static void selectColor(){MethodBase.click_ByXpath(selectColor);
+        LOGGER.info(" severity colour selected");
+    }
     public static void clickAddOKbtn(){
         MethodBase.clickButton_ByXpath(okBtn);
+        LOGGER.info("OK button clicked");
     }
-    public static void clickCancleBtn(){ MethodBase.clickButton_ByXpath(cancleBtn); }
-
-    public static String checkAddedItem(){return MethodBase.get_Text(AddedItemCheck);}
+    public static void clickCancleBtn(){ MethodBase.clickButton_ByXpath(cancleBtn);
+        LOGGER.info("CANCEL button clicked ");
+    }
+    public static String checkAddedItem(){return MethodBase.get_Text(AddedItemCheck); }
 
     //cancle severity
     public static String severityCancleBtnVerify(){return MethodBase.get_Text(CancleBtnVerify1);}
@@ -140,20 +154,20 @@ public class SeverityPage {
     //Edit Severity
 
     public static boolean isDisplayEditBtn() {
-        return  getDriver().findElement(editBtnVerify).isDisplayed();
-    }
+        return  getDriver().findElement(editBtnVerify).isDisplayed(); }
     public static void clickEditbtn(){
         MethodBase.clickButton_ByXpath(editBtn);
+        LOGGER.info("Edit button clicked");
     }
     public static String isSeverityEditFormDisplay() { return MethodBase.get_Text(formEditSeverityVerify); }
+
 
     //Edit Severity Item Verify
 
     public static String isEditDisplayName() {
         return  getDriver().findElement(editNameVerify).getText();
     }
-    public static String isEditDisplayDescription() {
-        return  getDriver().findElement(editDescriptionVerify).getText(); }
+    public static String isEditDisplayDescription() { return  getDriver().findElement(editDescriptionVerify).getText(); }
     public static String isEditDisplayIcon() {
         return  getDriver().findElement(ediyIconVerify).getText();
     }
@@ -169,26 +183,36 @@ public class SeverityPage {
 
     public static void clearSeverityNameEdited(){
         MethodBase.clear_ByXpath(severityNameEdited);
+        LOGGER.info("Severity Edit_Name cleared");
     }
-    public static void setSeverityNameEdited(String severityname){ MethodBase.setText_ByXpath(severityNameEdited,severityname); }
+    public static void setSeverityNameEdited(String severityname){ MethodBase.setText_ByXpath(severityNameEdited,severityname);
+        LOGGER.info("Severity Edit_Name Edited");}
     public static void clearSeverityDescriptionEdited(){
         MethodBase.clear_ByXpath(severityDescriptionEdited);
+        LOGGER.info("Severity Edit_description cleared");
     }
     public static void setSeverityDescriptionEdited(String severitydescription){
-        MethodBase.setText_ByXpath(severityDescriptionEdited,severitydescription); }
-    public static void setIconEdited(){ MethodBase.selectAction(icon1Edited,icon2Edited); }
-    public static void clickColorEdited(){MethodBase.click_ByXpath(clickColorEdited);}
-    public static void selectColorEdited(){MethodBase.click_ByXpath(selectColorEdited);}
-    public static void clickEditOKbtn(){ MethodBase.clickButton_ByXpath(okBtnEdited); }
+        MethodBase.setText_ByXpath(severityDescriptionEdited,severitydescription);
+        LOGGER.info("Severity Edit_description Edited");}
+    public static void setIconEdited(){ MethodBase.selectAction(icon1Edited,icon2Edited);
+        LOGGER.info("Severity Edit_Icon Edited");}
+    public static void clickColorEdited(){MethodBase.click_ByXpath(clickColorEdited);
+        LOGGER.info("Severity Edit_color drop down clicked");}
+    public static void selectColorEdited(){MethodBase.click_ByXpath(selectColorEdited);
+        LOGGER.info("Severity Edit_color edited");}
+    public static void clickEditOKbtn(){ MethodBase.clickButton_ByXpath(okBtnEdited);
+        LOGGER.info("Severity Edit_OK button clicked");}
 
     public static String checkEditedItem(){return MethodBase.get_Text(editAddedItemCheck);}
 
     //Delete Severity
     public static void clickDeletebtn(){
         MethodBase.clickButton_ByXpath(deleteBtn);
+        LOGGER.info("Delete button clicked");
     }
     public static void clickDeleteOKbtn(){
         MethodBase.clickButton_ByXpath(deleteOKbtn);
+        LOGGER.info("delete OK button clicked");
     }
 
 }

@@ -16,7 +16,7 @@ public class DefectStatusPage extends PageBase {
     private static String HrDefectStatus = "//h3";
     private static String ClickGeneralConfiguration = "//span[text()=\"General Configuration\"]";
     private static String ClickDefectStatus = "//*[@id=\"sub5$Menu\"]/li[4]";
-    private static String HrDashboard = "//*[@id=\"root\"]/div/section/section/main/div[2]/div/div[1]/div/div/div/h1";
+    private static String HrDashboard = "//*[@id=\"root\"]/div/section/aside/div/div";
     private static String ClickAddStatus = "//*[@id=\"root\"]/div/section/section/main/div/div[2]/button";
     private static String txtDefectStatus = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[1]/div[2]/div/span/input";
     private static String txtDefectDescription= "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[2]/div[2]/div/span/input";

@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="test" verbose="1" configfailurepolicy="continue">
-    <test name="test">
-
-        <classes>
-            <class name="tests.Defect.AddDefect"/>
-            <class name="tests.Defect.EditDefect"/>
-        </classes>
-
-        <!--Start-Thevakajan-Defect-Status-Test -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="smoke" verbose="1" configfailurepolicy="continue">
+    <test name="smoke">
         <classes>
             <class name="tests.DefectStatus.Add_Status_Test"/>
             <class name="tests.DefectStatus.Already_Add_Status"/>
@@ -22,7 +16,5 @@
             <class name="tests.DefectStatus.NumbervalueAddStatus"/>
             <class name="tests.DefectStatus.TypeAdd_Status"/>
         </classes>
-        <!--End-Thevakajan-Defect-Status-Test -->
     </test>
 </suite>
-
