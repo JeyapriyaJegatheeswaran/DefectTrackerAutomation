@@ -65,9 +65,9 @@ public class SeverityPage {
     private static String cancleColor = "";
     //Add_Severity
 
-    public static void isSeverityPageDisplay() {
-        MethodBase.isDisplayed_ByXpath(severityPageDisplayVerify);
-        LOGGER.info("Severity Page verified");
+    public static boolean isSeverityPageDisplay() {
+        return MethodBase.isDisplayed_ByXpath(severityPageDisplayVerify);
+
     }
     public static String severityAddBtnVerify(){return MethodBase.get_Text(addBtnVerify); }
     public static void clickAddSeveritybtn(){

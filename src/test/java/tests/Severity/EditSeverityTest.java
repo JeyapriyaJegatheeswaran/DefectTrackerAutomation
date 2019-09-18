@@ -10,16 +10,38 @@ import utils.TestBase;
 import static utils.PageBase.implicitWait;
 
 public class EditSeverityTest extends TestBase {
-    @Test(priority = 11)
+    @Test(priority = 11,groups = {"regression","test"})
+    public void severityPageDisplay() {
+
+        implicitWait(5);
+        softAssert.assertEquals(HomePage.settingVerify(),"Setting","Side Navigation_Setting mani menu not verify");
+        HomePage.clickSetting();
+        extentTest.log(LogStatus.PASS,"Side Navigation_Setting clicked");
+        staticWait(3);
+        softAssert.assertEquals(HomePage.generalConfigVerify(),"General Configuration","General Configuration sub menu not verified");
+        HomePage.clickGeneralconfig();
+        extentTest.log(LogStatus.PASS,"Side Navigation_General Configuration clicked");
+        staticWait(3);
+        softAssert.assertEquals(HomePage.severityVerify(),"Severity","Severity submenu not verify");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Severity sub menu verified");
+        HomePage.clickSeverity();
+        extentTest.log(LogStatus.PASS,"Side Navigation_Severity sub menu Clicked");
+        staticWait(3);
+        softAssert.assertTrue(SeverityPage.isSeverityPageDisplay(),"severity page is not displayed");
+        extentTest.log(LogStatus.PASS,"Severity page displayed");
+        softAssert.assertAll();
+    }
+
+    @Test(priority = 12,groups = {"regression","test"})
     public void severityEditBtnVerify() {
 
         implicitWait(5);
         HomePage.clickSetting();
-        extentTest.log(LogStatus.PASS,"Setting clicked");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Setting clicked");
         HomePage.clickGeneralconfig();
-        extentTest.log(LogStatus.PASS,"General Configuration clicked");
+        extentTest.log(LogStatus.PASS,"Side Navigation_General Configuration clicked");
         HomePage.clickSeverity();
-        extentTest.log(LogStatus.PASS,"Severity clicked");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Severity clicked");
         SeverityPage.isSeverityPageDisplay();
         extentTest.log(LogStatus.PASS,"Severity page displayed");
         softAssert.assertTrue(SeverityPage.isDisplayEditBtn(),"Edit Button not Display");
@@ -28,16 +50,16 @@ public class EditSeverityTest extends TestBase {
 
     }
 
-    @Test(priority = 12)
+    @Test(priority = 13,groups = {"regression","test"})
     public void editSeverityFormVerify() {
 
         implicitWait(5);
         HomePage.clickSetting();
-        extentTest.log(LogStatus.PASS,"Setting clicked");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Setting clicked");
         HomePage.clickGeneralconfig();
-        extentTest.log(LogStatus.PASS,"General Configuration clicked");
+        extentTest.log(LogStatus.PASS,"Side Navigation_General Configuration clicked");
         HomePage.clickSeverity();
-        extentTest.log(LogStatus.PASS,"Severity clicked");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Severity clicked");
         SeverityPage.isSeverityPageDisplay();
         extentTest.log(LogStatus.PASS,"Severity page displayed");
         SeverityPage.clickEditbtn();
@@ -47,16 +69,16 @@ public class EditSeverityTest extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(priority = 13)
+    @Test(priority = 14,groups = {"regression","test"})
     public void editSeverityItemVerify() {
 
         implicitWait(5);
         HomePage.clickSetting();
-        extentTest.log(LogStatus.PASS,"Setting clicked");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Setting clicked");
         HomePage.clickGeneralconfig();
-        extentTest.log(LogStatus.PASS,"General Configuration clicked");
+        extentTest.log(LogStatus.PASS,"Side Navigation_General Configuration clicked");
         HomePage.clickSeverity();
-        extentTest.log(LogStatus.PASS,"Severity clicked");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Severity clicked");
         SeverityPage.isSeverityPageDisplay();
         extentTest.log(LogStatus.PASS,"Severity page displayed");
         SeverityPage.clickEditbtn();
@@ -77,16 +99,16 @@ public class EditSeverityTest extends TestBase {
 
     }
 
-    @Test(priority = 14)
+    @Test(priority = 15,groups = {"regression","smoke","test"})
     public void editSeverity() {
 
         implicitWait(5);
         HomePage.clickSetting();
-        extentTest.log(LogStatus.PASS,"Setting clicked");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Setting clicked");
         HomePage.clickGeneralconfig();
-        extentTest.log(LogStatus.PASS,"General Configuration clicked");
+        extentTest.log(LogStatus.PASS,"Side Navigation_General Configuration clicked");
         HomePage.clickSeverity();
-        extentTest.log(LogStatus.PASS,"Severity clicked");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Severity clicked");
         SeverityPage.isSeverityPageDisplay();
         extentTest.log(LogStatus.PASS,"Severity page displayed");
         SeverityPage.clickEditbtn();
