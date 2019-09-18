@@ -21,13 +21,17 @@ public class TestBase extends PageBase {
     public static ExtentTest extentTest;
     private static final Logger LOGGER = Logger.getLogger(TestBase.class);
 
-    @BeforeTest(alwaysRun=true)
+
+    @BeforeTest(alwaysRun = true)
+
     public void beforeTest() {
 
         System.out.println("Test Running " + this.getClass().toString());
     }
 
-    @BeforeMethod(alwaysRun=true)
+
+    @BeforeMethod(alwaysRun = true)
+
     public void loadBrowser(Method method) {
         LOGGER.info("Initiate Browser");
 
@@ -37,17 +41,21 @@ public class TestBase extends PageBase {
             e.printStackTrace();
         }
         extentTest=extentReport.startTest("Start Report : "+ method.getName());
-//        driver.manage().deleteAllCookies();
+        getDriver().manage().deleteAllCookies();
         LOGGER.info("Browser Initiated");
 
     }
 
-    @BeforeMethod(alwaysRun=true)
+
+    @BeforeMethod(alwaysRun = true)
+
     public void beforeMethod() {
         softAssert = new SoftAssert();
     }
 
-    @BeforeMethod(alwaysRun=true)
+
+    @BeforeMethod(alwaysRun = true)
+
     public void nameBefore(Method method) {
 
         LOGGER.info("Test name: " + method.getName());
@@ -76,14 +84,18 @@ public class TestBase extends PageBase {
     }
 
 
-    @AfterMethod(alwaysRun=true)
+
+    @AfterMethod(alwaysRun = true)
+
     public void afterMethod(Method method, ITestResult result) {
         LOGGER.info("Executed test case name:" + method.getName() + " Execution Results : " + result.toString());
     }
 
     //report generation
 
-    @AfterSuite(alwaysRun=true)
+
+    @AfterSuite(alwaysRun = true)
+
     public void cleanUp() {
         extentReport.flush();
 

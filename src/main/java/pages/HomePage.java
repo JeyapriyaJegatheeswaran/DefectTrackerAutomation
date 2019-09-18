@@ -89,6 +89,9 @@ public class HomePage extends PageBase {
     public static String isDefectMenuDisplayed(){
         return MethodBase.get_Text(defectMenu);
     }
+    public static String isDefectSubMenuDisplayed(){
+        return MethodBase.get_Text(defectSubMenu);
+    }
 
 }
 

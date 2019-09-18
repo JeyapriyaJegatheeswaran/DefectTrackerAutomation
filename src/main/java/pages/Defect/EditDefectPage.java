@@ -84,4 +84,14 @@ public class EditDefectPage extends PageBase {
         MethodBase.selectAction(txtEditModule,txtCommonEnteredByOption.replace("Option", module));
 
     }
+    public static void editDescription(String description){
+        MethodBase.clear_ByXpath(txtEditDescription);
+        MethodBase.setText_ByXpath(txtEditDescription,description);
+
+    }
+    public static void editSteps(String steps){
+        MethodBase.clear_ByXpath(txtEditSteps);
+        MethodBase.setText_ByXpath(txtEditSteps,steps);
+
+    }
 }

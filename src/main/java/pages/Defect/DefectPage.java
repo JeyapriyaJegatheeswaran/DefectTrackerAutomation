@@ -14,13 +14,11 @@ public class DefectPage extends PageBase {
     private static String txtTitle = "//span[@class='ant-page-header-title-view-title']";
     private static String defectTable = "//thead[@class='ant-table-thead']";
     private static String txtResult = "//td[text()='defectId']";
-    private static String btnDelete="//*[@id=\"root\"]/div/section/section/main/div[2]/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[td[1][. = 'defectId']]/td[7]/span/a/i";
-    private static String deletePopup = "//div[@class=\"ant-popover-inner-content\"]";
+    private static String btnMore="//*[@id=\"root\"]/div/section/section/main/div[2]/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[td[1][. = 'defectID']]/td[8]/span/i";
     private static String txtDeleteConformationMsg="//div[@class=\"ant-popover-message-title\"]";
-    private static String btnDeleteOk="/html/body/div/div/div/div/div[2]/div/div/div[2]/button[2]";
+    private static String btnMoreOk="/html/body/div[8]/div/div[2]/div/div[2]/div[3]/div/button[2]";
     private static String btnEdit="//*[@id=\"root\"]/div/section/section/main/div[2]/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[td[1][. = 'defectId']]/td[7]/span/i";
     private static String txtDefectTableData="//*[@id=\"root\"]/div/section/section/main/div[2]/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[td[1][. = 'defectId']]/td[index]";
-
     private static String txtDefectTableHeading="//thead/tr/th[. = 'Heading']";
 
     public static boolean isAddDefectButtonDisplayed(){
@@ -48,21 +46,17 @@ public class DefectPage extends PageBase {
         return MethodBase.get_Text(txtResult.replace("defectId", defectId));
     }
 
-    public static void clickDeleteDefect(String defectId){
-        MethodBase.clickButton_ByXpath(btnDelete.replace("defectId",defectId));
-    }
-    public static boolean isDefectDeletePopupDisplayed(){
-        return MethodBase.isDisplayed_ByXpath(deletePopup);
-    }
-    public static void clickDeleteOKButton(){
 
-        staticWait(3);
-        MethodBase.clickButton_ByXpath(btnDeleteOk);
-    }
+
     public static String verifyEditStatus(String defectId,String index){
         return MethodBase.get_Text(txtDefectTableData.replace("defectId",defectId).replace("index",index));
     }
-    public static String verifyConformationMsg(){
-        return MethodBase.get_Text(txtDeleteConformationMsg);
+    public static void clickMoreDefectDetailsButton(String defectId){
+        MethodBase.clickButton_ByXpath(btnMore.replace("defectID",defectId));
+    }
+    public static void clickMoreDefectOKButton(){
+
+        staticWait(3);
+        MethodBase.clickButton_ByXpath(btnMoreOk);
     }
 }
