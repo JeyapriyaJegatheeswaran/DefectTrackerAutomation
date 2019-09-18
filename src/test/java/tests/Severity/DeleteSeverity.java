@@ -8,7 +8,7 @@ import utils.TestBase;
 
 public class DeleteSeverity extends TestBase {
 
-    @Test(priority = 16)
+    @Test(priority = 16,groups = {"regression","test","smoke"})
     public void editSeverity() {
         SoftAssert softAssert = new SoftAssert();
         implicitWait(5);
