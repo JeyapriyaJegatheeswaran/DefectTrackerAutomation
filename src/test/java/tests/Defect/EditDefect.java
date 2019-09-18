@@ -13,7 +13,7 @@ import utils.TestBase;
 public class EditDefect extends TestBase {
     private static final Logger LOGGER = Logger.getLogger(AddDefect.class);
 
-    @Test(priority=1)
+    @Test(priority=1,groups = "smoke,regression")
     public void checkEditButton() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -45,7 +45,7 @@ public class EditDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "edit defect form is displayed");
         softAssert.assertAll();
     }
-    @Test(priority=2)
+    @Test(priority=2,groups = "smoke,regression")
     public void editModule() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -86,7 +86,7 @@ public class EditDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "Module edited successfully");
         softAssert.assertAll();
     }
-    @Test(priority=3)
+    @Test(priority=3,groups = "smoke,regression")
     public void editSeverity() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -126,7 +126,7 @@ public class EditDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "severity type edited successfully");
         softAssert.assertAll();
     }
-    @Test(priority=4)
+    @Test(priority=4,groups = "smoke,regression")
     public void editPriority() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -165,7 +165,7 @@ public class EditDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "priority type edited successfully");
         softAssert.assertAll();
     }
-    @Test(priority=5)
+    @Test(priority=5,groups = "smoke,regression")
     public void editStatus() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -204,7 +204,7 @@ public class EditDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "Defect status edited successfully");
         softAssert.assertAll();
     }
-    @Test(priority=6)
+    @Test(priority=6,groups = "smoke,regression")
     public void editAssignee() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -243,7 +243,7 @@ public class EditDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "AssignTo  edited successfully");
         softAssert.assertAll();
     }
-//    @Test(priority=7)
+//    @Test(priority=7,groups = "smoke,regression")
 //    public void editFoundIn() {
 //        implicitWait(5);
 //        //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -275,7 +275,7 @@ public class EditDefect extends TestBase {
 //        extentTest.log(LogStatus.PASS, "editFoundIn type edited successfully");
 //        softAssert.assertAll();
 //    }
-    @Test(priority=8)
+    @Test(priority=8,groups = "smoke,regression")
     public void editDescription() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -316,7 +316,7 @@ public class EditDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "description edited successfully");
         softAssert.assertAll();
     }
-    @Test(priority=9)
+    @Test(priority=9,groups = "smoke,regression")
     public void editSteps() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -357,7 +357,7 @@ public class EditDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "steps edited successfully");
         softAssert.assertAll();
     }
-    @Test(priority=10)
+    @Test(priority=10,groups = "smoke,regression")
     public void editType() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -399,7 +399,7 @@ public class EditDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "defect type  edited successfully");
         softAssert.assertAll();
     }
-    @Test(priority=11)
+    @Test(priority=11,groups = "smoke,regression")
     public void checkEditDefectCancelButton() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");

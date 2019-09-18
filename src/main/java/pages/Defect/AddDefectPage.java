@@ -153,6 +153,176 @@ public class AddDefectPage extends PageBase {
         MethodBase.clickButton_ByXpath(btnAdd);
     }
 
+    public static void createDefectWithoutID(String project,String module,String description,
+                                             String steps,String enteredBy,String foundIn,String assignTo,
+                                             String type,String severity,String priority,String status){
+        AddDefectPage.setProject(project);
+        AddDefectPage.setModule(module);
+        AddDefectPage.setDescription(description);
+        AddDefectPage.setSteps(steps);
+        AddDefectPage.setEnteredBy(enteredBy);
+        AddDefectPage.setFoundIn(foundIn);
+        AddDefectPage.setAssignTo(assignTo);
+        staticWait(3);
+        AddDefectPage.setDefectType(type);
+        AddDefectPage.setSeverity(severity);
+        staticWait(2);
+        AddDefectPage.setPriority(priority);
+
+        AddDefectPage.setStatus(status);
+        MethodBase.clickButton_ByXpath(btnAdd);
+    }
+    public static void createDefectWithoutProject(String defectId,String module,String description,
+                                             String steps,String enteredBy,String foundIn,String assignTo,
+                                             String type,String severity,String priority,String status){
+        AddDefectPage.setDefectId(defectId);
+        AddDefectPage.setModule(module);
+        AddDefectPage.setDescription(description);
+        AddDefectPage.setSteps(steps);
+        AddDefectPage.setEnteredBy(enteredBy);
+        AddDefectPage.setFoundIn(foundIn);
+        //AddDefectPage.setAssignTo(assignTo);
+        staticWait(3);
+        AddDefectPage.setDefectType(type);
+        AddDefectPage.setSeverity(severity);
+        staticWait(2);
+        AddDefectPage.setPriority(priority);
+
+        AddDefectPage.setStatus(status);
+        MethodBase.clickButton_ByXpath(btnAdd);
+    }
+    public static void createDefectWithoutModule(String defectId,String project,String description,
+                                             String steps,String enteredBy,String foundIn,String assignTo,
+                                             String type,String severity,String priority,String status){
+        AddDefectPage.setDefectId(defectId);
+        AddDefectPage.setProject(project);
+        AddDefectPage.setDescription(description);
+        AddDefectPage.setSteps(steps);
+        AddDefectPage.setEnteredBy(enteredBy);
+        AddDefectPage.setFoundIn(foundIn);
+        AddDefectPage.setAssignTo(assignTo);
+        staticWait(3);
+        AddDefectPage.setDefectType(type);
+        AddDefectPage.setSeverity(severity);
+        staticWait(2);
+        AddDefectPage.setPriority(priority);
+
+        AddDefectPage.setStatus(status);
+        MethodBase.clickButton_ByXpath(btnAdd);
+    }
+    public static void createDefectWithoutDescription(String defectId,String project,String module,String steps,
+                                             String enteredBy,String foundIn,String assignTo,
+                                             String type,String severity,String priority,String status){
+        AddDefectPage.setDefectId(defectId);
+        AddDefectPage.setProject(project);
+        AddDefectPage.setModule(module);
+        AddDefectPage.setSteps(steps);
+        AddDefectPage.setEnteredBy(enteredBy);
+        AddDefectPage.setFoundIn(foundIn);
+        AddDefectPage.setAssignTo(assignTo);
+        staticWait(3);
+        AddDefectPage.setDefectType(type);
+        AddDefectPage.setSeverity(severity);
+        staticWait(2);
+        AddDefectPage.setPriority(priority);
+
+        AddDefectPage.setStatus(status);
+        MethodBase.clickButton_ByXpath(btnAdd);
+    }
+    public static void createDefectWithoutSteps(String defectId,String project,String module,String description,
+                                             String enteredBy,String foundIn,String assignTo,
+                                             String type,String severity,String priority,String status){
+        AddDefectPage.setDefectId(defectId);
+        AddDefectPage.setProject(project);
+        AddDefectPage.setModule(module);
+        AddDefectPage.setDescription(description);
+        AddDefectPage.setEnteredBy(enteredBy);
+        AddDefectPage.setFoundIn(foundIn);
+        AddDefectPage.setAssignTo(assignTo);
+        staticWait(3);
+        AddDefectPage.setDefectType(type);
+        AddDefectPage.setSeverity(severity);
+        staticWait(2);
+        AddDefectPage.setPriority(priority);
+
+        AddDefectPage.setStatus(status);
+        MethodBase.clickButton_ByXpath(btnAdd);
+    }
+    public static void createDefectWithoutType(String defectId,String project,String module,String description,
+                                             String steps,String enteredBy,String foundIn,String assignTo,
+                                             String severity,String priority,String status){
+        AddDefectPage.setDefectId(defectId);
+        AddDefectPage.setProject(project);
+        AddDefectPage.setModule(module);
+        AddDefectPage.setDescription(description);
+        AddDefectPage.setSteps(steps);
+        AddDefectPage.setEnteredBy(enteredBy);
+        AddDefectPage.setFoundIn(foundIn);
+        AddDefectPage.setAssignTo(assignTo);
+        staticWait(3);
+        AddDefectPage.setSeverity(severity);
+        staticWait(2);
+        AddDefectPage.setPriority(priority);
+
+        AddDefectPage.setStatus(status);
+        MethodBase.clickButton_ByXpath(btnAdd);
+    }
+    public static void createDefectWithoutSeverity(String defectId,String project,String module,String description,
+                                             String steps,String enteredBy,String foundIn,String assignTo,
+                                             String type,String priority,String status){
+        AddDefectPage.setDefectId(defectId);
+        AddDefectPage.setProject(project);
+        AddDefectPage.setModule(module);
+        AddDefectPage.setDescription(description);
+        AddDefectPage.setSteps(steps);
+        AddDefectPage.setEnteredBy(enteredBy);
+        AddDefectPage.setFoundIn(foundIn);
+        AddDefectPage.setAssignTo(assignTo);
+        staticWait(3);
+        AddDefectPage.setDefectType(type);
+        staticWait(2);
+        AddDefectPage.setPriority(priority);
+
+        AddDefectPage.setStatus(status);
+        MethodBase.clickButton_ByXpath(btnAdd);
+    }
+    public static void createDefectWithoutPriority(String defectId,String project,String module,String description,
+                                             String steps,String enteredBy,String foundIn,String assignTo,
+                                             String type,String severity,String status){
+        AddDefectPage.setDefectId(defectId);
+        AddDefectPage.setProject(project);
+        AddDefectPage.setModule(module);
+        AddDefectPage.setDescription(description);
+        AddDefectPage.setSteps(steps);
+        AddDefectPage.setEnteredBy(enteredBy);
+        AddDefectPage.setFoundIn(foundIn);
+        AddDefectPage.setAssignTo(assignTo);
+        staticWait(3);
+        AddDefectPage.setDefectType(type);
+        AddDefectPage.setSeverity(severity);
+        staticWait(2);
+        AddDefectPage.setStatus(status);
+        MethodBase.clickButton_ByXpath(btnAdd);
+    }
+    public static void createDefectWithoutStatus(String defectId,String project,String module,String description,
+                                                   String steps,String enteredBy,String foundIn,String assignTo,
+                                                   String type,String severity,String priority){
+        AddDefectPage.setDefectId(defectId);
+        AddDefectPage.setProject(project);
+        AddDefectPage.setModule(module);
+        AddDefectPage.setDescription(description);
+        AddDefectPage.setSteps(steps);
+        AddDefectPage.setEnteredBy(enteredBy);
+        AddDefectPage.setFoundIn(foundIn);
+        AddDefectPage.setAssignTo(assignTo);
+        staticWait(3);
+        AddDefectPage.setDefectType(type);
+        AddDefectPage.setSeverity(severity);
+        staticWait(2);
+        AddDefectPage.setPriority(priority);
+        MethodBase.clickButton_ByXpath(btnAdd);
+    }
+
 
     public static String CheckValidMsg(String link){
 

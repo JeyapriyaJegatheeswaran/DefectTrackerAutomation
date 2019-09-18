@@ -18,7 +18,6 @@ public class MoreDefectPage extends PageBase {
 
 
 
-
     public static boolean isMoreDefectDetailsPageDisplayed(){
         return MethodBase.isDisplayed_ByXpath(txtMoreDefectDetailsPageTitle);
     }
