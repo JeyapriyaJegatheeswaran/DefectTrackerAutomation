@@ -34,10 +34,13 @@ public class DefectStatusPage extends PageBase {
     private static String tablevalidate="//span[text()='DefectStatus']";
     private static String tablevalidatedc="//span[text()='Description']";
     private static String cancelbtn="/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[1]";
-
+    private static String txtCheDefectStatus = "//*[@id=\"statusName\"]";
 
     public static boolean ischeckstatusDisplayed(){
         return MethodBase.isDisplayed_ByXpath(txtDefectStatus);
+    }
+    public static boolean ischeckStatusDisplayed(){
+        return MethodBase.isDisplayed_ByXpath(txtCheDefectStatus);
     }
     public static boolean ischeckdcDisplayed(){
         return MethodBase.isDisplayed_ByXpath(txtDefectStatus);
@@ -92,7 +95,7 @@ public class DefectStatusPage extends PageBase {
         return MethodBase.isDisplayed_ByXpath(ClickDefectStatus);
     }
     public static boolean isDefectStatusConformDeleteDisplayed(){
-        return MethodBase.isDisplayed_ByXpath(ConformDeleteform);
+        return MethodBase.isDisplayed_ByXpath(ConformDelete);
     }
     public static boolean isDefectAddStatusDisplayed(){
         return MethodBase.isDisplayed_ByXpath(ClickAddStatus);
