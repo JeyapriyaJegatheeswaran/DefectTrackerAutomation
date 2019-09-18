@@ -3,9 +3,10 @@
 <suite name="regration" verbose="1" configfailurepolicy="continue">
     <test name="regration">
         <classes>
-            <class name="tests.DefectStatus.GetMeassage_status"/>
-            <class name="tests.DefectStatus.Add_Status_Test"/>
-            <class name="tests.DefectStatus.TypeAdd_Status"/>
+            <!--<class name="tests.DefectStatus.GetMeassage_status"/>-->
+            <!--<class name="tests.DefectStatus.Add_Status_Test"/>-->
+            <!--<class name="tests.DefectStatus.TypeAdd_Status"/>-->
+            <class name="tests.DefectStatus.DefectStatus"/>
         </classes>
     </test>
 </suite>
