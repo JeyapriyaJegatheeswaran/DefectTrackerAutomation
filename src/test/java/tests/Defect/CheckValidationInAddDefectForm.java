@@ -13,7 +13,7 @@ import utils.TestBase;
 
 public class CheckValidationInAddDefectForm extends TestBase {
     private static final Logger LOGGER = Logger.getLogger(CheckValidationInAddDefectForm.class);
-    @Test(priority=1,groups = "smoke,regression")
+    @Test(priority=11,groups = { "regression","test"})
     public void addDefectWithoutDefectID() {
         implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -44,7 +44,7 @@ public class CheckValidationInAddDefectForm extends TestBase {
         extentTest.log(LogStatus.PASS, "defectID validation msg  displayed");
         softAssert.assertAll();
     }
-    @Test(priority=2,groups = "smoke,regression")
+    @Test(priority=12,groups = { "regression","test"})
     public void addDefectWithoutProject() {
         implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -75,7 +75,7 @@ public class CheckValidationInAddDefectForm extends TestBase {
         extentTest.log(LogStatus.PASS, "Project validation msg  displayed");
         softAssert.assertAll();
     }
-    @Test(priority=3,groups = "smoke,regression")
+    @Test(priority=13,groups = { "regression","test"})
     public void addDefectWithoutModule() {
         implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -106,7 +106,7 @@ public class CheckValidationInAddDefectForm extends TestBase {
         extentTest.log(LogStatus.PASS, "Module validation msg  displayed");
         softAssert.assertAll();
     }
-    @Test(priority=4,groups = "smoke,regression")
+    @Test(priority=14,groups = { "regression","test"})
     public void addDefectWithoutDescription() {
         implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -137,7 +137,7 @@ public class CheckValidationInAddDefectForm extends TestBase {
         extentTest.log(LogStatus.PASS, "Description validation msg  displayed");
         softAssert.assertAll();
     }
-    @Test(priority=5,groups = "smoke,regression")
+    @Test(priority=15,groups = { "regression","test"})
     public void addDefectWithoutSteps() {
         implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -169,7 +169,7 @@ public class CheckValidationInAddDefectForm extends TestBase {
         softAssert.assertAll();
     }
 
-    @Test(priority=6,groups = "smoke,regression")
+    @Test(priority=16,groups = { "regression","test"})
     public void addDefectWithoutType() {
         implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -200,7 +200,7 @@ public class CheckValidationInAddDefectForm extends TestBase {
         extentTest.log(LogStatus.PASS, "Type validation msg  displayed");
         softAssert.assertAll();
     }
-    @Test(priority=7,groups = "smoke,regression")
+    @Test(priority=17,groups = { "regression","test"})
     public void addDefectWithoutSeverity() {
         implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -231,7 +231,7 @@ public class CheckValidationInAddDefectForm extends TestBase {
         extentTest.log(LogStatus.PASS, "Severity validation msg  displayed");
         softAssert.assertAll();
     }
-    @Test(priority=8,groups = "smoke,regression")
+    @Test(priority=18,groups = { "regression","test"})
     public void addDefectWithoutPriority() {
         implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -262,7 +262,7 @@ public class CheckValidationInAddDefectForm extends TestBase {
         extentTest.log(LogStatus.PASS, "Priority validation msg  displayed");
         softAssert.assertAll();
     }
-    @Test(priority=9,groups = "smoke,regression")
+    @Test(priority=19,groups = { "regression","test"})
     public void addDefectWithoutStatus() {
         implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
