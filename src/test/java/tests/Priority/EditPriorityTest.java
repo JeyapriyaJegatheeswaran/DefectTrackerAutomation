@@ -10,7 +10,37 @@ import utils.TestBase;
 
 public class EditPriorityTest extends TestBase {
     private static final Logger LOGGER = Logger.getLogger(EditPriorityTest.class);
-    @Test
+
+    @Test(groups = {"regression","test"})
+    public void priorityPageDisplay() {
+
+        implicitWait(5);
+        softAssert.assertEquals(HomePage.settingVerify(),"Setting","Setting not verified");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Setting button verified");
+        HomePage.clickSetting();
+        LOGGER.info("Side Navigation_Setting button clicked");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Setting button clicked");
+        staticWait(3);
+        softAssert.assertEquals(HomePage.generalConfigVerify(),"General Configuration","General Configuration menu not displayed");
+        LOGGER.info("Side Navigation_General Configuration button verified");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Setting button verified");
+        HomePage.clickGeneralconfig();
+        LOGGER.info("Side Navigation_General Configuration button clicked");
+        extentTest.log(LogStatus.PASS,"Side Navigation_General Configuration button clicked");
+        staticWait(3);
+        softAssert.assertEquals(HomePage.priorityVerify(),"Priority","Priority not verified");
+        LOGGER.info("Side Navigation_Priority button verified");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Priority button verified");
+        HomePage.clickPriority();
+        LOGGER.info("Side Navigation_Priority button clicked");
+        extentTest.log(LogStatus.PASS,"Side Navigation_Priority button clicked");
+        softAssert.assertEquals(PriorityPage.isPriorityPageDisplay(),"Priority Configuration","Priority Configuration not display");
+        LOGGER.info("Priority Page Displayed");
+        extentTest.log(LogStatus.PASS,"Priority Page Displayed");
+        softAssert.assertAll();
+    }
+
+    @Test(groups = {"regression","test","smoke"})
     public void editPriority() {
 
         implicitWait(5);

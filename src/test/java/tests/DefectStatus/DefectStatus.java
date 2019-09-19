@@ -7,11 +7,7 @@ import pages.DefectStatusPage;
 import utils.TestBase;
 
 public class DefectStatus  extends TestBase {
-
-
-
-
-    @Test(groups = "tests",priority=5)
+    @Test(priority=1,groups = { "test", "regression"})
     public void  SidebarTest() {
         softAssert = new SoftAssert();
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
@@ -26,7 +22,7 @@ public class DefectStatus  extends TestBase {
     }
 
 
-    @Test(groups = "tests",priority=6)
+    @Test(priority=2,groups = { "test", "regression"})
     public void  sabbartest() {
         softAssert = new SoftAssert();
         SidebarTest();
@@ -45,7 +41,7 @@ public class DefectStatus  extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(groups = "tests",priority=7)
+    @Test(priority=3,groups = { "test", "regression"})
     public void  conformaddstatustest() {
         softAssert = new SoftAssert();
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
@@ -70,7 +66,7 @@ public class DefectStatus  extends TestBase {
 
 
 
-    @Test(groups = "tests",priority=12)
+    @Test(priority=4,groups = { "test", "regression"})
     public void  numbervalue() {
         softAssert = new SoftAssert();
         sabbartest();
@@ -87,7 +83,7 @@ public class DefectStatus  extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(groups = "tests",priority=13)
+    @Test(priority=5,groups = { "test", "regression"})
     public void  spicalvalue() {
         softAssert = new SoftAssert();
         sabbartest();
@@ -104,7 +100,7 @@ public class DefectStatus  extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(groups = "tests",priority=14)
+    @Test(priority=6,groups = { "test", "regression"})
     public void  canceldata() {
         softAssert = new SoftAssert();
         sabbartest();
@@ -124,13 +120,13 @@ public class DefectStatus  extends TestBase {
         extentTest.log(LogStatus.PASS, "Click Ok Button");
         softAssert.assertAll();
     }
-    @Test(groups = "tests",priority=15)
+    @Test(priority=7,groups = { "test", "regression"})
     public void  checkaddstatusforms() {
         softAssert = new SoftAssert();
         sabbartest();
         DefectStatusPage.clickAddStatus();
         extentTest.log(LogStatus.PASS, "Click Ok");
-        softAssert.assertTrue(DefectStatusPage.ischeckstatusDisplayed(), "AddStatusField not Displayed");
+        softAssert.assertTrue(DefectStatusPage.ischeckStatusDisplayed(), "AddStatusField not Displayed");
         softAssert.assertTrue(DefectStatusPage.ischeckdcDisplayed(), "AddStatus Dcription Field not Displayed");
         softAssert.assertTrue(DefectStatusPage.ischeckOkbuttonDisplayed(), "AddStatus Ok Button not Displayed");
         softAssert.assertTrue(DefectStatusPage.ischeckcancelbuttonDisplayed(), "AddStatus Cancel Button not Displayed");
