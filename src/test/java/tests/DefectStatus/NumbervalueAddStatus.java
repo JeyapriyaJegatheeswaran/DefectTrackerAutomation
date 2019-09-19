@@ -8,7 +8,7 @@ import utils.PageBase;
 import utils.TestBase;
 
 public class NumbervalueAddStatus extends TestBase {
-    @Test(groups = "tests",priority=4)
+    @Test(priority=4,groups = { "test", "regression"})
     public void NumbervalueAddStatus() {
         softAssert = new SoftAssert();
         PageBase.implicitWait(2);
