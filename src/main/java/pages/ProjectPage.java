@@ -2,7 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.testng.asserts.SoftAssert;
+
 import utils.MethodBase;
 import utils.PageBase;
 
@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 
 public class ProjectPage extends PageBase {
 
-        public SoftAssert softAssert;
+
 
         private static final Logger LOGGER = (Logger) Logger.getLogger(String.valueOf(ProjectPage.class));
 

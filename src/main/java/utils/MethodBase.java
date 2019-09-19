@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
+
 
 import org.testng.asserts.SoftAssert;
 
@@ -69,12 +69,12 @@ public class MethodBase extends PageBase{
 
     }
 
-    public static void assertEqual_Text_ById(String locator, String expectedText) {
-
-        String actualText = getDriver().findElement(By.id(locator)).getText();
-
-        Assert.assertEquals(actualText, expectedText);
-    }
+//    public static void assertEqual_Text_ById(String locator, String expectedText) {
+//
+//        String actualText = getDriver().findElement(By.id(locator)).getText();
+//
+//        Assert.assertEquals(actualText, expectedText);
+//    }
     public static void assertEqual_Text_ByXpath(String locator, String expectedText) {
         SoftAssert softAssert = new SoftAssert();
         String actualText = getDriver().findElement(By.xpath(locator)).getText();

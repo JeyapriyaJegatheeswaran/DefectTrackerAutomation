@@ -1,13 +1,13 @@
 package pages.Defect;
 
-import org.testng.asserts.SoftAssert;
+
 import utils.MethodBase;
 import utils.PageBase;
 
 import java.util.logging.Logger;
 
 public class DefectPage extends PageBase {
-    public SoftAssert softAssert;
+
 ////*[@id="root"]/div/section/section/main/div[2]/div/div[2]/div/div/div/div/div/table/tbody/tr[td[3][. = 'Login']]/td[5]
     private static final Logger LOGGER = (Logger) Logger.getLogger(String.valueOf(DefectPage.class));
     private static String btnaddDefect = "//*[@id=\"root\"]/div/section/section/main/div[2]/div/div[1]/div/button";

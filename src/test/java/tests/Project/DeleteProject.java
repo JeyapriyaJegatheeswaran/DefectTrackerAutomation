@@ -6,6 +6,9 @@ import pages.HomePage;
 import pages.ProjectPage;
 import utils.TestBase;
 
+import static utils.PageBase.implicitWait;
+import static utils.PageBase.staticWait;
+
 public class DeleteProject extends TestBase {
         @Test(priority=1)
         public void deleteProject() {

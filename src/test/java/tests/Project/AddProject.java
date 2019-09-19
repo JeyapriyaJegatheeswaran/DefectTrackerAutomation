@@ -6,6 +6,9 @@ import pages.HomePage;
 import pages.ProjectPage;
 import utils.JiraPolicy;
 import utils.TestBase;
+
+import static utils.PageBase.implicitWait;
+
 //*[@class="ant-select-selection__placeholder"]
 public class AddProject extends TestBase {
     @Test(priority=1)

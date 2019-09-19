@@ -6,9 +6,11 @@ import org.testng.asserts.SoftAssert;
 import pages.Defect.DefectPage;
 import pages.HomePage;
 import utils.JiraPolicy;
-import utils.TestBase;
 
-public class Tests extends TestBase {
+import static utils.PageBase.implicitWait;
+
+
+public class Tests {
 
     @JiraPolicy(logTicketReady=true)
     @Test(priority=1, enabled=true)

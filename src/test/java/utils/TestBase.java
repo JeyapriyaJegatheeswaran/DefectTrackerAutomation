@@ -15,7 +15,7 @@ import org.testng.asserts.SoftAssert;
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 
-public class TestBase extends PageBase {
+public class TestBase  extends PageBase{
     public SoftAssert softAssert;
     public static ExtentReports extentReport = new ExtentReports(System.getProperty("user.dir") + "/src/test/resources/reports/ExtentReportResults.html");
     public static ExtentTest extentTest;
@@ -41,7 +41,7 @@ public class TestBase extends PageBase {
             e.printStackTrace();
         }
         extentTest=extentReport.startTest("Start Report : "+ method.getName());
-        getDriver().manage().deleteAllCookies();
+        PageBase.getDriver().manage().deleteAllCookies();
         LOGGER.info("Browser Initiated");
 
     }

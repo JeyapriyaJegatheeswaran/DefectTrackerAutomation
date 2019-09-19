@@ -1,6 +1,6 @@
 package pages.Defect;
 
-import org.testng.asserts.SoftAssert;
+
 import utils.MethodBase;
 import utils.PageBase;
 
@@ -8,7 +8,7 @@ import utils.PageBase;
 import java.util.logging.Logger;
 
 public class EditDefectPage extends PageBase {
-    public SoftAssert softAssert;
+
     private static final Logger LOGGER = (Logger) Logger.getLogger(String.valueOf(EditDefectPage.class));
 
     private static String txtEditDefectFormTitle = "//div[text()='Edit Defects']";

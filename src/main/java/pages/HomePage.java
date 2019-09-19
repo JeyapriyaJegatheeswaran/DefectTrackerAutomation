@@ -1,13 +1,13 @@
 package pages;
 
-import org.testng.asserts.SoftAssert;
+
 import utils.MethodBase;
 import utils.PageBase;
 
 import java.util.logging.Logger;
 
 public class HomePage extends PageBase {
-    public SoftAssert softAssert;
+
 
     private static final Logger LOGGER = (Logger) Logger.getLogger(String.valueOf(HomePage.class));
 
