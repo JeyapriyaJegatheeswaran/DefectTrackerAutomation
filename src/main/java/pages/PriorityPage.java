@@ -11,23 +11,23 @@ public class PriorityPage {
 
     private static String PriorityPageVerify = "//h3[text()='Priority Configuration']";
     private static String priorityBtnVerify = "//span[text()=\"Add priority\"]";
-    private static String btnAddPriority = "//*[@id=\"root\"]/div/section/section/main/div/div[2]/button";
-    private static String priorityName = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[1]/div[2]/div/span/input";
-    private static String priorityDescription = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[2]/div[2]/div/span/input";
+    private static String btnAddPriority = "//button[@id=\"addPriority\"]";
+    private static String priorityName = "//input[@id=\"priorityName\"]";
+    private static String priorityDescription = "//input[@id=\"priorityValue\"]";
     private static String icon1 = "//div[text()=\"Select an option\"]";
     private static String icon2 = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[3]/div[2]/div/span/div/div[2]/div[3]";
     private static String clickColor = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div";
     private static String selectColor = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div[2]/div[2]/div[4]/div[6]/span";
     private static String okBtn = "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[2]";
 
-    private static String clickEditBtn = "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[td[2][.='Hight']]/td[6]/span/i[1]";
-    private static String priorityNameEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[1]/div[2]/div/span/input";
-    private static String priorityDescriptionEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[2]/div[2]/div/span/input";
+    private static String clickEditBtn = "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[td[2][.='higth']]/td[6]/span/i[1]";
+    private static String priorityNameEdited = "//input[@id=\"priorityName\" and @value=\"higth\"]";
+    private static String priorityDescriptionEdited = "//input[@id=\"priorityValue\" and @value=\"defect tracker configuration parts\"]";
     private static String icon1Edited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[3]/div[2]/div/span/div/div";
     private static String icon2Edited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[3]/div[2]/div/span/div/div[2]/div[1]";
     private static String clickColorEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div";
     private static String selectColorEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div[2]/div[2]/div[4]/div[6]/span";
-    private static String okBtnEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[2]";
+    private static String okBtnEdited = "/html/body/div[3]/div/div[2]/div/div[2]/div[3]/div/button[2]";
 
     private static String clickDeleteBtn = "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[td[2][.='higth']]/td[6]/span/i[2]";
     private static String clickDeleteOKBtn = "/html/body/div/div/div/div/div[2]/div/div/div[2]/button[2]";
