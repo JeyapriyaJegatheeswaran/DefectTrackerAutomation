@@ -15,7 +15,7 @@ import utils.TestBase;
 public class EditDefect extends TestBase {
     private static final Logger LOGGER = Logger.getLogger(AddDefect.class);
 
-    @Test(priority=20,groups = { "regression","test"})
+    @Test(priority=220,groups = { "regression","test"})
     public void checkEditButton() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -38,7 +38,7 @@ public class EditDefect extends TestBase {
         softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
         LOGGER.info("Defect Page is  Displayed");
         extentTest.log(LogStatus.PASS, "Defect Page is  Displayed");
-        DefectPage.clickEditButton("DEF001");
+        DefectPage.clickEditButton("jp12345");
         LOGGER.info("click edit button");
         extentTest.log(LogStatus.PASS, "click edit button");
         staticWait(3);
@@ -47,7 +47,7 @@ public class EditDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "edit defect form is displayed");
         softAssert.assertAll();
     }
-    @Test(priority=21,groups = { "regression","smoke","test"})
+    @Test(priority=221,groups = { "regression","smoke","test"})
     public void editModule() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -70,25 +70,26 @@ public class EditDefect extends TestBase {
         softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
         LOGGER.info("Defect Page is  Displayed");
         extentTest.log(LogStatus.PASS, "Defect Page is  Displayed");
-        DefectPage.clickEditButton("jp1234");
+        DefectPage.clickEditButton("jp12345");
         LOGGER.info("click edit button");
         extentTest.log(LogStatus.PASS, "click edit button");
         staticWait(3);
         softAssert.assertTrue(EditDefectPage.isEditDefectFormDisplayed(),"Edit Defect Form is not Displayed");
         LOGGER.info("edit defect form is displayed");
         extentTest.log(LogStatus.PASS, "edit defect form is displayed");
-        EditDefectPage.editModule("jp");
+        EditDefectPage.editModule("employee");
         LOGGER.info("edit module ");
         extentTest.log(LogStatus.PASS, "edit module");
         EditDefectPage.clickOKButton();
         LOGGER.info("click ok button");
         extentTest.log(LogStatus.PASS, "click ok button");
-        softAssert.assertEquals(DefectPage.verifyEditStatus("jp1234","2"),"jp","module not match");
+        staticWait(2);
+        softAssert.assertEquals(DefectPage.verifyEditStatus("jp12345","2"),"employee","module not match");
         LOGGER.info("Module edited successfully");
         extentTest.log(LogStatus.PASS, "Module edited successfully");
         softAssert.assertAll();
     }
-    @Test(priority=22,groups = { "regression","test"})
+    @Test(priority=222,groups = { "regression","test"})
     public void editSeverity() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -111,24 +112,24 @@ public class EditDefect extends TestBase {
         softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
         LOGGER.info("Defect Page is  Displayed");
         extentTest.log(LogStatus.PASS, "Defect Page is  Displayed");
-        DefectPage.clickEditButton("jp1234");
+        DefectPage.clickEditButton("jp12345");
         LOGGER.info("click edit button");
         extentTest.log(LogStatus.PASS, "click edit button");
         staticWait(3);
         softAssert.assertTrue(EditDefectPage.isEditDefectFormDisplayed(),"Edit Defect Form is not Displayed");
         LOGGER.info("edit defect form is displayed");
         extentTest.log(LogStatus.PASS, "edit defect form is displayed");
-        EditDefectPage.editSeverity("severity1");
+        EditDefectPage.editSeverity("severityforedit");
         EditDefectPage.clickOKButton();
         LOGGER.info("click ok button");
         extentTest.log(LogStatus.PASS, "click ok button");
         staticWait(2);
-        softAssert.assertEquals(DefectPage.verifyEditStatus("jp1234","3"),"Low","severity type not match");
+        softAssert.assertEquals(DefectPage.verifyEditStatus("jp12345","3"),"severityforedit","severity type not match");
         LOGGER.info("severity type edited successfully");
         extentTest.log(LogStatus.PASS, "severity type edited successfully");
         softAssert.assertAll();
     }
-    @Test(priority=23,groups = { "regression","test"})
+    @Test(priority=223,groups = { "regression","test"})
     public void editPriority() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -151,23 +152,24 @@ public class EditDefect extends TestBase {
         softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
         LOGGER.info("Defect Page is  Displayed");
         extentTest.log(LogStatus.PASS, "Defect Page is  Displayed");
-        DefectPage.clickEditButton("DEF001");
+        DefectPage.clickEditButton("jp12345");
         LOGGER.info("click edit button");
         extentTest.log(LogStatus.PASS, "click edit button");
         staticWait(3);
         softAssert.assertTrue(EditDefectPage.isEditDefectFormDisplayed(),"Edit Defect Form is not Displayed");
         LOGGER.info("edit defect form is displayed");
         extentTest.log(LogStatus.PASS, "edit defect form is displayed");
-        EditDefectPage.editPriority("priority1");
+        EditDefectPage.editPriority("priorityforedit");
         EditDefectPage.clickOKButton();
         LOGGER.info("click ok button");
         extentTest.log(LogStatus.PASS, "click ok button");
-        softAssert.assertEquals(DefectPage.verifyEditStatus("DEF001","4"),"Low","priority type not match");
+        staticWait(2);
+        softAssert.assertEquals(DefectPage.verifyEditStatus("jp12345","4"),"priorityforedit","priority type not match");
         LOGGER.info("priority type edited successfully");
         extentTest.log(LogStatus.PASS, "priority type edited successfully");
         softAssert.assertAll();
     }
-    @Test(priority=24,groups = { "regression","smoke","test"})
+    @Test(priority=224,groups = { "regression","smoke","test"})
     public void editStatus() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -190,23 +192,24 @@ public class EditDefect extends TestBase {
         softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
         LOGGER.info("Defect Page is  Displayed");
         extentTest.log(LogStatus.PASS, "Defect Page is  Displayed");
-        DefectPage.clickEditButton("DEF001");
+        DefectPage.clickEditButton("jp12345");
         LOGGER.info("click edit button");
         extentTest.log(LogStatus.PASS, "click edit button");
         staticWait(3);
         softAssert.assertTrue(EditDefectPage.isEditDefectFormDisplayed(),"Edit Defect Form is not Displayed");
         LOGGER.info("edit defect form is displayed");
         extentTest.log(LogStatus.PASS, "edit defect form is displayed");
-        EditDefectPage.editStatus("status1");
+        EditDefectPage.editStatus("statusforedit");
         EditDefectPage.clickOKButton();
         LOGGER.info("click ok button");
         extentTest.log(LogStatus.PASS, "click ok button");
-        softAssert.assertEquals(DefectPage.verifyEditStatus("DEF001","5"),"Open","Defect status not match");
+        staticWait(2);
+        softAssert.assertEquals(DefectPage.verifyEditStatus("jp12345","5"),"statusforedit","Defect status not match");
         LOGGER.info("Defect status edited successfully");
         extentTest.log(LogStatus.PASS, "Defect status edited successfully");
         softAssert.assertAll();
     }
-    @Test(priority=25,groups = { "regression","smoke","test"})
+    @Test(priority=225,groups = { "regression","smoke","test"})
     public void editAssignee() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -229,7 +232,7 @@ public class EditDefect extends TestBase {
         softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
         LOGGER.info("Defect Page is  Displayed");
         extentTest.log(LogStatus.PASS, "Defect Page is  Displayed");
-        DefectPage.clickEditButton("DEF001");
+        DefectPage.clickEditButton("jp12345");
         LOGGER.info("click edit button");
         extentTest.log(LogStatus.PASS, "click edit button");
         staticWait(3);
@@ -240,12 +243,13 @@ public class EditDefect extends TestBase {
         EditDefectPage.clickOKButton();
         LOGGER.info("click ok button");
         extentTest.log(LogStatus.PASS, "click ok button");
-        softAssert.assertEquals(DefectPage.verifyEditStatus("DEF001","6"),"jp","AssignTo not match");
+        staticWait(2);
+        softAssert.assertEquals(DefectPage.verifyEditStatus("jp12345","6"),"jp","AssignTo not match");
         LOGGER.info("AssignTo edited successfully");
         extentTest.log(LogStatus.PASS, "AssignTo  edited successfully");
         softAssert.assertAll();
     }
-//    @Test(priority=26,groups = { "regression","test"})
+//    @Test(priority=226,groups = { "regression","test"})
 //    public void editFoundIn() {
 //        implicitWait(5);
 //        //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -277,7 +281,7 @@ public class EditDefect extends TestBase {
 //        extentTest.log(LogStatus.PASS, "editFoundIn type edited successfully");
 //        softAssert.assertAll();
 //    }
-    @Test(priority=27,groups = { "regression","test"})
+    @Test(priority=227,groups = { "regression","test"})
     public void editDescription() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -300,7 +304,7 @@ public class EditDefect extends TestBase {
         softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
         LOGGER.info("Defect Page is  Displayed");
         extentTest.log(LogStatus.PASS, "Defect Page is  Displayed");
-        DefectPage.clickEditButton("DEF001");
+        DefectPage.clickEditButton("jp12345");
         LOGGER.info("click edit button");
         extentTest.log(LogStatus.PASS, "click edit button");
         staticWait(3);
@@ -312,13 +316,14 @@ public class EditDefect extends TestBase {
         LOGGER.info("click ok button");
         extentTest.log(LogStatus.PASS, "click ok button");
         staticWait(1);
-        DefectPage.clickMoreDefectDetailsButton("DEF001");
+        DefectPage.clickMoreDefectDetailsButton("jp12345");
+        staticWait(1);
         softAssert.assertEquals(MoreDefectPage.getDescription(),"testing for edit description","description not match");
         LOGGER.info("description edited successfully");
         extentTest.log(LogStatus.PASS, "description edited successfully");
         softAssert.assertAll();
     }
-    @Test(priority=28,groups = { "regression","test"})
+    @Test(priority=228,groups = { "regression","test"})
     public void editSteps() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -341,7 +346,7 @@ public class EditDefect extends TestBase {
         softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
         LOGGER.info("Defect Page is  Displayed");
         extentTest.log(LogStatus.PASS, "Defect Page is  Displayed");
-        DefectPage.clickEditButton("DEF001");
+        DefectPage.clickEditButton("jp12345");
         LOGGER.info("click edit button");
         extentTest.log(LogStatus.PASS, "click edit button");
         staticWait(3);
@@ -353,13 +358,14 @@ public class EditDefect extends TestBase {
         LOGGER.info("click ok button");
         extentTest.log(LogStatus.PASS, "click ok button");
         staticWait(1);
-        DefectPage.clickMoreDefectDetailsButton("DEF001");
+        DefectPage.clickMoreDefectDetailsButton("jp12345");
+        staticWait(1);
         softAssert.assertEquals(MoreDefectPage.getsteps(),"testing for edit steps","steps not match");
         LOGGER.info("steps edited successfully");
         extentTest.log(LogStatus.PASS, "steps edited successfully");
         softAssert.assertAll();
     }
-    @Test(priority=29,groups = { "regression","smoke","test"})
+    @Test(priority=229,groups = { "regression","smoke","test"})
     public void editType() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -382,26 +388,26 @@ public class EditDefect extends TestBase {
         softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
         LOGGER.info("Defect Page is  Displayed");
         extentTest.log(LogStatus.PASS, "Defect Page is  Displayed");
-        DefectPage.clickEditButton("DEF001");
+        DefectPage.clickEditButton("jp12345");
         LOGGER.info("click edit button");
         extentTest.log(LogStatus.PASS, "click edit button");
         staticWait(3);
         softAssert.assertTrue(EditDefectPage.isEditDefectFormDisplayed(),"Edit Defect Form is not Displayed");
         LOGGER.info("edit defect form is displayed");
         extentTest.log(LogStatus.PASS, "edit defect form is displayed");
-        EditDefectPage.editType("type1");
+        EditDefectPage.editType("typeforedit");
         EditDefectPage.clickOKButton();
         LOGGER.info("click ok button");
         extentTest.log(LogStatus.PASS, "click ok button");
         staticWait(1);
-        DefectPage.clickMoreDefectDetailsButton("DEF001");
+        DefectPage.clickMoreDefectDetailsButton("jp12345");
         staticWait(2);
-        softAssert.assertEquals(MoreDefectPage.getType(),"Function","defect type not match");
+        softAssert.assertEquals(MoreDefectPage.getType(),"typeforedit","defect type not match");
         LOGGER.info("defect type edited successfully");
         extentTest.log(LogStatus.PASS, "defect type  edited successfully");
         softAssert.assertAll();
     }
-    @Test(priority=30,groups = { "regression","test"})
+    @Test(priority=230,groups = { "regression","test"})
     public void checkEditDefectCancelButton() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -424,7 +430,7 @@ public class EditDefect extends TestBase {
         softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
         LOGGER.info("Defect Page is  Displayed");
         extentTest.log(LogStatus.PASS, "Defect Page is  Displayed");
-        DefectPage.clickEditButton("DEF001");
+        DefectPage.clickEditButton("jp12345");
         LOGGER.info("click edit button");
         extentTest.log(LogStatus.PASS, "click edit button");
         staticWait(3);
@@ -436,7 +442,7 @@ public class EditDefect extends TestBase {
         EditDefectPage.clickCancelButton();
         LOGGER.info("click ok button");
         extentTest.log(LogStatus.PASS, "click ok button");
-        softAssert.assertEquals(DefectPage.verifyEditStatus("DEF001","5"),"Open","not match");
+        softAssert.assertEquals(DefectPage.verifyEditStatus("jp12345","5"),"statusforedit","not match");
         softAssert.assertAll();
     }
 }

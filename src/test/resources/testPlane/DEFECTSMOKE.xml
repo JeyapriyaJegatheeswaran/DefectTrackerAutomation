@@ -8,8 +8,9 @@
         </groups>
         <classes>
             <class name="tests.Defect.AddDefect"/>
-            <class name="tests.Defect.EditDefect"/>
             <class name="tests.Defect.CheckValidationInAddDefectForm"/>
+            <class name="tests.Defect.EditDefect"/>
+
         </classes>
     </test>
 </suite>

@@ -39,18 +39,7 @@
 
         </classes>
     </test>
-    <!--    <test name="test">-->
-    <!--        <groups>-->
-    <!--            <run>-->
-    <!--                <include name="regression" ></include>-->
-    <!--            </run>-->
-    <!--        </groups>-->
-    <!--        <classes>-->
-    <!--            <class name="tests.DefectStatus.Add_Status_Test"/>-->
-    <!--            <class name="tests.DefectStatus.Delete_Status"/>-->
-    <!--            <class name="tests.DefectStatus.EditDefectStatus"/>-->
-    <!--        </classes>-->
-    <!--    </test>-->
+
     <test name="test3">
         <groups>
             <run>
