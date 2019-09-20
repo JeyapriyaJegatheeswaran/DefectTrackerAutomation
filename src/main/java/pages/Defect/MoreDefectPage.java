@@ -14,9 +14,9 @@ public class MoreDefectPage extends PageBase {
     private static final Logger LOGGER = (Logger) Logger.getLogger(String.valueOf(MoreDefectPage.class));
 
     private static String txtMoreDefectDetailsPageTitle = "//div[@id=\"rcDialogTitle0\"]";
-    private static String txtDescription = "/html/body/div[13]/div/div[2]/div/div[2]/div[2]/div[1]/div[2]/p[3]";
-    private static String txtSteps = "/html/body/div[13]/div/div[2]/div/div[2]/div[2]/div[1]/div[2]/p[4]";
-    private static String txtTYpe = "/html/body/div[13]/div/div[2]/div/div[2]/div[2]/div[1]/div[2]/p[7]";
+    private static String txtDescription = "/html/body/div/div/div[2]/div/div[2]/div[2]/div[1]/div[2]/p[3]";
+    private static String txtSteps = "/html/body/div/div/div[2]/div/div[2]/div[2]/div[1]/div[2]/p[4]";
+    private static String txtTYpe = "/html/body/div/div/div[2]/div/div[2]/div[2]/div[1]/div[2]/p[7]";
 
 
 

@@ -28,7 +28,7 @@ public class EditDefectStatus  extends TestBase {
         extentTest.log(LogStatus.PASS, "Click Ok Button");
         softAssert.assertAll();
     }
-    @Test(priority=65,groups = { "test", "regression"})
+    @Test(priority=130,groups = { "test", "regression"})
     public void verifyEditStatus() {
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
         DefectStatusPage.clickSetting();
@@ -51,7 +51,7 @@ public class EditDefectStatus  extends TestBase {
         extentTest.log(LogStatus.PASS, "Click Ok Button");
         softAssert.assertAll();
     }
-    @Test(priority=1,groups = { "test", "regression","smoke"})
+    @Test(priority=129,groups = { "test", "regression","smoke"})
     public void InvalidEditStatus() {
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
         DefectStatusPage.clickSetting();
@@ -71,7 +71,7 @@ public class EditDefectStatus  extends TestBase {
         extentTest.log(LogStatus.PASS, "Click Ok Button");
         softAssert.assertAll();
     }
-    @Test(priority=1,groups = { "test", "regression","smoke"})
+    @Test(priority=128,groups = { "test", "regression","smoke"})
     public void SpecialEditStatus() {
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
         DefectStatusPage.clickSetting();

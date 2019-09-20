@@ -20,26 +20,26 @@ import utils.TestBase;
 
 public class AddDefect extends TestBase {
     private static final Logger LOGGER = Logger.getLogger(AddDefect.class);
-    @Test(priority=0,groups = { "regression","test","smoke"})
-    public void te() {
-        AddDefectPreRequests.addPriorityForDefectTesting("priority");
-        staticWait(3);
-        AddDefectPreRequests.addPriority1ForDefectTesting("priority1");
-        staticWait(3);
-        AddDefectPreRequests.addDefectTypeForDefectTesting("type");
-        staticWait(3);
-        AddDefectPreRequests.addDefectTypeForDefectTesting("type1");
-        staticWait(3);
-        AddDefectPreRequests.addSeverityForDefectTesting("severity");
-        staticWait(3);
-        AddDefectPreRequests.addSeverityForDefectTesting("severity1");
-        staticWait(3);
-        AddDefectPreRequests.addStatusForDefectTesting("status");
-        staticWait(3);
-        AddDefectPreRequests.addStatusForDefectTesting("status1");
-
-    }
-    @Test(priority=1,groups = { "regression","test"})
+//    @Test(priority=200,groups = { "regression","test","smoke"})
+//    public void te() {
+//        AddDefectPreRequests.addPriorityForDefectTesting("priority");
+//        staticWait(3);
+//        AddDefectPreRequests.addPriority1ForDefectTesting("priorityforedit");
+//        staticWait(3);
+//        AddDefectPreRequests.addDefectTypeForDefectTesting("type");
+//        staticWait(3);
+//        AddDefectPreRequests.addDefectTypeForDefectTesting("typeforedit");
+//        staticWait(3);
+//        AddDefectPreRequests.addSeverityForDefectTesting("severity");
+//        staticWait(3);
+//        AddDefectPreRequests.addSeverityForDefectTesting("severityforedit");
+//        staticWait(3);
+//        AddDefectPreRequests.addStatusForDefectTesting("status");
+//        staticWait(3);
+//        AddDefectPreRequests.addStatusForDefectTesting("statusforedit");
+//
+//    }
+    @Test(priority=201,groups = { "regression","test"})
     public void checkDefectMenu() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -58,7 +58,7 @@ public class AddDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "Defect sub menu is displayed");
         softAssert.assertAll();
     }
-    @Test(priority=2,groups = { "regression","test"})
+    @Test(priority=202,groups = { "regression","test"})
     public void checkDefectSubMenu() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -83,7 +83,7 @@ public class AddDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "Defect page Title is displayed");
         softAssert.assertAll();
     }
-    @Test(priority=3,groups = { "regression","test"})
+    @Test(priority=203,groups = { "regression","test"})
     public void checkDefectPage() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -114,7 +114,7 @@ public class AddDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "Defect Table is not Displayed");
         softAssert.assertAll();
     }
-    @Test(priority=4,groups = { "regression","test"})
+    @Test(priority=204,groups = { "regression","test"})
     public void checkAddDefectButton() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -145,7 +145,7 @@ public class AddDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "AddDefect Form is not Displayed");
         softAssert.assertAll();
     }
-    @Test(priority=5,groups = { "regression","test"})
+    @Test(priority=205,groups = { "regression","test"})
     public void checkAddDefectFormCancelButton() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -183,7 +183,7 @@ public class AddDefect extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(priority=6,groups = {  "regression","test"})
+    @Test(priority=206,groups = {  "regression","test"})
     public void checkAddDefectFormFields() {
         implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -240,7 +240,7 @@ public class AddDefect extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(priority=7,groups = {  "regression","test"})
+    @Test(priority=207,groups = {  "regression","test"})
     public void checkDefectDetailsTable() {
         implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -285,7 +285,7 @@ public class AddDefect extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(priority=8,groups = {  "regression","smoke","test"})
+    @Test(priority=208,groups = {  "regression","smoke","test"})
     public void addDefect() {
 
         implicitWait(5);
@@ -308,17 +308,18 @@ public class AddDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "click add defect button");
         AddDefectPage.createDefect("jp12345","defect1","defect",
                 "test for add defect","test for add defect",
-                "User 1","Release1","assignee","type","severity",
+                "User 1","Release1","jp","type","severity",
                 "priority","status"
         );
         LOGGER.info("add defect");
         extentTest.log(LogStatus.PASS, "add defect");
+        staticWait(3);
         softAssert.assertEquals(DefectPage.getResult("jp12345"),"jp12345","not match");
         LOGGER.info("check the table data added ");
         extentTest.log(LogStatus.PASS, "check the table data added ");
         softAssert.assertAll();
     }
-    @Test(priority=9,groups = { "regression","test"})
+    @Test(priority=209,groups = { "regression","test"})
     public void addDefectWithoutData() {
 
         implicitWait(5);
@@ -341,6 +342,7 @@ public class AddDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "click add defect button");
         staticWait(3);
         AddDefectPage.createDefectWithoutData();
+        staticWait(1);
         softAssert.assertEquals(AddDefectPage.CheckValidMsg("Please input employeeId"),"Please input employeeId!","defectID validation msg not displayed");
         LOGGER.info("defectID validation msg  displayed");
         extentTest.log(LogStatus.PASS, "defectID validation msg  displayed");
@@ -371,7 +373,7 @@ public class AddDefect extends TestBase {
         softAssert.assertAll();
     }
 
-    @Test(priority=10,groups = {  "regression","test"})
+    @Test(priority=210,groups = {  "regression","test"})
     public void checkMoreButton() {
 
         implicitWait(5);
@@ -390,7 +392,7 @@ public class AddDefect extends TestBase {
         LOGGER.info("Defect Page is  Displayed");
         extentTest.log(LogStatus.PASS, "Defect Page is  Displayed");
         staticWait(2);
-        DefectPage.clickMoreDefectDetailsButton("DEF001");
+        DefectPage.clickMoreDefectDetailsButton("jp12345");
         staticWait(3);
         softAssert.assertTrue(MoreDefectPage.isMoreDefectDetailsPageDisplayed(),"more Defect details  Page is not Displayed");
 

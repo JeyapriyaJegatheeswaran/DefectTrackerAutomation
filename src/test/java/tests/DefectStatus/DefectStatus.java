@@ -127,10 +127,12 @@ public class DefectStatus  extends TestBase {
         sabbartest();
         DefectStatusPage.clickAddStatus();
         extentTest.log(LogStatus.PASS, "Click Ok");
-        softAssert.assertTrue(DefectStatusPage.ischeckStatusDisplayed(), "AddStatusField not Displayed");
+        implicitWait(3);
+        softAssert.assertTrue(DefectStatusPage.ischeckStatusDisplayed(), "Not Show The Status");
         softAssert.assertTrue(DefectStatusPage.ischeckdcDisplayed(), "AddStatus Dcription Field not Displayed");
         softAssert.assertTrue(DefectStatusPage.ischeckOkbuttonDisplayed(), "AddStatus Ok Button not Displayed");
         softAssert.assertTrue(DefectStatusPage.ischeckcancelbuttonDisplayed(), "AddStatus Cancel Button not Displayed");
+        implicitWait(3);
         DefectStatusPage.clickok();
         extentTest.log(LogStatus.PASS, "Click Ok Button");
         softAssert.assertAll();
