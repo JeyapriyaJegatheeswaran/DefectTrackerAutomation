@@ -40,7 +40,7 @@ public class Add_Status_Test extends TestBase {
         DefectStatusPage.setDefectDescription("TestDcription");
         LOGGER.info("Enter DefectDescription");
         extentTest.log(LogStatus.PASS, "Enter DefectDescription ");
-        DefectStatusPage.implicitWait(2);
+        implicitWait(3);
         DefectStatusPage.clickok();
         LOGGER.info("Click Ok ");
         extentTest.log(LogStatus.PASS, "Click Ok ");
