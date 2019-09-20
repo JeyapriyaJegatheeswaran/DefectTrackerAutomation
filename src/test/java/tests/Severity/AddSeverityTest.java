@@ -16,7 +16,7 @@ public class AddSeverityTest extends TestBase {
     @Test(priority = 112,groups = {"regression","test"})
     public void clickSetting() {
 
-        implicitWait(5);
+        staticWait(3);
         softAssert.assertEquals(HomePage.settingVerify(),"Setting","Setting mani menu not verify");
         HomePage.clickSetting();
         extentTest.log(LogStatus.PASS,"Side Navigation_Setting clicked");
