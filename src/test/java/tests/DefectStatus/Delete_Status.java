@@ -29,9 +29,10 @@ public class Delete_Status extends TestBase {
         extentTest.log(LogStatus.PASS, "Log AddStatus Button Show");
         DefectStatusPage.clickDelete();
         extentTest.log(LogStatus.PASS, "Successfull click Delete ststus");
-        softAssert.assertTrue(DefectStatusPage.isDefectStatusConformDeleteDisplayed(), "Delete Conform Page not Displayed");
+        implicitWait(3);
         DefectStatusPage.clickConformDelete();
         extentTest.log(LogStatus.PASS, "Successfull click ConformDelete ststus");
+       // softAssert.assertTrue(DefectStatusPage.isDefectStatusConformDeleteDisplayed(),"Not display Delete Conform Page");
         softAssert.assertAll();
 
     }
@@ -78,7 +79,7 @@ public class Delete_Status extends TestBase {
         extentTest.log(LogStatus.PASS, "Log AddStatus Button Show");
         DefectStatusPage.clickDelete();
         extentTest.log(LogStatus.PASS, "Successfull click Delete ststus");
-        softAssert.assertTrue(DefectStatusPage.isDefectStatusConformDeleteDisplayed(), "Delete Conform Page not Displayed");
+        //softAssert.assertTrue(DefectStatusPage.isDefectStatusConformDeleteDisplayed(), "Delete Conform Page not Displayed");
         softAssert.assertAll();
 
     }

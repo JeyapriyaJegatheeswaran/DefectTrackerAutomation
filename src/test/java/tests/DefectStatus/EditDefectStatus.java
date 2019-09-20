@@ -51,4 +51,44 @@ public class EditDefectStatus  extends TestBase {
         extentTest.log(LogStatus.PASS, "Click Ok Button");
         softAssert.assertAll();
     }
+    @Test(priority=1,groups = { "test", "regression","smoke"})
+    public void InvalidEditStatus() {
+        softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
+        DefectStatusPage.clickSetting();
+        extentTest.log(LogStatus.PASS, "Click Setting Tab");
+        implicitWait(3);
+        DefectStatusPage.clickGeneralConfiguration();
+        extentTest.log(LogStatus.PASS, "Click GeneralConfiguration Tab");
+        implicitWait(3);
+        DefectStatusPage.clickClickDefectStatus();
+        extentTest.log(LogStatus.PASS, "Click Defect Status Tab");
+        softAssert.assertTrue( DefectStatusPage.isDefectStatusPageDisplayed(),"Defect status Dashboard Page is not Displayed");
+        DefectStatusPage.clickEdit();
+        extentTest.log(LogStatus.PASS, "Click Edit Button");
+        DefectStatusPage.setDefectType("");
+        DefectStatusPage.setDefectDescription("");
+        DefectStatusPage.clickok();
+        extentTest.log(LogStatus.PASS, "Click Ok Button");
+        softAssert.assertAll();
+    }
+    @Test(priority=1,groups = { "test", "regression","smoke"})
+    public void SpecialEditStatus() {
+        softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
+        DefectStatusPage.clickSetting();
+        extentTest.log(LogStatus.PASS, "Click Setting Tab");
+        implicitWait(3);
+        DefectStatusPage.clickGeneralConfiguration();
+        extentTest.log(LogStatus.PASS, "Click GeneralConfiguration Tab");
+        implicitWait(3);
+        DefectStatusPage.clickClickDefectStatus();
+        extentTest.log(LogStatus.PASS, "Click Defect Status Tab");
+        softAssert.assertTrue( DefectStatusPage.isDefectStatusPageDisplayed(),"Defect status Dashboard Page is not Displayed");
+        DefectStatusPage.clickEdit();
+        extentTest.log(LogStatus.PASS, "Click Edit Button");
+        DefectStatusPage.setDefectType("8eff/*");
+        DefectStatusPage.setDefectDescription("52488w223");
+        DefectStatusPage.clickok();
+        extentTest.log(LogStatus.PASS, "Click Ok Button");
+        softAssert.assertAll();
+    }
 }
