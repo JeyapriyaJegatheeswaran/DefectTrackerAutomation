@@ -3,7 +3,6 @@ package tests.Priority;
 import com.relevantcodes.extentreports.LogStatus;
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 import pages.HomePage;
 import pages.PriorityPage;
 import utils.TestBase;

@@ -8,10 +8,10 @@ import static utils.PageBase.getDriver;
 
 public class SeverityPage {
 
-    private static String severityPageDisplayVerify = "//span[text()=\"Add severity\"]";
-    private static String btnAddSeverity = "//*[@id=\"root\"]/div/section/section/main/div/div[2]/button";
+    private static String severityPageDisplayVerify = "//h3[text()=\"Severity Configuration\"]";
+    private static String btnAddSeverity = "//button[@id=\"addSeverity\"]";
     //Add Severity
-    private static String addBtnVerify = "//span[text()='Add severity']";
+    private static String addBtnVerify = "//button[@id=\"addSeverity\"]";
     private static String formAddSeverityVerify = "//div[text()=\" Add severity\"]";
     private static By severityAddFormVerifyText = By.xpath("//div[text()=\" Add severity\"]");
 
@@ -36,9 +36,9 @@ public class SeverityPage {
 
     //Edit Severity
     private static By editBtnVerify = By.xpath("//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[td[2][.='Medium']]/td[6]/span/i[1]");
-    private static String editBtn = "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[td[2][.='High']]/td[6]/span/i[1]";
-    private static String severityNameEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[1]/div[2]/div/span/input";
-    private static String severityDescriptionEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[2]/div[2]/div/span/input";
+    private static String editBtn = "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[td[2][.='Medium']]/td[6]/span/i[1]";
+    private static String severityNameEdited = "//input[@id=\"severityName\" and @value=\"Medium\"]";
+    private static String severityDescriptionEdited = "//input[@id=\"severityValue\" and @value=\"test description\"]";
     private static String icon1Edited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[3]/div[2]/div/span/div/div[1]/div[1]";
     private static String icon2Edited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[3]/div[2]/div/span/div/div[2]/div[1]";
     private static String clickColorEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div";
@@ -55,7 +55,7 @@ public class SeverityPage {
 
     private static String editAddedItemCheck = "//td[text()='highest']";
 
-    private static String deleteBtn = "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[td[2][.='gjh']]/td[6]/span/i[2]";
+    private static String deleteBtn = "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[td[2][.='Low']]/td[6]/span/i[2]";
     private static String deleteOKbtn = "/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/button[2]";
 
     //Cancle Severity
