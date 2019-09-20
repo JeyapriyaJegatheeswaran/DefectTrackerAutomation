@@ -8,7 +8,7 @@ import utils.PageBase;
 import utils.TestBase;
 
 public class Delete_Status extends TestBase {
-    @Test(priority=1)
+    @Test(priority=1,groups = { "test", "regression","smoke"})
     public void DeleteStatus() {
         softAssert = new SoftAssert();
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
@@ -35,7 +35,7 @@ public class Delete_Status extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(priority=2)
+    @Test(priority=2,groups = { "test", "regression"})
     public void CheckDeleteformStatus() {
         softAssert = new SoftAssert();
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
@@ -57,7 +57,7 @@ public class Delete_Status extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(priority=3)
+    @Test(priority=3,groups = { "test", "regression"})
     public void CheckPopupmeassageDeleteStatus() {
         softAssert = new SoftAssert();
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");

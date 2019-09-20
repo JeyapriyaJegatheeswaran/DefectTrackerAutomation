@@ -1,5 +1,9 @@
 package tests.Defect;
 
+/**
+ * @author:jeyapriya
+ */
+
 
 import com.relevantcodes.extentreports.LogStatus;
 import org.apache.log4j.Logger;
@@ -15,7 +19,7 @@ import utils.TestBase;
 
 public class AddDefect extends TestBase {
     private static final Logger LOGGER = Logger.getLogger(AddDefect.class);
-    @Test(priority=1,groups = { "test", "regression"})
+    @Test(priority=1,groups = { "regression","test"})
     public void checkDefectMenu() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -34,7 +38,7 @@ public class AddDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "Defect sub menu is displayed");
         softAssert.assertAll();
     }
-    @Test(priority=2,groups = { "test", "regression"})
+    @Test(priority=2,groups = { "regression","test"})
     public void checkDefectSubMenu() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -59,7 +63,7 @@ public class AddDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "Defect page Title is displayed");
         softAssert.assertAll();
     }
-    @Test(priority=3,groups = { "test", "regression"})
+    @Test(priority=3,groups = { "regression","test"})
     public void checkDefectPage() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -90,7 +94,7 @@ public class AddDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "Defect Table is not Displayed");
         softAssert.assertAll();
     }
-    @Test(priority=4,groups = { "test", "regression"})
+    @Test(priority=4,groups = { "regression","test"})
     public void checkAddDefectButton() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -121,7 +125,7 @@ public class AddDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "AddDefect Form is not Displayed");
         softAssert.assertAll();
     }
-    @Test(priority=5,groups = { "test", "regression"})
+    @Test(priority=5,groups = { "regression","test"})
     public void checkAddDefectFormCancelButton() {
         PageBase.implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -159,7 +163,7 @@ public class AddDefect extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(priority=6,groups = { "test", "regression"})
+    @Test(priority=6,groups = {  "regression","test"})
     public void checkAddDefectFormFields() {
         implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -216,7 +220,7 @@ public class AddDefect extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(priority=7,groups = { "test", "regression"})
+    @Test(priority=7,groups = {  "regression","test"})
     public void checkDefectDetailsTable() {
         implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -261,7 +265,7 @@ public class AddDefect extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(priority=8,groups = { "test", "regression"})
+    @Test(priority=8,groups = {  "regression","smoke","test"})
     public void addDefect() {
         implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
@@ -293,7 +297,7 @@ public class AddDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "check the table data added ");
         softAssert.assertAll();
     }
-    @Test(priority=9,groups = { "test", "regression", "smoke"})
+    @Test(priority=9,groups = { "regression","test"})
     public void addDefectWithoutData() {
 
         implicitWait(5);
@@ -346,7 +350,7 @@ public class AddDefect extends TestBase {
         softAssert.assertAll();
     }
 
-    @Test(priority=10,groups = { "test", "regression"})
+    @Test(priority=10,groups = {  "regression","test"})
     public void checkMoreButton() {
 
         implicitWait(5);

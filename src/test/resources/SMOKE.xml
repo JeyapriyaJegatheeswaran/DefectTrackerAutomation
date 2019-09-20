@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="smoke" verbose="1" configfailurepolicy="continue">
+    <test name="smoke1">
+        <groups>
+            <run>
+                <include name="smoke" ></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.DefectStatus.Add_Status_Test"/>
+            <class name="tests.DefectStatus.Already_Add_Status"/>
+            <class name="tests.DefectStatus.DecrptionAdd_Status"/>
+            <class name="tests.DefectStatus.DefectStatus"/>
+            <class name="tests.DefectStatus.Delete_Status"/>
+            <class name="tests.DefectStatus.EditDefectStatus"/>
+            <class name="tests.DefectStatus.Empty_Add_Status"/>
+            <class name="tests.DefectStatus.Empty_Status_add"/>
+            <class name="tests.DefectStatus.GetMeassage_status"/>
+            <class name="tests.DefectStatus.LowValue_add_status"/>
+            <class name="tests.DefectStatus.NumbervalueAddStatus"/>
+            <class name="tests.DefectStatus.TypeAdd_Status"/>
+        </classes>
+    </test>
+    <test name="smoke2">
+        <groups>
+            <run>
+                <include name="smoke" ></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.Severity.AddSeverityTest"/>
+            <class name="tests.Severity.EditSeverityTest"/>
+            <class name="tests.Severity.DeleteSeverity"/>
+            <class name="tests.Priority.AddPriorityTest"/>
+            <class name="tests.Priority.EditPriorityTest"/>
+            <class name="tests.Priority.DeletePriorityTest"/>
+        </classes>
+    </test>
+<!--    <test name="smoke">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="smoke" ></include>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="tests.DefectStatus.Add_Status_Test"/>-->
+<!--            <class name="tests.DefectStatus.Delete_Status"/>-->
+<!--            <class name="tests.DefectStatus.EditDefectStatus"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="smoke3">
+        <groups>
+            <run>
+                <include name="smoke" ></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.Defect.AddDefect"/>
+            <class name="tests.Defect.EditDefect"/>
+            <class name="tests.Defect.CheckValidationInAddDefectForm"/>
+        </classes>
+    </test>
+</suite>

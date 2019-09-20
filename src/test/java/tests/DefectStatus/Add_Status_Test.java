@@ -4,6 +4,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+
 import pages.DefectStatusPage;
 import utils.PageBase;
 import utils.TestBase;
@@ -12,7 +13,7 @@ public class Add_Status_Test extends TestBase {
     public SoftAssert softAssert;
 
     private static final Logger LOGGER = Logger.getLogger(Add_Status_Test.class);
-    @Test(priority=1,groups = { "test", "regression"})
+    @Test(priority=1,groups = { "test", "regression","smoke"})
     public void addStatus() {
         softAssert = new SoftAssert();
         PageBase.implicitWait(2);

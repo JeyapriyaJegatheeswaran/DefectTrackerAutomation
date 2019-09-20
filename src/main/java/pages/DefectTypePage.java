@@ -1,14 +1,14 @@
 package pages;
 
 import org.openqa.selenium.Keys;
-import org.testng.asserts.SoftAssert;
+
 import utils.MethodBase;
 import utils.PageBase;
 
 import java.util.logging.Logger;
 
 public class DefectTypePage extends PageBase {
-    public SoftAssert softAssert;
+
 
     private static final Logger LOGGER = (Logger) Logger.getLogger(String.valueOf(DefectTypePage.class));
     private static String btnaddDefectType = "//*[@id=\"root\"]/div/section/section/main/div/div[2]/button";

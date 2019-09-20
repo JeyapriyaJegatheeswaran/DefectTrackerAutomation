@@ -8,7 +8,7 @@ import utils.PageBase;
 import utils.TestBase;
 
 public class GetMeassage_status extends TestBase {
-    @Test(groups = "tests",priority=7)
+    @Test(priority=7,groups = { "test", "regression"})
     public void getMeassage() {
         softAssert = new SoftAssert();
         PageBase.implicitWait(2);
