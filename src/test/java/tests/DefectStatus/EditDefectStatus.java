@@ -8,7 +8,7 @@ import utils.PageBase;
 import utils.TestBase;
 
 public class EditDefectStatus  extends TestBase {
-    @Test(priority=1,groups = { "test", "regression","smoke"})
+    @Test(priority=64,groups = { "test", "regression","smoke"})
     public void EditStatus() {
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
         DefectStatusPage.clickSetting();
@@ -28,7 +28,7 @@ public class EditDefectStatus  extends TestBase {
         extentTest.log(LogStatus.PASS, "Click Ok Button");
         softAssert.assertAll();
     }
-    @Test(priority=3,groups = { "test", "regression"})
+    @Test(priority=65,groups = { "test", "regression"})
     public void verifyEditStatus() {
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
         DefectStatusPage.clickSetting();

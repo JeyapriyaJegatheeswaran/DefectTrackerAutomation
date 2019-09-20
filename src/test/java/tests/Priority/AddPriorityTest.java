@@ -11,7 +11,7 @@ import utils.TestBase;
 public class AddPriorityTest extends TestBase {
     private static final Logger LOGGER = Logger.getLogger(AddPriorityTest.class);
 
-    @Test(priority = 1,groups = {"regression","test"})
+    @Test(priority = 101,groups = {"regression","test"})
     public void clickSettingVerify() {
 
         implicitWait(5);
@@ -30,7 +30,7 @@ public class AddPriorityTest extends TestBase {
         softAssert.assertAll();
     }
 
-    @Test(priority = 2,groups = {"regression","test"})
+    @Test(priority =102,groups = {"regression","test"})
     public void clickGeneranConfiSettingVerify() {
         implicitWait(5);
         HomePage.clickSetting();
@@ -44,7 +44,7 @@ public class AddPriorityTest extends TestBase {
         extentTest.log(LogStatus.PASS,"Side Navigation_Priority button verified");
         softAssert.assertAll();
     }
-    @Test(priority = 3,groups = {"regression","test"})
+    @Test(priority = 103,groups = {"regression","test"})
     public void Priority1PageVerify() {
 
         implicitWait(5);
@@ -62,7 +62,7 @@ public class AddPriorityTest extends TestBase {
         extentTest.log(LogStatus.PASS,"Priority Page Displayed");
         softAssert.assertAll();
     }
-    @Test(priority = 4,groups = {"regression","test"})
+    @Test(priority = 104,groups = {"regression","test"})
     public void addPriorityBtbVerify() {
 
         implicitWait(5);
@@ -83,7 +83,7 @@ public class AddPriorityTest extends TestBase {
         extentTest.log(LogStatus.PASS,"Priority Page_Add button verified");
         softAssert.assertAll();
     }
-    @Test(priority = 5,groups = {"regression","test","smoke"})
+    @Test(priority = 105,groups = {"regression","test","smoke"})
     public void addPriority1() {
 
         implicitWait(5);
@@ -126,7 +126,7 @@ public class AddPriorityTest extends TestBase {
 
     }
 
-    @Test(priority = 6,groups = {"regression","test","smoke"})
+    @Test(priority = 106,groups = {"regression","test","smoke"})
     public void addPriority2() {
 
         implicitWait(5);
@@ -169,7 +169,7 @@ public class AddPriorityTest extends TestBase {
 
     }
 
-    @Test(priority = 7,groups = {"regression","test","smoke"})
+    @Test(priority = 107,groups = {"regression","test","smoke"})
     public void addPriority3() {
 
         implicitWait(5);
@@ -210,7 +210,7 @@ public class AddPriorityTest extends TestBase {
         extentTest.log(LogStatus.PASS,"Priority Page_OK button clicked");
         softAssert.assertAll();
     }
-    @Test(priority = 8,groups = {"regression","test","smoke"})
+    @Test(priority = 108,groups = {"regression","test","smoke"})
     public void addPriority4() {
 
         implicitWait(5);

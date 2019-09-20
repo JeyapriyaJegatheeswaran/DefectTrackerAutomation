@@ -1,5 +1,9 @@
 package tests.Defect;
 
+/**
+ * @author:jeyapriya
+ */
+
 
 import com.relevantcodes.extentreports.LogStatus;
 import org.apache.log4j.Logger;
@@ -10,11 +14,31 @@ import pages.Defect.AddDefectPage;
 import pages.Defect.DefectPage;
 import pages.Defect.MoreDefectPage;
 import pages.HomePage;
+import tests.Priority.AddPriorityTest;
 import utils.PageBase;
 import utils.TestBase;
 
 public class AddDefect extends TestBase {
     private static final Logger LOGGER = Logger.getLogger(AddDefect.class);
+    @Test(priority=0,groups = { "regression","test","smoke"})
+    public void te() {
+        AddDefectPreRequests.addPriorityForDefectTesting("priority");
+        staticWait(3);
+        AddDefectPreRequests.addPriority1ForDefectTesting("priority1");
+        staticWait(3);
+        AddDefectPreRequests.addDefectTypeForDefectTesting("type");
+        staticWait(3);
+        AddDefectPreRequests.addDefectTypeForDefectTesting("type1");
+        staticWait(3);
+        AddDefectPreRequests.addSeverityForDefectTesting("severity");
+        staticWait(3);
+        AddDefectPreRequests.addSeverityForDefectTesting("severity1");
+        staticWait(3);
+        AddDefectPreRequests.addStatusForDefectTesting("status");
+        staticWait(3);
+        AddDefectPreRequests.addStatusForDefectTesting("status1");
+
+    }
     @Test(priority=1,groups = { "regression","test"})
     public void checkDefectMenu() {
         PageBase.implicitWait(5);
@@ -263,6 +287,7 @@ public class AddDefect extends TestBase {
     }
     @Test(priority=8,groups = {  "regression","smoke","test"})
     public void addDefect() {
+
         implicitWait(5);
         //softAssert.assertTrue(HomePage.isHomePageDisplayed(),"Home Page is not Displayed");
         LOGGER.info("Home Page is Displayed");
@@ -283,8 +308,8 @@ public class AddDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "click add defect button");
         AddDefectPage.createDefect("jp12345","defect1","defect",
                 "test for add defect","test for add defect",
-                "User 1","Release1","jp","type","severity",
-                "priority","NEW"
+                "User 1","Release1","assignee","type","severity",
+                "priority","status"
         );
         LOGGER.info("add defect");
         extentTest.log(LogStatus.PASS, "add defect");

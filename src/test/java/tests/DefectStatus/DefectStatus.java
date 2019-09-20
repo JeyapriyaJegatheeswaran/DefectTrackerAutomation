@@ -7,7 +7,7 @@ import pages.DefectStatusPage;
 import utils.TestBase;
 
 public class DefectStatus  extends TestBase {
-    @Test(priority=1,groups = { "test", "regression"})
+    @Test(priority=54,groups = { "test", "regression"})
     public void  SidebarTest() {
         softAssert = new SoftAssert();
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
@@ -23,7 +23,7 @@ public class DefectStatus  extends TestBase {
     }
 
 
-    @Test(priority=2,groups = { "test", "regression"})
+    @Test(priority=55,groups = { "test", "regression"})
     public void  sabbartest() {
         softAssert = new SoftAssert();
         SidebarTest();
@@ -42,7 +42,7 @@ public class DefectStatus  extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(priority=3,groups = { "test", "regression"})
+    @Test(priority=56,groups = { "test", "regression"})
     public void  conformaddstatustest() {
         softAssert = new SoftAssert();
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
@@ -67,7 +67,7 @@ public class DefectStatus  extends TestBase {
 
 
 
-    @Test(priority=4,groups = { "test", "regression"})
+    @Test(priority=57,groups = { "test", "regression"})
     public void  numbervalue() {
         softAssert = new SoftAssert();
         sabbartest();
@@ -84,7 +84,7 @@ public class DefectStatus  extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(priority=5,groups = { "test", "regression"})
+    @Test(priority=58,groups = { "test", "regression"})
     public void  spicalvalue() {
         softAssert = new SoftAssert();
         sabbartest();
@@ -101,7 +101,7 @@ public class DefectStatus  extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(priority=6,groups = { "test", "regression"})
+    @Test(priority=59,groups = { "test", "regression"})
     public void  canceldata() {
         softAssert = new SoftAssert();
         sabbartest();
@@ -121,7 +121,7 @@ public class DefectStatus  extends TestBase {
         extentTest.log(LogStatus.PASS, "Click Ok Button");
         softAssert.assertAll();
     }
-    @Test(priority=7,groups = { "test", "regression"})
+    @Test(priority=60,groups = { "test", "regression"})
     public void  checkaddstatusforms() {
         softAssert = new SoftAssert();
         sabbartest();

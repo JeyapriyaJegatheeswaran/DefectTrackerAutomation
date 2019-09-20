@@ -9,7 +9,7 @@ import utils.TestBase;
 
 public class TypeAdd_Status  extends TestBase {
 
-    @Test(priority=4,groups = { "test", "regression"})
+    @Test(priority=71,groups = { "test", "regression"})
 
     public void onlyAddStatus() {
         softAssert = new SoftAssert();

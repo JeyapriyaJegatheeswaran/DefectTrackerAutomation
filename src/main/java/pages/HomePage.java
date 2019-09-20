@@ -27,7 +27,7 @@ public class HomePage extends PageBase {
     private static String severitySubment = "//*[@id=\"sub5$Menu\"]/li[2]/a";
 
     private static String configurationSubMenu = "//*[@id=\"sub4$Menu\"]/li[4]/div[1]/span/span";
-    private static String defectTypeSubMenu = "//*[@href=\"#/config/defecttype\"]";
+    private static String defectTypeSubMenu = "//*[@href=\"/config/defecttype\"]";
 
     private static String projectMenu = "//a[@href=\"#/project\"]";
     private static String companyMenu = "//*[@id=\"root\"]/div/section/aside/div/ul/li[4]/div/span/span";
