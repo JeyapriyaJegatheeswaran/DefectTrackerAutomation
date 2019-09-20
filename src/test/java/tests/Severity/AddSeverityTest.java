@@ -13,7 +13,7 @@ import static utils.PageBase.implicitWait;
 
 public class AddSeverityTest extends TestBase {
 
-    @Test(priority = 1,groups = {"regression","test"})
+    @Test(priority = 112,groups = {"regression","test"})
     public void clickSetting() {
 
         staticWait(3);
@@ -22,7 +22,7 @@ public class AddSeverityTest extends TestBase {
         extentTest.log(LogStatus.PASS,"Side Navigation_Setting clicked");
 
     }
-    @Test(priority = 2,groups = {"regression","test"})
+    @Test(priority = 113,groups = {"regression","test"})
     public void clickGeneranConfiSetting() {
         implicitWait(5);
         HomePage.clickSetting();
@@ -33,7 +33,7 @@ public class AddSeverityTest extends TestBase {
         extentTest.log(LogStatus.PASS,"Side Navigation_General Configuration clicked");
         softAssert.assertAll();
     }
-    @Test(priority = 3,groups = {"regression","test"})
+    @Test(priority = 114,groups = {"regression","test"})
     public void submenuSeverityVerify() {
         implicitWait(5);
         HomePage.clickSetting();
@@ -45,7 +45,7 @@ public class AddSeverityTest extends TestBase {
         extentTest.log(LogStatus.PASS,"Side Navigation_Severity sub menu verified");
         softAssert.assertAll();
     }
-    @Test(priority = 4,groups = {"regression","test"})
+    @Test(priority = 115,groups = {"regression","test"})
     public void SeverityPageVerify() {
         implicitWait(5);
         HomePage.clickSetting();
@@ -58,7 +58,7 @@ public class AddSeverityTest extends TestBase {
         extentTest.log(LogStatus.PASS,"Severity page displayed");
 
     }
-    @Test(priority = 5,groups = {"regression","test"})
+    @Test(priority = 116,groups = {"regression","test"})
     public void SeverityAddBtnVerify() {
         implicitWait(5);
         HomePage.clickSetting();
@@ -74,7 +74,7 @@ public class AddSeverityTest extends TestBase {
         softAssert.assertAll();
     }
 
-    @Test(priority = 6,groups = {"regression","test"})
+    @Test(priority = 117,groups = {"regression","test"})
     public void SererityAddFormVerify() {
         implicitWait(5);
         HomePage.clickSetting();
@@ -94,7 +94,7 @@ public class AddSeverityTest extends TestBase {
         softAssert.assertAll();
     }
 
-    @Test(priority = 7,groups = {"regression","test"})
+    @Test(priority = 118,groups = {"regression","test"})
     public void formItemsVerify() {
 
         implicitWait(5);
@@ -123,7 +123,7 @@ public class AddSeverityTest extends TestBase {
         softAssert.assertAll();
     }
 
-    @Test(priority = 8,groups = {"regression","smoke","test"})
+    @Test(priority = 119,groups = {"regression","smoke","test"})
     public void addSeverityHigh() {
 
         implicitWait(5);
@@ -156,7 +156,7 @@ public class AddSeverityTest extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(priority = 9,groups = {"regression","test"})
+    @Test(priority = 120,groups = {"regression","test"})
     public void severityCancleBtnVerify() {
 
         implicitWait(5);
@@ -173,7 +173,7 @@ public class AddSeverityTest extends TestBase {
         softAssert.assertEquals(SeverityPage.severityCancleBtnVerify(),"Cancel","Cancel button not verify");
         softAssert.assertAll();
     }
-    @Test(priority = 10,groups = {"regression","test"})
+    @Test(priority = 121,groups = {"regression","test"})
     public void cancelSeverity() {
 
         implicitWait(5);
@@ -207,7 +207,7 @@ public class AddSeverityTest extends TestBase {
         extentTest.log(LogStatus.PASS,"Cancel_Severity page displayed");
 
     }
-    @Test(priority = 11,groups = {"regression","test"})
+    @Test(priority = 122,groups = {"regression","test"})
     public void afterCancelCheckField() {
 
         implicitWait(5);
@@ -230,7 +230,7 @@ public class AddSeverityTest extends TestBase {
         softAssert.assertEquals(SeverityPage.cancleSeverityAddName(),"");
         softAssert.assertAll();
     }
-    @Test(priority = 12,groups = {"regression","smoke","test"})
+    @Test(priority = 123,groups = {"regression","smoke","test"})
     public void addSeverityMedium() {
         implicitWait(5);
         HomePage.clickSetting();
@@ -248,7 +248,7 @@ public class AddSeverityTest extends TestBase {
         SeverityPage.clickAddOKbtn();
 
     }
-    @Test(priority = 13,groups = {"regression","smoke","test"})
+    @Test(priority = 124,groups = {"regression","smoke","test"})
     public void addSeverityLow() {
         implicitWait(5);
         HomePage.clickSetting();

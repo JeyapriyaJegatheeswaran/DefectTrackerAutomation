@@ -7,7 +7,7 @@ import pages.PriorityPage;
 import utils.TestBase;
 
 public class DeletePriorityTest extends TestBase {
-    @Test(groups = {"regression","test","smoke"})
+    @Test(priority = 112,groups = {"regression","test","smoke"})
     public void deletePriority() {
         SoftAssert softAssert = new SoftAssert();
         implicitWait(5);
