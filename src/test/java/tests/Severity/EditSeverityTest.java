@@ -10,7 +10,7 @@ import utils.TestBase;
 import static utils.PageBase.implicitWait;
 
 public class EditSeverityTest extends TestBase {
-    @Test(priority = 11,groups = {"regression","test"})
+    @Test(priority = 126,groups = {"regression","test"})
     public void severityPageDisplay() {
 
         implicitWait(5);
@@ -32,7 +32,7 @@ public class EditSeverityTest extends TestBase {
         softAssert.assertAll();
     }
 
-    @Test(priority = 12,groups = {"regression","test"})
+    @Test(priority = 127,groups = {"regression","test"})
     public void severityEditBtnVerify() {
 
         implicitWait(5);
@@ -50,7 +50,7 @@ public class EditSeverityTest extends TestBase {
 
     }
 
-    @Test(priority = 13,groups = {"regression","test"})
+    @Test(priority = 128,groups = {"regression","test"})
     public void editSeverityFormVerify() {
 
         implicitWait(5);
@@ -69,7 +69,7 @@ public class EditSeverityTest extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(priority = 14,groups = {"regression","test"})
+    @Test(priority = 129,groups = {"regression","test"})
     public void editSeverityItemVerify() {
 
         implicitWait(5);
@@ -99,7 +99,7 @@ public class EditSeverityTest extends TestBase {
 
     }
 
-    @Test(priority = 15,groups = {"regression","smoke","test"})
+    @Test(priority = 130,groups = {"regression","smoke","test"})
     public void editSeverity() {
 
         implicitWait(5);

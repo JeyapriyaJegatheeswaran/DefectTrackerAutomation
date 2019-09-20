@@ -8,7 +8,7 @@ import utils.PageBase;
 import utils.TestBase;
 
 public class DecrptionAdd_Status extends TestBase {
-    @Test(priority=1,groups = { "test", "regression"})
+    @Test(priority=53,groups = { "test", "regression"})
     public void DecrptionAddStatus() {
         softAssert = new SoftAssert();
         PageBase.implicitWait(2);
