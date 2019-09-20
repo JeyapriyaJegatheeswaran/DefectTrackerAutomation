@@ -12,7 +12,7 @@ public class DefectPage extends PageBase {
 
 ////*[@id="root"]/div/section/section/main/div[2]/div/div[2]/div/div/div/div/div/table/tbody/tr[td[3][. = 'Login']]/td[5]
     private static final Logger LOGGER = (Logger) Logger.getLogger(String.valueOf(DefectPage.class));
-    private static String btnaddDefect = "//*[@id=\"root\"]/div/section/section/main/div[2]/div/div[1]/div/button";
+    private static String btnaddDefect = "//button[@id='addDefect']";
     private static String txtTitle = "//span[@class='ant-page-header-title-view-title']";
     private static String defectTable = "//thead[@class='ant-table-thead']";
     private static String txtResult = "//td[text()='defectId']";
