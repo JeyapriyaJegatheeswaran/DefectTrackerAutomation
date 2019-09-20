@@ -11,7 +11,7 @@ import static utils.PageBase.implicitWait;
 public class AddModuleTest extends TestBase {
     @Test
     public void addModule() {
-        SoftAssert softAssert = new SoftAssert();
+
         implicitWait(5);
         HomePage.clickModule();
         ModulePage.isModulePageDisplay();
