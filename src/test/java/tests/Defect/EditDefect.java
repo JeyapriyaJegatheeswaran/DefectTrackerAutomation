@@ -118,7 +118,7 @@ public class EditDefect extends TestBase {
         softAssert.assertTrue(EditDefectPage.isEditDefectFormDisplayed(),"Edit Defect Form is not Displayed");
         LOGGER.info("edit defect form is displayed");
         extentTest.log(LogStatus.PASS, "edit defect form is displayed");
-        EditDefectPage.editSeverity("Low");
+        EditDefectPage.editSeverity("severity1");
         EditDefectPage.clickOKButton();
         LOGGER.info("click ok button");
         extentTest.log(LogStatus.PASS, "click ok button");
@@ -158,7 +158,7 @@ public class EditDefect extends TestBase {
         softAssert.assertTrue(EditDefectPage.isEditDefectFormDisplayed(),"Edit Defect Form is not Displayed");
         LOGGER.info("edit defect form is displayed");
         extentTest.log(LogStatus.PASS, "edit defect form is displayed");
-        EditDefectPage.editPriority("Low");
+        EditDefectPage.editPriority("priority1");
         EditDefectPage.clickOKButton();
         LOGGER.info("click ok button");
         extentTest.log(LogStatus.PASS, "click ok button");
@@ -197,7 +197,7 @@ public class EditDefect extends TestBase {
         softAssert.assertTrue(EditDefectPage.isEditDefectFormDisplayed(),"Edit Defect Form is not Displayed");
         LOGGER.info("edit defect form is displayed");
         extentTest.log(LogStatus.PASS, "edit defect form is displayed");
-        EditDefectPage.editStatus("Open");
+        EditDefectPage.editStatus("status1");
         EditDefectPage.clickOKButton();
         LOGGER.info("click ok button");
         extentTest.log(LogStatus.PASS, "click ok button");
@@ -389,7 +389,7 @@ public class EditDefect extends TestBase {
         softAssert.assertTrue(EditDefectPage.isEditDefectFormDisplayed(),"Edit Defect Form is not Displayed");
         LOGGER.info("edit defect form is displayed");
         extentTest.log(LogStatus.PASS, "edit defect form is displayed");
-        EditDefectPage.editType("Function");
+        EditDefectPage.editType("type1");
         EditDefectPage.clickOKButton();
         LOGGER.info("click ok button");
         extentTest.log(LogStatus.PASS, "click ok button");

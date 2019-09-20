@@ -26,10 +26,10 @@ public class SeverityPage {
     private static String severityName = "//input[@id=\"severityName\"]";
     private static String severityDescription = "//input[@id=\"severityValue\"]";
     private static String icon1 = " //div[text()=\"Select an option\"]";
-    private static String icon2 = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[3]/div[2]/div/span/div/div[2]/div[3]";
-    private static String clickColor = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div";
-    private static String selectColor = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div[2]/div[2]/div[4]/div[8]/span";
-    private static String okBtn = "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[2]";
+    private static String icon2 = "//div[@class=\"Dropdown-option\"][1]";
+    private static String clickColor = "/html/body/div[3]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div/div";
+    private static String selectColor = "/html/body/div[3]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div[2]/div[2]/div[4]/div[3]/span/div";
+    private static String okBtn = "/html/body/div[3]/div/div[2]/div/div[2]/div[3]/div/button[2]";
     private static String cancleBtn = "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[1]";
 
     private static String AddedItemCheck = "//td[text()='Low']";

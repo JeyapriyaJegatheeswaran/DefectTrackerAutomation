@@ -18,12 +18,12 @@ public class DefectStatusPage extends PageBase {
     private static String ClickDefectStatus = "//*[@id=\"sub5$Menu\"]/li[4]";
     private static String HrDashboard = "//*[@id=\"root\"]/div/section/aside/div/div";
     private static String ClickAddStatus = "//*[@id=\"root\"]/div/section/section/main/div/div[2]/button";
-    private static String txtDefectStatus = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[1]/div[2]/div/span/input";
-    private static String txtDefectDescription= "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[2]/div[2]/div/span/input";
-    private static String Clickok= "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[2]";
+    private static String txtDefectStatus = "//input[@id=\"statusName\"]";
+    private static String txtDefectDescription= "//input[@id=\"statusValue\"]";
+    private static String Clickok= "/html/body/div[3]/div/div[2]/div/div[2]/div[3]/div/button[2]";
     private static String ClickEditok= "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[2]";
     private static String ClickEditDefect= "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[1]/td[3]/span/i[1]";
-    private static String DeleteDefect= "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[1]/td[3]/span/i[2]";
+    private static String DeleteDefect= "//*[@id=\"deleteStatus\"]";
     private static String txtResult = "//td[text()='TestLow']";
     private static String meassagebox = "/html/body/div[3]/div/span/div/div/div";
     private static String commonValidMsgStatus = "//div[text()='LINK!']";
@@ -95,7 +95,7 @@ public class DefectStatusPage extends PageBase {
         return MethodBase.isDisplayed_ByXpath(ClickDefectStatus);
     }
     public static boolean isDefectStatusConformDeleteDisplayed(){
-        return MethodBase.isDisplayed_ByXpath(ConformDelete);
+        return MethodBase.isDisplayed_ByXpath(cancelbtn);
     }
     public static boolean isDefectAddStatusDisplayed(){
         return MethodBase.isDisplayed_ByXpath(ClickAddStatus);

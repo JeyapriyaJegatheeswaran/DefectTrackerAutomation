@@ -15,6 +15,7 @@ public class DefectStatus  extends TestBase {
         DefectStatusPage.clickSetting();
         staticWait(3);
         extentTest.log(LogStatus.PASS, "Click Setting Tab");
+        implicitWait(2);
         softAssert.assertTrue(DefectStatusPage.isDisplayedGeneralConfiguration(), "GeneralConfiguration not Displayed");
         extentTest.log(LogStatus.PASS, "GeneralConfiguration Show");
         // DefectStatusPage.clickGeneralConfiguration();
