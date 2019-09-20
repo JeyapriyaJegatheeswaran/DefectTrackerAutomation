@@ -40,6 +40,7 @@ public class AddSeverityTest extends TestBase {
         extentTest.log(LogStatus.PASS,"Side Navigation_Setting clicked");
         HomePage.clickGeneralconfig();
         extentTest.log(LogStatus.PASS,"Side Navigation_General Configuration clicked");
+        staticWait(3);
         softAssert.assertEquals(HomePage.severityVerify(),"Severity","Severity submenu not verify");
         extentTest.log(LogStatus.PASS,"Side Navigation_Severity sub menu verified");
         softAssert.assertAll();

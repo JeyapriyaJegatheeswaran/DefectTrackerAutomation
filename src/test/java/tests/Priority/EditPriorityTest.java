@@ -11,7 +11,9 @@ import utils.TestBase;
 public class EditPriorityTest extends TestBase {
     private static final Logger LOGGER = Logger.getLogger(EditPriorityTest.class);
 
+
     @Test(priority = 110,groups = {"regression","test"})
+
     public void priorityPageDisplay() {
 
         implicitWait(5);
@@ -40,7 +42,9 @@ public class EditPriorityTest extends TestBase {
         softAssert.assertAll();
     }
 
+
     @Test(priority = 111,groups = {"regression","test","smoke"})
+
     public void editPriority() {
 
         implicitWait(5);
