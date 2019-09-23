@@ -8,8 +8,13 @@ import utils.PageBase;
 import utils.TestBase;
 
 public class GetMeassage_status extends TestBase {
+<<<<<<< HEAD
     @Test(priority=68,groups = { "test", "regression"})
     public void GetMeassageTest() {
+=======
+    @Test(priority=70,groups = { "test", "regression"})
+    public void getMeassage() {
+>>>>>>> 4f5adaa958abf4489b9fb018ad69fe2b13d785f6
         softAssert = new SoftAssert();
         PageBase.implicitWait(2);
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");

@@ -27,9 +27,10 @@ public class SeverityPage {
     private static String severityDescription = "//input[@id=\"severityValue\"]";
     private static String icon1 = " //div[text()=\"Select an option\"]";
     private static String icon2 = "//div[@class=\"Dropdown-option\"][1]";
-    private static String clickColor = "/html/body/div[3]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div/div";
-    private static String selectColor = "/html/body/div[3]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div[2]/div[2]/div[4]/div[3]/span/div";
-    private static String okBtn = "/html/body/div[3]/div/div[2]/div/div[2]/div[3]/div/button[2]";
+    private static String clickColor = "/html/body/div/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div/div";
+
+    private static String selectColor = "//div[@title=\"#D0021B\"]";
+    private static String okBtn = "/html/body/div/div/div[2]/div/div[2]/div[3]/div/button[2]";
     private static String cancleBtn = "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[1]";
 
     private static String AddedItemCheck = "//td[text()='Low']";
@@ -42,7 +43,7 @@ public class SeverityPage {
     private static String icon1Edited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[3]/div[2]/div/span/div/div[1]/div[1]";
     private static String icon2Edited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[3]/div[2]/div/span/div/div[2]/div[1]";
     private static String clickColorEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div";
-    private static String selectColorEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div[2]/div[2]/div[4]/div[8]/span";
+    private static String selectColorEdited = "//div[@title=\"#F5A623\"]";
     private static String okBtnEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[2]";
 
     private static String formEditSeverityVerify = "//div[text()=\"Edit Severity\"]";

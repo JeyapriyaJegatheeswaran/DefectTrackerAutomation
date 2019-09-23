@@ -8,7 +8,7 @@ import utils.PageBase;
 import utils.TestBase;
 
 public class Empty_Status_add  extends TestBase {
-    @Test(priority=67,groups = { "test", "regression"})
+    @Test(priority=69,groups = { "test", "regression"})
     public void EmptyStatus() {
         softAssert = new SoftAssert();
         PageBase.implicitWait(2);

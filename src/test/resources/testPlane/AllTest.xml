@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="ALL" verbose="1" configfailurepolicy="continue">
-    <test name="SMOKE">
+    <test name="ALL Testcase">
         <groups>
             <run>
                 <include name="test"></include>
@@ -9,12 +9,13 @@
             </run>
         </groups>
         <classes>
-            <class name="tests.Severity.AddSeverityTest"/>
-            <class name="tests.Severity.EditSeverityTest"/>
-            <class name="tests.Severity.DeleteSeverity"/>
             <class name="tests.Priority.AddPriorityTest"/>
             <class name="tests.Priority.EditPriorityTest"/>
             <class name="tests.Priority.DeletePriorityTest"/>
+            <class name="tests.Severity.AddSeverityTest"/>
+            <class name="tests.Severity.EditSeverityTest"/>
+            <class name="tests.Severity.DeleteSeverity"/>
+
         </classes>
 
 

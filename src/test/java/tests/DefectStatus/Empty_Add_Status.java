@@ -7,8 +7,13 @@ import pages.DefectStatusPage;
 import utils.TestBase;
 
 public class Empty_Add_Status  extends TestBase {
+<<<<<<< HEAD
     @Test(priority=66,groups = { "test", "regression"})
     public void  GapValueTest() {
+=======
+    @Test(priority=68,groups = { "test", "regression"})
+    public void  emptystatus() {
+>>>>>>> 4f5adaa958abf4489b9fb018ad69fe2b13d785f6
         softAssert = new SoftAssert();
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
         extentTest.log(LogStatus.PASS, "Dashboard Page Show");
