@@ -15,9 +15,11 @@ public class DeletePriorityTest extends TestBase {
         HomePage.clickGeneralconfig();
         HomePage.clickPriority();
         PriorityPage.isPriorityPageDisplay();
-        PriorityPage.clickDeletebtn();
-        PriorityPage.clickDeleteOKbtn();
-        softAssert.assertFalse(PriorityPage.deletePriorityVerify(),"Deleted Priority is displayed");
+        //PriorityPage.clickDeletebtn();
+        //PriorityPage.clickDeleteOKbtn();
+        staticWait(3);
+        softAssert.assertFalse(PriorityPage.isElementPresentDelete(),"Deleted Priority is displayed");
+        softAssert.assertAll();
 
     }
 }
