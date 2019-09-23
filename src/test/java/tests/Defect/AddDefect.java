@@ -20,25 +20,25 @@ import utils.TestBase;
 
 public class AddDefect extends TestBase {
     private static final Logger LOGGER = Logger.getLogger(AddDefect.class);
-//    @Test(priority=200,groups = { "regression","test","smoke"})
-//    public void te() {
-//        AddDefectPreRequests.addPriorityForDefectTesting("priority");
-//        staticWait(3);
-//        AddDefectPreRequests.addPriority1ForDefectTesting("priorityforedit");
-//        staticWait(3);
-//        AddDefectPreRequests.addDefectTypeForDefectTesting("type");
-//        staticWait(3);
-//        AddDefectPreRequests.addDefectTypeForDefectTesting("typeforedit");
-//        staticWait(3);
-//        AddDefectPreRequests.addSeverityForDefectTesting("severity");
-//        staticWait(3);
-//        AddDefectPreRequests.addSeverityForDefectTesting("severityforedit");
-//        staticWait(3);
-//        AddDefectPreRequests.addStatusForDefectTesting("status");
-//        staticWait(3);
-//        AddDefectPreRequests.addStatusForDefectTesting("statusforedit");
-//
-//    }
+    @Test(priority=200,groups = { "regression","test","smoke"})
+    public void te() {
+        AddDefectPreRequests.addPriorityForDefectTesting("priority");
+        staticWait(3);
+        AddDefectPreRequests.addPriority1ForDefectTesting("priorityforedit");
+        staticWait(3);
+        AddDefectPreRequests.addDefectTypeForDefectTesting("type");
+        staticWait(3);
+        AddDefectPreRequests.addDefectTypeForDefectTesting("typeforedit");
+        staticWait(3);
+        AddDefectPreRequests.addSeverityForDefectTesting("severity");
+        staticWait(3);
+        AddDefectPreRequests.addSeverityForDefectTesting("severityforedit");
+        staticWait(3);
+        AddDefectPreRequests.addStatusForDefectTesting("status");
+        staticWait(3);
+        AddDefectPreRequests.addStatusForDefectTesting("statusforedit");
+
+    }
     @Test(priority=201,groups = { "regression","test"})
     public void checkDefectMenu() {
         PageBase.implicitWait(5);
