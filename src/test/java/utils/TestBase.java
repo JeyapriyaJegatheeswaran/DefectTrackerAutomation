@@ -78,7 +78,7 @@ public class TestBase  extends PageBase{
         LOGGER.info("Closing Browser");
        // PageBase.closeDriver();
         LOGGER.info("Browser Closed");
-//        SendEmail.SendEmail();
+        //SendEmail.SendEmail();
  //       LOGGER.info("Email successfully Send");
 
     }

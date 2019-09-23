@@ -3,6 +3,7 @@ package tests.DefectStatus;
 import com.relevantcodes.extentreports.LogStatus;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+
 import pages.DefectStatusPage;
 import utils.PageBase;
 import utils.TestBase;
@@ -28,7 +29,7 @@ public class EditDefectStatus  extends TestBase {
         extentTest.log(LogStatus.PASS, "Click Ok Button");
         softAssert.assertAll();
     }
-    @Test(priority=130,groups = { "test", "regression"})
+    @Test(priority=65,groups = { "test", "regression"})
     public void verifyEditStatus() {
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
         DefectStatusPage.clickSetting();
@@ -51,7 +52,7 @@ public class EditDefectStatus  extends TestBase {
         extentTest.log(LogStatus.PASS, "Click Ok Button");
         softAssert.assertAll();
     }
-    @Test(priority=129,groups = { "test", "regression","smoke"})
+    @Test(priority=66,groups = { "test", "regression","smoke"})
     public void InvalidEditStatus() {
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
         DefectStatusPage.clickSetting();
@@ -71,7 +72,7 @@ public class EditDefectStatus  extends TestBase {
         extentTest.log(LogStatus.PASS, "Click Ok Button");
         softAssert.assertAll();
     }
-    @Test(priority=128,groups = { "test", "regression","smoke"})
+    @Test(priority=67,groups = { "test", "regression","smoke"})
     public void SpecialEditStatus() {
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
         DefectStatusPage.clickSetting();
