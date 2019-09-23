@@ -229,6 +229,7 @@ public class AddPriorityTest extends TestBase {
         LOGGER.info("Priority Page_Add button Clicked");
         extentTest.log(LogStatus.PASS,"Priority Page_Add button Clicked");
         PriorityPage.clearPeriorityName();
+        staticWait(3);
         PriorityPage.setPeriorityName("higth");
         LOGGER.info("Priority Page_Name added");
         extentTest.log(LogStatus.PASS,"Priority Page_Name added");

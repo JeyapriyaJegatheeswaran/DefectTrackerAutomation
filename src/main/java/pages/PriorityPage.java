@@ -2,6 +2,7 @@ package pages;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import utils.MethodBase;
 
 import static utils.PageBase.getDriver;
@@ -27,14 +28,14 @@ public class PriorityPage {
     private static String icon2Edited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[3]/div[2]/div/span/div/div[2]/div[1]";
     private static String clickColorEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div";
     private static String selectColorEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div[2]/div[2]/div[4]/div[6]/span";
-    private static String okBtnEdited = "/html/body/div[3]/div/div[2]/div/div[2]/div[3]/div/button[2]";
+    private static String okBtnEdited = "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[2]";
 
-    private static String clickDeleteBtn = "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[td[2][.='higth']]/td[6]/span/i[2]";
-    private static String clickDeleteOKBtn = "/html/body/div/div/div/div/div[2]/div/div/div[2]/button[2]";
+    private static String clickDeleteBtn = "//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[td[2][.='editTest']]/td[6]/span/i[2]";
+    private static String clickDeleteOKBtn = "//*[@id=\"deleteConfirmPriority\"]/div/div/div[2]/button[2]";
 
     private static By addVerify = By.xpath("//*[text()=\"Medium\"]");
     private static By editVerify = By.xpath("//*[text()=\"editTest\"]");
-    private static By deleteVerify = By.xpath("//*[text()=\"editTest\"]");
+    private static By deleteVerify = By.xpath("//*[@id=\"root\"]/div/section/section/main/div/div[3]/div/div/div/div/div/table/tbody/tr[td[2][.='editTest']]");
 
 
     //Add Priority
@@ -108,7 +109,13 @@ public class PriorityPage {
     public static String editPriorityVerify(){
         return  getDriver().findElement(editVerify).getText();
     }
-    public static Boolean deletePriorityVerify(){
-        return  getDriver().findElement(deleteVerify).isDisplayed();
+    
+    public static boolean isElementPresentDelete() {
+        try {
+            getDriver().findElement(deleteVerify);
+            return true;
+        } catch (org.openqa.selenium.NoSuchElementException e) {
+            return false;
+        }
     }
 }

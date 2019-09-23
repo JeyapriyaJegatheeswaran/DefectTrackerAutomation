@@ -81,11 +81,5 @@ public class MethodBase extends PageBase{
         softAssert.assertEquals(actualText,expectedText);
         //softAssert.assertAll();
     }
-//    public static void assertTrue( boolean condition) {
-//        Assert.assertTrue(condition,"condition failed");
-//    }
-//    public static void assertFalse(boolean condition) {
-//
-//        Assert.assertFalse(condition,"condition failed");
-//    }
+
 }
