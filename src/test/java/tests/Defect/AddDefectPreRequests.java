@@ -63,6 +63,7 @@ public class AddDefectPreRequests extends TestBase {
         SeverityPage.clearSeverityDescription();
         SeverityPage.setSeverityDescription("test description");
         SeverityPage.setIcon();
+        staticWait(2);
         SeverityPage.clickColor();
         SeverityPage.selectColor();
         SeverityPage.clickAddOKbtn();

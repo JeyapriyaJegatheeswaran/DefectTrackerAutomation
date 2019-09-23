@@ -27,9 +27,10 @@ public class SeverityPage {
     private static String severityDescription = "//input[@id=\"severityValue\"]";
     private static String icon1 = " //div[text()=\"Select an option\"]";
     private static String icon2 = "//div[@class=\"Dropdown-option\"][1]";
-    private static String clickColor = "/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div[1]/div";
+    private static String clickColor = "/html/body/div/div/div[2]/div/div[2]/div[2]/div/form/div[4]/div[2]/div/span/div/div";
+
     private static String selectColor = "//div[@title=\"#D0021B\"]";
-    private static String okBtn = "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[2]";
+    private static String okBtn = "/html/body/div/div/div[2]/div/div[2]/div[3]/div/button[2]";
     private static String cancleBtn = "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[1]";
 
     private static String AddedItemCheck = "//td[text()='Low']";

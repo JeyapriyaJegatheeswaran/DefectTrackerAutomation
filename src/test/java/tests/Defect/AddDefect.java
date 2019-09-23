@@ -140,6 +140,7 @@ public class AddDefect extends TestBase {
         DefectPage.clickAddDefect();
         LOGGER.info("Click Add defect button");
         extentTest.log(LogStatus.PASS, "Click Add defect button");
+        staticWait(2);
         softAssert.assertTrue(AddDefectPage.isAddDefectFormDisplayed(),"AddDefect Form is not Displayed");
         LOGGER.info("AddDefect Form is not Displayed");
         extentTest.log(LogStatus.PASS, "AddDefect Form is not Displayed");
@@ -171,12 +172,14 @@ public class AddDefect extends TestBase {
         DefectPage.clickAddDefect();
         LOGGER.info("Click Add defect button");
         extentTest.log(LogStatus.PASS, "Click Add defect button");
+        staticWait(2);
         softAssert.assertTrue(AddDefectPage.isAddDefectFormDisplayed(),"AddDefect Form is not Displayed");
         LOGGER.info("AddDefect Form is not Displayed");
         extentTest.log(LogStatus.PASS, "AddDefect Form is not Displayed");
         AddDefectPage.clickCancelButton();
         LOGGER.info("Click cancel button");
         extentTest.log(LogStatus.PASS, "Click cancel button");
+        staticWait(2);
         softAssert.assertTrue(DefectPage.isDefectPageTitleDisplayed(),"Defect Page is not Displayed");
         LOGGER.info("Defect page  is displayed");
         extentTest.log(LogStatus.PASS, "Defect page  is displayed");
@@ -314,6 +317,7 @@ public class AddDefect extends TestBase {
         LOGGER.info("add defect");
         extentTest.log(LogStatus.PASS, "add defect");
         staticWait(3);
+        PageBase.refreshDriver();
         softAssert.assertEquals(DefectPage.getResult("jp12345"),"jp12345","not match");
         LOGGER.info("check the table data added ");
         extentTest.log(LogStatus.PASS, "check the table data added ");
