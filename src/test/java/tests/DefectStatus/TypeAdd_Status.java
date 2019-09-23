@@ -11,7 +11,7 @@ public class TypeAdd_Status  extends TestBase {
 
     @Test(priority=71,groups = { "test", "regression"})
 
-    public void onlyAddStatus() {
+    public void onlyAddStatusFieldTest() {
         softAssert = new SoftAssert();
         PageBase.implicitWait(2);
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
