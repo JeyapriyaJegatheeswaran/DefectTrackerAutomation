@@ -29,20 +29,34 @@ public class HomePage extends PageBase {
     private static String configurationSubMenu = "//*[@id=\"sub4$Menu\"]/li[4]/div[1]/span/span";
     private static String defectTypeSubMenu = "//*[@href=\"/config/defecttype\"]";
 
-    private static String projectMenu = "//a[@href=\"#/project\"]";
+    private static String projectMenu = "//a[@href=\"/project\"]";
     private static String companyMenu = "//*[@id=\"root\"]/div/section/aside/div/ul/li[4]/div/span/span";
     private static String employeeSubMenu = "//*[@id=\"sub2$Menu\"]/li[3]";
 
-
+//defect test
     public static void clickDefectMenu() {
         MethodBase.click_ByXpath(defectMenu);
     }
     public static void clickDefectSubMenu() {
         MethodBase.click_ByXpath(defectSubMenu);
     }
+    public static String isDefectMenuDisplayed(){
+        return MethodBase.get_Text(defectMenu);
+    }
+    public static String isDefectSubMenuDisplayed(){
+        return MethodBase.get_Text(defectSubMenu);
+    }
+
+
+//project test
     public static void clickProjectMenu() {
         MethodBase.click_ByXpath(projectMenu);
     }
+    public static String isManageProjectMenuDisplayed(){
+        return MethodBase.get_Text(projectMenu);
+    }
+
+
     public static void clickCompanyMenu() {
         MethodBase.click_ByXpath(companyMenu);
     }
@@ -86,12 +100,7 @@ public class HomePage extends PageBase {
         MethodBase.click_ByXpath(defectTypeSubMenu);
     }
 
-    public static String isDefectMenuDisplayed(){
-        return MethodBase.get_Text(defectMenu);
-    }
-    public static String isDefectSubMenuDisplayed(){
-        return MethodBase.get_Text(defectSubMenu);
-    }
+
 
 }
 

@@ -24,6 +24,10 @@ public class MethodBase extends PageBase{
         getDriver().findElement(By.xpath(locator)).sendKeys(inputText);
 
     }
+    public static void setEnterKey_ByXpath(String locator) {
+        getDriver().findElement(By.xpath(locator)).sendKeys(Keys.ENTER);
+
+    }
     public static void clickButton_ById(String locator) {
         getDriver().findElement(By.id(locator)).click();
     }

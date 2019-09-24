@@ -21,7 +21,7 @@ import utils.TestBase;
 public class AddDefect extends TestBase {
     private static final Logger LOGGER = Logger.getLogger(AddDefect.class);
     @Test(priority=200,groups = { "regression","test","smoke"})
-    public void te() {
+    public void preRequestTest() {
         AddDefectPreRequests.addPriorityForDefectTesting("priority");
         staticWait(3);
         AddDefectPreRequests.addPriority1ForDefectTesting("priorityforedit");
@@ -142,8 +142,8 @@ public class AddDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "Click Add defect button");
         staticWait(2);
         softAssert.assertTrue(AddDefectPage.isAddDefectFormDisplayed(),"AddDefect Form is not Displayed");
-        LOGGER.info("AddDefect Form is not Displayed");
-        extentTest.log(LogStatus.PASS, "AddDefect Form is not Displayed");
+        LOGGER.info("AddDefect Form is  Displayed");
+        extentTest.log(LogStatus.PASS, "AddDefect Form is  Displayed");
         softAssert.assertAll();
     }
     @Test(priority=205,groups = { "regression","test"})
@@ -174,8 +174,8 @@ public class AddDefect extends TestBase {
         extentTest.log(LogStatus.PASS, "Click Add defect button");
         staticWait(2);
         softAssert.assertTrue(AddDefectPage.isAddDefectFormDisplayed(),"AddDefect Form is not Displayed");
-        LOGGER.info("AddDefect Form is not Displayed");
-        extentTest.log(LogStatus.PASS, "AddDefect Form is not Displayed");
+        LOGGER.info("AddDefect Form is  Displayed");
+        extentTest.log(LogStatus.PASS, "AddDefect Form is  Displayed");
         AddDefectPage.clickCancelButton();
         LOGGER.info("Click cancel button");
         extentTest.log(LogStatus.PASS, "Click cancel button");

@@ -3,11 +3,8 @@ package tests.Project;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.HomePage;
-import pages.ProjectPage;
+import pages.project.ProjectPage;
 import utils.TestBase;
-
-import static utils.PageBase.implicitWait;
-import static utils.PageBase.staticWait;
 
 public class EditProject extends TestBase {
 

@@ -1,4 +1,5 @@
-package pages;
+package pages.project;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -14,30 +15,36 @@ public class ProjectPage extends PageBase {
 
         private static final Logger LOGGER = (Logger) Logger.getLogger(String.valueOf(ProjectPage.class));
 
-        private static String hrdProject = "//*[@id=\"root\"]/div/section/section/main/div[1]/div[2]";
-        private static String btnAddProject = "//*[@id=\"root\"]/div/section/section/main/div[2]/div[1]/button";
-        private static String txtProjectId = "//*[@id=\"projectId\"]";
+        private static String hrdProject = "//div/span[text()=\"Project\"]";
+        private static String btnAddProject = "addProject";
+        private static String projectTable = "//thead[@class='ant-table-thead']";
+        private static String txtDefectTableHeading="//thead/tr/th/span/div/span[. = 'Heading']";
+
+        private static String txtProjectId = "//div[@id=\"projectId\"]";
         private static String txtEditProjectId = "/html/body/div[7]/div/div[2]/div/div[2]/div[2]/form/div[1]/div/div/div[2]/div/span/input";
-        private static String txtProjectName = "//*[@id=\"projectName\"]";
+        private static String txtProjectName = "//div[@id=\"projectName\"]";
         private static String txtEditProjectName ="/html/body/div[7]/div/div[2]/div/div[2]/div[2]/form/div[2]/div/div/div[2]/div/span/input";
-        private static String drpType = "//*[@id=\"type\"]/div/div";
+        private static String drpType = "//div[@id=\"type\"]";
         private static String drpEditType = "//*[@placeholder=\"Type\"]";
-        private static String drpTypeValue = "//*[text()=\"Mobile Application\"]";
+        private static String drpTypeValue = "//li[text()=\"Mobile Application\"]";
         private static String drpEditTypeValue = "private static String drpTypeValue = \"//*[text()=\\\"Mobile Application\\\"]\";";
-        private static String drpStartDate = "//*[@name=\"startDate\"]";
+        private static String drpStartDate = "//div[@id=\"startDate\"]";
         private static String drpEditStartDate = "//input[@placeholder=\"Start Date\"]";
-        private static String drpStartDateValue = "/html/body/div[9]/div/div/div/div/div[1]/div/input";
+        private static String drpStartDateValue = "//div/div/input[@placeholder=\"Start Date\"]";
         private static String drpEditStartDateValue = "//input[@placeholder=\"Start Date\"]";
-        private static String drpEndDate = "//*[@name=\"endDate\"]";
+        private static String drpEndDate = "//div[@id=\"endDate\"]";
         private static String drpEditEndDate = "//input[@placeholder=\"End Date\"]";
-        private static String drpEndDateValue =   "//*[@ class=\"ant-calendar-input \"]";
+        private static String drpEndDateValue =   "//div/div/input[@placeholder=\"End Date\"]";
         private static String drpEditEndDateValue =   "//input[@class=\"ant-calendar-input \"]";
-        private static String txtDuration = "//*[@id=\"duration\"]";
+        private static String txtDuration = "//div[@id=\"duration\"]";
         private static String txtEditDuration = "//input[@placeholder=\"Duration\"]";
-        private static String drpStatus = "//*[@id=\"status\"]/div/div/div";
+        private static String drpStatus = "//div[@id=\"status\"]";
         private static String drpEditStatus = "//input[@placeholder=\"Status\"]";
         private static String drpStatusValue = "//*[text()=\"New\"]";
-        private static String btnAdd = "/html/body/div[7]/div/div[2]/div/div[2]/div[3]/div/button[2]";
+        private static String btnAdd = "//button[@class=\"ant-btn ant-btn-primary\"]/span[text()=\"OK\"]";
+        private static String addedDatas = "//tbody/tr[td[1][.=\"id\"]]/td[index]";
+        private static String btnCancel = "//button[@class=\"ant-btn\"]/span[text()=\"Cancel\"]";
+
         private static String btnEdit = "//*[@id=\"root\"]/div/section/section/main/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[1]/td[8]";
         private static String btnDelete = "//*[@id=\"root\"]/div/section/section/main/div[2]/div[2]/div/div/div/div/div/table/tbody/tr/td[9]";
         private static String deleteConfirmationOk = "//*[text()=\"OK\"]";
@@ -53,9 +60,25 @@ public class ProjectPage extends PageBase {
        return MethodBase.isDisplayed_ByXpath(hrdProject);
 
     }
-        public static void AddProject(String proId, String proName,String type,String startDate,String endDate,String duration) {
-        MethodBase.click_ByXpath(btnAddProject);
-        LOGGER.info("Add Project Button Clicked");
+    public static boolean isAddProjectButtonDisplayed() {
+        return MethodBase.isDisplayed_ById(btnAddProject);
+
+    }
+    public static boolean isProjectTableDisplayed() {
+        return MethodBase.isDisplayed_ByXpath(projectTable);
+
+    }
+    public static void clickOnAddProjectButton() {
+         MethodBase.clickButton_ById(btnAddProject);
+    }
+
+    public static boolean isDefectTableHeadingDisplayed(String heading){
+        return MethodBase.isDisplayed_ByXpath(txtDefectTableHeading.replace("Heading",heading));
+    }
+
+
+
+    public static void AddProject(String proId, String proName,String type,String startDate,String endDate,String duration) {
         MethodBase.setText_ByXpath(txtProjectId,proId);
         LOGGER.info("Project Id is Entered");
         MethodBase.setText_ByXpath(txtProjectName,proName);
@@ -66,12 +89,12 @@ public class ProjectPage extends PageBase {
         implicitWait(2);
         MethodBase.setText_ByXpath(drpStartDateValue, startDate);
         LOGGER.info("Start Date Selected");
-        getDriver().findElement(By.xpath("/html/body/div[9]/div/div/div/div/div[1]/div/input")).sendKeys(Keys.ENTER);
+        getDriver().findElement(By.xpath(drpStartDateValue)).sendKeys(Keys.ENTER);
         MethodBase.click_ByXpath(drpEndDate);
         implicitWait(2);
         MethodBase.setText_ByXpath(drpEndDateValue,endDate);
         LOGGER.info("End Date Selected");
-        getDriver().findElement(By.xpath("//*[@ class=\"ant-calendar-input \"]")).sendKeys(Keys.ENTER);
+        getDriver().findElement(By.xpath(drpEndDateValue)).sendKeys(Keys.ENTER);
         MethodBase.setText_ByXpath(txtDuration,duration);
         LOGGER.info("Duration Entered");
         MethodBase.selectAction(drpStatus,drpStatusValue);
@@ -81,9 +104,12 @@ public class ProjectPage extends PageBase {
         LOGGER.info("Add Button Clicked");
 
     }
-    public static void AddSucessfullMsg() {
-        MethodBase.assertEqual_Text_ByXpath(addSucessfulMsg,"Successfully Added!!!");
-        LOGGER.info("Add Sucessfully Message Verified");
+    public static String getSuccessfulMsg( ) {
+      return   MethodBase.get_Text(addSucessfulMsg);
+    }
+
+    public static String checkTableAfterAdded(String id,String index ) {
+        return   MethodBase.get_Text(addedDatas.replace("id",id).replace("index",index));
     }
 
     public static void EditProject(String proId, String proName,String type,String startDate,String endDate,String duration,String status) {
@@ -129,4 +155,5 @@ public class ProjectPage extends PageBase {
         MethodBase.assertEqual_Text_ByXpath(deleteSucessfulMsg,"Delete Successfully");
         LOGGER.info("Delete Sucessfully Message Verified");
     }
+
 }

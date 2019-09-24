@@ -4,7 +4,6 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.EmployeePage;
 import pages.HomePage;
-import pages.ProjectPage;
 import utils.TestBase;
 
 public class AddEmployee  extends TestBase {
