@@ -3209,3 +3209,295 @@
 2019-09-23 16:55:08 INFO  TestBase:91 - Executed test case name:AddDefectType Execution Results : [TestResult name=AddDefectType status=SUCCESS method=AddDefectTypeTesting.AddDefectType()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@18a70f16] output={null}]
 2019-09-23 16:55:08 INFO  TestBase:78 - Closing Browser
 2019-09-23 16:55:09 INFO  TestBase:80 - Browser Closed
+2019-09-24 11:53:33 INFO  TestBase:36 - Initiate Browser
+2019-09-24 11:53:58 INFO  TestBase:45 - Browser Initiated
+2019-09-24 11:53:58 INFO  TestBase:61 - Test name: AddDefectType
+2019-09-24 11:53:58 INFO  AddDefectTypeTesting:19 - Click Setting Tab
+2019-09-24 11:53:59 INFO  TestBase:91 - Executed test case name:AddDefectType Execution Results : [TestResult name=AddDefectType status=FAILURE method=AddDefectTypeTesting.AddDefectType()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 11:53:59 INFO  TestBase:78 - Closing Browser
+2019-09-24 11:54:00 INFO  TestBase:80 - Browser Closed
+2019-09-24 11:54:00 INFO  TestBase:36 - Initiate Browser
+2019-09-24 11:54:08 INFO  TestBase:45 - Browser Initiated
+2019-09-24 11:54:08 INFO  TestBase:61 - Test name: DefectTypeMainMenuTest
+2019-09-24 11:54:08 INFO  AddDefectTypeTesting:47 - Click Setting Tab
+2019-09-24 11:54:08 INFO  TestBase:91 - Executed test case name:DefectTypeMainMenuTest Execution Results : [TestResult name=DefectTypeMainMenuTest status=FAILURE method=AddDefectTypeTesting.DefectTypeMainMenuTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 11:54:09 INFO  TestBase:78 - Closing Browser
+2019-09-24 11:54:10 INFO  TestBase:80 - Browser Closed
+2019-09-24 11:54:10 INFO  TestBase:36 - Initiate Browser
+2019-09-24 11:54:17 INFO  TestBase:45 - Browser Initiated
+2019-09-24 11:54:17 INFO  TestBase:61 - Test name: DefectTypeSabMenuTest
+2019-09-24 11:54:18 INFO  AddDefectTypeTesting:59 - Click Setting Tab
+2019-09-24 11:54:18 INFO  TestBase:91 - Executed test case name:DefectTypeSabMenuTest Execution Results : [TestResult name=DefectTypeSabMenuTest status=FAILURE method=AddDefectTypeTesting.DefectTypeSabMenuTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 11:54:18 INFO  TestBase:78 - Closing Browser
+2019-09-24 11:54:19 INFO  TestBase:80 - Browser Closed
+2019-09-24 11:57:58 INFO  TestBase:36 - Initiate Browser
+2019-09-24 11:58:17 INFO  TestBase:45 - Browser Initiated
+2019-09-24 11:58:17 INFO  TestBase:61 - Test name: CheckDefectTypePageTest
+2019-09-24 11:58:17 INFO  AddDefectTypeTesting:47 - Click Setting Tab
+2019-09-24 11:58:17 INFO  TestBase:91 - Executed test case name:CheckDefectTypePageTest Execution Results : [TestResult name=CheckDefectTypePageTest status=FAILURE method=AddDefectTypeTesting.CheckDefectTypePageTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@6b53e23f] output={null}]
+2019-09-24 11:58:18 INFO  TestBase:78 - Closing Browser
+2019-09-24 11:58:19 INFO  TestBase:80 - Browser Closed
+2019-09-24 12:04:18 INFO  TestBase:36 - Initiate Browser
+2019-09-24 12:04:37 INFO  TestBase:45 - Browser Initiated
+2019-09-24 12:04:37 INFO  TestBase:61 - Test name: CheckDefectTypePageTest
+2019-09-24 12:04:37 INFO  AddDefectTypeTesting:47 - Click Setting Tab
+2019-09-24 12:04:37 INFO  TestBase:91 - Executed test case name:CheckDefectTypePageTest Execution Results : [TestResult name=CheckDefectTypePageTest status=FAILURE method=AddDefectTypeTesting.CheckDefectTypePageTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@6b53e23f] output={null}]
+2019-09-24 12:04:37 INFO  TestBase:78 - Closing Browser
+2019-09-24 12:04:39 INFO  TestBase:80 - Browser Closed
+2019-09-24 12:05:25 INFO  TestBase:36 - Initiate Browser
+2019-09-24 12:05:44 INFO  TestBase:45 - Browser Initiated
+2019-09-24 12:05:44 INFO  TestBase:61 - Test name: AddDefectType
+2019-09-24 12:05:44 INFO  AddDefectTypeTesting:19 - Click Setting Tab
+2019-09-24 12:05:44 INFO  TestBase:91 - Executed test case name:AddDefectType Execution Results : [TestResult name=AddDefectType status=FAILURE method=AddDefectTypeTesting.AddDefectType()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@6b53e23f] output={null}]
+2019-09-24 12:05:44 INFO  TestBase:78 - Closing Browser
+2019-09-24 12:05:46 INFO  TestBase:80 - Browser Closed
+2019-09-24 12:06:16 INFO  TestBase:36 - Initiate Browser
+2019-09-24 12:06:29 INFO  TestBase:45 - Browser Initiated
+2019-09-24 12:06:29 INFO  TestBase:61 - Test name: AddDefectType
+2019-09-24 12:06:29 INFO  AddDefectTypeTesting:19 - Click Setting Tab
+2019-09-24 12:06:29 INFO  AddDefectTypeTesting:23 - Click GeneralConfiguration Tab
+2019-09-24 12:06:30 INFO  AddDefectTypeTesting:27 - Click Defect Status Tab
+2019-09-24 12:06:30 INFO  AddDefectTypeTesting:30 - Click Defect Type Add Button
+2019-09-24 12:06:31 INFO  TestBase:91 - Executed test case name:AddDefectType Execution Results : [TestResult name=AddDefectType status=SUCCESS method=AddDefectTypeTesting.AddDefectType()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@6b53e23f] output={null}]
+2019-09-24 12:06:31 INFO  TestBase:78 - Closing Browser
+2019-09-24 12:06:32 INFO  TestBase:80 - Browser Closed
+2019-09-24 13:26:00 INFO  TestBase:36 - Initiate Browser
+2019-09-24 13:26:09 INFO  TestBase:45 - Browser Initiated
+2019-09-24 13:26:09 INFO  TestBase:61 - Test name: CheckDefectTypePageTest
+2019-09-24 13:26:09 INFO  AddDefectTypeTesting:48 - Click Setting Tab
+2019-09-24 13:26:10 INFO  AddDefectTypeTesting:51 - Click GeneralConfiguration Tab
+2019-09-24 13:26:10 INFO  AddDefectTypeTesting:60 - Click Setting Tab
+2019-09-24 13:26:10 INFO  AddDefectTypeTesting:63 - Click GeneralConfiguration Tab
+2019-09-24 13:26:13 INFO  TestBase:91 - Executed test case name:CheckDefectTypePageTest Execution Results : [TestResult name=CheckDefectTypePageTest status=FAILURE method=AddDefectTypeTesting.CheckDefectTypePageTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@6b53e23f] output={null}]
+2019-09-24 13:26:14 INFO  TestBase:78 - Closing Browser
+2019-09-24 13:26:15 INFO  TestBase:80 - Browser Closed
+2019-09-24 13:27:26 INFO  TestBase:36 - Initiate Browser
+2019-09-24 13:27:39 INFO  TestBase:45 - Browser Initiated
+2019-09-24 13:27:39 INFO  TestBase:61 - Test name: CheckDefectTypePageTest
+2019-09-24 13:27:39 INFO  AddDefectTypeTesting:60 - Click Setting Tab
+2019-09-24 13:27:39 INFO  TestBase:91 - Executed test case name:CheckDefectTypePageTest Execution Results : [TestResult name=CheckDefectTypePageTest status=FAILURE method=AddDefectTypeTesting.CheckDefectTypePageTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@6b53e23f] output={null}]
+2019-09-24 13:27:39 INFO  TestBase:78 - Closing Browser
+2019-09-24 13:27:41 INFO  TestBase:80 - Browser Closed
+2019-09-24 13:29:03 INFO  TestBase:36 - Initiate Browser
+2019-09-24 13:29:11 INFO  TestBase:45 - Browser Initiated
+2019-09-24 13:29:11 INFO  TestBase:61 - Test name: CheckDefectTypePageTest
+2019-09-24 13:29:12 INFO  AddDefectTypeTesting:48 - Click Setting Tab
+2019-09-24 13:29:12 INFO  AddDefectTypeTesting:51 - Click GeneralConfiguration Tab
+2019-09-24 13:29:12 INFO  TestBase:91 - Executed test case name:CheckDefectTypePageTest Execution Results : [TestResult name=CheckDefectTypePageTest status=FAILURE method=AddDefectTypeTesting.CheckDefectTypePageTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@6b53e23f] output={null}]
+2019-09-24 13:29:13 INFO  TestBase:78 - Closing Browser
+2019-09-24 13:29:14 INFO  TestBase:80 - Browser Closed
+2019-09-24 13:30:25 INFO  TestBase:36 - Initiate Browser
+2019-09-24 13:30:39 INFO  TestBase:45 - Browser Initiated
+2019-09-24 13:30:39 INFO  TestBase:61 - Test name: CheckDefectTypePageTest
+2019-09-24 13:30:39 INFO  AddDefectTypeTesting:48 - Click Setting Tab
+2019-09-24 13:30:39 INFO  TestBase:91 - Executed test case name:CheckDefectTypePageTest Execution Results : [TestResult name=CheckDefectTypePageTest status=FAILURE method=AddDefectTypeTesting.CheckDefectTypePageTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@6b53e23f] output={null}]
+2019-09-24 13:30:40 INFO  TestBase:78 - Closing Browser
+2019-09-24 13:30:41 INFO  TestBase:80 - Browser Closed
+2019-09-24 13:32:45 INFO  TestBase:36 - Initiate Browser
+2019-09-24 13:32:54 INFO  TestBase:45 - Browser Initiated
+2019-09-24 13:32:54 INFO  TestBase:61 - Test name: CheckDefectTypePageTest
+2019-09-24 13:32:54 INFO  AddDefectTypeTesting:75 - Click Setting Tab
+2019-09-24 13:32:54 INFO  AddDefectTypeTesting:79 - Click GeneralConfiguration Tab
+2019-09-24 13:32:55 INFO  AddDefectTypeTesting:83 - Click Defect Status Tab
+2019-09-24 13:32:55 INFO  AddDefectTypeTesting:86 - Click Defect Type Add Button
+2019-09-24 13:32:55 INFO  TestBase:91 - Executed test case name:CheckDefectTypePageTest Execution Results : [TestResult name=CheckDefectTypePageTest status=FAILURE method=AddDefectTypeTesting.CheckDefectTypePageTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@6b53e23f] output={null}]
+2019-09-24 13:32:56 INFO  TestBase:78 - Closing Browser
+2019-09-24 13:32:57 INFO  TestBase:80 - Browser Closed
+2019-09-24 13:33:45 INFO  TestBase:36 - Initiate Browser
+2019-09-24 13:33:52 INFO  TestBase:45 - Browser Initiated
+2019-09-24 13:33:52 INFO  TestBase:61 - Test name: CheckDefectTypePageTest
+2019-09-24 13:33:53 INFO  AddDefectTypeTesting:75 - Click Setting Tab
+2019-09-24 13:33:53 INFO  AddDefectTypeTesting:79 - Click GeneralConfiguration Tab
+2019-09-24 13:33:53 INFO  AddDefectTypeTesting:83 - Click Defect Status Tab
+2019-09-24 13:33:55 INFO  AddDefectTypeTesting:86 - Click Defect Type Add Button
+2019-09-24 13:33:57 INFO  TestBase:91 - Executed test case name:CheckDefectTypePageTest Execution Results : [TestResult name=CheckDefectTypePageTest status=SUCCESS method=AddDefectTypeTesting.CheckDefectTypePageTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@6b53e23f] output={null}]
+2019-09-24 13:33:57 INFO  TestBase:78 - Closing Browser
+2019-09-24 13:33:58 INFO  TestBase:80 - Browser Closed
+2019-09-24 13:39:08 INFO  TestBase:36 - Initiate Browser
+2019-09-24 13:39:22 INFO  TestBase:45 - Browser Initiated
+2019-09-24 13:39:22 INFO  TestBase:61 - Test name: CheckDefectTypePageTest
+2019-09-24 13:39:22 INFO  AddDefectTypeTesting:75 - Click Setting Tab
+2019-09-24 13:39:23 INFO  AddDefectTypeTesting:79 - Click GeneralConfiguration Tab
+2019-09-24 13:39:23 INFO  AddDefectTypeTesting:83 - Click Defect Status Tab
+2019-09-24 13:39:24 INFO  AddDefectTypeTesting:86 - Click Defect Type Add Button
+2019-09-24 13:39:24 INFO  TestBase:91 - Executed test case name:CheckDefectTypePageTest Execution Results : [TestResult name=CheckDefectTypePageTest status=SUCCESS method=AddDefectTypeTesting.CheckDefectTypePageTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@6b53e23f] output={null}]
+2019-09-24 13:39:24 INFO  TestBase:78 - Closing Browser
+2019-09-24 13:39:25 INFO  TestBase:80 - Browser Closed
+2019-09-24 13:44:33 INFO  TestBase:36 - Initiate Browser
+2019-09-24 13:44:46 INFO  TestBase:45 - Browser Initiated
+2019-09-24 13:44:46 INFO  TestBase:61 - Test name: AddDefectType
+2019-09-24 13:44:46 INFO  AddDefectTypeTesting:19 - Click Setting Tab
+2019-09-24 13:44:46 INFO  AddDefectTypeTesting:23 - Click GeneralConfiguration Tab
+2019-09-24 13:44:47 INFO  AddDefectTypeTesting:27 - Click Defect Status Tab
+2019-09-24 13:44:47 INFO  AddDefectTypeTesting:30 - Click Defect Type Add Button
+2019-09-24 13:44:48 INFO  TestBase:91 - Executed test case name:AddDefectType Execution Results : [TestResult name=AddDefectType status=SUCCESS method=AddDefectTypeTesting.AddDefectType()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 13:44:48 INFO  TestBase:78 - Closing Browser
+2019-09-24 13:44:49 INFO  TestBase:80 - Browser Closed
+2019-09-24 13:44:49 INFO  TestBase:36 - Initiate Browser
+2019-09-24 13:44:56 INFO  TestBase:45 - Browser Initiated
+2019-09-24 13:44:56 INFO  TestBase:61 - Test name: CheckDefectTypePageTest
+2019-09-24 13:44:56 INFO  AddDefectTypeTesting:75 - Click Setting Tab
+2019-09-24 13:44:57 INFO  AddDefectTypeTesting:79 - Click GeneralConfiguration Tab
+2019-09-24 13:44:57 INFO  AddDefectTypeTesting:83 - Click Defect Status Tab
+2019-09-24 13:44:58 INFO  AddDefectTypeTesting:86 - Click Defect Type Add Button
+2019-09-24 13:45:01 INFO  TestBase:91 - Executed test case name:CheckDefectTypePageTest Execution Results : [TestResult name=CheckDefectTypePageTest status=SUCCESS method=AddDefectTypeTesting.CheckDefectTypePageTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 13:45:01 INFO  TestBase:78 - Closing Browser
+2019-09-24 13:45:01 INFO  TestBase:80 - Browser Closed
+2019-09-24 13:45:01 INFO  TestBase:36 - Initiate Browser
+2019-09-24 13:45:09 INFO  TestBase:45 - Browser Initiated
+2019-09-24 13:45:09 INFO  TestBase:61 - Test name: DefectTypeMainMenuTest
+2019-09-24 13:45:09 INFO  AddDefectTypeTesting:48 - Click Setting Tab
+2019-09-24 13:45:09 INFO  AddDefectTypeTesting:51 - Click GeneralConfiguration Tab
+2019-09-24 13:45:09 INFO  TestBase:91 - Executed test case name:DefectTypeMainMenuTest Execution Results : [TestResult name=DefectTypeMainMenuTest status=SUCCESS method=AddDefectTypeTesting.DefectTypeMainMenuTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 13:45:09 INFO  TestBase:78 - Closing Browser
+2019-09-24 13:45:10 INFO  TestBase:80 - Browser Closed
+2019-09-24 13:45:10 INFO  TestBase:36 - Initiate Browser
+2019-09-24 13:45:27 INFO  TestBase:45 - Browser Initiated
+2019-09-24 13:45:27 INFO  TestBase:61 - Test name: DefectTypeSabMenuTest
+2019-09-24 13:45:28 INFO  AddDefectTypeTesting:60 - Click Setting Tab
+2019-09-24 13:45:28 INFO  TestBase:91 - Executed test case name:DefectTypeSabMenuTest Execution Results : [TestResult name=DefectTypeSabMenuTest status=FAILURE method=AddDefectTypeTesting.DefectTypeSabMenuTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 13:45:28 INFO  TestBase:78 - Closing Browser
+2019-09-24 13:45:29 INFO  TestBase:80 - Browser Closed
+2019-09-24 13:46:34 INFO  TestBase:36 - Initiate Browser
+2019-09-24 13:46:52 INFO  TestBase:45 - Browser Initiated
+2019-09-24 13:46:52 INFO  TestBase:61 - Test name: DefectTypeSabMenuTest
+2019-09-24 13:46:53 INFO  AddDefectTypeTesting:60 - Click Setting Tab
+2019-09-24 13:46:53 INFO  AddDefectTypeTesting:64 - Click GeneralConfiguration Tab
+2019-09-24 13:46:54 INFO  AddDefectTypeTesting:68 - Click Defect Status Tab
+2019-09-24 13:46:54 INFO  TestBase:91 - Executed test case name:DefectTypeSabMenuTest Execution Results : [TestResult name=DefectTypeSabMenuTest status=SUCCESS method=AddDefectTypeTesting.DefectTypeSabMenuTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@6b53e23f] output={null}]
+2019-09-24 13:46:54 INFO  TestBase:78 - Closing Browser
+2019-09-24 13:46:55 INFO  TestBase:80 - Browser Closed
+2019-09-24 13:48:38 INFO  TestBase:36 - Initiate Browser
+2019-09-24 13:48:57 INFO  TestBase:45 - Browser Initiated
+2019-09-24 13:48:57 INFO  TestBase:61 - Test name: AddDefectType
+2019-09-24 13:48:57 INFO  AddDefectTypeTesting:19 - Click Setting Tab
+2019-09-24 13:48:57 INFO  AddDefectTypeTesting:23 - Click GeneralConfiguration Tab
+2019-09-24 13:48:58 INFO  AddDefectTypeTesting:27 - Click Defect Status Tab
+2019-09-24 13:48:58 INFO  AddDefectTypeTesting:30 - Click Defect Type Add Button
+2019-09-24 13:48:59 INFO  TestBase:91 - Executed test case name:AddDefectType Execution Results : [TestResult name=AddDefectType status=SUCCESS method=AddDefectTypeTesting.AddDefectType()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 13:48:59 INFO  TestBase:78 - Closing Browser
+2019-09-24 13:49:00 INFO  TestBase:80 - Browser Closed
+2019-09-24 13:49:00 INFO  TestBase:36 - Initiate Browser
+2019-09-24 13:49:18 INFO  TestBase:45 - Browser Initiated
+2019-09-24 13:49:18 INFO  TestBase:61 - Test name: CheckDefectTypePageTest
+2019-09-24 13:49:18 INFO  AddDefectTypeTesting:76 - Click Setting Tab
+2019-09-24 13:49:19 INFO  AddDefectTypeTesting:80 - Click GeneralConfiguration Tab
+2019-09-24 13:49:19 INFO  AddDefectTypeTesting:84 - Click Defect Status Tab
+2019-09-24 13:49:19 INFO  AddDefectTypeTesting:87 - Click Defect Type Add Button
+2019-09-24 13:49:20 INFO  TestBase:91 - Executed test case name:CheckDefectTypePageTest Execution Results : [TestResult name=CheckDefectTypePageTest status=SUCCESS method=AddDefectTypeTesting.CheckDefectTypePageTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 13:49:20 INFO  TestBase:78 - Closing Browser
+2019-09-24 13:49:20 INFO  TestBase:80 - Browser Closed
+2019-09-24 13:49:20 INFO  TestBase:36 - Initiate Browser
+2019-09-24 13:49:27 INFO  TestBase:45 - Browser Initiated
+2019-09-24 13:49:27 INFO  TestBase:61 - Test name: DefectTypeMainMenuTest
+2019-09-24 13:49:27 INFO  AddDefectTypeTesting:48 - Click Setting Tab
+2019-09-24 13:49:27 INFO  AddDefectTypeTesting:51 - Click GeneralConfiguration Tab
+2019-09-24 13:49:27 INFO  TestBase:91 - Executed test case name:DefectTypeMainMenuTest Execution Results : [TestResult name=DefectTypeMainMenuTest status=SUCCESS method=AddDefectTypeTesting.DefectTypeMainMenuTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 13:49:27 INFO  TestBase:78 - Closing Browser
+2019-09-24 13:49:28 INFO  TestBase:80 - Browser Closed
+2019-09-24 13:49:28 INFO  TestBase:36 - Initiate Browser
+2019-09-24 13:49:40 INFO  TestBase:45 - Browser Initiated
+2019-09-24 13:49:40 INFO  TestBase:61 - Test name: DefectTypeSabMenuTest
+2019-09-24 13:49:40 INFO  AddDefectTypeTesting:60 - Click Setting Tab
+2019-09-24 13:49:41 INFO  AddDefectTypeTesting:64 - Click GeneralConfiguration Tab
+2019-09-24 13:49:41 INFO  AddDefectTypeTesting:68 - Click Defect Status Tab
+2019-09-24 13:49:41 INFO  TestBase:91 - Executed test case name:DefectTypeSabMenuTest Execution Results : [TestResult name=DefectTypeSabMenuTest status=SUCCESS method=AddDefectTypeTesting.DefectTypeSabMenuTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 13:49:41 INFO  TestBase:78 - Closing Browser
+2019-09-24 13:49:42 INFO  TestBase:80 - Browser Closed
+2019-09-24 14:51:42 INFO  TestBase:36 - Initiate Browser
+2019-09-24 14:52:01 INFO  TestBase:45 - Browser Initiated
+2019-09-24 14:52:01 INFO  TestBase:61 - Test name: AddDefectType
+2019-09-24 14:52:01 INFO  AddDefectTypeTesting:19 - Click Setting Tab
+2019-09-24 14:52:02 INFO  AddDefectTypeTesting:23 - Click GeneralConfiguration Tab
+2019-09-24 14:52:02 INFO  AddDefectTypeTesting:27 - Click Defect Status Tab
+2019-09-24 14:52:03 INFO  AddDefectTypeTesting:30 - Click Defect Type Add Button
+2019-09-24 14:52:04 INFO  TestBase:91 - Executed test case name:AddDefectType Execution Results : [TestResult name=AddDefectType status=SUCCESS method=AddDefectTypeTesting.AddDefectType()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 14:52:04 INFO  TestBase:78 - Closing Browser
+2019-09-24 14:52:06 INFO  TestBase:80 - Browser Closed
+2019-09-24 14:52:06 INFO  TestBase:36 - Initiate Browser
+2019-09-24 14:52:13 INFO  TestBase:45 - Browser Initiated
+2019-09-24 14:52:13 INFO  TestBase:61 - Test name: CheckDefectTypePageTest
+2019-09-24 14:52:14 INFO  AddDefectTypeTesting:76 - Click Setting Tab
+2019-09-24 14:52:14 INFO  AddDefectTypeTesting:80 - Click GeneralConfiguration Tab
+2019-09-24 14:52:14 INFO  AddDefectTypeTesting:84 - Click Defect Status Tab
+2019-09-24 14:52:15 INFO  AddDefectTypeTesting:87 - Click Defect Type Add Button
+2019-09-24 14:52:16 INFO  TestBase:91 - Executed test case name:CheckDefectTypePageTest Execution Results : [TestResult name=CheckDefectTypePageTest status=SUCCESS method=AddDefectTypeTesting.CheckDefectTypePageTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 14:52:16 INFO  TestBase:78 - Closing Browser
+2019-09-24 14:52:17 INFO  TestBase:80 - Browser Closed
+2019-09-24 14:52:17 INFO  TestBase:36 - Initiate Browser
+2019-09-24 14:52:25 INFO  TestBase:45 - Browser Initiated
+2019-09-24 14:52:25 INFO  TestBase:61 - Test name: CheckEmptyAddDefectType
+2019-09-24 14:52:25 INFO  AddDefectTypeTesting:103 - Click Setting Tab
+2019-09-24 14:52:25 INFO  AddDefectTypeTesting:107 - Click GeneralConfiguration Tab
+2019-09-24 14:52:26 INFO  AddDefectTypeTesting:111 - Click Defect Status Tab
+2019-09-24 14:52:26 INFO  AddDefectTypeTesting:114 - Click Defect Type Add Button
+2019-09-24 14:52:31 INFO  TestBase:91 - Executed test case name:CheckEmptyAddDefectType Execution Results : [TestResult name=CheckEmptyAddDefectType status=SUCCESS method=AddDefectTypeTesting.CheckEmptyAddDefectType()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 14:52:31 INFO  TestBase:78 - Closing Browser
+2019-09-24 14:52:32 INFO  TestBase:80 - Browser Closed
+2019-09-24 14:52:32 INFO  TestBase:36 - Initiate Browser
+2019-09-24 14:52:39 INFO  TestBase:45 - Browser Initiated
+2019-09-24 14:52:39 INFO  TestBase:61 - Test name: CheckShortFormatAddDefectType
+2019-09-24 14:52:40 INFO  AddDefectTypeTesting:159 - Click Setting Tab
+2019-09-24 14:52:40 INFO  AddDefectTypeTesting:163 - Click GeneralConfiguration Tab
+2019-09-24 14:52:41 INFO  AddDefectTypeTesting:167 - Click Defect Status Tab
+2019-09-24 14:52:41 INFO  AddDefectTypeTesting:170 - Click Defect Type Add Button
+2019-09-24 14:52:45 INFO  TestBase:91 - Executed test case name:CheckShortFormatAddDefectType Execution Results : [TestResult name=CheckShortFormatAddDefectType status=FAILURE method=AddDefectTypeTesting.CheckShortFormatAddDefectType()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 14:52:46 INFO  TestBase:78 - Closing Browser
+2019-09-24 14:52:47 INFO  TestBase:80 - Browser Closed
+2019-09-24 14:52:47 INFO  TestBase:36 - Initiate Browser
+2019-09-24 14:52:55 INFO  TestBase:45 - Browser Initiated
+2019-09-24 14:52:55 INFO  TestBase:61 - Test name: CheckSpicalvalueAddDefectType
+2019-09-24 14:52:55 INFO  AddDefectTypeTesting:131 - Click Setting Tab
+2019-09-24 14:52:55 INFO  AddDefectTypeTesting:135 - Click GeneralConfiguration Tab
+2019-09-24 14:52:56 INFO  AddDefectTypeTesting:139 - Click Defect Status Tab
+2019-09-24 14:52:56 INFO  AddDefectTypeTesting:142 - Click Defect Type Add Button
+2019-09-24 14:53:02 INFO  TestBase:91 - Executed test case name:CheckSpicalvalueAddDefectType Execution Results : [TestResult name=CheckSpicalvalueAddDefectType status=SUCCESS method=AddDefectTypeTesting.CheckSpicalvalueAddDefectType()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 14:53:02 INFO  TestBase:78 - Closing Browser
+2019-09-24 14:53:02 INFO  TestBase:80 - Browser Closed
+2019-09-24 14:53:02 INFO  TestBase:36 - Initiate Browser
+2019-09-24 14:53:10 INFO  TestBase:45 - Browser Initiated
+2019-09-24 14:53:10 INFO  TestBase:61 - Test name: DefectTypeMainMenuTest
+2019-09-24 14:53:11 INFO  AddDefectTypeTesting:48 - Click Setting Tab
+2019-09-24 14:53:11 INFO  AddDefectTypeTesting:51 - Click GeneralConfiguration Tab
+2019-09-24 14:53:11 INFO  TestBase:91 - Executed test case name:DefectTypeMainMenuTest Execution Results : [TestResult name=DefectTypeMainMenuTest status=SUCCESS method=AddDefectTypeTesting.DefectTypeMainMenuTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 14:53:11 INFO  TestBase:78 - Closing Browser
+2019-09-24 14:53:12 INFO  TestBase:80 - Browser Closed
+2019-09-24 14:53:12 INFO  TestBase:36 - Initiate Browser
+2019-09-24 14:53:19 INFO  TestBase:45 - Browser Initiated
+2019-09-24 14:53:19 INFO  TestBase:61 - Test name: DefectTypeSabMenuTest
+2019-09-24 14:53:20 INFO  AddDefectTypeTesting:60 - Click Setting Tab
+2019-09-24 14:53:20 INFO  AddDefectTypeTesting:64 - Click GeneralConfiguration Tab
+2019-09-24 14:53:20 INFO  AddDefectTypeTesting:68 - Click Defect Status Tab
+2019-09-24 14:53:20 INFO  TestBase:91 - Executed test case name:DefectTypeSabMenuTest Execution Results : [TestResult name=DefectTypeSabMenuTest status=SUCCESS method=AddDefectTypeTesting.DefectTypeSabMenuTest()[pri:51, instance:tests.DefectType.AddDefectTypeTesting@226a82c4] output={null}]
+2019-09-24 14:53:20 INFO  TestBase:78 - Closing Browser
+2019-09-24 14:53:21 INFO  TestBase:80 - Browser Closed
+2019-09-24 14:56:46 INFO  TestBase:36 - Initiate Browser
+2019-09-24 14:57:05 INFO  TestBase:45 - Browser Initiated
+2019-09-24 14:57:05 INFO  TestBase:61 - Test name: CheckTheDefectTypeTable
+2019-09-24 14:57:05 INFO  AddDefectTypeTesting:189 - Click Setting Tab
+2019-09-24 14:57:06 INFO  AddDefectTypeTesting:193 - Click GeneralConfiguration Tab
+2019-09-24 14:57:06 INFO  AddDefectTypeTesting:197 - Click Defect Status Tab
+2019-09-24 14:57:06 INFO  TestBase:91 - Executed test case name:CheckTheDefectTypeTable Execution Results : [TestResult name=CheckTheDefectTypeTable status=SUCCESS method=AddDefectTypeTesting.CheckTheDefectTypeTable()[pri:308, instance:tests.DefectType.AddDefectTypeTesting@64d2d351] output={null}]
+2019-09-24 14:57:06 INFO  TestBase:78 - Closing Browser
+2019-09-24 14:57:07 INFO  TestBase:80 - Browser Closed
+2019-09-24 15:00:17 INFO  TestBase:36 - Initiate Browser
+2019-09-24 15:00:20 INFO  TestBase:61 - Test name: CheckTheDefectTypeTable
+2019-09-24 15:00:20 INFO  TestBase:91 - Executed test case name:CheckTheDefectTypeTable Execution Results : [TestResult name={null} status=CREATED method=AddDefectTypeTesting.CheckTheDefectTypeTable()[pri:308, instance:tests.DefectType.AddDefectTypeTesting@2d52216b] output={null}]
+2019-09-24 15:07:58 INFO  TestBase:36 - Initiate Browser
+2019-09-24 15:08:11 INFO  TestBase:45 - Browser Initiated
+2019-09-24 15:08:11 INFO  TestBase:61 - Test name: CheckTheDefectTypeTable
+2019-09-24 15:08:11 INFO  AddDefectTypeTesting:189 - Click Setting Tab
+2019-09-24 15:08:11 INFO  AddDefectTypeTesting:193 - Click GeneralConfiguration Tab
+2019-09-24 15:08:12 INFO  AddDefectTypeTesting:197 - Click Defect Type Tab
+2019-09-24 15:08:12 INFO  TestBase:91 - Executed test case name:CheckTheDefectTypeTable Execution Results : [TestResult name=CheckTheDefectTypeTable status=FAILURE method=AddDefectTypeTesting.CheckTheDefectTypeTable()[pri:308, instance:tests.DefectType.AddDefectTypeTesting@64d2d351] output={null}]
+2019-09-24 15:08:13 INFO  TestBase:78 - Closing Browser
+2019-09-24 15:08:14 INFO  TestBase:80 - Browser Closed
+2019-09-24 15:12:28 INFO  TestBase:36 - Initiate Browser
+2019-09-24 15:12:42 INFO  TestBase:45 - Browser Initiated
+2019-09-24 15:12:42 INFO  TestBase:61 - Test name: CheckTheDefectTypeTable
+2019-09-24 15:12:42 INFO  AddDefectTypeTesting:189 - Click Setting Tab
+2019-09-24 15:12:43 INFO  AddDefectTypeTesting:193 - Click GeneralConfiguration Tab
+2019-09-24 15:12:43 INFO  AddDefectTypeTesting:197 - Click Defect Type Tab
+2019-09-24 15:12:44 INFO  TestBase:91 - Executed test case name:CheckTheDefectTypeTable Execution Results : [TestResult name=CheckTheDefectTypeTable status=SUCCESS method=AddDefectTypeTesting.CheckTheDefectTypeTable()[pri:308, instance:tests.DefectType.AddDefectTypeTesting@64d2d351] output={null}]
+2019-09-24 15:12:44 INFO  TestBase:78 - Closing Browser
+2019-09-24 15:12:45 INFO  TestBase:80 - Browser Closed

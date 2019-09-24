@@ -24,7 +24,7 @@ public class DefectStatus  extends TestBase {
 
 
     @Test(priority=55,groups = { "test", "regression"})
-    public void  configTabtest() {
+    public void  ConfigMenuTest() {
         softAssert = new SoftAssert();
         SettingTabarTest();
         staticWait(3);
@@ -70,7 +70,7 @@ public class DefectStatus  extends TestBase {
     @Test(priority=57,groups = { "test", "regression"})
     public void  NumberValueAddStatusTest() {
         softAssert = new SoftAssert();
-        configTabtest();
+        ConfigMenuTest();
         DefectStatusPage.clickAddStatus();
         extentTest.log(LogStatus.PASS, "Click Ok");
         DefectStatusPage.setDefectType("45669");
@@ -87,7 +87,7 @@ public class DefectStatus  extends TestBase {
     @Test(priority=58,groups = { "test", "regression"})
     public void  SpicalvalueAddStatusTest() {
         softAssert = new SoftAssert();
-        configTabtest();
+        ConfigMenuTest();
         DefectStatusPage.clickAddStatus();
         extentTest.log(LogStatus.PASS, "Click Ok");
         DefectStatusPage.setDefectType("/*-@#$");
@@ -104,7 +104,7 @@ public class DefectStatus  extends TestBase {
     @Test(priority=59,groups = { "test", "regression"})
     public void  CanceldataTest() {
         softAssert = new SoftAssert();
-        configTabtest();
+        ConfigMenuTest();
         DefectStatusPage.clickAddStatus();
         extentTest.log(LogStatus.PASS, "Click Ok");
         DefectStatusPage.setDefectType("test");
@@ -124,7 +124,7 @@ public class DefectStatus  extends TestBase {
     @Test(priority=60,groups = { "test", "regression"})
     public void  CheckAddStatusFormTest() {
         softAssert = new SoftAssert();
-        configTabtest();
+        ConfigMenuTest();
         DefectStatusPage.clickAddStatus();
         extentTest.log(LogStatus.PASS, "Click Ok");
         implicitWait(3);
