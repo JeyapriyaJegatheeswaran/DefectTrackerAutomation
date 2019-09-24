@@ -8,7 +8,7 @@ import utils.TestBase;
 
 public class Already_Add_Status extends TestBase {
     @Test(priority=52,groups = { "test", "regression"})
-    public void  addstatusequal() {
+    public void  SameDataAddDefectstatus() {
         softAssert = new SoftAssert();
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
         extentTest.log(LogStatus.PASS, "Dashboard Page Show");

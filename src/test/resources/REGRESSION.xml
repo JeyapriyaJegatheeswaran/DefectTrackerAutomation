@@ -3,7 +3,7 @@
     <test name="regression1">
         <groups>
             <run>
-                <include name="regression" ></include>
+                <include name="test" ></include>
             </run>
         </groups>
         <classes>
@@ -20,36 +20,37 @@
             <class name="tests.DefectStatus.NumbervalueAddStatus"/>
             <class name="tests.DefectStatus.TypeAdd_Status"/>
         </classes>
-
     </test>
     <test name="regression2">
         <groups>
             <run>
-                <include name="regression" ></include>
+                <include name="test" ></include>
             </run>
         </groups>
         <classes>
-            <class name="tests.Severity.AddSeverityTest"/>
-            <class name="tests.Severity.EditSeverityTest"/>
-            <class name="tests.Severity.DeleteSeverity"/>
             <class name="tests.Priority.AddPriorityTest"/>
             <class name="tests.Priority.EditPriorityTest"/>
             <class name="tests.Priority.DeletePriorityTest"/>
-        </classes>
+            <class name="tests.Severity.AddSeverityTest"/>
+            <class name="tests.Severity.EditSeverityTest"/>
+            <class name="tests.Severity.DeleteSeverity"/>
 
+
+
+        </classes>
     </test>
 
-    <test name="smoke">
+    <test name="regression3">
         <groups>
             <run>
-                <include name="regression" ></include>
+                <include name="test" ></include>
             </run>
         </groups>
         <classes>
             <class name="tests.Defect.AddDefect"/>
             <class name="tests.Defect.CheckValidationInAddDefectForm"/>
             <class name="tests.Defect.EditDefect"/>
-        </classes>
 
+        </classes>
     </test>
 </suite>
