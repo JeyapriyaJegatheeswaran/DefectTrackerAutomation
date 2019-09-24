@@ -13,6 +13,7 @@ public class DefectStatusPage extends PageBase {
     private static String HrDefectStatus = "//h3";
     private static String ClickGeneralConfiguration = "//span[text()=\"General Configuration\"]";
     private static String ClickDefectStatus = "//*[@id=\"sub5$Menu\"]/li[4]";
+    private static String ClickDefectType = "//*[@id=\"sub5$Menu\"]/li[3]";
     private static String HrDashboard = "//*[@id=\"root\"]/div/section/aside/div/div";
     private static String ClickAddStatus = "//*[@id=\"root\"]/div/section/section/main/div/div[2]/button";
     private static String txtDefectStatus = "//input[@id=\"statusName\"]";
@@ -119,6 +120,9 @@ public class DefectStatusPage extends PageBase {
     }
     public static void clickClickDefectStatus() {
         MethodBase.clickButton_ByXpath(ClickDefectStatus);
+    }
+    public static void clickClickDefectType() {
+        MethodBase.clickButton_ByXpath(ClickDefectType);
     }
     public static void clickAddStatus() {
         MethodBase.clickButton_ByXpath(ClickAddStatus);

@@ -7,7 +7,7 @@ import pages.PriorityPage;
 import utils.TestBase;
 
 public class DeletePriorityTest extends TestBase {
-    @Test(priority = 112,groups = {"regression","test","smoke"})
+    @Test(priority = 118,groups = {"regression","test","smoke"})
     public void deletePriority() {
         SoftAssert softAssert = new SoftAssert();
         implicitWait(5);
@@ -15,8 +15,8 @@ public class DeletePriorityTest extends TestBase {
         HomePage.clickGeneralconfig();
         HomePage.clickPriority();
         PriorityPage.isPriorityPageDisplay();
-        //PriorityPage.clickDeletebtn();
-        //PriorityPage.clickDeleteOKbtn();
+        PriorityPage.clickDeletebtn();
+        PriorityPage.clickDeleteOKbtn();
         staticWait(3);
         softAssert.assertFalse(PriorityPage.isElementPresentDelete(),"Deleted Priority is displayed");
         softAssert.assertAll();

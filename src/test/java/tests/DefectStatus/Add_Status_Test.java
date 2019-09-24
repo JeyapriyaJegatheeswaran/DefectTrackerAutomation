@@ -13,7 +13,7 @@ public class Add_Status_Test extends TestBase {
 
     private static final Logger LOGGER = Logger.getLogger(Add_Status_Test.class);
     @Test(priority=51,groups = { "test", "regression","smoke"})
-    public void addStatus() {
+    public void AddDefectStatus() {
         softAssert = new SoftAssert();
         PageBase.implicitWait(2);
 //        DefectStatusPage.AddStatusFunction("New","TestNormals");

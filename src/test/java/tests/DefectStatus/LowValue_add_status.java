@@ -7,8 +7,8 @@ import pages.DefectStatusPage;
 import utils.TestBase;
 
 public class LowValue_add_status extends TestBase {
-    @Test(priority=71,groups = { "test", "regression"})
-    public void  lowaddstatus() {
+    @Test(priority=69,groups = { "test", "regression"})
+    public void  LowValueAddstatus() {
         softAssert = new SoftAssert();
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
         extentTest.log(LogStatus.PASS, "Dashboard Page Show");

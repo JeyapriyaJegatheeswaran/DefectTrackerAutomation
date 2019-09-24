@@ -2,14 +2,9 @@ package tests.Severity;
 
 import com.relevantcodes.extentreports.LogStatus;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 import pages.HomePage;
-
 import pages.SeverityPage;
-import utils.MethodBase;
 import utils.TestBase;
-
-import static utils.PageBase.implicitWait;
 
 public class AddSeverityTest extends TestBase {
 
@@ -90,7 +85,7 @@ public class AddSeverityTest extends TestBase {
         SeverityPage.isSeverityAddFormDisplay();
         extentTest.log(LogStatus.PASS,"severity add form Displayed");
         softAssert.assertEquals(SeverityPage.severityFormVerifyText(),"Add severity","Severity form items not checked");
-        extentTest.log(LogStatus.PASS,"Severity form items checked");
+        extentTest.log(LogStatus.PASS,"Severity form Verified");
         softAssert.assertAll();
     }
 

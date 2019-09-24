@@ -9,7 +9,7 @@ import utils.TestBase;
 
 public class DecrptionAdd_Status extends TestBase {
     @Test(priority=53,groups = { "test", "regression"})
-    public void DecrptionAddStatus() {
+    public void DecrptionAddDefectStatus() {
         softAssert = new SoftAssert();
         PageBase.implicitWait(2);
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");

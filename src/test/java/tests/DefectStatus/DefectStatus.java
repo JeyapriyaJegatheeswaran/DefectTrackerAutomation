@@ -8,7 +8,7 @@ import utils.TestBase;
 
 public class DefectStatus  extends TestBase {
     @Test(priority=54,groups = { "test", "regression"})
-    public void  SidebarTest() {
+    public void  SettingTabarTest() {
         softAssert = new SoftAssert();
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
         extentTest.log(LogStatus.PASS, "Dashboard Page Show");
@@ -24,9 +24,9 @@ public class DefectStatus  extends TestBase {
 
 
     @Test(priority=55,groups = { "test", "regression"})
-    public void  sabbartest() {
+    public void  ConfigMenuTest() {
         softAssert = new SoftAssert();
-        SidebarTest();
+        SettingTabarTest();
         staticWait(3);
         extentTest.log(LogStatus.PASS, "Click Setting Tab");
         softAssert.assertTrue(DefectStatusPage.isDisplayedGeneralConfiguration(), "GeneralConfiguration not Displayed");
@@ -43,7 +43,7 @@ public class DefectStatus  extends TestBase {
 
     }
     @Test(priority=56,groups = { "test", "regression"})
-    public void  conformaddstatustest() {
+    public void  ConformAddstatusTest() {
         softAssert = new SoftAssert();
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
         extentTest.log(LogStatus.PASS, "Dashboard Page Show");
@@ -68,9 +68,9 @@ public class DefectStatus  extends TestBase {
 
 
     @Test(priority=57,groups = { "test", "regression"})
-    public void  numbervalue() {
+    public void  NumberValueAddStatusTest() {
         softAssert = new SoftAssert();
-        sabbartest();
+        ConfigMenuTest();
         DefectStatusPage.clickAddStatus();
         extentTest.log(LogStatus.PASS, "Click Ok");
         DefectStatusPage.setDefectType("45669");
@@ -85,9 +85,9 @@ public class DefectStatus  extends TestBase {
 
     }
     @Test(priority=58,groups = { "test", "regression"})
-    public void  spicalvalue() {
+    public void  SpicalvalueAddStatusTest() {
         softAssert = new SoftAssert();
-        sabbartest();
+        ConfigMenuTest();
         DefectStatusPage.clickAddStatus();
         extentTest.log(LogStatus.PASS, "Click Ok");
         DefectStatusPage.setDefectType("/*-@#$");
@@ -102,9 +102,9 @@ public class DefectStatus  extends TestBase {
 
     }
     @Test(priority=59,groups = { "test", "regression"})
-    public void  canceldata() {
+    public void  CanceldataTest() {
         softAssert = new SoftAssert();
-        sabbartest();
+        ConfigMenuTest();
         DefectStatusPage.clickAddStatus();
         extentTest.log(LogStatus.PASS, "Click Ok");
         DefectStatusPage.setDefectType("test");
@@ -122,9 +122,9 @@ public class DefectStatus  extends TestBase {
         softAssert.assertAll();
     }
     @Test(priority=60,groups = { "test", "regression"})
-    public void  checkaddstatusforms() {
+    public void  CheckAddStatusFormTest() {
         softAssert = new SoftAssert();
-        sabbartest();
+        ConfigMenuTest();
         DefectStatusPage.clickAddStatus();
         extentTest.log(LogStatus.PASS, "Click Ok");
         implicitWait(3);

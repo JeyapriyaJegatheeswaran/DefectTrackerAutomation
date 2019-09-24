@@ -10,7 +10,6 @@ import utils.TestBase;
 public class Empty_Status_add  extends TestBase {
     @Test(priority=69,groups = { "test", "regression"})
     public void EmptyStatus() {
-
         softAssert = new SoftAssert();
         PageBase.implicitWait(2);
         softAssert.assertTrue(DefectStatusPage.isDefectDashboardPageDisplayed(), "Dashboard Page is not Displayed");
