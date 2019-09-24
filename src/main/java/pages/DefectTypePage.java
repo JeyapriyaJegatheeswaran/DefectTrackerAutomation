@@ -21,6 +21,7 @@ public class DefectTypePage extends PageBase {
     private static String getTableDefectType = "//span[text()=\"Defect Type\"]";
     private static String getTableDefectDescription = "//span[text()=\"Description\"]";
     private static String getTableDefectAction = "//span[text()=\"Action\"]";
+    private static String BtnCancel = "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[1]";
 
     public static boolean isDefectPageDisplayed(){
          return MethodBase.isDisplayed_ByXpath(btnaddDefectType);
@@ -55,6 +56,10 @@ public class DefectTypePage extends PageBase {
 
     public static void clickAddDefect() {
         MethodBase.clickButton_ByXpath(btnaddDefectType);
+
+    }
+    public static void clickCancelDefect() {
+        MethodBase.clickButton_ByXpath(BtnCancel);
 
     }
     public static void setDefectType(String defectType){

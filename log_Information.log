@@ -3501,3 +3501,32 @@
 2019-09-24 15:12:44 INFO  TestBase:91 - Executed test case name:CheckTheDefectTypeTable Execution Results : [TestResult name=CheckTheDefectTypeTable status=SUCCESS method=AddDefectTypeTesting.CheckTheDefectTypeTable()[pri:308, instance:tests.DefectType.AddDefectTypeTesting@64d2d351] output={null}]
 2019-09-24 15:12:44 INFO  TestBase:78 - Closing Browser
 2019-09-24 15:12:45 INFO  TestBase:80 - Browser Closed
+2019-09-24 15:51:53 INFO  TestBase:36 - Initiate Browser
+2019-09-24 15:52:11 INFO  TestBase:45 - Browser Initiated
+2019-09-24 15:52:11 INFO  TestBase:61 - Test name: CheckCancelData
+2019-09-24 15:52:11 INFO  AddDefectTypeTesting:209 - Click Setting Tab
+2019-09-24 15:52:12 INFO  AddDefectTypeTesting:213 - Click GeneralConfiguration Tab
+2019-09-24 15:52:12 INFO  AddDefectTypeTesting:217 - Click Defect Status Tab
+2019-09-24 15:52:12 INFO  AddDefectTypeTesting:220 - Click Defect Type Add Button
+2019-09-24 15:52:13 INFO  TestBase:91 - Executed test case name:CheckCancelData Execution Results : [TestResult name=CheckCancelData status=FAILURE method=AddDefectTypeTesting.CheckCancelData()[pri:308, instance:tests.DefectType.AddDefectTypeTesting@62e136d3] output={null}]
+2019-09-24 15:52:14 INFO  TestBase:78 - Closing Browser
+2019-09-24 15:52:15 INFO  TestBase:80 - Browser Closed
+2019-09-24 15:54:02 INFO  TestBase:36 - Initiate Browser
+2019-09-24 15:54:19 INFO  TestBase:45 - Browser Initiated
+2019-09-24 15:54:19 INFO  TestBase:61 - Test name: CheckTheDefectTypeTable
+2019-09-24 15:54:20 INFO  AddDefectTypeTesting:189 - Click Setting Tab
+2019-09-24 15:54:20 INFO  AddDefectTypeTesting:193 - Click GeneralConfiguration Tab
+2019-09-24 15:54:20 INFO  AddDefectTypeTesting:197 - Click Defect Type Tab
+2019-09-24 15:54:20 INFO  TestBase:91 - Executed test case name:CheckTheDefectTypeTable Execution Results : [TestResult name=CheckTheDefectTypeTable status=SUCCESS method=AddDefectTypeTesting.CheckTheDefectTypeTable()[pri:309, instance:tests.DefectType.AddDefectTypeTesting@62e136d3] output={null}]
+2019-09-24 15:54:20 INFO  TestBase:78 - Closing Browser
+2019-09-24 15:54:22 INFO  TestBase:80 - Browser Closed
+2019-09-24 15:55:01 INFO  TestBase:36 - Initiate Browser
+2019-09-24 15:55:19 INFO  TestBase:45 - Browser Initiated
+2019-09-24 15:55:19 INFO  TestBase:61 - Test name: CheckCancelData
+2019-09-24 15:55:19 INFO  AddDefectTypeTesting:209 - Click Setting Tab
+2019-09-24 15:55:20 INFO  AddDefectTypeTesting:213 - Click GeneralConfiguration Tab
+2019-09-24 15:55:20 INFO  AddDefectTypeTesting:217 - Click Defect Status Tab
+2019-09-24 15:55:20 INFO  AddDefectTypeTesting:220 - Click Defect Type Add Button
+2019-09-24 15:55:21 INFO  TestBase:91 - Executed test case name:CheckCancelData Execution Results : [TestResult name=CheckCancelData status=FAILURE method=AddDefectTypeTesting.CheckCancelData()[pri:309, instance:tests.DefectType.AddDefectTypeTesting@62e136d3] output={null}]
+2019-09-24 15:55:22 INFO  TestBase:78 - Closing Browser
+2019-09-24 15:55:23 INFO  TestBase:80 - Browser Closed
